@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>E%%VofoxQA%Bonanza_Katalon%Bonanza_Katalon.prj</name>
+	<name>C%%Users%shinto%Katalon Studio%Bonanza_Automation%Bonanza_Automation.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1535523624103</id>
+			<id>1536909540024</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1535523624121</id>
+			<id>1536909540040</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1537262929231</id>
+			<id>1538720536774</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -44,7 +44,25 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1537262929259</id>
+			<id>1538720536796</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1539346344550</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1539346344580</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

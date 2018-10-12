@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ux-dialog-footer_UpdateCancel</name>
+   <tag></tag>
+   <elementGuidId>6e963600-dc8d-4cfd-af92-5744c87d46b6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ux-dialog-footer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>au-target</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>au-target-id</name>
+      <type>Main</type>
+      <value>399</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    UpdateCancel
+    
+  </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ux-dialog-open&quot;]/ux-dialog-container[@class=&quot;active&quot;]/div[1]/div[1]/ux-dialog[@class=&quot;modal-md ui-max-width-500 au-target&quot;]/ux-dialog-footer[@class=&quot;au-target&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

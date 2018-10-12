@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0012_Edit profile" time="69" tests="7" failures="1" errors="0">
+   <testsuite name="VBZ0012_Edit profile" tests="7" failures="1" errors="0" time="69" timestamp="2018-10-11 14:08:46" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0012_Edit profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon Studio\\Bonanza\\Reports\\VBZ0012_Edit profile\\20181011_140843"/>
+         <property name="logFiles" value="F:\\Katalon Studio\\Bonanza\\Reports\\VBZ0012_Edit profile\\20181011_140843\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon Studio\\Bonanza\\Reports\\VBZ0012_Edit profile\\20181011_140843\\1539247192288.png, F:\\Katalon Studio\\Bonanza\\Reports\\VBZ0012_Edit profile\\20181011_140843\\1539247192670.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="40e76551716782e11c824347a82ca2c9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01201" classname="Test Cases/Associate Application/Edit Profile/TCBA01201" status="PASSED">
+         <system-out><![CDATA[2018-10-11 14:08:46 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-10-11 14:08:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-11 14:08:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-11 14:08:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-11 14:08:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-11 14:08:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-11 14:08:56 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-11 14:08:56 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-11 14:08:57 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-11 14:08:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-11 14:08:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-11 14:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-11 14:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01202" classname="Test Cases/Associate Application/Edit Profile/TCBA01202" status="PASSED">
+         <system-out><![CDATA[2018-10-11 14:08:57 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01202: Test Cases/Associate Application/Edit Profile/TCBA01202
+
+2018-10-11 14:08:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-10-11 14:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-10-11 14:09:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile' is visible
+
+2018-10-11 14:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile' is visible
+
+2018-10-11 14:09:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Edit Profile/Page_Profile  5-15/a_Change Password' is visible
+
+2018-10-11 14:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Profile/Page_Profile  5-15/a_Change Password' is visible
+
+2018-10-11 14:09:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Log Off' is visible
+
+2018-10-11 14:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Log Off' is visible
+
+2018-10-11 14:09:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile' is clicked on
+
+2018-10-11 14:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile' is clicked on
+
+2018-10-11 14:09:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Profile' are matched.
+
+2018-10-11 14:09:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Profile' are matched.
+
+2018-10-11 14:09:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is visible
+
+2018-10-11 14:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is visible
+
+2018-10-11 14:09:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Change Your Email Address' is visible
+
+2018-10-11 14:09:05 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Change Your Email Address' is visible
+
+2018-10-11 14:09:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Close' is visible
+
+2018-10-11 14:09:05 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Close' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01203" classname="Test Cases/Associate Application/Edit Profile/TCBA01203" status="PASSED">
+         <system-out><![CDATA[2018-10-11 14:09:05 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01203: Test Cases/Associate Application/Edit Profile/TCBA01203
+
+2018-10-11 14:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-10-11 14:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-10-11 14:09:06 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-10-11 14:09:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-10-11 14:09:06 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-10-11 14:09:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-10-11 14:09:07 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-10-11 14:09:07 - [MESSAGE][PASSED] - All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-10-11 14:09:07 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-10-11 14:09:07 - [MESSAGE][PASSED] - All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-10-11 14:09:07 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-10-11 14:09:07 - [MESSAGE][PASSED] - All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-10-11 14:09:07 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-10-11 14:09:08 - [MESSAGE][PASSED] - All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-10-11 14:09:08 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-10-11 14:09:08 - [MESSAGE][PASSED] - All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-10-11 14:09:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthStateCode'
+
+2018-10-11 14:09:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthStateCode'
+
+2018-10-11 14:09:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthCity'
+
+2018-10-11 14:09:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthCity'
+
+2018-10-11 14:09:09 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Citizenship' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship' 
+
+2018-10-11 14:09:09 - [MESSAGE][PASSED] - All options with label 'Select Citizenship' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship' 
+
+2018-10-11 14:09:09 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-10-11 14:09:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-10-11 14:09:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_First Name' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_First Name' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Last Name' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Last Name' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_1' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_1' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Birth Date' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Birth Date' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_(MMDDYYYY)' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_(MMDDYYYY)' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Is required_2' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Is required_2' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Marital Status' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Marital Status' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_3' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_3' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Birth Country' are matched.
+
+2018-10-11 14:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Birth Country' are matched.
+
+2018-10-11 14:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_4' are matched.
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_4' are matched.
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Citizenship' are matched.
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Citizenship' are matched.
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_5' are matched.
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_5' are matched.
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_6' are matched.
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_6' are matched.
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - setText: Text '21212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Text '21212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-10-11 14:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-10-11 14:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' are matched.
+
+2018-10-11 14:09:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01204" classname="Test Cases/Associate Application/Edit Profile/TCBA01204" status="PASSED">
+         <system-out><![CDATA[2018-10-11 14:09:12 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01204: Test Cases/Associate Application/Edit Profile/TCBA01204
+
+2018-10-11 14:09:12 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country' 
+
+2018-10-11 14:09:13 - [MESSAGE][PASSED] - All options with label 'Select Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country' 
+
+2018-10-11 14:09:13 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-10-11 14:09:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-10-11 14:09:13 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-10-11 14:09:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-10-11 14:09:13 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-10-11 14:09:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-10-11 14:09:13 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-10-11 14:09:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-10-11 14:09:14 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-10-11 14:09:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-10-11 14:09:14 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-10-11 14:09:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-10-11 14:09:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-10-11 14:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-10-11 14:09:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-10-11 14:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-10-11 14:09:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Country' are matched.
+
+2018-10-11 14:09:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Country' are matched.
+
+2018-10-11 14:09:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_7' are matched.
+
+2018-10-11 14:09:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_7' are matched.
+
+2018-10-11 14:09:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Street Name' are matched.
+
+2018-10-11 14:09:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Street Name' are matched.
+
+2018-10-11 14:09:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_8' are matched.
+
+2018-10-11 14:09:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_8' are matched.
+
+2018-10-11 14:09:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-10-11 14:09:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-10-11 14:09:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_9' are matched.
+
+2018-10-11 14:09:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_9' are matched.
+
+2018-10-11 14:09:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_StateProvince' are matched.
+
+2018-10-11 14:09:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_StateProvince' are matched.
+
+2018-10-11 14:09:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_10' are matched.
+
+2018-10-11 14:09:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_10' are matched.
+
+2018-10-11 14:09:16 - [TEST_STEP][PASSED] - setText: Text '12121221' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-10-11 14:09:16 - [MESSAGE][PASSED] - Text '12121221' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-10-11 14:09:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-10-11 14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-10-11 14:09:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-10-11 14:09:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-10-11 14:09:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 5 chara' are matched.
+
+2018-10-11 14:09:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 5 chara' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01205" classname="Test Cases/Associate Application/Edit Profile/TCBA01205" status="PASSED">
+         <system-out><![CDATA[2018-10-11 14:09:16 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01205: Test Cases/Associate Application/Edit Profile/TCBA01205
+
+2018-10-11 14:09:17 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:17 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-10-11 14:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-10-11 14:09:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-10-11 14:09:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-10-11 14:09:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_11' are matched.
+
+2018-10-11 14:09:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_11' are matched.
+
+2018-10-11 14:09:18 - [TEST_STEP][PASSED] - setText: Text '21212121212122123232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:18 - [MESSAGE][PASSED] - Text '21212121212122123232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:18 - [TEST_STEP][PASSED] - setText: Text '232323232323232323233' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:19 - [MESSAGE][PASSED] - Text '232323232323232323233' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone' is clicked on
+
+2018-10-11 14:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone' is clicked on
+
+2018-10-11 14:09:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-10-11 14:09:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-10-11 14:09:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha' are matched.
+
+2018-10-11 14:09:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha' are matched.
+
+2018-10-11 14:09:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-10-11 14:09:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-10-11 14:09:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha_1' are matched.
+
+2018-10-11 14:09:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha_1' are matched.
+
+2018-10-11 14:09:19 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:19 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone' is clicked on
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone' is clicked on
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits' are matched.
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits' are matched.
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits_1' are matched.
+
+2018-10-11 14:09:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits_1' are matched.
+
+2018-10-11 14:09:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/div_Business Phonecan only con' is clicked on
+
+2018-10-11 14:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/div_Business Phonecan only con' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01206" classname="Test Cases/Associate Application/Edit Profile/TCBA01206" status="PASSED">
+         <system-out><![CDATA[2018-10-11 14:09:21 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01206: Test Cases/Associate Application/Edit Profile/TCBA01206
+
+2018-10-11 14:09:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'  using regular expression
+
+2018-10-11 14:09:21 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'  using regular expression
+
+2018-10-11 14:09:21 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_12' are matched.
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_12' are matched.
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - setText: Text '1212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Text '1212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be 9 characters.' are matched.
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be 9 characters.' are matched.
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:22 - [TEST_STEP][PASSED] - setText: Text '23232323232323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:23 - [MESSAGE][PASSED] - Text '23232323232323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-10-11 14:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-10-11 14:09:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/div_Routing Numbermust be no m' is clicked on
+
+2018-10-11 14:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/div_Routing Numbermust be no m' is clicked on
+
+2018-10-11 14:09:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-10-11 14:09:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-10-11 14:09:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 9 chara' are matched.
+
+2018-10-11 14:09:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 9 chara' are matched.
+
+2018-10-11 14:09:23 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:23 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-10-11 14:09:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-10-11 14:09:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-10-11 14:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01207" classname="Test Cases/Associate Application/Edit Profile/TCBA01207" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' FAILED. (Root cause: Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.)"/>
+         <system-out><![CDATA[2018-10-11 14:09:24 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Edit Profile/TCBA01207: Test Cases/Associate Application/Edit Profile/TCBA01207 FAILED because (of) Verify element text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' FAILED. (Root cause: Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.)
+
+2018-10-11 14:09:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-10-11 14:09:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-10-11 14:09:24 - [TEST_STEP][PASSED] - setText: Text 'Shinto-QA' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-10-11 14:09:24 - [MESSAGE][PASSED] - Text 'Shinto-QA' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-10-11 14:09:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-10-11 14:09:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-10-11 14:09:25 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-10-11 14:09:25 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-10-11 14:09:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-10-11 14:09:25 - [MESSAGE][PASSED] - All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-10-11 14:09:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-10-11 14:09:25 - [MESSAGE][PASSED] - All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-10-11 14:09:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-10-11 14:09:25 - [MESSAGE][PASSED] - All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-10-11 14:09:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month'  using regular expression
+
+2018-10-11 14:09:26 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month'  using regular expression
+
+2018-10-11 14:09:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'  using regular expression
+
+2018-10-11 14:09:27 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'  using regular expression
+
+2018-10-11 14:09:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1990' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'  using regular expression
+
+2018-10-11 14:09:28 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'  using regular expression
+
+2018-10-11 14:09:28 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-10-11 14:09:28 - [MESSAGE][PASSED] - All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-10-11 14:09:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'  using regular expression
+
+2018-10-11 14:09:28 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'  using regular expression
+
+2018-10-11 14:09:28 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-10-11 14:09:29 - [MESSAGE][PASSED] - All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-10-11 14:09:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'  using regular expression
+
+2018-10-11 14:09:33 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'  using regular expression
+
+2018-10-11 14:09:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'  using regular expression
+
+2018-10-11 14:09:36 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'  using regular expression
+
+2018-10-11 14:09:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'  using regular expression
+
+2018-10-11 14:09:40 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'  using regular expression
+
+2018-10-11 14:09:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'  using regular expression
+
+2018-10-11 14:09:45 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'  using regular expression
+
+2018-10-11 14:09:45 - [TEST_STEP][PASSED] - setText: Text '59098' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-10-11 14:09:45 - [MESSAGE][PASSED] - Text '59098' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-10-11 14:09:45 - [TEST_STEP][PASSED] - setText: Text 'House Number' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-10-11 14:09:46 - [MESSAGE][PASSED] - Text 'House Number' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-10-11 14:09:46 - [TEST_STEP][PASSED] - setText: Text 'Street' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-10-11 14:09:46 - [MESSAGE][PASSED] - Text 'Street' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-10-11 14:09:46 - [TEST_STEP][PASSED] - setText: Text 'ST' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-10-11 14:09:46 - [MESSAGE][PASSED] - Text 'ST' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-10-11 14:09:46 - [TEST_STEP][PASSED] - setText: Text 'City' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-10-11 14:09:47 - [MESSAGE][PASSED] - Text 'City' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-10-11 14:09:47 - [TEST_STEP][PASSED] - setText: Text 'State' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-10-11 14:09:47 - [MESSAGE][PASSED] - Text 'State' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-10-11 14:09:47 - [TEST_STEP][PASSED] - setText: Text '57899' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-10-11 14:09:47 - [MESSAGE][PASSED] - Text '57899' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-10-11 14:09:47 - [TEST_STEP][PASSED] - setText: Text '32323232' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:47 - [MESSAGE][PASSED] - Text '32323232' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-10-11 14:09:47 - [TEST_STEP][PASSED] - setText: Text '3323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:48 - [MESSAGE][PASSED] - Text '3323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-10-11 14:09:48 - [TEST_STEP][PASSED] - setText: Text '323232328' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:48 - [MESSAGE][PASSED] - Text '323232328' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-10-11 14:09:48 - [TEST_STEP][PASSED] - setText: Text '232323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-10-11 14:09:49 - [MESSAGE][PASSED] - Text '232323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-10-11 14:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-10-11 14:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-10-11 14:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-10-11 14:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-10-11 14:09:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel' is clicked on
+
+2018-10-11 14:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel' is clicked on
+
+2018-10-11 14:09:52 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' FAILED. (Root cause: Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.)
+
+2018-10-11 14:09:52 - [MESSAGE][FAILED] - Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.
+[[ATTACHMENT|F:\\Katalon Studio\\Bonanza\\Reports\\VBZ0012_Edit profile\\20181011_140843\\1539247192288.png]]
+
+2018-10-11 14:09:53 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' FAILED. (Root cause: Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.)
+[[ATTACHMENT|F:\\Katalon Studio\\Bonanza\\Reports\\VBZ0012_Edit profile\\20181011_140843\\1539247192670.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-11 14:09:24 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Edit Profile/TCBA01207: Test Cases/Associate Application/Edit Profile/TCBA01207 FAILED because (of) Verify element text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' FAILED. (Root cause: Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01210" classname="Test Cases/Associate Application/Edit Profile/TCBA01210" status="PASSED">
+         <system-out><![CDATA[2018-10-11 14:09:53 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01210: Test Cases/Associate Application/Edit Profile/TCBA01210
+
+2018-10-11 14:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-11 14:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-11 14:09:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-11 14:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-11 14:09:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-10-11 14:09:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-11 14:08:46 - [TEST_SUITE][FAILED] - VBZ0012_Edit profile: Test Cases/Associate Application/Edit Profile/TCBA01207 FAILED because (of) Verify element text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' FAILED. (Root cause: Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-10-11 14:08:46 - [TEST_SUITE][FAILED] - VBZ0012_Edit profile: Test Cases/Associate Application/Edit Profile/TCBA01207 FAILED because (of) Verify element text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' FAILED. (Root cause: Actual text 'My Title:' and expected text 'My Title' of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_My Title' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>
