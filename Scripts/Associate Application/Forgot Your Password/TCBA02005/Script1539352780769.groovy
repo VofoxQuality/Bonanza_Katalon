@@ -19,11 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'), 'Shinto-Test')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit'))
 
-WebUI.navigateToUrl('https://192.168.10.72/#/login')
+WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot password confirmation/h2_Forgot password confirmatio'), 
+    'Forgot password confirmation')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In'), 'Log In')
+WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot password confirmation/p_Please check your email to r'), 
+    'Please check your email to reset your password.')
 

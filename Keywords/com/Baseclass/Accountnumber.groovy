@@ -25,17 +25,17 @@ import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
-public class Utility {
+public class Accountnumber {
 	@Keyword
 	def String generateRandomData() {
 		final String alphabet = "0123456789111213141516171819abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		final int N = alphabet.length();
-		char[] data= new char[10];
+		char[] data= new char[8];
 		Random r = new Random();
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 8; i++) {
 			data[i] =alphabet.charAt(r.nextInt(N));
 		}
 		String RandomData = String.valueOf(data);
-		return "QA"+RandomData;
+		return "IT037E"+RandomData;
 	}
 }

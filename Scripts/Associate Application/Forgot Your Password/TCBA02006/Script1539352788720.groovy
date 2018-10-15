@@ -19,11 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://192.168.10.72/#/login')
+WebUI.click(findTestObject('Forgot Your Username/Page_Forgot username confirmation/Login Link'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In'), 'Log In')
 

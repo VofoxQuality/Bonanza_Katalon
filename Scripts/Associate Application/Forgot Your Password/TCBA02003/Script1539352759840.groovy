@@ -19,11 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.PersonalTaxNum'), 
+    '')
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'), '')
 
-WebUI.navigateToUrl('https://192.168.10.72/#/login')
+WebUI.click(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In'), 'Log In')
+WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/li_Either enter User Name or P'), 
+    'Either enter User Name or Personal Tax Num field')
 

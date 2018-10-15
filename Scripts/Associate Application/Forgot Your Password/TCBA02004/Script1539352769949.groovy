@@ -19,11 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'), 'shinto-custom')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit'))
 
-WebUI.navigateToUrl('https://192.168.10.72/#/login')
+WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/li_Username shinto-custom was'), 
+    'Username \'shinto-custom\' was not found. Please contact customer service.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In'), 'Log In')
+WebUI.setText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'), 'shinto-customer')
+
+WebUI.click(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Password/Page_Forgot your password/li_There a login for shinto-cu'), 
+    'There a login for \'shinto-customer\' but no Associate is linked to that account.Please contact customer service.')
 

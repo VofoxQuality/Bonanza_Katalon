@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0009-Smoke Test" time="172" tests="5" failures="2" errors="0">
+   <testsuite name="VBZ0009-Smoke Test" tests="5" failures="2" errors="0" time="172" timestamp="2018-10-15 18:47:23" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0009-Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181015_184720"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181015_184720\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181015_184720\\1539609518264.png, F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181015_184720\\1539609554442.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="523b183d9b4b5218dbbdbc20018ba1c2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/TCBZA01001" classname="Test Cases/Smoke Test/TCBZA01001" status="PASSED">
+         <system-out><![CDATA[2018-10-15 18:47:24 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01001: Test Cases/Smoke Test/TCBZA01001
+
+2018-10-15 18:47:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-15 18:47:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-15 18:47:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-15 18:47:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 18:47:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-15 18:47:38 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-15 18:47:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Smoke_Test/Page_Log In  5-15/h1_Log In' is present
+
+2018-10-15 18:47:38 - [MESSAGE][PASSED] - Object 'Object Repository/Smoke_Test/Page_Log In  5-15/h1_Log In' is present
+
+2018-10-15 18:47:38 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtUserName'
+
+2018-10-15 18:47:39 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtUserName'
+
+2018-10-15 18:47:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtPassword'
+
+2018-10-15 18:47:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtPassword'
+
+2018-10-15 18:47:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-15 18:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-15 18:47:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-15 18:47:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-15 18:47:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Log In  5-15/Header Text' are matched.
+
+2018-10-15 18:47:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Log In  5-15/Header Text' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01002" classname="Test Cases/Smoke Test/TCBZA01002" status="PASSED">
+         <system-out><![CDATA[2018-10-15 18:47:45 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01002: Test Cases/Smoke Test/TCBZA01002
+
+2018-10-15 18:47:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/My Associate Label' are matched.
+
+2018-10-15 18:47:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/My Associate Label' are matched.
+
+2018-10-15 18:47:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label' are matched.
+
+2018-10-15 18:47:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label' are matched.
+
+2018-10-15 18:47:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite button click' is clicked on
+
+2018-10-15 18:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite button click' is clicked on
+
+2018-10-15 18:47:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends' are matched.
+
+2018-10-15 18:47:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends' are matched.
+
+2018-10-15 18:47:46 - [TEST_STEP][PASSED] - setText: Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName'
+
+2018-10-15 18:47:46 - [MESSAGE][PASSED] - Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName'
+
+2018-10-15 18:47:46 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName'
+
+2018-10-15 18:47:46 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName'
+
+2018-10-15 18:47:46 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail'
+
+2018-10-15 18:47:47 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail'
+
+2018-10-15 18:47:47 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail'
+
+2018-10-15 18:47:47 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail'
+
+2018-10-15 18:47:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'English' are selected in object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/select_EnglishItalian'  using regular expression
+
+2018-10-15 18:47:48 - [MESSAGE][PASSED] - All options with value 'English' are selected in object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/select_EnglishItalian'  using regular expression
+
+2018-10-15 18:47:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite' is clicked on
+
+2018-10-15 18:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite' is clicked on
+
+2018-10-15 18:47:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully' is present
+
+2018-10-15 18:47:50 - [MESSAGE][PASSED] - Object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully' is present
+
+2018-10-15 18:47:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel' is clicked on
+
+2018-10-15 18:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel' is clicked on
+
+2018-10-15 18:47:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-10-15 18:48:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-15 18:48:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on
+
+2018-10-15 18:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01003" classname="Test Cases/Smoke Test/TCBZA01003" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)"/>
+         <system-out><![CDATA[2018-10-15 18:48:00 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01003: Test Cases/Smoke Test/TCBZA01003 FAILED because (of) Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)
+
+2018-10-15 18:48:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)
+
+2018-10-15 18:48:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181015_184720\\1539609518264.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-15 18:48:00 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01003: Test Cases/Smoke Test/TCBZA01003 FAILED because (of) Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01004" classname="Test Cases/Smoke Test/TCBZA01004" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)"/>
+         <system-out><![CDATA[2018-10-15 18:48:38 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01004: Test Cases/Smoke Test/TCBZA01004 FAILED because (of) Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)
+
+2018-10-15 18:48:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)
+
+2018-10-15 18:49:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181015_184720\\1539609554442.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-15 18:48:38 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01004: Test Cases/Smoke Test/TCBZA01004 FAILED because (of) Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01008" classname="Test Cases/Smoke Test/TCBZA01008" status="PASSED">
+         <system-out><![CDATA[2018-10-15 18:49:14 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01008: Test Cases/Smoke Test/TCBZA01008
+
+2018-10-15 18:49:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' are matched.
+
+2018-10-15 18:49:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' are matched.
+
+2018-10-15 18:49:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/p_My Customers' are matched.
+
+2018-10-15 18:49:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/p_My Customers' are matched.
+
+2018-10-15 18:49:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-15 18:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-15 18:49:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Customer Details' are matched.
+
+2018-10-15 18:49:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Customer Details' are matched.
+
+2018-10-15 18:49:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/h3_Customer Type' are matched.
+
+2018-10-15 18:49:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/h3_Customer Type' are matched.
+
+2018-10-15 18:49:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Individual' are matched.
+
+2018-10-15 18:49:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Individual' are matched.
+
+2018-10-15 18:49:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/Select Country'  using regular expression
+
+2018-10-15 18:49:19 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/Select Country'  using regular expression
+
+2018-10-15 18:49:19 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-15 18:49:19 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-15 18:49:19 - [TEST_STEP][PASSED] - setText: Text 'Electrical Account' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-15 18:49:19 - [MESSAGE][PASSED] - Text 'Electrical Account' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-15 18:49:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CORSO' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Street Part'  using regular expression
+
+2018-10-15 18:49:20 - [MESSAGE][PASSED] - All options with value 'CORSO' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Street Part'  using regular expression
+
+2018-10-15 18:49:20 - [TEST_STEP][PASSED] - setText: Text 'Address' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_Address'
+
+2018-10-15 18:49:20 - [MESSAGE][PASSED] - Text 'Address' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_Address'
+
+2018-10-15 18:49:20 - [TEST_STEP][PASSED] - setText: Text 'Street No1' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-15 18:49:21 - [MESSAGE][PASSED] - Text 'Street No1' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-15 18:49:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Province'  using regular expression
+
+2018-10-15 18:49:22 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Province'  using regular expression
+
+2018-10-15 18:49:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select City'  using regular expression
+
+2018-10-15 18:49:24 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select City'  using regular expression
+
+2018-10-15 18:49:24 - [TEST_STEP][PASSED] - setText: Text '4000' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_zip'
+
+2018-10-15 18:49:25 - [MESSAGE][PASSED] - Text '4000' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_zip'
+
+2018-10-15 18:49:25 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email'
+
+2018-10-15 18:49:25 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email'
+
+2018-10-15 18:49:25 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email2'
+
+2018-10-15 18:49:26 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email2'
+
+2018-10-15 18:49:26 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-15 18:49:26 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-15 18:49:26 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-15 18:49:26 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-15 18:49:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-15 18:49:27 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-15 18:49:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-15 18:49:27 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-15 18:49:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1985' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-15 18:49:28 - [MESSAGE][PASSED] - All options with value '1985' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-15 18:49:28 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-15 18:49:29 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-15 18:49:29 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-15 18:49:29 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-15 18:49:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-15 18:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-15 18:49:29 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Accountnumber.generateRandomData(): com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-15 18:49:29 - [MESSAGE][PASSED] - com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-15 18:49:29 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-10-15 18:49:29 - [TEST_STEP][PASSED] - setText: Text 'IT037Ekzs11yfZ' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-15 18:49:32 - [MESSAGE][PASSED] - Text 'IT037Ekzs11yfZ' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-15 18:49:32 - [TEST_STEP][PASSED] - setText: Text '5033334' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-15 18:49:32 - [MESSAGE][PASSED] - Text '5033334' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-15 18:49:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Commercial' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-15 18:49:32 - [MESSAGE][PASSED] - All options with value 'Commercial' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-15 18:49:32 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-15 18:49:32 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-15 18:49:32 - [TEST_STEP][PASSED] - setText: Text '3434343434' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-15 18:49:33 - [MESSAGE][PASSED] - Text '3434343434' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-15 18:49:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Copy Address from Custo' is clicked on
+
+2018-10-15 18:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Copy Address from Custo' is clicked on
+
+2018-10-15 18:49:33 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_txtComment'
+
+2018-10-15 18:49:33 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_txtComment'
+
+2018-10-15 18:49:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Save' is clicked on
+
+2018-10-15 18:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Save' is clicked on
+
+2018-10-15 18:49:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_There are no more Utiliti' is clicked on
+
+2018-10-15 18:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_There are no more Utiliti' is clicked on
+
+2018-10-15 18:49:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Order Confirmation Page' is clicked on
+
+2018-10-15 18:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Order Confirmation Page' is clicked on
+
+2018-10-15 18:49:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/input_au-target' is clicked on
+
+2018-10-15 18:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/input_au-target' is clicked on
+
+2018-10-15 18:49:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Submit' is clicked on
+
+2018-10-15 18:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01009" classname="Test Cases/Smoke Test/TCBZA01009" status="PASSED">
+         <system-out><![CDATA[2018-10-15 18:49:43 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01009: Test Cases/Smoke Test/TCBZA01009
+
+2018-10-15 18:49:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are matched.
+
+2018-10-15 18:49:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are matched.
+
+2018-10-15 18:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-15 18:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-15 18:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_facilityType' is clicked on
+
+2018-10-15 18:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_facilityType' is clicked on
+
+2018-10-15 18:49:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Business' is clicked on
+
+2018-10-15 18:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Business' is clicked on
+
+2018-10-15 18:49:47 - [TEST_STEP][PASSED] - setText: Text 'Qa_Account' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_CustName'
+
+2018-10-15 18:49:48 - [MESSAGE][PASSED] - Text 'Qa_Account' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_CustName'
+
+2018-10-15 18:49:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_United States Of Americ'  using regular expression
+
+2018-10-15 18:49:50 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_United States Of Americ'  using regular expression
+
+2018-10-15 18:49:50 - [TEST_STEP][PASSED] - setText: Text 'shinto' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-15 18:49:51 - [MESSAGE][PASSED] - Text 'shinto' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-15 18:49:51 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-15 18:49:51 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-15 18:49:51 - [TEST_STEP][PASSED] - setText: Text 'Qa-Title' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_title'
+
+2018-10-15 18:49:51 - [MESSAGE][PASSED] - Text 'Qa-Title' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_title'
+
+2018-10-15 18:49:51 - [TEST_STEP][PASSED] - setText: Text 'Street no2' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-15 18:49:51 - [MESSAGE][PASSED] - Text 'Street no2' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-15 18:49:51 - [TEST_STEP][PASSED] - setText: Text 'Add' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_Address'
+
+2018-10-15 18:49:52 - [MESSAGE][PASSED] - Text 'Add' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_Address'
+
+2018-10-15 18:49:52 - [TEST_STEP][PASSED] - setText: Text 'Part1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetPart'
+
+2018-10-15 18:49:52 - [MESSAGE][PASSED] - Text 'Part1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetPart'
+
+2018-10-15 18:49:52 - [TEST_STEP][PASSED] - setText: Text 'City1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_city'
+
+2018-10-15 18:49:52 - [MESSAGE][PASSED] - Text 'City1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_city'
+
+2018-10-15 18:49:52 - [TEST_STEP][PASSED] - setText: Text 'Province' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_stateCode'
+
+2018-10-15 18:49:52 - [MESSAGE][PASSED] - Text 'Province' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_stateCode'
+
+2018-10-15 18:49:52 - [TEST_STEP][PASSED] - setText: Text '23456' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_zip'
+
+2018-10-15 18:49:52 - [MESSAGE][PASSED] - Text '23456' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_zip'
+
+2018-10-15 18:49:52 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email'
+
+2018-10-15 18:49:53 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email'
+
+2018-10-15 18:49:53 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email2'
+
+2018-10-15 18:49:53 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email2'
+
+2018-10-15 18:49:53 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone'
+
+2018-10-15 18:49:54 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone'
+
+2018-10-15 18:49:54 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phoneExtension'
+
+2018-10-15 18:49:54 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phoneExtension'
+
+2018-10-15 18:49:54 - [TEST_STEP][PASSED] - setText: Text '2121222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-15 18:49:54 - [MESSAGE][PASSED] - Text '2121222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-15 18:49:54 - [TEST_STEP][PASSED] - setText: Text '2222333333' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-15 18:49:55 - [MESSAGE][PASSED] - Text '2222333333' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-15 18:49:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-15 18:49:55 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-15 18:49:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-15 18:49:55 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-15 18:49:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1990' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-15 18:49:56 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-15 18:49:56 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-15 18:49:57 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-15 18:49:57 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-15 18:49:57 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-15 18:49:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-15 18:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-15 18:49:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Gas' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Commodity'  using regular expression
+
+2018-10-15 18:50:00 - [MESSAGE][PASSED] - All options with value 'Gas' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Commodity'  using regular expression
+
+2018-10-15 18:50:00 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Accountnumber.generateRandomData(): com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-15 18:50:00 - [MESSAGE][PASSED] - com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-15 18:50:00 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-10-15 18:50:00 - [TEST_STEP][PASSED] - setText: Text 'IT037Eqm6YD16N' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-15 18:50:00 - [MESSAGE][PASSED] - Text 'IT037Eqm6YD16N' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-15 18:50:00 - [TEST_STEP][PASSED] - setText: Text '12121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-15 18:50:00 - [MESSAGE][PASSED] - Text '12121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-15 18:50:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Residential' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-15 18:50:01 - [MESSAGE][PASSED] - All options with value 'Residential' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-15 18:50:01 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-15 18:50:01 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-15 18:50:01 - [TEST_STEP][PASSED] - setText: Text '121212121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-15 18:50:01 - [MESSAGE][PASSED] - Text '121212121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-15 18:50:01 - [TEST_STEP][PASSED] - setText: Text '122222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_MeterNum'
+
+2018-10-15 18:50:02 - [MESSAGE][PASSED] - Text '122222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_MeterNum'
+
+2018-10-15 18:50:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Uso condizionamento' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression
+
+2018-10-15 18:50:02 - [MESSAGE][PASSED] - All options with value 'Uso condizionamento' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression
+
+2018-10-15 18:50:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CORSO' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Street Part'  using regular expression
+
+2018-10-15 18:50:02 - [MESSAGE][PASSED] - All options with value 'CORSO' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Street Part'  using regular expression
+
+2018-10-15 18:50:02 - [TEST_STEP][PASSED] - setText: Text 'Add' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_address (1)'
+
+2018-10-15 18:50:03 - [MESSAGE][PASSED] - Text 'Add' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_address (1)'
+
+2018-10-15 18:50:03 - [TEST_STEP][PASSED] - setText: Text 'Street no3' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-15 18:50:03 - [MESSAGE][PASSED] - Text 'Street no3' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-15 18:50:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Province'  using regular expression
+
+2018-10-15 18:50:04 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Province'  using regular expression
+
+2018-10-15 18:50:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select City'  using regular expression
+
+2018-10-15 18:50:06 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select City'  using regular expression
+
+2018-10-15 18:50:06 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_zip'
+
+2018-10-15 18:50:06 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_zip'
+
+2018-10-15 18:50:06 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/textarea_txtComment'
+
+2018-10-15 18:50:07 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/textarea_txtComment'
+
+2018-10-15 18:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Save' is clicked on
+
+2018-10-15 18:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Save' is clicked on
+
+2018-10-15 18:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_There are no more Utiliti' is clicked on
+
+2018-10-15 18:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_There are no more Utiliti' is clicked on
+
+2018-10-15 18:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_au-target' is clicked on
+
+2018-10-15 18:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_au-target' is clicked on
+
+2018-10-15 18:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/button_Submit' is clicked on
+
+2018-10-15 18:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01010" classname="Test Cases/Smoke Test/TCBZA01010" status="PASSED">
+         <system-out><![CDATA[2018-10-15 18:50:14 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01010: Test Cases/Smoke Test/TCBZA01010
+
+2018-10-15 18:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-15 18:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-15 18:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-15 18:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-15 18:50:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-10-15 18:50:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-15 18:47:23 - [TEST_SUITE][FAILED] - VBZ0009-Smoke Test: Test Cases/Smoke Test/TCBZA01003 FAILED because (of) Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)]]></system-out>
+      <system-err><![CDATA[2018-10-15 18:47:23 - [TEST_SUITE][FAILED] - VBZ0009-Smoke Test: Test Cases/Smoke Test/TCBZA01003 FAILED because (of) Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //div[2]/ul/li/a/span' not found)]]></system-err>
+   </testsuite>
+</testsuites>
