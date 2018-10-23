@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), '')
 
@@ -92,5 +93,7 @@ WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/sp
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_My Title'), 'My Title')
+WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_My Title'), 'My Title:')
 

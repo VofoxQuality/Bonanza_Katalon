@@ -4,7 +4,17 @@
    <name>button_Ok</name>
    <tag></tag>
    <elementGuidId>6d5a3de1-5b01-49e9-a714-39bc8ab6a47c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Ok' or . = 'Ok')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -6,12 +6,13 @@
    <elementGuidId>d32f1c71-965f-4c80-9a39-9adf9ef090b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='divStateCode']/p</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//p[@id = 'validation-message-192' and (text() = 'is required' or . = 'is required')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divStateCode']/p
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

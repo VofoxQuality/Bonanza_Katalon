@@ -4,7 +4,23 @@
    <name>select_Select Type Of Use</name>
    <tag></tag>
    <elementGuidId>7dd8d001-0bf8-4c4b-a113-2c2e96edc1d6</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divGasUseType']/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

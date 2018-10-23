@@ -27,7 +27,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Username/P
     'Forgot your Username?')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Username/Page_Forgot your Username/label_Enter your email address'), 
-    'Enter your email address')
+    'Email')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Username/Page_Forgot your Username/button_Submit'), 
     'Submit')

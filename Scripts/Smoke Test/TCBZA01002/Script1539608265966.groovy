@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail'), 'shinto@vofoxsolutions.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/select_EnglishItalian'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/select_EnglishItalian'), 
     'English', true)
 
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite'))

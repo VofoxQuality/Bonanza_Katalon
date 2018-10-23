@@ -41,7 +41,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My A
 WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'), 
     'Married', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_EnglishItalian'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_EnglishItalian'), 
     'English', true)
 
 WebUI.selectOptionByValue(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Country'), 'United States Of America', 
@@ -61,9 +61,6 @@ println(data)
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'), data)
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'), '34343434344434')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'), 
-    'LARGO', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'), 
     'STRADA', true)

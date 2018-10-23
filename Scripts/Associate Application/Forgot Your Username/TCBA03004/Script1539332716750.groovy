@@ -26,5 +26,5 @@ WebUI.setText(findTestObject('Object Repository/Forgot Your Username/Page_Forgot
 WebUI.click(findTestObject('Object Repository/Forgot Your Username/Page_Forgot your Username/button_Submit'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Forgot Your Username/Page_Forgot your Username/span_The Enter your email addr'), 
-    'The Enter your email address field is not a valid e-mail address.')
+    'The Email field is not a valid e-mail address.')
 

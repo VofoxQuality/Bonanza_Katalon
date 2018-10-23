@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), '')
 
@@ -29,5 +30,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  5-15/input
 
 WebUI.click(findTestObject('Object Repository/Page_Log In  5-15/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Log In  5-15/div_Username was not found.'))
+WebUI.verifyElementPresent(findTestObject('Page_Log In  5-15/Username was not found'), 3)
 

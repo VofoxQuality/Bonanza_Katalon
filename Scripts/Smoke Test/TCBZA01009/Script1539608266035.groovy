@@ -99,7 +99,7 @@ WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Cus
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_MeterNum'), '122222222')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'), 
-    'Uso condizionamento', true)
+    'Air conditioning', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Street Part'), 
     'CORSO', true)

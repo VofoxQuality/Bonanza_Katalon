@@ -4,7 +4,7 @@
    <name>VBZ0010-Associate Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-08T15:34:41</lastRun>
+   <lastRun>2018-10-23T16:43:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

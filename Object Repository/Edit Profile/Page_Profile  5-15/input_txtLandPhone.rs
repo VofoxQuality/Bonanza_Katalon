@@ -4,7 +4,17 @@
    <name>input_txtLandPhone</name>
    <tag></tag>
    <elementGuidId>ebed9906-93cc-438c-994f-abb120fc0684</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'txtLandPhone']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divLandPhone']/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>469fc18e-3242-4aed-a582-a369d30c6369</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@id='lblPhoneNumber']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//label[@id = 'lblPhoneNumber' and (text() = 'Business Phone' or . = 'Business Phone')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divLandPhone']/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

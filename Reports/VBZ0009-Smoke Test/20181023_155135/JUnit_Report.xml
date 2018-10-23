@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0009-Smoke Test" time="191" tests="6" failures="1" errors="0">
+   <testsuite name="VBZ0009-Smoke Test" tests="6" failures="1" errors="0" time="191" timestamp="2018-10-23 15:51:37" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0009-Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181023_155135"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181023_155135\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181023_155135\\1540290287132.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="e488c571387cfdc0e5983efb28a253d5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/TCBZA01001" classname="Test Cases/Smoke Test/TCBZA01001" status="PASSED">
+         <system-out><![CDATA[2018-10-23 15:51:38 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01001: Test Cases/Smoke Test/TCBZA01001
+
+2018-10-23 15:51:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 15:51:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 15:51:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-23 15:51:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-23 15:51:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-23 15:52:02 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-23 15:52:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Smoke_Test/Page_Log In  5-15/h1_Log In' is present
+
+2018-10-23 15:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/Smoke_Test/Page_Log In  5-15/h1_Log In' is present
+
+2018-10-23 15:52:02 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtUserName'
+
+2018-10-23 15:52:03 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtUserName'
+
+2018-10-23 15:52:03 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtPassword'
+
+2018-10-23 15:52:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Smoke_Test/Page_Log In  5-15/input_txtPassword'
+
+2018-10-23 15:52:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-23 15:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-23 15:52:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 15:52:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 15:52:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Log In  5-15/Header Text' are matched.
+
+2018-10-23 15:52:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Log In  5-15/Header Text' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01002" classname="Test Cases/Smoke Test/TCBZA01002" status="PASSED">
+         <system-out><![CDATA[2018-10-23 15:52:08 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01002: Test Cases/Smoke Test/TCBZA01002
+
+2018-10-23 15:52:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/My Associate Label' are matched.
+
+2018-10-23 15:52:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/My Associate Label' are matched.
+
+2018-10-23 15:52:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label' are matched.
+
+2018-10-23 15:52:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label' are matched.
+
+2018-10-23 15:52:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite button click' is clicked on
+
+2018-10-23 15:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite button click' is clicked on
+
+2018-10-23 15:52:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends' are matched.
+
+2018-10-23 15:52:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends' are matched.
+
+2018-10-23 15:52:09 - [TEST_STEP][PASSED] - setText: Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName'
+
+2018-10-23 15:52:09 - [MESSAGE][PASSED] - Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName'
+
+2018-10-23 15:52:09 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName'
+
+2018-10-23 15:52:09 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName'
+
+2018-10-23 15:52:09 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail'
+
+2018-10-23 15:52:10 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail'
+
+2018-10-23 15:52:10 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail'
+
+2018-10-23 15:52:10 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail'
+
+2018-10-23 15:52:10 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-10-23 15:52:10 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-10-23 15:52:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite' is clicked on
+
+2018-10-23 15:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite' is clicked on
+
+2018-10-23 15:52:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully' is present
+
+2018-10-23 15:52:12 - [MESSAGE][PASSED] - Object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully' is present
+
+2018-10-23 15:52:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel' is clicked on
+
+2018-10-23 15:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel' is clicked on
+
+2018-10-23 15:52:12 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-10-23 15:52:22 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01003" classname="Test Cases/Smoke Test/TCBZA01003" status="PASSED">
+         <system-out><![CDATA[2018-10-23 15:52:22 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01003: Test Cases/Smoke Test/TCBZA01003
+
+2018-10-23 15:52:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-10-23 15:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-10-23 15:52:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-10-23 15:52:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-10-23 15:52:24 - [TEST_STEP][PASSED] - setText: Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-10-23 15:52:24 - [MESSAGE][PASSED] - Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-10-23 15:52:24 - [TEST_STEP][PASSED] - setText: Text 'Smoke-Test' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-10-23 15:52:25 - [MESSAGE][PASSED] - Text 'Smoke-Test' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-10-23 15:52:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-10-23 15:52:25 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-10-23 15:52:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:52:26 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:52:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:52:28 - [MESSAGE][PASSED] - All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:52:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-10-23 15:52:28 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-10-23 15:52:28 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-10-23 15:52:28 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-10-23 15:52:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-10-23 15:52:31 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-10-23 15:52:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-10-23 15:52:32 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-10-23 15:52:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-10-23 15:52:35 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-10-23 15:52:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-10-23 15:52:38 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-10-23 15:52:38 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Utility.generateRandomData(): com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-10-23 15:52:38 - [MESSAGE][PASSED] - com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-10-23 15:52:38 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-10-23 15:52:38 - [TEST_STEP][PASSED] - setText: Text 'QA3d1Faq3c1Q' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-10-23 15:52:38 - [MESSAGE][PASSED] - Text 'QA3d1Faq3c1Q' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-10-23 15:52:38 - [TEST_STEP][PASSED] - setText: Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-10-23 15:52:39 - [MESSAGE][PASSED] - Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-10-23 15:52:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'  using regular expression
+
+2018-10-23 15:52:39 - [MESSAGE][PASSED] - All options with value 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'  using regular expression
+
+2018-10-23 15:52:39 - [TEST_STEP][PASSED] - setText: Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-10-23 15:52:39 - [MESSAGE][PASSED] - Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-10-23 15:52:39 - [TEST_STEP][PASSED] - setText: Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-10-23 15:52:40 - [MESSAGE][PASSED] - Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-10-23 15:52:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-10-23 15:52:42 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-10-23 15:52:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-10-23 15:52:44 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-10-23 15:52:44 - [TEST_STEP][PASSED] - setText: Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-10-23 15:52:45 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-10-23 15:52:45 - [TEST_STEP][PASSED] - setText: Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-10-23 15:52:45 - [MESSAGE][PASSED] - Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-10-23 15:52:45 - [TEST_STEP][PASSED] - setText: Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-10-23 15:52:45 - [MESSAGE][PASSED] - Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-10-23 15:52:45 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-10-23 15:52:46 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-10-23 15:52:46 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-10-23 15:52:47 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-10-23 15:52:47 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-10-23 15:52:47 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-10-23 15:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-10-23 15:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-10-23 15:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-10-23 15:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-10-23 15:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-10-23 15:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01004" classname="Test Cases/Smoke Test/TCBZA01004" status="PASSED">
+         <system-out><![CDATA[2018-10-23 15:52:49 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01004: Test Cases/Smoke Test/TCBZA01004
+
+2018-10-23 15:52:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clickable
+
+2018-10-23 15:52:51 - [MESSAGE][PASSED] - Object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clickable
+
+2018-10-23 15:52:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-10-23 15:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-10-23 15:52:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-10-23 15:52:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-10-23 15:52:52 - [TEST_STEP][PASSED] - setText: Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-10-23 15:52:52 - [MESSAGE][PASSED] - Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-10-23 15:52:52 - [TEST_STEP][PASSED] - setText: Text 'Smoke-Test (US)' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-10-23 15:52:53 - [MESSAGE][PASSED] - Text 'Smoke-Test (US)' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-10-23 15:52:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-10-23 15:52:53 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-10-23 15:52:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:52:54 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:52:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:52:55 - [MESSAGE][PASSED] - All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:52:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-10-23 15:52:56 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-10-23 15:52:56 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-10-23 15:52:56 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-10-23 15:52:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-10-23 15:52:58 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-10-23 15:52:58 - [TEST_STEP][PASSED] - setText: Text 'State' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Type State'
+
+2018-10-23 15:52:58 - [MESSAGE][PASSED] - Text 'State' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Type State'
+
+2018-10-23 15:52:58 - [TEST_STEP][PASSED] - setText: Text 'City' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Type City'
+
+2018-10-23 15:52:59 - [MESSAGE][PASSED] - Text 'City' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Type City'
+
+2018-10-23 15:52:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-10-23 15:53:02 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-10-23 15:53:02 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Utility.generateRandomData(): com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-10-23 15:53:02 - [MESSAGE][PASSED] - com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-10-23 15:53:02 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-10-23 15:53:02 - [TEST_STEP][PASSED] - setText: Text 'QAmrw1ndMqS1' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-10-23 15:53:02 - [MESSAGE][PASSED] - Text 'QAmrw1ndMqS1' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-10-23 15:53:02 - [TEST_STEP][PASSED] - setText: Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-10-23 15:53:03 - [MESSAGE][PASSED] - Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-10-23 15:53:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'  using regular expression
+
+2018-10-23 15:53:03 - [MESSAGE][PASSED] - All options with value 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'  using regular expression
+
+2018-10-23 15:53:03 - [TEST_STEP][PASSED] - setText: Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-10-23 15:53:03 - [MESSAGE][PASSED] - Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-10-23 15:53:03 - [TEST_STEP][PASSED] - setText: Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-10-23 15:53:04 - [MESSAGE][PASSED] - Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-10-23 15:53:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-10-23 15:53:06 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-10-23 15:53:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-10-23 15:53:08 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-10-23 15:53:08 - [TEST_STEP][PASSED] - setText: Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-10-23 15:53:08 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-10-23 15:53:08 - [TEST_STEP][PASSED] - setText: Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-10-23 15:53:08 - [MESSAGE][PASSED] - Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-10-23 15:53:08 - [TEST_STEP][PASSED] - setText: Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-10-23 15:53:09 - [MESSAGE][PASSED] - Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-10-23 15:53:09 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-10-23 15:53:09 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-10-23 15:53:09 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-10-23 15:53:10 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-10-23 15:53:10 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-10-23 15:53:10 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-10-23 15:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-10-23 15:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-10-23 15:53:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-10-23 15:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-10-23 15:53:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-10-23 15:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-10-23 15:53:12 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-10-23 15:53:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-23 15:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on
+
+2018-10-23 15:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01008" classname="Test Cases/Smoke Test/TCBZA01008" status="PASSED">
+         <system-out><![CDATA[2018-10-23 15:53:22 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01008: Test Cases/Smoke Test/TCBZA01008
+
+2018-10-23 15:53:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' are matched.
+
+2018-10-23 15:53:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' are matched.
+
+2018-10-23 15:53:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/p_My Customers' are matched.
+
+2018-10-23 15:53:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_Home  5-15/p_My Customers' are matched.
+
+2018-10-23 15:53:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-23 15:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-23 15:53:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Customer Details' are matched.
+
+2018-10-23 15:53:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Customer Details' are matched.
+
+2018-10-23 15:53:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/h3_Customer Type' are matched.
+
+2018-10-23 15:53:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/h3_Customer Type' are matched.
+
+2018-10-23 15:53:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Individual' are matched.
+
+2018-10-23 15:53:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Account/Page_My Customers  5-15/span_Individual' are matched.
+
+2018-10-23 15:53:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/Select Country'  using regular expression
+
+2018-10-23 15:53:27 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/Select Country'  using regular expression
+
+2018-10-23 15:53:27 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-23 15:53:27 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-23 15:53:27 - [TEST_STEP][PASSED] - setText: Text 'Electrical Account' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-23 15:53:27 - [MESSAGE][PASSED] - Text 'Electrical Account' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-23 15:53:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CORSO' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Street Part'  using regular expression
+
+2018-10-23 15:53:28 - [MESSAGE][PASSED] - All options with value 'CORSO' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Street Part'  using regular expression
+
+2018-10-23 15:53:28 - [TEST_STEP][PASSED] - setText: Text 'Address' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_Address'
+
+2018-10-23 15:53:28 - [MESSAGE][PASSED] - Text 'Address' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_Address'
+
+2018-10-23 15:53:28 - [TEST_STEP][PASSED] - setText: Text 'Street No1' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-23 15:53:28 - [MESSAGE][PASSED] - Text 'Street No1' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-23 15:53:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Province'  using regular expression
+
+2018-10-23 15:53:30 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Province'  using regular expression
+
+2018-10-23 15:53:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select City'  using regular expression
+
+2018-10-23 15:53:33 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select City'  using regular expression
+
+2018-10-23 15:53:33 - [TEST_STEP][PASSED] - setText: Text '4000' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_zip'
+
+2018-10-23 15:53:33 - [MESSAGE][PASSED] - Text '4000' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_zip'
+
+2018-10-23 15:53:33 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email'
+
+2018-10-23 15:53:33 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email'
+
+2018-10-23 15:53:33 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email2'
+
+2018-10-23 15:53:34 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_email2'
+
+2018-10-23 15:53:34 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-23 15:53:34 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-23 15:53:34 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-23 15:53:35 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-23 15:53:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-23 15:53:35 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-23 15:53:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:53:36 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:53:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1985' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:53:38 - [MESSAGE][PASSED] - All options with value '1985' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:53:38 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-23 15:53:38 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-23 15:53:38 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-23 15:53:39 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-23 15:53:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-23 15:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-23 15:53:39 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Accountnumber.generateRandomData(): com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-23 15:53:39 - [MESSAGE][PASSED] - com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-23 15:53:39 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-10-23 15:53:39 - [TEST_STEP][PASSED] - setText: Text 'IT037EM1iS4U1d' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-23 15:53:41 - [MESSAGE][PASSED] - Text 'IT037EM1iS4U1d' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-23 15:53:41 - [TEST_STEP][PASSED] - setText: Text '5033334' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-23 15:53:42 - [MESSAGE][PASSED] - Text '5033334' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-23 15:53:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Commercial' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-23 15:53:42 - [MESSAGE][PASSED] - All options with value 'Commercial' are selected in object 'Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-23 15:53:42 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-23 15:53:42 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-23 15:53:42 - [TEST_STEP][PASSED] - setText: Text '3434343434' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-23 15:53:43 - [MESSAGE][PASSED] - Text '3434343434' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-23 15:53:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Copy Address from Custo' is clicked on
+
+2018-10-23 15:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Copy Address from Custo' is clicked on
+
+2018-10-23 15:53:43 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_txtComment'
+
+2018-10-23 15:53:43 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/textarea_txtComment'
+
+2018-10-23 15:53:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Save' is clicked on
+
+2018-10-23 15:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Save' is clicked on
+
+2018-10-23 15:53:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_There are no more Utiliti' is clicked on
+
+2018-10-23 15:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_There are no more Utiliti' is clicked on
+
+2018-10-23 15:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Order Confirmation Page' is clicked on
+
+2018-10-23 15:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/span_Order Confirmation Page' is clicked on
+
+2018-10-23 15:53:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/input_au-target' is clicked on
+
+2018-10-23 15:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/input_au-target' is clicked on
+
+2018-10-23 15:53:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Submit' is clicked on
+
+2018-10-23 15:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Account/Page_My Customers  5-15/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01009" classname="Test Cases/Smoke Test/TCBZA01009" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Uso condizionamento' of object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use' located by 'By.xpath: //select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539608266035.run(Script1539608266035.groovy:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540290095552.run(TempTestSuite1540290095552.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-23 15:53:54 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01009: Test Cases/Smoke Test/TCBZA01009 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Uso condizionamento' of object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use' located by 'By.xpath: //select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539608266035.run(Script1539608266035.groovy:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540290095552.run(TempTestSuite1540290095552.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-23 15:53:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are matched.
+
+2018-10-23 15:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are matched.
+
+2018-10-23 15:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-23 15:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' is clicked on
+
+2018-10-23 15:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_facilityType' is clicked on
+
+2018-10-23 15:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_facilityType' is clicked on
+
+2018-10-23 15:53:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Business' is clicked on
+
+2018-10-23 15:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Business' is clicked on
+
+2018-10-23 15:53:58 - [TEST_STEP][PASSED] - setText: Text 'Qa_Account' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_CustName'
+
+2018-10-23 15:53:59 - [MESSAGE][PASSED] - Text 'Qa_Account' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_CustName'
+
+2018-10-23 15:53:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_United States Of Americ'  using regular expression
+
+2018-10-23 15:54:01 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_United States Of Americ'  using regular expression
+
+2018-10-23 15:54:01 - [TEST_STEP][PASSED] - setText: Text 'shinto' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-23 15:54:01 - [MESSAGE][PASSED] - Text 'shinto' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_firstName'
+
+2018-10-23 15:54:01 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-23 15:54:02 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_lastName'
+
+2018-10-23 15:54:02 - [TEST_STEP][PASSED] - setText: Text 'Qa-Title' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_title'
+
+2018-10-23 15:54:02 - [MESSAGE][PASSED] - Text 'Qa-Title' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_title'
+
+2018-10-23 15:54:02 - [TEST_STEP][PASSED] - setText: Text 'Street no2' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-23 15:54:03 - [MESSAGE][PASSED] - Text 'Street no2' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetNum'
+
+2018-10-23 15:54:03 - [TEST_STEP][PASSED] - setText: Text 'Add' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_Address'
+
+2018-10-23 15:54:03 - [MESSAGE][PASSED] - Text 'Add' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_Address'
+
+2018-10-23 15:54:03 - [TEST_STEP][PASSED] - setText: Text 'Part1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetPart'
+
+2018-10-23 15:54:03 - [MESSAGE][PASSED] - Text 'Part1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetPart'
+
+2018-10-23 15:54:03 - [TEST_STEP][PASSED] - setText: Text 'City1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_city'
+
+2018-10-23 15:54:03 - [MESSAGE][PASSED] - Text 'City1' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_city'
+
+2018-10-23 15:54:03 - [TEST_STEP][PASSED] - setText: Text 'Province' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_stateCode'
+
+2018-10-23 15:54:04 - [MESSAGE][PASSED] - Text 'Province' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_stateCode'
+
+2018-10-23 15:54:04 - [TEST_STEP][PASSED] - setText: Text '23456' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_zip'
+
+2018-10-23 15:54:04 - [MESSAGE][PASSED] - Text '23456' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_zip'
+
+2018-10-23 15:54:04 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email'
+
+2018-10-23 15:54:05 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email'
+
+2018-10-23 15:54:05 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email2'
+
+2018-10-23 15:54:05 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_email2'
+
+2018-10-23 15:54:05 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone'
+
+2018-10-23 15:54:05 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone'
+
+2018-10-23 15:54:05 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phoneExtension'
+
+2018-10-23 15:54:06 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phoneExtension'
+
+2018-10-23 15:54:06 - [TEST_STEP][PASSED] - setText: Text '2121222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-23 15:54:06 - [MESSAGE][PASSED] - Text '2121222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_cellPhone'
+
+2018-10-23 15:54:06 - [TEST_STEP][PASSED] - setText: Text '2222333333' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-23 15:54:07 - [MESSAGE][PASSED] - Text '2222333333' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone2'
+
+2018-10-23 15:54:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-23 15:54:07 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Month'  using regular expression
+
+2018-10-23 15:54:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:54:08 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Day                  01'  using regular expression
+
+2018-10-23 15:54:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1990' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:54:10 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Year                  2'  using regular expression
+
+2018-10-23 15:54:10 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-23 15:54:10 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_txtIBAN'
+
+2018-10-23 15:54:10 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-23 15:54:10 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/textarea_form-control au-targe'
+
+2018-10-23 15:54:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-23 15:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-10-23 15:54:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Gas' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Commodity'  using regular expression
+
+2018-10-23 15:54:13 - [MESSAGE][PASSED] - All options with value 'Gas' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Commodity'  using regular expression
+
+2018-10-23 15:54:13 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Accountnumber.generateRandomData(): com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-23 15:54:13 - [MESSAGE][PASSED] - com.Baseclass.Accountnumber.generateRandomData is PASSED
+
+2018-10-23 15:54:13 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-10-23 15:54:13 - [TEST_STEP][PASSED] - setText: Text 'IT037EvlsS4TA5' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-23 15:54:13 - [MESSAGE][PASSED] - Text 'IT037EvlsS4TA5' is set on object 'Object Repository/Customer Account/Page_My Customers  5-15/input_txtAccountNumber'
+
+2018-10-23 15:54:13 - [TEST_STEP][PASSED] - setText: Text '12121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-23 15:54:14 - [MESSAGE][PASSED] - Text '12121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_AccountName'
+
+2018-10-23 15:54:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Residential' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-23 15:54:14 - [MESSAGE][PASSED] - All options with value 'Residential' are selected in object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Facility'  using regular expression
+
+2018-10-23 15:54:14 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-23 15:54:14 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_vatNum'
+
+2018-10-23 15:54:14 - [TEST_STEP][PASSED] - setText: Text '121212121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-23 15:54:15 - [MESSAGE][PASSED] - Text '121212121' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_personalTaxNum'
+
+2018-10-23 15:54:15 - [TEST_STEP][PASSED] - setText: Text '122222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_MeterNum'
+
+2018-10-23 15:54:15 - [MESSAGE][PASSED] - Text '122222222' is set on object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/input_MeterNum'
+
+2018-10-23 15:54:15 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'Uso condizionamento' of object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use' located by 'By.xpath: //select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]' not found)
+
+2018-10-23 15:54:47 - [MESSAGE][FAILED] - Unable to select option by value 'Uso condizionamento' of object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use' located by 'By.xpath: //select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\Katalon\\Reports\\VBZ0009-Smoke Test\\20181023_155135\\1540290287132.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-23 15:53:54 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01009: Test Cases/Smoke Test/TCBZA01009 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Uso condizionamento' of object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use' located by 'By.xpath: //select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539608266035.run(Script1539608266035.groovy:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540290095552.run(TempTestSuite1540290095552.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01010" classname="Test Cases/Smoke Test/TCBZA01010" status="PASSED">
+         <system-out><![CDATA[2018-10-23 15:54:47 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01010: Test Cases/Smoke Test/TCBZA01010
+
+2018-10-23 15:54:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-23 15:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-23 15:54:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-23 15:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-23 15:54:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-10-23 15:54:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-23 15:51:37 - [TEST_SUITE][FAILED] - VBZ0009-Smoke Test: Test Cases/Smoke Test/TCBZA01009 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Uso condizionamento' of object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use' located by 'By.xpath: //select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539608266035.run(Script1539608266035.groovy:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540290095552.run(TempTestSuite1540290095552.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-23 15:51:37 - [TEST_SUITE][FAILED] - VBZ0009-Smoke Test: Test Cases/Smoke Test/TCBZA01009 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Uso condizionamento' of object 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use' located by 'By.xpath: //select[@id = 'ddlGasUseType' and (text() = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ' or . = '
+              Select Type Of Use
+              RiscaldamentoRiscaldamento + uso cottura cibi e/o produzione di acqua calda sanitariaUso condizionamentoUso condizionamento + riscaldamentoUso cottura cibi e/o produzione di acqua calda sanitariaUso tecnologico (artigianale-industriale)Uso tecnologico + riscaldamento
+            ')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539608266035.run(Script1539608266035.groovy:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540290095552.run(TempTestSuite1540290095552.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,7 +4,17 @@
    <name>div_Username was not found.</name>
    <tag></tag>
    <elementGuidId>e221cfb1-96fe-4910-80b8-0349b106ba48</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Username was not found.' or . = 'Username was not found.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

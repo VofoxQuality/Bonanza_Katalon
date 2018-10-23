@@ -33,9 +33,9 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), '232323232323232323233')
 
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone'), 'Business Phone')
+WebUI.verifyElementText(findTestObject('Edit Profile/Page_Profile  5-15/label_Business Phone'), 'Home Phone')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha'), 
     'must be no more than 15 characters.')
@@ -53,9 +53,9 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 'Test')
 
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone'), 'Business Phone')
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone'), 'Home Phone')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits'), 'can only contain digits')
 
@@ -63,6 +63,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits_1'), 
     'can only contain digits')
-
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/div_Business Phonecan only con'))
 
