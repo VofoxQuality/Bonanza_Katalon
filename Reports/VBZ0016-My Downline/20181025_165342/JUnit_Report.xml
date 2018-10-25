@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0016-My Downline" time="112" tests="11" failures="0" errors="0">
+   <testsuite name="VBZ0016-My Downline" tests="11" failures="0" errors="0" time="112" timestamp="2018-10-25 16:53:44" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0016-My Downline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181025_165342"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181025_165342\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="35548c9d47807775cf3dc5019e02c630"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01601" classname="Test Cases/Associate Application/My Downline/TCBA01601" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:53:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01601: Test Cases/Associate Application/My Downline/TCBA01601
+
+2018-10-25 16:53:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-25 16:53:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-10-25 16:53:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 16:53:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 16:53:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 16:53:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 16:53:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-25 16:53:55 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-25 16:53:55 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-25 16:53:56 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-25 16:53:56 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-25 16:53:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-25 16:53:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-25 16:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-25 16:53:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01602" classname="Test Cases/Associate Application/My Downline/TCBA01602" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:53:56 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01602: Test Cases/Associate Application/My Downline/TCBA01602
+
+2018-10-25 16:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' is clicked on
+
+2018-10-25 16:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' is clicked on
+
+2018-10-25 16:54:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View' are matched.
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View' are matched.
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' is clicked on
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' is clicked on
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hdown e-chevron-down_' is clicked on
+
+2018-10-25 16:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hdown e-chevron-down_' is clicked on
+
+2018-10-25 16:54:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hup e-chevron-up_01 e' is clicked on
+
+2018-10-25 16:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hup e-chevron-up_01 e' is clicked on
+
+2018-10-25 16:54:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' is clicked on
+
+2018-10-25 16:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' is clicked on
+
+2018-10-25 16:54:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:54:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:54:05 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 5, y = 5
+
+2018-10-25 16:54:05 - [MESSAGE][PASSED] - Browser is scrolled to position x = 5, y = 5
+
+2018-10-25 16:54:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:54:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:54:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:54:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:54:05 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:54:05 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:54:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree view End Level'  using regular expression
+
+2018-10-25 16:54:06 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree view End Level'  using regular expression
+
+2018-10-25 16:54:06 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-10-25 16:54:06 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-10-25 16:54:06 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:54:06 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:54:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4854' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:17 - [MESSAGE][PASSED] - All options with value '4854' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-10-25 16:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01603" classname="Test Cases/Associate Application/My Downline/TCBA01603" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:54:17 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01603: Test Cases/Associate Application/My Downline/TCBA01603
+
+2018-10-25 16:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' is clicked on
+
+2018-10-25 16:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' is clicked on
+
+2018-10-25 16:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List view' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List view' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01604" classname="Test Cases/Associate Application/My Downline/TCBA01604" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:54:19 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01604: Test Cases/Associate Application/My Downline/TCBA01604
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:54:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:54:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:54:20 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:54:20 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:54:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:54:22 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:54:22 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:54:22 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:54:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:54:22 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:54:22 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:54:22 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:54:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:34 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:54:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:54:35 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:54:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:54:36 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:54:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' are matched.
+
+2018-10-25 16:54:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01605" classname="Test Cases/Associate Application/My Downline/TCBA01605" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:54:36 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01605: Test Cases/Associate Application/My Downline/TCBA01605
+
+2018-10-25 16:54:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:54:36 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:54:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:54:37 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:54:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:44 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:54:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:54:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:54:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 1 pages (4 items)' is present
+
+2018-10-25 16:54:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 1 pages (4 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01606" classname="Test Cases/Associate Application/My Downline/TCBA01606" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:54:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01606: Test Cases/Associate Application/My Downline/TCBA01606
+
+2018-10-25 16:54:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' is clicked on
+
+2018-10-25 16:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' is clicked on
+
+2018-10-25 16:54:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Summary' are matched.
+
+2018-10-25 16:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Summary' are matched.
+
+2018-10-25 16:54:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:54:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' are matched.
+
+2018-10-25 16:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' are matched.
+
+2018-10-25 16:54:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:54:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:54:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:54:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:57 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:54:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' is clicked on
+
+2018-10-25 16:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' is clicked on
+
+2018-10-25 16:54:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:54:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:54:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_143' is clicked on
+
+2018-10-25 16:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_143' is clicked on
+
+2018-10-25 16:54:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-25 16:54:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-25 16:54:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Grid Level' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Grid Level' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Submitted Date' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Submitted Date' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Name' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Name' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Number' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Number' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Status' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Status' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:54:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_62' is clicked on
+
+2018-10-25 16:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_62' is clicked on
+
+2018-10-25 16:54:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associate Details' are matched.
+
+2018-10-25 16:54:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associate Details' are matched.
+
+2018-10-25 16:54:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:54:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:54:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:54:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:54:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:54:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:54:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:54:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:54:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:54:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:54:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01607" classname="Test Cases/Associate Application/My Downline/TCBA01607" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:55:00 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01607: Test Cases/Associate Application/My Downline/TCBA01607
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:55:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:55:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 6 pages (62 items)' is present
+
+2018-10-25 16:55:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:55:01 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 6 pages (62 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01608" classname="Test Cases/Associate Application/My Downline/TCBA01608" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:55:01 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01608: Test Cases/Associate Application/My Downline/TCBA01608
+
+2018-10-25 16:55:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' is clicked on
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' is clicked on
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix_btn btn-z' is clicked on
+
+2018-10-25 16:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix_btn btn-z' is clicked on
+
+2018-10-25 16:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:55:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:55:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:55:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:55:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:55:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:55:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:55:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:55:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:55:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:55:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree View Forced Matrix'  using regular expression
+
+2018-10-25 16:55:04 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree View Forced Matrix'  using regular expression
+
+2018-10-25 16:55:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4854' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:55:17 - [MESSAGE][PASSED] - All options with value '4854' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:55:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-10-25 16:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01609" classname="Test Cases/Associate Application/My Downline/TCBA01609" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:55:17 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01609: Test Cases/Associate Application/My Downline/TCBA01609
+
+2018-10-25 16:55:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' is clicked on
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' is clicked on
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List View with Forced Matri' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List View with Forced Matri' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:55:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01610" classname="Test Cases/Associate Application/My Downline/TCBA01610" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:55:19 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01610: Test Cases/Associate Application/My Downline/TCBA01610
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:55:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:55:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:55:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:55:21 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:55:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:55:21 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:55:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:55:33 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:55:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:55:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:55:34 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:55:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:55:35 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:55:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' is clicked on
+
+2018-10-25 16:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01611" classname="Test Cases/Associate Application/My Downline/TCBA01611" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:55:35 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01611: Test Cases/Associate Application/My Downline/TCBA01611
+
+2018-10-25 16:55:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-25 16:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-25 16:55:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-25 16:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-25 16:55:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-10-25 16:55:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-25 16:53:44 - [TEST_SUITE][PASSED] - VBZ0016-My Downline: Test Cases/Associate Application/My Downline/TCBA01611]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

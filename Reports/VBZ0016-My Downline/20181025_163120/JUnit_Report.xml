@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0016-My Downline" time="123" tests="10" failures="1" errors="0">
+   <testsuite name="VBZ0016-My Downline" tests="10" failures="1" errors="0" time="123" timestamp="2018-10-25 16:31:22" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0016-My Downline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181025_163120"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181025_163120\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181025_163120\\1540465332450.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="2bb9a71b62c74fc309ad188c14a6bccd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01601" classname="Test Cases/Associate Application/My Downline/TCBA01601" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:31:22 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01601: Test Cases/Associate Application/My Downline/TCBA01601
+
+2018-10-25 16:31:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-25 16:31:23 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-10-25 16:31:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 16:31:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 16:31:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 16:31:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 16:31:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-25 16:31:32 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-25 16:31:32 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-25 16:31:33 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-25 16:31:33 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-25 16:31:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-25 16:31:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-25 16:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-25 16:31:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01602" classname="Test Cases/Associate Application/My Downline/TCBA01602" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' located by 'By.xpath: id(&quot;diagram_canvas_hScrollbar&quot;)/div[@class=&quot;e-hscroll e-box&quot;]/div[@class=&quot;e-hhandlespace&quot;]/div[@class=&quot;e-hhandle e-box e-pinch e-h-line e-icon&quot;]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540362215034.run(Script1540362215034.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540465280252.run(TempTestSuite1540465280252.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-25 16:31:33 - [TEST_CASE][FAILED] - Test Cases/Associate Application/My Downline/TCBA01602: Test Cases/Associate Application/My Downline/TCBA01602 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' located by 'By.xpath: id("diagram_canvas_hScrollbar")/div[@class="e-hscroll e-box"]/div[@class="e-hhandlespace"]/div[@class="e-hhandle e-box e-pinch e-h-line e-icon"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540362215034.run(Script1540362215034.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540465280252.run(TempTestSuite1540465280252.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-25 16:31:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' is clicked on
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' is clicked on
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View' are matched.
+
+2018-10-25 16:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View' are matched.
+
+2018-10-25 16:31:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' is clicked on
+
+2018-10-25 16:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' is clicked on
+
+2018-10-25 16:31:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hdown e-chevron-down_' is clicked on
+
+2018-10-25 16:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hdown e-chevron-down_' is clicked on
+
+2018-10-25 16:31:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hup e-chevron-up_01 e' is clicked on
+
+2018-10-25 16:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hup e-chevron-up_01 e' is clicked on
+
+2018-10-25 16:31:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' located by 'By.xpath: id("diagram_canvas_hScrollbar")/div[@class="e-hscroll e-box"]/div[@class="e-hhandlespace"]/div[@class="e-hhandle e-box e-pinch e-h-line e-icon"]' not found)
+
+2018-10-25 16:32:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' located by 'By.xpath: id("diagram_canvas_hScrollbar")/div[@class="e-hscroll e-box"]/div[@class="e-hhandlespace"]/div[@class="e-hhandle e-box e-pinch e-h-line e-icon"]' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181025_163120\\1540465332450.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-25 16:31:33 - [TEST_CASE][FAILED] - Test Cases/Associate Application/My Downline/TCBA01602: Test Cases/Associate Application/My Downline/TCBA01602 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' located by 'By.xpath: id("diagram_canvas_hScrollbar")/div[@class="e-hscroll e-box"]/div[@class="e-hhandlespace"]/div[@class="e-hhandle e-box e-pinch e-h-line e-icon"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540362215034.run(Script1540362215034.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540465280252.run(TempTestSuite1540465280252.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01603" classname="Test Cases/Associate Application/My Downline/TCBA01603" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:32:12 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01603: Test Cases/Associate Application/My Downline/TCBA01603
+
+2018-10-25 16:32:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' is clicked on
+
+2018-10-25 16:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' is clicked on
+
+2018-10-25 16:32:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:32:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:32:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:32:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:32:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:32:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:32:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:32:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-10-25 16:32:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:32:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:32:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List view' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List view' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01604" classname="Test Cases/Associate Application/My Downline/TCBA01604" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:32:14 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01604: Test Cases/Associate Application/My Downline/TCBA01604
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:32:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:32:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:32:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:32:15 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:32:15 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:32:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:32:16 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:32:16 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:32:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:32:16 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:32:16 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-25 16:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-25 16:32:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:32:32 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:32:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:32:33 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:32:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:32:34 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:32:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' are matched.
+
+2018-10-25 16:32:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01605" classname="Test Cases/Associate Application/My Downline/TCBA01605" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:32:34 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01605: Test Cases/Associate Application/My Downline/TCBA01605
+
+2018-10-25 16:32:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:32:34 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:32:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:32:35 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:32:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:32:42 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:32:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:32:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:32:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:32:42 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:32:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 1 pages (4 items)' is present
+
+2018-10-25 16:32:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:32:42 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 1 pages (4 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01606" classname="Test Cases/Associate Application/My Downline/TCBA01606" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:32:42 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01606: Test Cases/Associate Application/My Downline/TCBA01606
+
+2018-10-25 16:32:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' is clicked on
+
+2018-10-25 16:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' is clicked on
+
+2018-10-25 16:32:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Summary' are matched.
+
+2018-10-25 16:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Summary' are matched.
+
+2018-10-25 16:32:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:32:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' are matched.
+
+2018-10-25 16:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' are matched.
+
+2018-10-25 16:32:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:32:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:32:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:32:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' is clicked on
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' is clicked on
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_143' is clicked on
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_143' is clicked on
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Grid Level' are matched.
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Grid Level' are matched.
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:32:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:32:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Submitted Date' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Submitted Date' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Name' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Name' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Number' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Number' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Status' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Status' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:32:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-10-25 16:32:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_62' is clicked on
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_62' is clicked on
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associate Details' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associate Details' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:32:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:32:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:32:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:32:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:32:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:32:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:32:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:32:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01607" classname="Test Cases/Associate Application/My Downline/TCBA01607" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:32:57 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01607: Test Cases/Associate Application/My Downline/TCBA01607
+
+2018-10-25 16:32:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:32:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:32:57 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-10-25 16:32:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 6 pages (62 items)' is present
+
+2018-10-25 16:32:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 16:32:57 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 6 pages (62 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01608" classname="Test Cases/Associate Application/My Downline/TCBA01608" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:32:57 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01608: Test Cases/Associate Application/My Downline/TCBA01608
+
+2018-10-25 16:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' is clicked on
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' is clicked on
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:32:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix_btn btn-z' is clicked on
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix_btn btn-z' is clicked on
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:32:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:32:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree View Forced Matrix'  using regular expression
+
+2018-10-25 16:33:00 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree View Forced Matrix'  using regular expression
+
+2018-10-25 16:33:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4854' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:33:10 - [MESSAGE][PASSED] - All options with value '4854' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:33:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-10-25 16:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01609" classname="Test Cases/Associate Application/My Downline/TCBA01609" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:33:10 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01609: Test Cases/Associate Application/My Downline/TCBA01609
+
+2018-10-25 16:33:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' is clicked on
+
+2018-10-25 16:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' is clicked on
+
+2018-10-25 16:33:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:33:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-10-25 16:33:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List View with Forced Matri' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List View with Forced Matri' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01610" classname="Test Cases/Associate Application/My Downline/TCBA01610" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:33:11 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01610: Test Cases/Associate Application/My Downline/TCBA01610
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:33:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-10-25 16:33:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:33:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-10-25 16:33:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:33:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-10-25 16:33:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:33:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-10-25 16:33:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:33:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-10-25 16:33:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:33:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-10-25 16:33:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:33:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-10-25 16:33:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:33:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-10-25 16:33:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:33:13 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:33:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:33:14 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:33:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:33:23 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-25 16:33:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-10-25 16:33:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:33:23 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level'  using regular expression
+
+2018-10-25 16:33:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:33:24 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'  using regular expression
+
+2018-10-25 16:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' is clicked on
+
+2018-10-25 16:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01611" classname="Test Cases/Associate Application/My Downline/TCBA01611" status="PASSED">
+         <system-out><![CDATA[2018-10-25 16:33:24 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01611: Test Cases/Associate Application/My Downline/TCBA01611
+
+2018-10-25 16:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-25 16:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-25 16:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-25 16:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-25 16:33:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-10-25 16:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-25 16:31:22 - [TEST_SUITE][FAILED] - VBZ0016-My Downline: Test Cases/Associate Application/My Downline/TCBA01602 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' located by 'By.xpath: id("diagram_canvas_hScrollbar")/div[@class="e-hscroll e-box"]/div[@class="e-hhandlespace"]/div[@class="e-hhandle e-box e-pinch e-h-line e-icon"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540362215034.run(Script1540362215034.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540465280252.run(TempTestSuite1540465280252.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-25 16:31:22 - [TEST_SUITE][FAILED] - VBZ0016-My Downline: Test Cases/Associate Application/My Downline/TCBA01602 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch' located by 'By.xpath: id("diagram_canvas_hScrollbar")/div[@class="e-hscroll e-box"]/div[@class="e-hhandlespace"]/div[@class="e-hhandle e-box e-pinch e-h-line e-icon"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540362215034.run(Script1540362215034.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540465280252.run(TempTestSuite1540465280252.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

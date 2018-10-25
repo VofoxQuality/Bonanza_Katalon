@@ -13,5 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Associate Application/Edit Profile/TCBA01201'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_1 of 6 pages (62 items)'), 
+    0)
 

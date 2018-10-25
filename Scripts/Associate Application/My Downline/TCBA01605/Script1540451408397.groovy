@@ -13,3 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.selectOptionByValue(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), '3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    '6', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'), 
+    'Test, Shinto-QA', true)
+
+WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/button_FILTER'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_1 of 1 pages (4 items)'), 
+    0)
+
