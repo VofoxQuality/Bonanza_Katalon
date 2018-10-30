@@ -19,13 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), '')
+WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), '')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://192.168.10.72/#/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), 'Shinto-Test')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Log In  5-15/button_Log in'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_My Title'), 'My Title:')
 

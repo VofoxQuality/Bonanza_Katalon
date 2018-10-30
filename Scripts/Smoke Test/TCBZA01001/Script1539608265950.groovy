@@ -20,21 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://192.168.10.72/#/login')
-
-WebUI.verifyElementPresent(findTestObject('Smoke_Test/Page_Log In  5-15/h1_Log In'), 10)
-
-WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_Log In  5-15/input_txtUserName'), 'Shinto-Test')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Smoke_Test/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
-
-WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_Log In  5-15/button_Log in'))
-
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('Associate Application/Associate Login/TCBA01008'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Smoke_Test/Page_Log In  5-15/Header Text'), 'My Title:')
 

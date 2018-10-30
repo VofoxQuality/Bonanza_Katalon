@@ -19,15 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Associate Application/Associate Login/TCBA01008'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test'))
 
-WebUI.navigateToUrl('https://192.168.10.72/#/login')
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile'), 'Edit Profile')
 
-WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'), 'Shinto-Test')
+WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
-
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/button_Log in'))
+WebUI.delay(5)
 

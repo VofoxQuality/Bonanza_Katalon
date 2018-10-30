@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0021-Executive" time="92" tests="6" failures="1" errors="0">
+   <testsuite name="VBZ0021-Executive" tests="6" failures="1" errors="0" time="92" timestamp="2018-10-29 14:53:43" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0021-Executive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0021-Executive\\20181029_145340"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0021-Executive\\20181029_145340\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0021-Executive\\20181029_145340\\1540805113997.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="15a6f1c23961834755b1f8937d569df8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02301" classname="Test Cases/Associate Application/Executive/TCBA02301" status="PASSED">
+         <system-out><![CDATA[2018-10-29 14:53:43 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02301: Test Cases/Associate Application/Executive/TCBA02301
+
+2018-10-29 14:53:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-29 14:53:44 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-10-29 14:53:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 14:53:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 14:53:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 14:53:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 14:53:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-29 14:53:53 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-29 14:53:53 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-29 14:53:54 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-29 14:53:54 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-29 14:53:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-29 14:53:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-29 14:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-29 14:53:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-29 14:53:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/Executive Menu' are matched.
+
+2018-10-29 14:54:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/Executive Menu' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02302" classname="Test Cases/Associate Application/Executive/TCBA02302" status="PASSED">
+         <system-out><![CDATA[2018-10-29 14:54:00 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02302: Test Cases/Associate Application/Executive/TCBA02302
+
+2018-10-29 14:54:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Home  5-15/a_Executive' is clicked on
+
+2018-10-29 14:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Home  5-15/a_Executive' is clicked on
+
+2018-10-29 14:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/span_Executive' are matched.
+
+2018-10-29 14:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/span_Executive' are matched.
+
+2018-10-29 14:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/label_Sponsor' are matched.
+
+2018-10-29 14:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/label_Sponsor' are matched.
+
+2018-10-29 14:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' are matched.
+
+2018-10-29 14:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' are matched.
+
+2018-10-29 14:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 14:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 14:54:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 14:54:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 14:54:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 14:54:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 14:54:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Bank Not Validated' are matched.
+
+2018-10-29 14:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Bank Not Validated' are matched.
+
+2018-10-29 14:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 14:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 14:54:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 14:54:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02303" classname="Test Cases/Associate Application/Executive/TCBA02303" status="PASSED">
+         <system-out><![CDATA[2018-10-29 14:54:21 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02303: Test Cases/Associate Application/Executive/TCBA02303
+
+2018-10-29 14:54:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 14:54:32 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 14:54:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 14:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 14:54:32 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-29 14:54:32 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-29 14:54:32 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 14:54:32 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 14:54:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 14:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02304" classname="Test Cases/Associate Application/Executive/TCBA02304" status="PASSED">
+         <system-out><![CDATA[2018-10-29 14:54:33 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02304: Test Cases/Associate Application/Executive/TCBA02304
+
+2018-10-29 14:54:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 14:54:40 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 14:54:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 14:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 14:54:41 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 14:54:41 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 14:54:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 14:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 14:54:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 14:54:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 14:54:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/span_472' is clicked on
+
+2018-10-29 14:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/span_472' is clicked on
+
+2018-10-29 14:54:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' is not present after 3 second(s)
+
+2018-10-29 14:54:45 - [MESSAGE][WARNING] - Object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' is not present after 3 second(s)
+
+2018-10-29 14:54:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' are matched.
+
+2018-10-29 14:55:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' are matched.
+
+2018-10-29 14:55:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 14:55:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 14:55:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 14:55:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02305" classname="Test Cases/Associate Application/Executive/TCBA02305" status="PASSED">
+         <system-out><![CDATA[2018-10-29 14:55:11 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02305: Test Cases/Associate Application/Executive/TCBA02305
+
+2018-10-29 14:55:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/span_14' is clicked on
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/span_14' is clicked on
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' successfully
+
+2018-10-29 14:55:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' successfully
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Sponsor' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Sponsor' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Associate' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Associate' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate' are matched.
+
+2018-10-29 14:55:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate' are matched.
+
+2018-10-29 14:55:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone' are matched.
+
+2018-10-29 14:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone' are matched.
+
+2018-10-29 14:55:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Inactive Date' are matched.
+
+2018-10-29 14:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Inactive Date' are matched.
+
+2018-10-29 14:55:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Submitted Date' are matched.
+
+2018-10-29 14:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Submitted Date' are matched.
+
+2018-10-29 14:55:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Name' are matched.
+
+2018-10-29 14:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Name' are matched.
+
+2018-10-29 14:55:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Number' are matched.
+
+2018-10-29 14:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Number' are matched.
+
+2018-10-29 14:55:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Status' are matched.
+
+2018-10-29 14:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Status' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02306" classname="Test Cases/Associate Application/Executive/TCBA02306" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Executive/Page_Executive  5-15/span_359' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span click.delegate=&quot;hyperlinkFlag? openAssociateStatusDetails(status): '' &quot; class=&quot;au-target text-red&quot; au-target-id=&quot;462&quot;>...&lt;/span> is not clickable at point (1397, 12). Other element would receive the click: &lt;a click.delegate=&quot;setlanguage('en')&quot; class=&quot;au-target&quot; au-target-id=&quot;66&quot;>...&lt;/a>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 15a6f1c23961834755b1f8937d569df8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540794486663.run(Script1540794486663.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540805020905.run(TempTestSuite1540805020905.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-29 14:55:13 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Executive/TCBA02306: Test Cases/Associate Application/Executive/TCBA02306 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Executive/Page_Executive  5-15/span_359' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span click.delegate="hyperlinkFlag? openAssociateStatusDetails(status): '' " class="au-target text-red" au-target-id="462">...</span> is not clickable at point (1397, 12). Other element would receive the click: <a click.delegate="setlanguage('en')" class="au-target" au-target-id="66">...</a>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 15a6f1c23961834755b1f8937d569df8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540794486663.run(Script1540794486663.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540805020905.run(TempTestSuite1540805020905.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-29 14:55:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 14:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 14:55:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Executive/Page_Executive  5-15/span_359' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span click.delegate="hyperlinkFlag? openAssociateStatusDetails(status): '' " class="au-target text-red" au-target-id="462">...</span> is not clickable at point (1397, 12). Other element would receive the click: <a click.delegate="setlanguage('en')" class="au-target" au-target-id="66">...</a>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 15a6f1c23961834755b1f8937d569df8)
+
+2018-10-29 14:55:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Executive/Page_Executive  5-15/span_359' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span click.delegate="hyperlinkFlag? openAssociateStatusDetails(status): '' " class="au-target text-red" au-target-id="462">...</span> is not clickable at point (1397, 12). Other element would receive the click: <a click.delegate="setlanguage('en')" class="au-target" au-target-id="66">...</a>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 15a6f1c23961834755b1f8937d569df8)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0021-Executive\\20181029_145340\\1540805113997.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 14:55:13 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Executive/TCBA02306: Test Cases/Associate Application/Executive/TCBA02306 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Executive/Page_Executive  5-15/span_359' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span click.delegate="hyperlinkFlag? openAssociateStatusDetails(status): '' " class="au-target text-red" au-target-id="462">...</span> is not clickable at point (1397, 12). Other element would receive the click: <a click.delegate="setlanguage('en')" class="au-target" au-target-id="66">...</a>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 15a6f1c23961834755b1f8937d569df8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540794486663.run(Script1540794486663.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540805020905.run(TempTestSuite1540805020905.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02307" classname="Test Cases/Associate Application/Executive/TCBA02307" status="PASSED">
+         <system-out><![CDATA[2018-10-29 14:55:14 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02307: Test Cases/Associate Application/Executive/TCBA02307
+
+2018-10-29 14:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-29 14:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-29 14:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-29 14:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-29 14:55:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-10-29 14:55:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 14:53:43 - [TEST_SUITE][FAILED] - VBZ0021-Executive: Test Cases/Associate Application/Executive/TCBA02306 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Executive/Page_Executive  5-15/span_359' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span click.delegate="hyperlinkFlag? openAssociateStatusDetails(status): '' " class="au-target text-red" au-target-id="462">...</span> is not clickable at point (1397, 12). Other element would receive the click: <a click.delegate="setlanguage('en')" class="au-target" au-target-id="66">...</a>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 15a6f1c23961834755b1f8937d569df8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540794486663.run(Script1540794486663.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540805020905.run(TempTestSuite1540805020905.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-29 14:53:43 - [TEST_SUITE][FAILED] - VBZ0021-Executive: Test Cases/Associate Application/Executive/TCBA02306 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Executive/Page_Executive  5-15/span_359' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span click.delegate="hyperlinkFlag? openAssociateStatusDetails(status): '' " class="au-target text-red" au-target-id="462">...</span> is not clickable at point (1397, 12). Other element would receive the click: <a click.delegate="setlanguage('en')" class="au-target" au-target-id="66">...</a>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 15a6f1c23961834755b1f8937d569df8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540794486663.run(Script1540794486663.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540805020905.run(TempTestSuite1540805020905.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

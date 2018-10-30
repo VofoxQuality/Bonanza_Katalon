@@ -4,7 +4,17 @@
    <name>span_Shinto-Test</name>
    <tag></tag>
    <elementGuidId>2e821c31-1ca5-442b-807d-41b91c8457d7</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Shinto-Test' or . = 'Shinto-Test')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='username']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

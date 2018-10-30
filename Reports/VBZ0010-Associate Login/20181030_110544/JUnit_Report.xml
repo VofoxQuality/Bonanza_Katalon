@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0010-Associate Login" time="33" tests="8" failures="0" errors="0">
+   <testsuite name="VBZ0010-Associate Login" tests="8" failures="0" errors="0" time="33" timestamp="2018-10-30 11:05:46" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0010-Associate Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0010-Associate Login\\20181030_110544"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0010-Associate Login\\20181030_110544\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="6844f9406240b1e6403863aee7b1c6f9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01001" classname="Test Cases/Associate Application/Associate Login/TCBA01001" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:05:47 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01001: Test Cases/Associate Application/Associate Login/TCBA01001
+
+2018-10-30 11:05:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-30 11:05:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-30 11:05:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-30 11:05:55 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-30 11:05:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-30 11:05:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-30 11:05:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/h1_Log In' is present
+
+2018-10-30 11:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/h1_Log In' is present
+
+2018-10-30 11:05:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/Username' is present
+
+2018-10-30 11:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/Username' is present
+
+2018-10-30 11:05:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/p_is required' is present
+
+2018-10-30 11:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/p_is required' is present
+
+2018-10-30 11:05:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/label_Password' is present
+
+2018-10-30 11:05:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/label_Password' is present
+
+2018-10-30 11:05:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/Required' is present
+
+2018-10-30 11:05:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/Required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01002" classname="Test Cases/Associate Application/Associate Login/TCBA01002" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:05:57 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01002: Test Cases/Associate Application/Associate Login/TCBA01002
+
+2018-10-30 11:05:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/label_User Name' is present
+
+2018-10-30 11:05:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/label_User Name' is present
+
+2018-10-30 11:05:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/p_is required' is present
+
+2018-10-30 11:05:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/p_is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01003" classname="Test Cases/Associate Application/Associate Login/TCBA01003" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:05:57 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01003: Test Cases/Associate Application/Associate Login/TCBA01003
+
+2018-10-30 11:05:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:58 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:05:58 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:05:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/label_Password' is clicked on
+
+2018-10-30 11:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/label_Password' is clicked on
+
+2018-10-30 11:05:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/Un Required' is present
+
+2018-10-30 11:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-30 11:05:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/Un Required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01004" classname="Test Cases/Associate Application/Associate Login/TCBA01004" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:05:58 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01004: Test Cases/Associate Application/Associate Login/TCBA01004
+
+2018-10-30 11:05:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:05:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:05:59 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:59 - [TEST_STEP][PASSED] - setText: Text '21212121@##@#@3' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:05:59 - [MESSAGE][PASSED] - Text '21212121@##@#@3' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:05:59 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:05:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:05:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/div_Username was not found.' is present
+
+2018-10-30 11:05:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-30 11:06:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/div_Username was not found.' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01005" classname="Test Cases/Associate Application/Associate Login/TCBA01005" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:06:00 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01005: Test Cases/Associate Application/Associate Login/TCBA01005
+
+2018-10-30 11:06:00 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:00 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:00 - [TEST_STEP][PASSED] - setText: Text 'Shinto-test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:00 - [MESSAGE][PASSED] - Text 'Shinto-test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/div_Invalid username or passwo' is present
+
+2018-10-30 11:06:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-30 11:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/div_Invalid username or passwo' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01006" classname="Test Cases/Associate Application/Associate Login/TCBA01006" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:06:01 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01006: Test Cases/Associate Application/Associate Login/TCBA01006
+
+2018-10-30 11:06:01 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:01 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:02 - [TEST_STEP][PASSED] - setText: Text '232323@#@#@#@' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:02 - [MESSAGE][PASSED] - Text '232323@#@#@#@' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:02 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/Username was not found' is present
+
+2018-10-30 11:06:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/Username was not found' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01007" classname="Test Cases/Associate Application/Associate Login/TCBA01007" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:06:02 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01007: Test Cases/Associate Application/Associate Login/TCBA01007
+
+2018-10-30 11:06:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:03 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test2' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:03 - [MESSAGE][PASSED] - Text 'Shinto-Test2' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:03 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:04 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:04 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:04 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test2' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:04 - [MESSAGE][PASSED] - Text 'Shinto-Test2' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:05 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:05 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:05 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test2' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:05 - [MESSAGE][PASSED] - Text 'Shinto-Test2' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:05 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log In  5-15/div_You have been locked out.' is present
+
+2018-10-30 11:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-30 11:06:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In  5-15/div_You have been locked out.' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Associate Login/TCBA01008" classname="Test Cases/Associate Application/Associate Login/TCBA01008" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:06:07 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-10-30 11:06:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-30 11:06:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-30 11:06:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-30 11:06:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-30 11:06:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-30 11:06:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-30 11:06:17 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-30 11:06:17 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:18 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-10-30 11:06:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-10-30 11:06:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-30 11:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-30 11:05:46 - [TEST_SUITE][PASSED] - VBZ0010-Associate Login: Test Cases/Associate Application/Associate Login/TCBA01008]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,7 +4,17 @@
    <name>a_Shinto-Test</name>
    <tag></tag>
    <elementGuidId>f1f3f3cd-6ca9-44e1-bd0f-dac9ee9f46b9</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = ' Shinto-Test ' or . = ' Shinto-Test ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

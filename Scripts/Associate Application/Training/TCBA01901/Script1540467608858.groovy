@@ -13,5 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Associate Application/Edit Profile/TCBA01201'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Associate Application/Associate Login/TCBA01008'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Training/Page_Home  5-15/a_Training'), 'Training')
 

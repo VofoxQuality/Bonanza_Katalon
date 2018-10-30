@@ -21,19 +21,20 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile'), 'Edit Profile')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/a_Change Password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/a_Change Password'), 'Change Password')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Log Off'))
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Log Off'), 'Log Off')
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Profile'), 'Profile')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'))
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'), 'Edit')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Change Your Email Address'))
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Change Your Email Address'), 
+    'Change Your Email Address')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Close'))
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Close'), 'Close')
 

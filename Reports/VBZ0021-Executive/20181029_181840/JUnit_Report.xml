@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0021-Executive" time="77" tests="7" failures="0" errors="0">
+   <testsuite name="VBZ0021-Executive" tests="7" failures="0" errors="0" time="77" timestamp="2018-10-29 18:18:42" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0021-Executive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0021-Executive\\20181029_181840"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0021-Executive\\20181029_181840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="be0883ed6623aeb4bccf88bb14bec8d4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02301" classname="Test Cases/Associate Application/Executive/TCBA02301" status="PASSED">
+         <system-out><![CDATA[2018-10-29 18:18:42 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02301: Test Cases/Associate Application/Executive/TCBA02301
+
+2018-10-29 18:18:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-29 18:18:43 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-10-29 18:18:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 18:18:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 18:18:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 18:18:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 18:18:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-29 18:18:52 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-29 18:18:52 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-29 18:18:52 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-29 18:18:52 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-29 18:18:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-29 18:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-29 18:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-29 18:18:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-29 18:18:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/Executive Menu' are matched.
+
+2018-10-29 18:18:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/Executive Menu' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02302" classname="Test Cases/Associate Application/Executive/TCBA02302" status="PASSED">
+         <system-out><![CDATA[2018-10-29 18:18:56 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02302: Test Cases/Associate Application/Executive/TCBA02302
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Home  5-15/a_Executive' is clicked on
+
+2018-10-29 18:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Home  5-15/a_Executive' is clicked on
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/span_Executive' are matched.
+
+2018-10-29 18:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/span_Executive' are matched.
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/label_Sponsor' are matched.
+
+2018-10-29 18:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/label_Sponsor' are matched.
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' are matched.
+
+2018-10-29 18:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' are matched.
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 18:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 18:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 18:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 18:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Bank Not Validated' are matched.
+
+2018-10-29 18:19:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Bank Not Validated' are matched.
+
+2018-10-29 18:19:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 18:19:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 18:19:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Status' are matched.
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed' are matched.
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Contract Signed' are matched.
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal' are matched.
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 18:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02303" classname="Test Cases/Associate Application/Executive/TCBA02303" status="PASSED">
+         <system-out><![CDATA[2018-10-29 18:19:09 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02303: Test Cases/Associate Application/Executive/TCBA02303
+
+2018-10-29 18:19:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 18:19:20 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 18:19:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 18:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 18:19:20 - [TEST_STEP][NOT_RUN] - selectAllOption: NOT_RUN: selectAllOption
+
+2018-10-29 18:19:20 - [MESSAGE][NOT_RUN] - NOT_RUN: selectAllOption
+
+2018-10-29 18:19:20 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 18:19:20 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 18:19:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 18:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02304" classname="Test Cases/Associate Application/Executive/TCBA02304" status="PASSED">
+         <system-out><![CDATA[2018-10-29 18:19:20 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02304: Test Cases/Associate Application/Executive/TCBA02304
+
+2018-10-29 18:19:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 18:19:28 - [MESSAGE][PASSED] - All options with value 'Test, Shinto-QA' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'  using regular expression
+
+2018-10-29 18:19:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 18:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 18:19:28 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 18:19:29 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor' 
+
+2018-10-29 18:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 18:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/button_FILTER' is clicked on
+
+2018-10-29 18:19:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 18:19:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts' are matched.
+
+2018-10-29 18:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/span_472' is clicked on
+
+2018-10-29 18:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/span_472' is clicked on
+
+2018-10-29 18:19:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' is not present after 3 second(s)
+
+2018-10-29 18:19:33 - [MESSAGE][WARNING] - Object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' is not present after 3 second(s)
+
+2018-10-29 18:19:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' are matched.
+
+2018-10-29 18:19:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' are matched.
+
+2018-10-29 18:19:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 18:19:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02305" classname="Test Cases/Associate Application/Executive/TCBA02305" status="PASSED">
+         <system-out><![CDATA[2018-10-29 18:19:44 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02305: Test Cases/Associate Application/Executive/TCBA02305
+
+2018-10-29 18:19:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/span_14' is clicked on
+
+2018-10-29 18:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/span_14' is clicked on
+
+2018-10-29 18:19:44 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' successfully
+
+2018-10-29 18:19:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' successfully
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Sponsor' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Sponsor' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Associate' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Associate' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Inactive Date' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Inactive Date' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Submitted Date' are matched.
+
+2018-10-29 18:19:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Submitted Date' are matched.
+
+2018-10-29 18:19:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Name' are matched.
+
+2018-10-29 18:19:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Name' are matched.
+
+2018-10-29 18:19:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Number' are matched.
+
+2018-10-29 18:19:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Number' are matched.
+
+2018-10-29 18:19:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Status' are matched.
+
+2018-10-29 18:19:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Account Status' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02306" classname="Test Cases/Associate Application/Executive/TCBA02306" status="PASSED">
+         <system-out><![CDATA[2018-10-29 18:19:46 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02306: Test Cases/Associate Application/Executive/TCBA02306
+
+2018-10-29 18:19:46 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' successfully
+
+2018-10-29 18:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-29 18:19:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' successfully
+
+2018-10-29 18:19:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' is present
+
+2018-10-29 18:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-29 18:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' is present
+
+2018-10-29 18:19:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 18:19:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associates' are matched.
+
+2018-10-29 18:19:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/span_359' is clicked on
+
+2018-10-29 18:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/span_359' is clicked on
+
+2018-10-29 18:19:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' are matched.
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed' are matched.
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Count' are matched.
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Executive/Page_Executive  5-15/span_41' is clicked on
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Executive/Page_Executive  5-15/span_41' is clicked on
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Associate Details' successfully
+
+2018-10-29 18:19:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Executive/Page_Executive  5-15/h3_Associate Details' successfully
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associate Details' are matched.
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/h3_Associate Details' are matched.
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Sponsor' are matched.
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Sponsor' are matched.
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Associate' are matched.
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Associate' are matched.
+
+2018-10-29 18:19:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-29 18:19:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Level' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Email' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Email' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Inactive Date' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Inactive Date' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Contract Signed Date' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Contract Signed Date' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_CSR Title' are matched.
+
+2018-10-29 18:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_CSR Title' are matched.
+
+2018-10-29 18:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate Count' are matched.
+
+2018-10-29 18:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Associate Count' are matched.
+
+2018-10-29 18:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Contract Count' are matched.
+
+2018-10-29 18:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Executive/Page_Executive  5-15/div_Contract Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Executive/TCBA02307" classname="Test Cases/Associate Application/Executive/TCBA02307" status="PASSED">
+         <system-out><![CDATA[2018-10-29 18:19:58 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Executive/TCBA02307: Test Cases/Associate Application/Executive/TCBA02307
+
+2018-10-29 18:19:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-29 18:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-29 18:19:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-29 18:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-29 18:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-10-29 18:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 18:18:42 - [TEST_SUITE][PASSED] - VBZ0021-Executive: Test Cases/Associate Application/Executive/TCBA02307]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0020-Page Management" time="92" tests="5" failures="1" errors="0">
+   <testsuite name="VBZ0020-Page Management" tests="5" failures="1" errors="0" time="92" timestamp="2018-10-26 16:18:10" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0020-Page Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181026_161808"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181026_161808\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181026_161808\\1540550980937.png, F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181026_161808\\1540550981346.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="f34ffc29204c0af92eca9dd09b8cbbe1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02101" classname="Test Cases/Associate Application/Page Management/TCBA02101" status="PASSED">
+         <system-out><![CDATA[2018-10-26 16:18:11 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02101: Test Cases/Associate Application/Page Management/TCBA02101
+
+2018-10-26 16:18:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-26 16:18:11 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-10-26 16:18:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-26 16:18:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-26 16:18:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-26 16:18:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-26 16:18:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-26 16:18:22 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-26 16:18:22 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-26 16:18:22 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-26 16:18:22 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-26 16:18:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-26 16:18:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-26 16:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-26 16:18:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02102" classname="Test Cases/Associate Application/Page Management/TCBA02102" status="PASSED">
+         <system-out><![CDATA[2018-10-26 16:18:23 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02102: Test Cases/Associate Application/Page Management/TCBA02102
+
+2018-10-26 16:18:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Home  5-15/a_Page Management' is clicked on
+
+2018-10-26 16:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Home  5-15/a_Page Management' is clicked on
+
+2018-10-26 16:18:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Page Management' are matched.
+
+2018-10-26 16:18:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Page Management' are matched.
+
+2018-10-26 16:18:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Manage your pages' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Manage your pages' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Page Name' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Page Name' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Inserted On' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Inserted On' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Active' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Active' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Code' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Code' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Language' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Language' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Website' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Website' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Edit' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Edit' are matched.
+
+2018-10-26 16:18:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' are matched.
+
+2018-10-26 16:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02103" classname="Test Cases/Associate Application/Page Management/TCBA02103" status="PASSED">
+         <system-out><![CDATA[2018-10-26 16:18:48 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02103: Test Cases/Associate Application/Page Management/TCBA02103
+
+2018-10-26 16:18:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/div_...12345678...' is present
+
+2018-10-26 16:18:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-26 16:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/div_...12345678...' is present
+
+2018-10-26 16:18:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/div_1 of 4 pages (40 items)' is present
+
+2018-10-26 16:18:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-26 16:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/div_1 of 4 pages (40 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02104" classname="Test Cases/Associate Application/Page Management/TCBA02104" status="PASSED">
+         <system-out><![CDATA[2018-10-26 16:18:49 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02104: Test Cases/Associate Application/Page Management/TCBA02104
+
+2018-10-26 16:18:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' is clicked on
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' is clicked on
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Add Page Details' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Add Page Details' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' are matched.
+
+2018-10-26 16:18:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' are matched.
+
+2018-10-26 16:18:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_1' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_1' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_2' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_2' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_3' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_3' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_4' are matched.
+
+2018-10-26 16:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_4' are matched.
+
+2018-10-26 16:18:51 - [TEST_STEP][PASSED] - setText: Text 'Page10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-10-26 16:18:52 - [MESSAGE][PASSED] - Text 'Page10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-10-26 16:18:52 - [TEST_STEP][PASSED] - setText: Text 'Code10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code'
+
+2018-10-26 16:18:52 - [MESSAGE][PASSED] - Text 'Code10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code'
+
+2018-10-26 16:18:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'English' are selected in object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language'  using regular expression
+
+2018-10-26 16:18:52 - [MESSAGE][PASSED] - All options with value 'English' are selected in object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language'  using regular expression
+
+2018-10-26 16:18:52 - [TEST_STEP][PASSED] - setText: Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-10-26 16:18:53 - [MESSAGE][PASSED] - Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-10-26 16:18:53 - [TEST_STEP][PASSED] - setText: Text 'Test data' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/body_Test Data'
+
+2018-10-26 16:18:53 - [MESSAGE][PASSED] - Text 'Test data' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/body_Test Data'
+
+2018-10-26 16:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-10-26 16:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-10-26 16:18:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' is present
+
+2018-10-26 16:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-26 16:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' is present
+
+2018-10-26 16:18:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' are matched.
+
+2018-10-26 16:18:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02105" classname="Test Cases/Associate Application/Page Management/TCBA02105" status="PASSED">
+         <system-out><![CDATA[2018-10-26 16:18:55 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02105: Test Cases/Associate Application/Page Management/TCBA02105
+
+2018-10-26 16:18:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-10-26 16:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-10-26 16:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/Update Page Management' are matched.
+
+2018-10-26 16:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/Update Page Management' are matched.
+
+2018-10-26 16:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-10-26 16:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-10-26 16:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-10-26 16:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-10-26 16:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-10-26 16:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-10-26 16:18:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' are matched.
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' are matched.
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Cancel' are matched.
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Cancel' are matched.
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-10-26 16:18:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-10-26 16:18:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-10-26 16:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-10-26 16:18:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-10-26 16:18:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_5' are matched.
+
+2018-10-26 16:18:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_5' are matched.
+
+2018-10-26 16:18:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-10-26 16:18:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_6' are matched.
+
+2018-10-26 16:18:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_6' are matched.
+
+2018-10-26 16:18:59 - [TEST_STEP][PASSED] - setText: Text 'Page10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-10-26 16:18:59 - [MESSAGE][PASSED] - Text 'Page10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-10-26 16:18:59 - [TEST_STEP][PASSED] - setText: Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-10-26 16:19:00 - [MESSAGE][PASSED] - Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-10-26 16:19:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-10-26 16:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-10-26 16:19:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' is present
+
+2018-10-26 16:19:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-26 16:19:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' is present
+
+2018-10-26 16:19:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' are matched.
+
+2018-10-26 16:19:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' are matched.
+
+2018-10-26 16:19:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-10-26 16:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-10-26 16:19:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' is clicked on
+
+2018-10-26 16:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' is clicked on
+
+2018-10-26 16:19:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' is present
+
+2018-10-26 16:19:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-26 16:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' is present
+
+2018-10-26 16:19:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' are matched.
+
+2018-10-26 16:19:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' are matched.
+
+2018-10-26 16:19:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-10-26 16:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-10-26 16:19:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' is clicked on
+
+2018-10-26 16:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02106" classname="Test Cases/Associate Application/Page Management/TCBA02106" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540543000459.run(Script1540543000459.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540550888322.run(TempTestSuite1540550888322.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-26 16:19:08 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Page Management/TCBA02106: Test Cases/Associate Application/Page Management/TCBA02106 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540543000459.run(Script1540543000459.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540550888322.run(TempTestSuite1540550888322.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-26 16:19:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-26 16:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-10-26 16:19:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-26 16:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-10-26 16:19:09 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found)
+
+2018-10-26 16:19:41 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181026_161808\\1540550980937.png]]
+
+2018-10-26 16:19:41 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181026_161808\\1540550981346.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-26 16:19:08 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Page Management/TCBA02106: Test Cases/Associate Application/Page Management/TCBA02106 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540543000459.run(Script1540543000459.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540550888322.run(TempTestSuite1540550888322.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-26 16:18:10 - [TEST_SUITE][FAILED] - VBZ0020-Page Management: Test Cases/Associate Application/Page Management/TCBA02106 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540543000459.run(Script1540543000459.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540550888322.run(TempTestSuite1540550888322.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-26 16:18:10 - [TEST_SUITE][FAILED] - VBZ0020-Page Management: Test Cases/Associate Application/Page Management/TCBA02106 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' located by 'By.xpath: //h1[(text() = 'Log In' or . = 'Log In')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540543000459.run(Script1540543000459.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540550888322.run(TempTestSuite1540550888322.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

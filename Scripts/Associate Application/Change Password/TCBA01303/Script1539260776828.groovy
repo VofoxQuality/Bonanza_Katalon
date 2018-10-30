@@ -58,9 +58,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Ho
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'), 'p4y+y39Ir5NaY52vjHlpIw==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'), 'p4y+y39Ir5NaY52vjHlpIw==')
 
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Update'))
+
+WebUI.delay(10)
 

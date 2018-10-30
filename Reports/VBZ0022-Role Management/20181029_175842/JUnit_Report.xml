@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0022-Role Management" time="51" tests="6" failures="1" errors="0">
+   <testsuite name="VBZ0022-Role Management" tests="6" failures="1" errors="0" time="51" timestamp="2018-10-29 17:58:44" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0022-Role Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181029_175842"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181029_175842\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181029_175842\\1540816174697.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="aa085f756ed79930e3d082bc45444f2f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02401" classname="Test Cases/Associate Application/Role Management/TCBA02401" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:58:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02401: Test Cases/Associate Application/Role Management/TCBA02401
+
+2018-10-29 17:58:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-29 17:58:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-10-29 17:58:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:58:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:58:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 17:58:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 17:58:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-29 17:58:54 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-10-29 17:58:54 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-29 17:58:55 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-10-29 17:58:55 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-29 17:58:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-10-29 17:58:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-29 17:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-10-29 17:58:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Edit Profile/TCBA01201' successfully
+
+2018-10-29 17:58:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.
+
+2018-10-29 17:58:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02402" classname="Test Cases/Associate Application/Role Management/TCBA02402" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:58:59 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02402: Test Cases/Associate Application/Role Management/TCBA02402
+
+2018-10-29 17:58:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' is clicked on
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' is clicked on
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Email' are matched.
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Email' are matched.
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_User Name' are matched.
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_User Name' are matched.
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' are matched.
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' are matched.
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' are matched.
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' are matched.
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_First Name' are matched.
+
+2018-10-29 17:59:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_First Name' are matched.
+
+2018-10-29 17:59:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Last Name' are matched.
+
+2018-10-29 17:59:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Last Name' are matched.
+
+2018-10-29 17:59:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Email' are matched.
+
+2018-10-29 17:59:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Email' are matched.
+
+2018-10-29 17:59:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_User Name' are matched.
+
+2018-10-29 17:59:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_User Name' are matched.
+
+2018-10-29 17:59:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Inactive Date' are matched.
+
+2018-10-29 17:59:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Inactive Date' are matched.
+
+2018-10-29 17:59:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Roles' are matched.
+
+2018-10-29 17:59:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Roles' are matched.
+
+2018-10-29 17:59:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Edit Roles' are matched.
+
+2018-10-29 17:59:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Edit Roles' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02403" classname="Test Cases/Associate Application/Role Management/TCBA02403" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:59:01 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02403: Test Cases/Associate Application/Role Management/TCBA02403
+
+2018-10-29 17:59:01 - [TEST_STEP][PASSED] - setText: Text '121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:02 - [MESSAGE][PASSED] - Text '121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:02 - [TEST_STEP][PASSED] - setText: Text '12121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-10-29 17:59:02 - [MESSAGE][PASSED] - Text '12121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-10-29 17:59:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/td_No records to display' are matched.
+
+2018-10-29 17:59:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/td_No records to display' are matched.
+
+2018-10-29 17:59:02 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-10-29 17:59:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-10-29 17:59:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_You must enter at least' are matched.
+
+2018-10-29 17:59:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_You must enter at least' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02404" classname="Test Cases/Associate Application/Role Management/TCBA02404" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:59:03 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02404: Test Cases/Associate Application/Role Management/TCBA02404
+
+2018-10-29 17:59:03 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:04 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' is present
+
+2018-10-29 17:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' is present
+
+2018-10-29 17:59:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Role Management/Page_Role Management  5-15/div_...12345678...' is visible
+
+2018-10-29 17:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/Role Management/Page_Role Management  5-15/div_...12345678...' is visible
+
+2018-10-29 17:59:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible
+
+2018-10-29 17:59:29 - [MESSAGE][PASSED] - Object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02405" classname="Test Cases/Associate Application/Role Management/TCBA02405" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:59:29 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02405: Test Cases/Associate Application/Role Management/TCBA02405
+
+2018-10-29 17:59:30 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:30 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-10-29 17:59:30 - [TEST_STEP][PASSED] - setText: Text 'Shintokk' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-10-29 17:59:30 - [MESSAGE][PASSED] - Text 'Shintokk' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-10-29 17:59:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-10-29 17:59:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-10-29 17:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-10-29 17:59:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Edit  Roles of' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Edit  Roles of' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Associate' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Associate' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Editor' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Editor' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_CustomerService' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_CustomerService' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Admin' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Admin' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Customer' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Customer' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Execs' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Execs' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/button_Save' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/button_Save' are matched.
+
+2018-10-29 17:59:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/button_Cancel' are matched.
+
+2018-10-29 17:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/button_Cancel' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02406" classname="Test Cases/Associate Application/Role Management/TCBA02406" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:59:31 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02406: Test Cases/Associate Application/Role Management/TCBA02406
+
+2018-10-29 17:59:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Customer_cls-checkbox au' is clicked on
+
+2018-10-29 17:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Customer_cls-checkbox au' is clicked on
+
+2018-10-29 17:59:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Execs_cls-checkbox au-ta' is clicked on
+
+2018-10-29 17:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Execs_cls-checkbox au-ta' is clicked on
+
+2018-10-29 17:59:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-10-29 17:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-10-29 17:59:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-10-29 17:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-10-29 17:59:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Save' is clicked on
+
+2018-10-29 17:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Save' is clicked on
+
+2018-10-29 17:59:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Successfully addremove use' are matched.
+
+2018-10-29 17:59:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Successfully addremove use' are matched.
+
+2018-10-29 17:59:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-10-29 17:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-10-29 17:59:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Cancel' is clicked on
+
+2018-10-29 17:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Cancel' is clicked on
+
+2018-10-29 17:59:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' is present
+
+2018-10-29 17:59:34 - [MESSAGE][PASSED] - Object 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02407" classname="Test Cases/Associate Application/Role Management/TCBA02407" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;username&quot;>...&lt;/span> is not clickable at point (1496, 34). Other element would receive the click: &lt;div style=&quot;display: block;&quot; class=&quot;humane humane-libnotify-success humane-animate&quot;>...&lt;/div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa085f756ed79930e3d082bc45444f2f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811786609.run(Script1540811786609.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540816122665.run(TempTestSuite1540816122665.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-29 17:59:34 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Role Management/TCBA02407: Test Cases/Associate Application/Role Management/TCBA02407 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="username">...</span> is not clickable at point (1496, 34). Other element would receive the click: <div style="display: block;" class="humane humane-libnotify-success humane-animate">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa085f756ed79930e3d082bc45444f2f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811786609.run(Script1540811786609.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540816122665.run(TempTestSuite1540816122665.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-29 17:59:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="username">...</span> is not clickable at point (1496, 34). Other element would receive the click: <div style="display: block;" class="humane humane-libnotify-success humane-animate">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa085f756ed79930e3d082bc45444f2f)
+
+2018-10-29 17:59:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="username">...</span> is not clickable at point (1496, 34). Other element would receive the click: <div style="display: block;" class="humane humane-libnotify-success humane-animate">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa085f756ed79930e3d082bc45444f2f)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181029_175842\\1540816174697.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:59:34 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Role Management/TCBA02407: Test Cases/Associate Application/Role Management/TCBA02407 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="username">...</span> is not clickable at point (1496, 34). Other element would receive the click: <div style="display: block;" class="humane humane-libnotify-success humane-animate">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa085f756ed79930e3d082bc45444f2f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811786609.run(Script1540811786609.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540816122665.run(TempTestSuite1540816122665.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 17:58:44 - [TEST_SUITE][FAILED] - VBZ0022-Role Management: Test Cases/Associate Application/Role Management/TCBA02407 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="username">...</span> is not clickable at point (1496, 34). Other element would receive the click: <div style="display: block;" class="humane humane-libnotify-success humane-animate">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa085f756ed79930e3d082bc45444f2f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811786609.run(Script1540811786609.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540816122665.run(TempTestSuite1540816122665.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-29 17:58:44 - [TEST_SUITE][FAILED] - VBZ0022-Role Management: Test Cases/Associate Application/Role Management/TCBA02407 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="username">...</span> is not clickable at point (1496, 34). Other element would receive the click: <div style="display: block;" class="humane humane-libnotify-success humane-animate">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VOFOX-SHINTO', ip: '192.168.10.134', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\shinto\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa085f756ed79930e3d082bc45444f2f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811786609.run(Script1540811786609.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540816122665.run(TempTestSuite1540816122665.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
