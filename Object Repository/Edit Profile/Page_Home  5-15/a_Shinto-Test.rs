@@ -6,12 +6,12 @@
    <elementGuidId>f1f3f3cd-6ca9-44e1-bd0f-dac9ee9f46b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = ' Shinto-Test ' or . = ' Shinto-Test ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,11 +38,11 @@
       <value>dropdown</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Shinto-Test </value>
+      <value> Shinto-Test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

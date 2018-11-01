@@ -82,7 +82,7 @@ WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtRoutingNum'), '123456789')
 
-WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'), '1234555666')
+WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'), 'NL70ABNA0434144140')
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Save'))
 

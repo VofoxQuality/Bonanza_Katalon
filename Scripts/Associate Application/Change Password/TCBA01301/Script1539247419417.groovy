@@ -20,13 +20,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Associate Application/Associate Login/TCBA01008'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test'))
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://192.168.10.72/#/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), 'Shinto-Test2')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
+
+WebUI.click(findTestObject('Object Repository/Page_Log In  5-15/button_Log in'))
+
+WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'), 'Change Password')
 
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test'))
+WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.delay(5)
 

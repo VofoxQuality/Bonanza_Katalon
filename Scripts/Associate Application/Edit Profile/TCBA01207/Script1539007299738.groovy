@@ -85,7 +85,7 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'), '323232328')
 
-WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'), '232323232323')
+WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'), 'NL70ABNA0434144140')
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'))
 

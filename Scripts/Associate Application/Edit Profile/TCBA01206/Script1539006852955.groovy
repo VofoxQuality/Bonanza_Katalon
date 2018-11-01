@@ -26,9 +26,10 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Label Click Email'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number'), 'Routing Number')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number'), 
+    'Routing Number')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_is required_12'), 'is required')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_is required_12'), 'is required')
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'), '1212')
 

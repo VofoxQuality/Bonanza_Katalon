@@ -96,9 +96,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My 
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/p_is required_15'), 'is required')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_IBAN'), 'IBAN')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_IBAN'), 
+    'IBAN')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/p_is required_16'), 'is required')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/p_is required_16'), 
+    'is required')
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Cancel'))
 
