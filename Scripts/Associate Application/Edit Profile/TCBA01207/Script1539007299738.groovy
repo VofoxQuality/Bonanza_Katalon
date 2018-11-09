@@ -87,9 +87,13 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'), 'NL70ABNA0434144140')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'), 'Save')
+
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'))
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel'), 'Cancel')
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel'))
 

@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'), 'Edit')
+
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), '')
@@ -49,6 +51,8 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Pr
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), '')
 
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Mail Address Div click'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'), 'Save')
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'))
 

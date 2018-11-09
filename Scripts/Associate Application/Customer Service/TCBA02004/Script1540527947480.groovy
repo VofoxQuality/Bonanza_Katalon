@@ -25,5 +25,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_H
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Customer Service/Page_Home  5-15/a_Shintokk'), 3)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Customer Service/Page_Home  5-15/a_Shintokk'), 'Shintokk')
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Service/Page_Home  5-15/a_Shintokk'), 'Shintokk (N2543)')
 

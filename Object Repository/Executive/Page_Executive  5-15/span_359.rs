@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/compose/ej-grid/div[3]/div/table/tbody/tr[2]/td[2]/div/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Contract Not Signed'])[2]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

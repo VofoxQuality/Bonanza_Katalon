@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ej-grid[@id='gvExecutiveAccount']/div[3]/div/table/tbody/tr[3]/td[2]/div/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Contract Not Signed'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,7 +4,17 @@
    <name>span_14</name>
    <tag></tag>
    <elementGuidId>50c0c5d1-1b43-4ee3-895e-8458a1796247</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '14' or . = '14')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvExecutiveAccountStatusDetails']/div[3]/div/table/tbody/tr[6]/td[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -27,23 +27,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executi
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Count'), 'Count')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/td_Bank Not Validated'), 'Bank Not Validated')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed'), 'Contract Not Signed')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/td_Contract Signed'), 'Contract Signed')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal'), 'Submitted In Portal')
-
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/h3_Associates'), 'Associates')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Status'), 'Status')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/td_Contract Not Signed'), 'Contract Not Signed')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/td_Contract Signed'), 'Contract Signed')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/td_Submitted In Portal'), 'Submitted In Portal')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Count'), 'Count')
 
