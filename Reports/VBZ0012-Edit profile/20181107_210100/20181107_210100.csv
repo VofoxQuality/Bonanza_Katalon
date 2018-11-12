@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0012-Edit profile,Chrome 70.0.3538.77,,2018-11-07 21:01:02,2018-11-07 21:02:56,1m - 54.317s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01201,Chrome 70.0.3538.77,,2018-11-07 21:01:02,2018-11-07 21:01:29,26.609s,FAILED
+callTestCase,Chrome 70.0.3538.77,,2018-11-07 21:01:03,2018-11-07 21:01:29,26.228s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01202,Chrome 70.0.3538.77,,2018-11-07 21:01:29,2018-11-07 21:01:41,12.301s,FAILED
+click,Chrome 70.0.3538.77,,2018-11-07 21:01:29,2018-11-07 21:01:41,12.097s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01203,Chrome 70.0.3538.77,,2018-11-07 21:01:41,2018-11-07 21:01:54,12.532s,FAILED
+click,Chrome 70.0.3538.77,,2018-11-07 21:01:41,2018-11-07 21:01:54,12.239s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01204,Chrome 70.0.3538.77,,2018-11-07 21:01:54,2018-11-07 21:02:06,12.460s,FAILED
+selectOptionByLabel,Chrome 70.0.3538.77,,2018-11-07 21:01:54,2018-11-07 21:02:06,12.110s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01205,Chrome 70.0.3538.77,,2018-11-07 21:02:06,2018-11-07 21:02:18,12.306s,FAILED
+setText,Chrome 70.0.3538.77,,2018-11-07 21:02:06,2018-11-07 21:02:18,12.109s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01206,Chrome 70.0.3538.77,,2018-11-07 21:02:18,2018-11-07 21:02:31,12.564s,FAILED
+selectOptionByValue,Chrome 70.0.3538.77,,2018-11-07 21:02:19,2018-11-07 21:02:31,12.132s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01207,Chrome 70.0.3538.77,,2018-11-07 21:02:31,2018-11-07 21:02:43,12.230s,FAILED
+setText,Chrome 70.0.3538.77,,2018-11-07 21:02:31,2018-11-07 21:02:43,12.076s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01210,Chrome 70.0.3538.77,,2018-11-07 21:02:43,2018-11-07 21:02:55,12.212s,FAILED
+click,Chrome 70.0.3538.77,,2018-11-07 21:02:43,2018-11-07 21:02:55,12.084s,FAILED
