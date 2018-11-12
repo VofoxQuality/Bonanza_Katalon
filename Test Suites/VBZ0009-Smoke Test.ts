@@ -4,7 +4,7 @@
    <name>VBZ0009-Smoke Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-08T20:15:18</lastRun>
+   <lastRun>2018-11-12T18:27:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
