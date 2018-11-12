@@ -18,10 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_Home  5-15/span_My Title'), 'My Title:')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_Home  5-15/p_My Customers'), 'My Customers')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_Home  5-15/span_Add Customer'), 'Add Customer')
 
 WebUI.click(findTestObject('Object Repository/Customer Account/Page_Home  5-15/span_Add Customer'))
 
@@ -75,6 +78,9 @@ WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Custome
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/textarea_form-control au-targe'), 
     'Test')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/span_Next -- Add Utilty Data'), 
+    'Next -- Add Utilty Data')
+
 WebUI.click(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 
 String data = CustomKeywords.'com.Baseclass.Accountnumber.generateRandomData'()
@@ -103,6 +109,8 @@ WebUI.click(findTestObject('Object Repository/Customer Account/Page_My Customers
 WebUI.click(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/span_Order Confirmation Page'))
 
 WebUI.click(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_au-target'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/button_Submit'), 'Submit')
 
 WebUI.click(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/button_Submit'))
 

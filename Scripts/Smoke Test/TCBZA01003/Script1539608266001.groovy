@@ -18,10 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Add'), 'Add')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates'), 'Associates')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information'), 
+    'Personal Information')
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'), 'Shinto')
 
@@ -85,9 +94,17 @@ WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'), 'NL70ABNA0434144140')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save'), 'Save')
+
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save'))
 
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target'))
 
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Associate created successfully', false)
+
+not_run: WebUI.verifyElementText(findTestObject('Smoke_Test/Page_My Associates  5-15/Success Message'), 'Associate created successfully')
 

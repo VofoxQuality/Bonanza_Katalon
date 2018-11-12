@@ -33,6 +33,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_H
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/label_Confirm new password'), 
     'Confirm new password')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Update'), 'Update')
+
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Update'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/label_Input current Password'), 
@@ -50,6 +52,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_H
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/p_is required_2'), 'is required')
 
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Update'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Cancel'), 'Cancel')
 
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Cancel'))
 

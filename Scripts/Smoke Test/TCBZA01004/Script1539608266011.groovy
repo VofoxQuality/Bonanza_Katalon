@@ -24,7 +24,12 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Smoke_Test/Page_
 
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Add'), 'Add')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates'), 'Associates')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information'), 
+    'Personal Information')
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'), 'Shinto')
 
@@ -93,7 +98,11 @@ WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-1
 
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok'))
 
-WebUI.delay(10)
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Associate created successfully', false)
+
+WebUI.waitForElementPresent(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Home'), 10)
 
 WebUI.click(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Home'))
 

@@ -19,7 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test'), 5)
+
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'), 'Log Off')
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'))
 

@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.verifyElementText(findTestObject('Smoke_Test/Page_Invite Friends  5-15/My Associate Label'), 'My Associates')
 
@@ -38,12 +39,16 @@ WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/select_EnglishItalian'), 
     'English', true)
 
+WebUI.verifyElementText(findTestObject('Smoke_Test/Page_Invite Friends  5-15/Send Invite'), 'Send Invite')
+
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully'), 
-    10)
+WebUI.verifyElementText(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully'), 
+    'Saved successfully')
+
+WebUI.verifyElementText(findTestObject('Smoke_Test/Page_Invite Friends  5-15/Cancel button'), 'Cancel')
 
 WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel'))
 
-WebUI.delay(10)
+WebUI.verifyElementText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate'), 'Add Associate')
 

@@ -25,6 +25,9 @@ WebUI.click(findTestObject('Customer Gas Account/Page_Home  5-15/span_Add Custom
 
 WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_facilityType'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Business'), 
+    'Business')
+
 WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Business'))
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_CustName'), 'Qa_Account')
@@ -76,6 +79,9 @@ WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Cus
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/textarea_form-control au-targe'), 
     'Test')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Next -- Add Utilty Data'), 
+    'Next -- Add Utilty Data')
+
 WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Commodity'), 
@@ -123,6 +129,9 @@ WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Custo
 WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/span_There are no more Utiliti'))
 
 WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_au-target'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/button_Submit'), 
+    'Submit')
 
 WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/button_Submit'))
 

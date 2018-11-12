@@ -17,6 +17,8 @@ WebUI.setText(findTestObject('Object Repository/Customer Service/Page_Customer S
 
 WebUI.setText(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'), 'shinto')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER'), 'FILTER')
+
 WebUI.click(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...'), 

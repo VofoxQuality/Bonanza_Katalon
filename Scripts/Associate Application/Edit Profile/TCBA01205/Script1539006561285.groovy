@@ -23,6 +23,8 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), '')
 
+WebUI.verifyElementText(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'), 'Save')
+
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile'), 'Mobile')

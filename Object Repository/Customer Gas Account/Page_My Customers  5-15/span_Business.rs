@@ -4,6 +4,16 @@
    <name>span_Business</name>
    <tag></tag>
    <elementGuidId>0f0cf6ce-4d8a-4408-890c-20cf183785f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Business' or . = 'Business')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

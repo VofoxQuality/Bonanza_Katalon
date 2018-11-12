@@ -4,7 +4,17 @@
    <name>span_Saved successfully</name>
    <tag></tag>
    <elementGuidId>3ae73700-e4ae-4416-a816-3be13f09badb</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Saved successfully' or . = 'Saved successfully')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Saved successfully')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'), 'Log Off')
+
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In'), 'Log In')
