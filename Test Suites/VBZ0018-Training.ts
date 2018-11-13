@@ -4,7 +4,7 @@
    <name>VBZ0018-Training</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-12T20:12:02</lastRun>
+   <lastRun>2018-11-13T11:00:11</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -13,13 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/td_Shintokk'), 
-    0)
+WebUI.setText(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'), '')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com'), 
-    0)
+WebUI.setText(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'), 'prasanth.gk@vofoxsolutions.com')
 
-WebUI.click(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In'))
+WebUI.click(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER'))
+
+WebUI.verifyElementText(findTestObject('Customer Service/Page_Customer Service  5-15/Search EmailGK'), 'Shintokk')
+
+WebUI.click(findTestObject('Customer Service/Page_Customer Service  5-15/Search EmailLogin'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_My Title'), 'My Title:')
 
