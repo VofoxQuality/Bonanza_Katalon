@@ -36,7 +36,3 @@ WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'), 'Change Password')
 
-WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
-
-WebUI.delay(5)
-

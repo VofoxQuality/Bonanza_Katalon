@@ -47,9 +47,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My A
 WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'), 
     'Married', true)
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_EnglishItalian'), 
-    'English', true)
-
 WebUI.selectOptionByValue(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Country'), 'Italy', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'), 
@@ -105,6 +102,4 @@ WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-1
 WebUI.delay(2)
 
 WebUI.verifyTextPresent('Associate created successfully', false)
-
-not_run: WebUI.verifyElementText(findTestObject('Smoke_Test/Page_My Associates  5-15/Success Message'), 'Associate created successfully')
 

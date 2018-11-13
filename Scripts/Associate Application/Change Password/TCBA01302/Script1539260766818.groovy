@@ -21,6 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
+
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'))
 
 WebUI.verifyElementText(findTestObject('Change Password/Page_Home  5-15/Change Pwd Text Label'), 'Change Password')
@@ -54,6 +58,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_H
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Update'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Cancel'), 'Cancel')
-
-WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Cancel'))
 

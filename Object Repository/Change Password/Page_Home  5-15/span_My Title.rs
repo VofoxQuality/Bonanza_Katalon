@@ -6,15 +6,15 @@
    <elementGuidId>1d803c3f-c6ed-47a7-bfb4-6dc9e4b483fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'My Title:' or . = 'My Title:')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//router-view/div/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'My Title:' or . = 'My Title:')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
