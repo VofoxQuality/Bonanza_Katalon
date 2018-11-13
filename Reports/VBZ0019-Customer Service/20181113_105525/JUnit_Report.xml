@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0019-Customer Service" time="64" tests="4" failures="1" errors="0">
+   <testsuite name="VBZ0019-Customer Service" tests="4" failures="1" errors="0" time="64" timestamp="2018-11-13 10:55:27" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0019-Customer Service">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0019-Customer Service\\20181113_105525"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0019-Customer Service\\20181113_105525\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0019-Customer Service\\20181113_105525\\1542086781749.png, F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0019-Customer Service\\20181113_105525\\1542086782226.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="0a9e5843abfb3beb3491ef2164d108ed"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02001" classname="Test Cases/Associate Application/Customer Service/TCBA02001" status="PASSED">
+         <system-out><![CDATA[2018-11-13 10:55:28 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02001: Test Cases/Associate Application/Customer Service/TCBA02001
+
+2018-11-13 10:55:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-13 10:55:28 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-11-13 10:55:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-13 10:55:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-13 10:55:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-13 10:55:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-13 10:55:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-13 10:55:38 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-13 10:55:38 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-13 10:55:38 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-13 10:55:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-13 10:55:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-13 10:55:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-13 10:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-13 10:55:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-13 10:55:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-13 10:55:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-13 10:55:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' are matched.
+
+2018-11-13 10:55:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02002" classname="Test Cases/Associate Application/Customer Service/TCBA02002" status="PASSED">
+         <system-out><![CDATA[2018-11-13 10:55:42 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02002: Test Cases/Associate Application/Customer Service/TCBA02002
+
+2018-11-13 10:55:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' is clicked on
+
+2018-11-13 10:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' is clicked on
+
+2018-11-13 10:55:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Email' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Email' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In' are matched.
+
+2018-11-13 10:55:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In' are matched.
+
+2018-11-13 10:55:44 - [TEST_STEP][PASSED] - setText: Text 'qwqw21212sewe' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:45 - [MESSAGE][PASSED] - Text 'qwqw21212sewe' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display' are matched.
+
+2018-11-13 10:55:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display' are matched.
+
+2018-11-13 10:55:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-13 10:55:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-13 10:55:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/p_is required' are matched.
+
+2018-11-13 10:55:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/p_is required' are matched.
+
+2018-11-13 10:55:45 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:46 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com' is present
+
+2018-11-13 10:55:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 10:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com' is present
+
+2018-11-13 10:55:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In' are matched.
+
+2018-11-13 10:55:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02003" classname="Test Cases/Associate Application/Customer Service/TCBA02003" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540527925028.run(Script1540527925028.groovy:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542086725566.run(TempTestSuite1542086725566.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-13 10:55:47 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Customer Service/TCBA02003: Test Cases/Associate Application/Customer Service/TCBA02003 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540527925028.run(Script1540527925028.groovy:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542086725566.run(TempTestSuite1542086725566.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-13 10:55:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:48 - [TEST_STEP][PASSED] - setText: Text 'shinto' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:48 - [MESSAGE][PASSED] - Text 'shinto' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:55:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-13 10:55:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-13 10:55:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:55:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...' is present
+
+2018-11-13 10:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 10:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...' is present
+
+2018-11-13 10:55:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+
+2018-11-13 10:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 10:56:22 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0019-Customer Service\\20181113_105525\\1542086781749.png]]
+
+2018-11-13 10:56:22 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0019-Customer Service\\20181113_105525\\1542086782226.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-13 10:55:47 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Customer Service/TCBA02003: Test Cases/Associate Application/Customer Service/TCBA02003 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540527925028.run(Script1540527925028.groovy:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542086725566.run(TempTestSuite1542086725566.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02004" classname="Test Cases/Associate Application/Customer Service/TCBA02004" status="PASSED">
+         <system-out><![CDATA[2018-11-13 10:56:22 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02004: Test Cases/Associate Application/Customer Service/TCBA02004
+
+2018-11-13 10:56:22 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:56:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:56:23 - [TEST_STEP][PASSED] - setText: Text 'prasanth.gk@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:56:24 - [MESSAGE][PASSED] - Text 'prasanth.gk@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-13 10:56:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-13 10:56:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' are matched.
+
+2018-11-13 10:56:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' are matched.
+
+2018-11-13 10:56:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailLogin' is clicked on
+
+2018-11-13 10:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailLogin' is clicked on
+
+2018-11-13 10:56:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-13 10:56:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-13 10:56:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Customer Service/Page_Home  5-15/a_Shintokk' is present
+
+2018-11-13 10:56:28 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Home  5-15/a_Shintokk' is present
+
+2018-11-13 10:56:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Shintokk' are matched.
+
+2018-11-13 10:56:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Shintokk' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02005" classname="Test Cases/Associate Application/Customer Service/TCBA02005" status="PASSED">
+         <system-out><![CDATA[2018-11-13 10:56:28 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02005: Test Cases/Associate Application/Customer Service/TCBA02005
+
+2018-11-13 10:56:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Log In User' is clicked on
+
+2018-11-13 10:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Log In User' is clicked on
+
+2018-11-13 10:56:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-13 10:56:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-13 10:56:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-13 10:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-13 10:56:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-13 10:56:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 10:55:27 - [TEST_SUITE][FAILED] - VBZ0019-Customer Service: Test Cases/Associate Application/Customer Service/TCBA02003 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540527925028.run(Script1540527925028.groovy:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542086725566.run(TempTestSuite1542086725566.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-13 10:55:27 - [TEST_SUITE][FAILED] - VBZ0019-Customer Service: Test Cases/Associate Application/Customer Service/TCBA02003 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540527925028.run(Script1540527925028.groovy:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542086725566.run(TempTestSuite1542086725566.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

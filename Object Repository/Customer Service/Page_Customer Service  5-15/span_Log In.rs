@@ -4,6 +4,16 @@
    <name>span_Log In</name>
    <tag></tag>
    <elementGuidId>95fe5824-8830-4670-a117-92814bdbdac1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Log In' or . = 'Log In')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvAssociates']/div[3]/div/table/tbody/tr/td[5]/div/span/button/span</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
