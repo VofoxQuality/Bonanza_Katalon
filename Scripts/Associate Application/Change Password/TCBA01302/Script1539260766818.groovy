@@ -59,3 +59,5 @@ WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/sp
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Cancel'), 'Cancel')
 
+WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Cancel'))
+

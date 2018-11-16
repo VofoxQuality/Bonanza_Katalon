@@ -4,7 +4,17 @@
    <name>a_Training</name>
    <tag></tag>
    <elementGuidId>59c598bc-ef06-4b8b-9b72-11d1eaf0edc8</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = '   Training  ' or . = '   Training  ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[7]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
