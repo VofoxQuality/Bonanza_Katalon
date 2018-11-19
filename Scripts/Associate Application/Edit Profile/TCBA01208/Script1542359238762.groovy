@@ -13,14 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test'))
-
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'), 'Edit')
-
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'))
-
 FirstName = WebUI.getAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtFirstName'), 'value')
 
 WebUI.verifyMatch('Shinto-QA', FirstName, false)
@@ -103,7 +95,9 @@ WebUI.verifyMatch('323232328', RoutingNumber, false)
 
 IBAN = WebUI.getAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'), 'value')
 
-WebUI.verifyMatch('NL70ABNA0434144140', a, false)
+WebUI.verifyMatch('NL70ABNA0434144140', IBAN, false)
+
+WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Edit Profile/Page_Profile  5-15/Cancel_buttonEdit'), 'Cancel')
 

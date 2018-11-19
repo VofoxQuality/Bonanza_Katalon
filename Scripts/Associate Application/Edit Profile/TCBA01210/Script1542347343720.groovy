@@ -13,3 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'), 'Log Off')
+
+WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In'), 'Log In')
+

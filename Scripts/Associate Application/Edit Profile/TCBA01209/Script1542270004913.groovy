@@ -18,12 +18,77 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.testng.Assert as Assert
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test'))
+WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'), 'Log Off')
+WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test'))
 
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'))
+WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In'), 'Log In')
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'), 'Edit')
+
+Firstname = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), 
+    'readonly', 0)
+
+Lastname = WebUI.verifyElementHasAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtLastName'), 'readonly', 
+    0)
+
+Month = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Month'), 
+    'disabled', 0)
+
+Day = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'), 
+    'disabled', 0)
+
+Year = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'), 
+    'disabled', 0)
+
+MaritialStatus = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'), 
+    'disabled', 0)
+
+BirthCountry = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'), 
+    'disabled', 0)
+
+BirthState = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'), 
+    'disabled', 0)
+
+BirthCity = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'), 
+    'disabled', 0)
+
+Citizenship = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'), 
+    'disabled', 0)
+
+PersonalTaxNum = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), 
+    'readonly', 0)
+
+StreetNum = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 
+    'readonly', 0)
+
+StreetName = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'), 
+    'readonly', 0)
+
+StreetPart = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'), 
+    'readonly', 0)
+
+City = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'), 
+    'readonly', 0)
+
+StateCode = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'), 
+    'readonly', 0)
+
+Zip = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'), 
+    'readonly', 0)
+
+LandPhone = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'), 
+    'readonly', 0)
+
+Mobilephone = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 
+    'readonly', 0)
+
+RoutingNum = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'), 
+    'readonly', 0)
+
+IBAN = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'), 
+    'readonly', 0)
 
