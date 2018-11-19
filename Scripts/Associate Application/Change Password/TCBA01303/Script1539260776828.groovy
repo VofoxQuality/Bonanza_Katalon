@@ -20,8 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Cancel'))
-
 WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'))
@@ -65,4 +63,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Ho
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'), 'p4y+y39Ir5NaY52vjHlpIw==')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Update'), 'Update')
+
+WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Update'))
+
+WebUI.delay(10)
 

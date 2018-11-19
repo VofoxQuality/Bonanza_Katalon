@@ -22,6 +22,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), '')
 
+//String Firstname = 'Shinto-QA'
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), 'Shinto-QA')
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'), '')
@@ -67,7 +68,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Edit Profile/Page_Pr
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), '59098')
 
-WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 'House Number')
+WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 'Number1')
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'), 'Street')
 
