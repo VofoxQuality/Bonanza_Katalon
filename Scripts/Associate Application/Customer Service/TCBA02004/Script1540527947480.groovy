@@ -19,13 +19,13 @@ WebUI.setText(findTestObject('Object Repository/Customer Service/Page_Customer S
 
 WebUI.click(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER'))
 
-WebUI.verifyElementText(findTestObject('Customer Service/Page_Customer Service  5-15/Search EmailGK'), 'Shintokk')
+WebUI.verifyElementText(findTestObject('Customer Service/Page_Customer Service  5-15/Search EmailGK'), 'Dennis-Test')
 
 WebUI.click(findTestObject('Customer Service/Page_Customer Service  5-15/Search EmailLogin'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_My Title'), 'My Title:')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Customer Service/Page_Home  5-15/a_Shintokk'), 3)
+WebUI.waitForElementPresent(findTestObject('Customer Service/Page_Home  5-15/a_dennis-test'), 3)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Customer Service/Page_Home  5-15/a_Shintokk'), 'Shintokk (N2543)')
+WebUI.verifyElementText(findTestObject('Customer Service/Page_Home  5-15/a_dennis-test'), 'Dennis-Test (N22006)')
 
