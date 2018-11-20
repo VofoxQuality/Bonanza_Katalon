@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Shinto KK'])[1]/following::span[3]</value>
+         <value>//span[@class='au-target'][contains(text(),'Log In')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

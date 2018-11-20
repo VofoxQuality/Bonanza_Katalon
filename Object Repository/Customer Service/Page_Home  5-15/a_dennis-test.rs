@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Shintokk</name>
+   <name>a_dennis-test</name>
    <tag></tag>
    <elementGuidId>37f1343e-21ed-402f-94df-70da8ec071cc</elementGuidId>
    <selectorCollection>
