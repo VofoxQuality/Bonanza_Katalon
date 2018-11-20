@@ -6,12 +6,12 @@
    <elementGuidId>e4f4157f-6ae8-4142-9e28-389df4d1fc9f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='divPersonalTaxNum']/p</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//p[(text() = 'is already taken' or . = 'is already taken')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divPersonalTaxNum']/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -114,3 +114,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_
 
 WebUI.click(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/button_Submit'))
 
+WebUI.delay(7)
+

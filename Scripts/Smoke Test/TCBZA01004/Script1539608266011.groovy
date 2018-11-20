@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate'), 
     10)
@@ -33,7 +34,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My 
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'), 'Shinto')
 
-WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'), 'Smoke-Test (US)')
+WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'), 'test3')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'), '05', true)
 
@@ -105,4 +106,6 @@ WebUI.verifyTextPresent('Associate created successfully', false)
 WebUI.waitForElementPresent(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Home'), 10)
 
 WebUI.click(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Home'))
+
+WebUI.delay(5)
 

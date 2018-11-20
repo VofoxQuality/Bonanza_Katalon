@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-primary au-target']//span[@class='au-target'][contains(text(),'Edit')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::span[1]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -56,3 +56,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My 
 WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_Business Tax Num'), 
     'Business Tax Num')
 
+WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Save'), 'Save')
+
+WebUI.verifyElementText(findTestObject('My Associates/Page_My Associates  5-15/Cancel button'), 'Cancel')
+

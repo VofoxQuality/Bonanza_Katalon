@@ -4,7 +4,7 @@
    <name>VBZ0012-Edit profile</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-12T16:32:08</lastRun>
+   <lastRun>2018-11-19T12:16:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -54,7 +54,19 @@
       <testCaseId>Test Cases/Associate Application/Edit Profile/TCBA01207</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>771811fe-6a9c-4985-b3ed-f00889fd7928</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Associate Application/Edit Profile/TCBA01208</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d467d2bb-07ce-4390-90f3-c471a047a3de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Associate Application/Edit Profile/TCBA01209</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18495461-0e0f-4b0d-927a-f43c029bfcbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Associate Application/Edit Profile/TCBA01210</testCaseId>

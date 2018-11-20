@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/Training/Page_Home  5-15/a_Training'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Training/Page_Home  5-15/a_How Tos'))
 
 WebUI.click(findTestObject('Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NOVO UTENTE'))

@@ -23,9 +23,9 @@ WebUI.setText(findTestObject('Object Repository/Change Password/Page_Log In  5-1
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Log In  5-15/input_txtPassword'), '9NLz+4tGZcQ=')
 
-WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'), 'Shinto-Test2')
+WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'), 'dennis-test')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5NaY52vjHlpIw==')
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Log In  5-15/button_Log in'))
 

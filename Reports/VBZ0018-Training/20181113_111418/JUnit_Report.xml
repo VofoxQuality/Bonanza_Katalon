@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0018-Training" time="50" tests="5" failures="0" errors="0">
+   <testsuite name="VBZ0018-Training" tests="5" failures="0" errors="0" time="50" timestamp="2018-11-13 11:14:21" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0018-Training">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0018-Training\\20181113_111418"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0018-Training\\20181113_111418\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="10c8df23f1a940fe255ee3c5d710b64f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Training/TCBA01901" classname="Test Cases/Associate Application/Training/TCBA01901" status="PASSED">
+         <system-out><![CDATA[2018-11-13 11:14:21 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Training/TCBA01901: Test Cases/Associate Application/Training/TCBA01901
+
+2018-11-13 11:14:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-13 11:14:22 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-11-13 11:14:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-13 11:14:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-13 11:14:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-13 11:14:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-13 11:14:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-13 11:14:31 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-13 11:14:31 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-13 11:14:32 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-13 11:14:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-13 11:14:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-13 11:14:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-13 11:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-13 11:14:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-13 11:14:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-13 11:14:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-13 11:14:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Home  5-15/a_Training' are matched.
+
+2018-11-13 11:14:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Home  5-15/a_Training' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Training/TCBA01902" classname="Test Cases/Associate Application/Training/TCBA01902" status="PASSED">
+         <system-out><![CDATA[2018-11-13 11:14:37 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Training/TCBA01902: Test Cases/Associate Application/Training/TCBA01902
+
+2018-11-13 11:14:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:14:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Instruction Page' are matched.
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Instruction Page' are matched.
+
+2018-11-13 11:14:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/h3_How to Add Customer (Italia' are matched.
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/h3_How to Add Customer (Italia' are matched.
+
+2018-11-13 11:14:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/h3_How to Add Associate (Itali' are matched.
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/h3_How to Add Associate (Itali' are matched.
+
+2018-11-13 11:14:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NOVO UTENTE' are matched.
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NOVO UTENTE' are matched.
+
+2018-11-13 11:14:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME INVITARE AMICI A DIVENT' are matched.
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME INVITARE AMICI A DIVENT' are matched.
+
+2018-11-13 11:14:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NUOVO UTENT' are matched.
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NUOVO UTENT' are matched.
+
+2018-11-13 11:14:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME REGISTRARSI COME ASSOCI' are matched.
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/a_COME REGISTRARSI COME ASSOCI' are matched.
+
+2018-11-13 11:14:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Training/TCBA01903" classname="Test Cases/Associate Application/Training/TCBA01903" status="PASSED">
+         <system-out><![CDATA[2018-11-13 11:14:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Training/TCBA01903: Test Cases/Associate Application/Training/TCBA01903
+
+2018-11-13 11:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NOVO UTENTE' is clicked on
+
+2018-11-13 11:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NOVO UTENTE' is clicked on
+
+2018-11-13 11:14:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Aggiungere Utente Ele' are matched.
+
+2018-11-13 11:14:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Aggiungere Utente Ele' are matched.
+
+2018-11-13 11:14:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME INVITARE AMICI A DIVENT' is clicked on
+
+2018-11-13 11:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME INVITARE AMICI A DIVENT' is clicked on
+
+2018-11-13 11:14:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Invitare Amici Englis' are matched.
+
+2018-11-13 11:14:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Invitare Amici Englis' are matched.
+
+2018-11-13 11:14:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:14:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NUOVO UTENT' is clicked on
+
+2018-11-13 11:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME INSERIRE UN NUOVO UTENT' is clicked on
+
+2018-11-13 11:14:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Inserire Utente Gas E' are matched.
+
+2018-11-13 11:15:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Inserire Utente Gas E' are matched.
+
+2018-11-13 11:15:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_How Tos' is clicked on
+
+2018-11-13 11:15:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME REGISTRARSI COME ASSOCI' is clicked on
+
+2018-11-13 11:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_COME REGISTRARSI COME ASSOCI' is clicked on
+
+2018-11-13 11:15:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Registrarsi Come Asso' are matched.
+
+2018-11-13 11:15:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_How Tos  5-15/div_Come Registrarsi Come Asso' are matched.
+
+2018-11-13 11:15:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:15:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on
+
+2018-11-13 11:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Training/TCBA01904" classname="Test Cases/Associate Application/Training/TCBA01904" status="PASSED">
+         <system-out><![CDATA[2018-11-13 11:15:06 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Training/TCBA01904: Test Cases/Associate Application/Training/TCBA01904
+
+2018-11-13 11:15:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:15:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Training/Page_How Tos  5-15/a_Videos' is present
+
+2018-11-13 11:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/Training/Page_How Tos  5-15/a_Videos' is present
+
+2018-11-13 11:15:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_How Tos  5-15/a_Videos' is clicked on
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_How Tos  5-15/a_Videos' is clicked on
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/span_Training' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/span_Training' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/span_Watch Videos Now' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/span_Watch Videos Now' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Enter a contract for Gas or' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Enter a contract for Gas or' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_How to add an associate' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_How to add an associate' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Create your associate accou' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Create your associate accou' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_How Customers set up their' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_How Customers set up their' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 1' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 1' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 2' are matched.
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 2' are matched.
+
+2018-11-13 11:15:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on
+
+2018-11-13 11:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Training/Page_Home  5-15/a_Training' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Training/TCBA01905" classname="Test Cases/Associate Application/Training/TCBA01905" status="PASSED">
+         <system-out><![CDATA[2018-11-13 11:15:08 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Training/TCBA01905: Test Cases/Associate Application/Training/TCBA01905
+
+2018-11-13 11:15:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-13 11:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-13 11:15:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-13 11:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-13 11:15:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-13 11:15:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 11:14:21 - [TEST_SUITE][PASSED] - VBZ0018-Training: Test Cases/Associate Application/Training/TCBA01905]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
