@@ -92,13 +92,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'))
 
+WebUI.delay(3)
+
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel'), 'Cancel')
-
-WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_My Title'), 'My Title:')
 

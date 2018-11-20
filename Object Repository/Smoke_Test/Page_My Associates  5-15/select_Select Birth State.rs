@@ -4,7 +4,23 @@
    <name>select_Select Birth State</name>
    <tag></tag>
    <elementGuidId>69df1c24-49d7-4854-b4ae-e9a29b4ef956</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'ddlBirthState' and (text() = concat('
+              Select Birth State
+              AgrigentoAlessandriaAnconaAostaL' , &quot;'&quot; , 'AquilaArezzoAscoli-PicenoAstiAvellinoBariBarletta-Andria-TraniBellunoBeneventoBergamoBiellaBolognaBolzanoBresciaBrindisiCagliariCaltanissettaCampobassoCarbonia IglesiasCasertaCataniaCatanzaroChietiComoCosenzaCremonaCrotoneCuneoEnnaFermoFerraraFirenzeFoggiaForli-CesenaFrosinoneGenovaGoriziaGrossetoImperiaIserniaLa-SpeziaLatinaLecceLeccoLivornoLodiLuccaMacerataMantovaMassa-CarraraMateraMedio CampidanoMessinaMilanoModenaMonza-BrianzaNapoliNovaraNuoroOgliastraOlbia TempioOristanoPadovaPalermoParmaPaviaPerugiaPesaro-UrbinoPescaraPiacenzaPisaPistoiaPordenonePotenzaPratoRagusaRavennaReggio-CalabriaReggio-EmiliaRietiRiminiRomaRovigoSalernoSassariSavonaSienaSiracusaSondrioTarantoTeramoTerniTorinoTrapaniTrentoTrevisoTriesteUdineVareseVeneziaVerbaniaVercelliVeronaVibo-ValentiaVicenzaViterbo
+            ') or . = concat('
+              Select Birth State
+              AgrigentoAlessandriaAnconaAostaL' , &quot;'&quot; , 'AquilaArezzoAscoli-PicenoAstiAvellinoBariBarletta-Andria-TraniBellunoBeneventoBergamoBiellaBolognaBolzanoBresciaBrindisiCagliariCaltanissettaCampobassoCarbonia IglesiasCasertaCataniaCatanzaroChietiComoCosenzaCremonaCrotoneCuneoEnnaFermoFerraraFirenzeFoggiaForli-CesenaFrosinoneGenovaGoriziaGrossetoImperiaIserniaLa-SpeziaLatinaLecceLeccoLivornoLodiLuccaMacerataMantovaMassa-CarraraMateraMedio CampidanoMessinaMilanoModenaMonza-BrianzaNapoliNovaraNuoroOgliastraOlbia TempioOristanoPadovaPalermoParmaPaviaPerugiaPesaro-UrbinoPescaraPiacenzaPisaPistoiaPordenonePotenzaPratoRagusaRavennaReggio-CalabriaReggio-EmiliaRietiRiminiRomaRovigoSalernoSassariSavonaSienaSiracusaSondrioTarantoTeramoTerniTorinoTrapaniTrentoTrevisoTriesteUdineVareseVeneziaVerbaniaVercelliVeronaVibo-ValentiaVicenzaViterbo
+            '))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ddlBirthState']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -28,5 +28,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My 
 WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information'), 
     'Personal Information')
 
+WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Close'), 'Close')
+
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Close'))
 
