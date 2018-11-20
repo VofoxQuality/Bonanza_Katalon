@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0018-Training,Chrome 70.0.3538.102,,2018-11-16 16:06:12,2018-11-16 16:07:11,59.339s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01901,Chrome 70.0.3538.102,,2018-11-16 16:06:12,2018-11-16 16:06:37,25.306s,FAILED
+callTestCase,Chrome 70.0.3538.102,,2018-11-16 16:06:12,2018-11-16 16:06:37,24.950s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01902,Chrome 70.0.3538.102,,2018-11-16 16:06:37,2018-11-16 16:06:46,8.164s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-16 16:06:38,2018-11-16 16:06:46,8.046s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01903,Chrome 70.0.3538.102,,2018-11-16 16:06:46,2018-11-16 16:06:54,8.177s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-16 16:06:46,2018-11-16 16:06:54,8.035s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01904,Chrome 70.0.3538.102,,2018-11-16 16:06:54,2018-11-16 16:07:02,8.609s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-16 16:06:54,2018-11-16 16:07:02,8.456s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01905,Chrome 70.0.3538.102,,2018-11-16 16:07:02,2018-11-16 16:07:11,8.186s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-16 16:07:03,2018-11-16 16:07:11,8.056s,FAILED

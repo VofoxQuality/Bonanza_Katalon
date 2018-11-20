@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0012-Edit profile" time="96" tests="7" failures="1" errors="1">
+   <testsuite name="VBZ0012-Edit profile" tests="7" failures="1" errors="1" time="96" timestamp="2018-11-15 18:13:25" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0012-Edit profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0012-Edit profile\\20181115_181323"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0012-Edit profile\\20181115_181323\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0012-Edit profile\\20181115_181323\\1542285863300.png, F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0012-Edit profile\\20181115_181323\\1542285863709.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="001fafe23eb5145f5459ceb31225dbc9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01201" classname="Test Cases/Associate Application/Edit Profile/TCBA01201" status="PASSED">
+         <system-out><![CDATA[2018-11-15 18:13:25 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01201: Test Cases/Associate Application/Edit Profile/TCBA01201
+
+2018-11-15 18:13:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-15 18:13:26 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-11-15 18:13:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 18:13:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 18:13:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 18:13:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 18:13:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-15 18:13:34 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-15 18:13:34 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-15 18:13:35 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-15 18:13:35 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-15 18:13:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-15 18:13:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-15 18:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-15 18:13:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-15 18:13:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-15 18:13:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-15 18:13:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-11-15 18:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-11-15 18:13:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile' are matched.
+
+2018-11-15 18:13:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile' are matched.
+
+2018-11-15 18:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-11-15 18:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-11-15 18:13:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-15 18:13:44 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01202" classname="Test Cases/Associate Application/Edit Profile/TCBA01202" status="PASSED">
+         <system-out><![CDATA[2018-11-15 18:13:44 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01202: Test Cases/Associate Application/Edit Profile/TCBA01202
+
+2018-11-15 18:13:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-11-15 18:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test' is clicked on
+
+2018-11-15 18:13:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile' are matched.
+
+2018-11-15 18:13:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile' are matched.
+
+2018-11-15 18:13:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/a_Change Password' are matched.
+
+2018-11-15 18:13:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/a_Change Password' are matched.
+
+2018-11-15 18:13:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Log Off' are matched.
+
+2018-11-15 18:13:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Log Off' are matched.
+
+2018-11-15 18:13:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile' is clicked on
+
+2018-11-15 18:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile' is clicked on
+
+2018-11-15 18:13:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Profile' are matched.
+
+2018-11-15 18:13:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Profile' are matched.
+
+2018-11-15 18:13:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' are matched.
+
+2018-11-15 18:13:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' are matched.
+
+2018-11-15 18:13:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Change Your Email Address' are matched.
+
+2018-11-15 18:13:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Change Your Email Address' are matched.
+
+2018-11-15 18:13:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Close' are matched.
+
+2018-11-15 18:13:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Close' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01203" classname="Test Cases/Associate Application/Edit Profile/TCBA01203" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538994785659.run(Script1538994785659.groovy:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-15 18:13:46 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Edit Profile/TCBA01203: Test Cases/Associate Application/Edit Profile/TCBA01203 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538994785659.run(Script1538994785659.groovy:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-15 18:13:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' are matched.
+
+2018-11-15 18:13:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' are matched.
+
+2018-11-15 18:13:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-11-15 18:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-11-15 18:13:47 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-11-15 18:13:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-11-15 18:13:47 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-11-15 18:13:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-11-15 18:13:47 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-11-15 18:13:47 - [MESSAGE][PASSED] - All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-11-15 18:13:47 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-11-15 18:13:48 - [MESSAGE][PASSED] - All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-11-15 18:13:48 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-11-15 18:13:48 - [MESSAGE][PASSED] - All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-11-15 18:13:48 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-11-15 18:13:48 - [MESSAGE][PASSED] - All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-11-15 18:13:48 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-11-15 18:13:48 - [MESSAGE][PASSED] - All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-11-15 18:13:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthStateCode'
+
+2018-11-15 18:13:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthStateCode'
+
+2018-11-15 18:13:49 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthCity'
+
+2018-11-15 18:13:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthCity'
+
+2018-11-15 18:13:49 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Citizenship' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship' 
+
+2018-11-15 18:13:49 - [MESSAGE][PASSED] - All options with label 'Select Citizenship' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship' 
+
+2018-11-15 18:13:49 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-11-15 18:13:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-11-15 18:13:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_First Name' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_First Name' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Last Name' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Last Name' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_1' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_1' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Birth Date' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Birth Date' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_(MMDDYYYY)' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_(MMDDYYYY)' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Is required_2' are matched.
+
+2018-11-15 18:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Is required_2' are matched.
+
+2018-11-15 18:13:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Marital Status' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Marital Status' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_3' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_3' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Birth Country' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Birth Country' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_4' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_4' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Citizenship' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Citizenship' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_5' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_5' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_6' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_6' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - setText: Text '21212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Text '21212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-11-15 18:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-11-15 18:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num' are matched.
+
+2018-11-15 18:13:51 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found)
+
+2018-11-15 18:14:23 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0012-Edit profile\\20181115_181323\\1542285863300.png]]
+
+2018-11-15 18:14:24 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0012-Edit profile\\20181115_181323\\1542285863709.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-15 18:13:46 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Edit Profile/TCBA01203: Test Cases/Associate Application/Edit Profile/TCBA01203 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538994785659.run(Script1538994785659.groovy:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01204" classname="Test Cases/Associate Application/Edit Profile/TCBA01204" status="PASSED">
+         <system-out><![CDATA[2018-11-15 18:14:24 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01204: Test Cases/Associate Application/Edit Profile/TCBA01204
+
+2018-11-15 18:14:24 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country' 
+
+2018-11-15 18:14:24 - [MESSAGE][PASSED] - All options with label 'Select Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country' 
+
+2018-11-15 18:14:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-11-15 18:14:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-11-15 18:14:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-11-15 18:14:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-11-15 18:14:25 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-11-15 18:14:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-11-15 18:14:25 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-11-15 18:14:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-11-15 18:14:25 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-11-15 18:14:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-11-15 18:14:25 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-11-15 18:14:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-11-15 18:14:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Country' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Country' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_7' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_7' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Street Name' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Street Name' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_8' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_8' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_9' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_9' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_StateProvince' are matched.
+
+2018-11-15 18:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_StateProvince' are matched.
+
+2018-11-15 18:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_10' are matched.
+
+2018-11-15 18:14:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_10' are matched.
+
+2018-11-15 18:14:27 - [TEST_STEP][PASSED] - setText: Text '12121221' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-11-15 18:14:27 - [MESSAGE][PASSED] - Text '12121221' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-11-15 18:14:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-11-15 18:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Mail Address Div click' is clicked on
+
+2018-11-15 18:14:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-11-15 18:14:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Zip' are matched.
+
+2018-11-15 18:14:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 5 chara' are matched.
+
+2018-11-15 18:14:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 5 chara' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01205" classname="Test Cases/Associate Application/Edit Profile/TCBA01205" status="PASSED">
+         <system-out><![CDATA[2018-11-15 18:14:27 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01205: Test Cases/Associate Application/Edit Profile/TCBA01205
+
+2018-11-15 18:14:27 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:28 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' are matched.
+
+2018-11-15 18:14:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' are matched.
+
+2018-11-15 18:14:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-11-15 18:14:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-11-15 18:14:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_11' are matched.
+
+2018-11-15 18:14:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is required_11' are matched.
+
+2018-11-15 18:14:28 - [TEST_STEP][PASSED] - setText: Text '21212121212122123232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:29 - [MESSAGE][PASSED] - Text '21212121212122123232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:29 - [TEST_STEP][PASSED] - setText: Text '232323232323232323233' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:29 - [MESSAGE][PASSED] - Text '232323232323232323233' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-11-15 18:14:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-11-15 18:14:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha' are matched.
+
+2018-11-15 18:14:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha' are matched.
+
+2018-11-15 18:14:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-11-15 18:14:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-11-15 18:14:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha_1' are matched.
+
+2018-11-15 18:14:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha_1' are matched.
+
+2018-11-15 18:14:30 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:30 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:30 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:30 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:30 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:30 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Save-Mobile Number' is clicked on
+
+2018-11-15 18:14:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-11-15 18:14:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone' are matched.
+
+2018-11-15 18:14:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits' are matched.
+
+2018-11-15 18:14:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits' are matched.
+
+2018-11-15 18:14:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-11-15 18:14:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile' are matched.
+
+2018-11-15 18:14:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits_1' are matched.
+
+2018-11-15 18:14:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits_1' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01206" classname="Test Cases/Associate Application/Edit Profile/TCBA01206" status="PASSED">
+         <system-out><![CDATA[2018-11-15 18:14:31 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01206: Test Cases/Associate Application/Edit Profile/TCBA01206
+
+2018-11-15 18:14:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'  using regular expression
+
+2018-11-15 18:14:31 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'  using regular expression
+
+2018-11-15 18:14:31 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-11-15 18:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-11-15 18:14:32 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-11-15 18:14:32 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-11-15 18:14:32 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-11-15 18:14:32 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-11-15 18:14:32 - [TEST_STEP][PASSED] - setText: Text '1212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:32 - [MESSAGE][PASSED] - Text '1212' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-11-15 18:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-11-15 18:14:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-11-15 18:14:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-11-15 18:14:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be 9 characters.' are matched.
+
+2018-11-15 18:14:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be 9 characters.' are matched.
+
+2018-11-15 18:14:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:32 - [TEST_STEP][PASSED] - setText: Text '23232323232323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:33 - [MESSAGE][PASSED] - Text '23232323232323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-11-15 18:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/Label Click Email' is clicked on
+
+2018-11-15 18:14:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/div_Routing Numbermust be no m' is clicked on
+
+2018-11-15 18:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/div_Routing Numbermust be no m' is clicked on
+
+2018-11-15 18:14:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-11-15 18:14:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number' are matched.
+
+2018-11-15 18:14:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 9 chara' are matched.
+
+2018-11-15 18:14:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 9 chara' are matched.
+
+2018-11-15 18:14:33 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:33 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-11-15 18:14:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-11-15 18:14:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' are matched.
+
+2018-11-15 18:14:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' are matched.
+
+2018-11-15 18:14:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-11-15 18:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01207" classname="Test Cases/Associate Application/Edit Profile/TCBA01207" status="PASSED">
+         <system-out><![CDATA[2018-11-15 18:14:34 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01207: Test Cases/Associate Application/Edit Profile/TCBA01207
+
+2018-11-15 18:14:34 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-11-15 18:14:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-11-15 18:14:34 - [TEST_STEP][PASSED] - setText: Text 'Shinto-QA' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-11-15 18:14:35 - [MESSAGE][PASSED] - Text 'Shinto-QA' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'
+
+2018-11-15 18:14:35 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-11-15 18:14:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-11-15 18:14:35 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-11-15 18:14:35 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'
+
+2018-11-15 18:14:35 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-11-15 18:14:35 - [MESSAGE][PASSED] - All options with label 'Month' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month' 
+
+2018-11-15 18:14:35 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-11-15 18:14:35 - [MESSAGE][PASSED] - All options with label 'Day' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01' 
+
+2018-11-15 18:14:35 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-11-15 18:14:35 - [MESSAGE][PASSED] - All options with label 'Year' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2' 
+
+2018-11-15 18:14:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month'  using regular expression
+
+2018-11-15 18:14:36 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Month'  using regular expression
+
+2018-11-15 18:14:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'  using regular expression
+
+2018-11-15 18:14:37 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'  using regular expression
+
+2018-11-15 18:14:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1990' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'  using regular expression
+
+2018-11-15 18:14:38 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'  using regular expression
+
+2018-11-15 18:14:38 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-11-15 18:14:38 - [MESSAGE][PASSED] - All options with label 'Select Marital Status' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status' 
+
+2018-11-15 18:14:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-15 18:14:38 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-15 18:14:38 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-11-15 18:14:38 - [MESSAGE][PASSED] - All options with label 'Select Birth Country' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country' 
+
+2018-11-15 18:14:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-15 18:14:41 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-15 18:14:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'  using regular expression
+
+2018-11-15 18:14:43 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'  using regular expression
+
+2018-11-15 18:14:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'  using regular expression
+
+2018-11-15 18:14:45 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'  using regular expression
+
+2018-11-15 18:14:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-15 18:14:48 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-15 18:14:48 - [TEST_STEP][PASSED] - setText: Text '59098' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-11-15 18:14:48 - [MESSAGE][PASSED] - Text '59098' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'
+
+2018-11-15 18:14:48 - [TEST_STEP][PASSED] - setText: Text 'Number1' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-11-15 18:14:48 - [MESSAGE][PASSED] - Text 'Number1' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'
+
+2018-11-15 18:14:48 - [TEST_STEP][PASSED] - setText: Text 'Street' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-11-15 18:14:49 - [MESSAGE][PASSED] - Text 'Street' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'
+
+2018-11-15 18:14:49 - [TEST_STEP][PASSED] - setText: Text 'ST' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-11-15 18:14:49 - [MESSAGE][PASSED] - Text 'ST' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'
+
+2018-11-15 18:14:49 - [TEST_STEP][PASSED] - setText: Text 'City' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-11-15 18:14:49 - [MESSAGE][PASSED] - Text 'City' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'
+
+2018-11-15 18:14:49 - [TEST_STEP][PASSED] - setText: Text 'State' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-11-15 18:14:49 - [MESSAGE][PASSED] - Text 'State' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'
+
+2018-11-15 18:14:49 - [TEST_STEP][PASSED] - setText: Text '57899' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-11-15 18:14:50 - [MESSAGE][PASSED] - Text '57899' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'
+
+2018-11-15 18:14:50 - [TEST_STEP][PASSED] - setText: Text '32323232' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:50 - [MESSAGE][PASSED] - Text '32323232' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'
+
+2018-11-15 18:14:50 - [TEST_STEP][PASSED] - setText: Text '3323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:50 - [MESSAGE][PASSED] - Text '3323232323' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'
+
+2018-11-15 18:14:50 - [TEST_STEP][PASSED] - setText: Text '323232328' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:51 - [MESSAGE][PASSED] - Text '323232328' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'
+
+2018-11-15 18:14:51 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-11-15 18:14:51 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'
+
+2018-11-15 18:14:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' are matched.
+
+2018-11-15 18:14:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' are matched.
+
+2018-11-15 18:14:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-11-15 18:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Save' is clicked on
+
+2018-11-15 18:14:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-11-15 18:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Edit' is clicked on
+
+2018-11-15 18:14:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel' are matched.
+
+2018-11-15 18:14:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel' are matched.
+
+2018-11-15 18:14:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel' is clicked on
+
+2018-11-15 18:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Profile  5-15/span_Cancel' is clicked on
+
+2018-11-15 18:14:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-15 18:14:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-15 18:14:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-15 18:14:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01209" classname="Test Cases/Associate Application/Edit Profile/TCBA01209" status="PASSED">
+         <system-out><![CDATA[2018-11-15 18:14:59 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Edit Profile/TCBA01209: Test Cases/Associate Application/Edit Profile/TCBA01209
+
+2018-11-15 18:14:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-15 18:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-15 18:14:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-15 18:14:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-15 18:14:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-15 18:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-15 18:15:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-15 18:15:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Edit Profile/TCBA01208" classname="Test Cases/Associate Application/Edit Profile/TCBA01208" status="ERROR">
+         <error type="ERROR" message="Test Cases/Associate Application/Edit Profile/TCBA01208 FAILED because (of) (Stack trace: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/F:/VofoxQA/Bonanza/BonanzaKatalon/Scripts/Associate%20Application/Edit%20Profile/TCBA01208/Script1542270037130.groovy: 96: you tried to assign a value to the class 'com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords'
+ @ line 96, column 1.
+   Mobile = WebUI.getAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 'value')
+   ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:946)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:542)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-15 18:15:00 - [TEST_CASE][ERROR] - Test Cases/Associate Application/Edit Profile/TCBA01208: Test Cases/Associate Application/Edit Profile/TCBA01208 FAILED because (of) (Stack trace: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/F:/VofoxQA/Bonanza/BonanzaKatalon/Scripts/Associate%20Application/Edit%20Profile/TCBA01208/Script1542270037130.groovy: 96: you tried to assign a value to the class 'com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords'
+ @ line 96, column 1.
+   Mobile = WebUI.getAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 'value')
+   ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:946)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:542)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+         <system-err><![CDATA[2018-11-15 18:15:00 - [TEST_CASE][ERROR] - Test Cases/Associate Application/Edit Profile/TCBA01208: Test Cases/Associate Application/Edit Profile/TCBA01208 FAILED because (of) (Stack trace: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/F:/VofoxQA/Bonanza/BonanzaKatalon/Scripts/Associate%20Application/Edit%20Profile/TCBA01208/Script1542270037130.groovy: 96: you tried to assign a value to the class 'com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords'
+ @ line 96, column 1.
+   Mobile = WebUI.getAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 'value')
+   ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:946)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:542)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 18:13:25 - [TEST_SUITE][FAILED] - VBZ0012-Edit profile: Test Cases/Associate Application/Edit Profile/TCBA01203 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538994785659.run(Script1538994785659.groovy:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-15 18:13:25 - [TEST_SUITE][FAILED] - VBZ0012-Edit profile: Test Cases/Associate Application/Edit Profile/TCBA01203 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken' located by 'By.xpath: //p[(text() = 'is already taken' or . = 'is already taken')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538994785659.run(Script1538994785659.groovy:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542285803262.run(TempTestSuite1542285803262.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

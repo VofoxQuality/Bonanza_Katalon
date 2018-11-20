@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0015-My Associates" time="706" tests="24" failures="0" errors="0">
+   <testsuite name="VBZ0015-My Associates" tests="24" failures="0" errors="0" time="706" timestamp="2018-11-19 19:52:46" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0015-My Associates">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0015-My Associates\\20181119_195243"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0015-My Associates\\20181119_195243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="3fc8897e6b8343b571876e61fe64a236"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01501" classname="Test Cases/Associate Application/My Associates/TCBA01501" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:52:46 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01501: Test Cases/Associate Application/My Associates/TCBA01501
+
+2018-11-19 19:52:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-19 19:52:47 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-11-19 19:52:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 19:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 19:52:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 19:52:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 19:52:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-19 19:52:59 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-19 19:52:59 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-19 19:53:00 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-19 19:53:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-19 19:53:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-19 19:53:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-19 19:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-19 19:53:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-19 19:53:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-19 19:53:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-19 19:53:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_Home  5-15/a_My Associates' are matched.
+
+2018-11-19 19:53:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_Home  5-15/a_My Associates' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01502" classname="Test Cases/Associate Application/My Associates/TCBA01502" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:04 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01502: Test Cases/Associate Application/My Associates/TCBA01502
+
+2018-11-19 19:53:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_Home  5-15/a_My Associates' is clicked on
+
+2018-11-19 19:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_Home  5-15/a_My Associates' is clicked on
+
+2018-11-19 19:53:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_My Associates' are matched.
+
+2018-11-19 19:53:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_My Associates' are matched.
+
+2018-11-19 19:53:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Associates list' are matched.
+
+2018-11-19 19:53:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Associates list' are matched.
+
+2018-11-19 19:53:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Full Name' are matched.
+
+2018-11-19 19:53:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Full Name' are matched.
+
+2018-11-19 19:53:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Email' are matched.
+
+2018-11-19 19:53:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Email' are matched.
+
+2018-11-19 19:53:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Status' are matched.
+
+2018-11-19 19:53:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Status' are matched.
+
+2018-11-19 19:53:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Status Date' are matched.
+
+2018-11-19 19:53:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Status Date' are matched.
+
+2018-11-19 19:53:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Inactive Date' are matched.
+
+2018-11-19 19:53:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Inactive Date' are matched.
+
+2018-11-19 19:53:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_View' are matched.
+
+2018-11-19 19:53:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_View' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01503" classname="Test Cases/Associate Application/My Associates/TCBA01503" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:09 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01503: Test Cases/Associate Application/My Associates/TCBA01503
+
+2018-11-19 19:53:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/My Associates/Page_My Associates  5-15/Select Paging' is visible
+
+2018-11-19 19:53:09 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/Select Paging' is visible
+
+2018-11-19 19:53:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/My Associates/Page_My Associates  5-15/Page Element visible' is visible
+
+2018-11-19 19:53:09 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/Page Element visible' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01504" classname="Test Cases/Associate Application/My Associates/TCBA01504" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:09 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01504: Test Cases/Associate Application/My Associates/TCBA01504
+
+2018-11-19 19:53:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_icon-eye' is clicked on
+
+2018-11-19 19:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_icon-eye' is clicked on
+
+2018-11-19 19:53:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Update' are matched.
+
+2018-11-19 19:53:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Update' are matched.
+
+2018-11-19 19:53:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:11 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/My Associates/Page_My Associates  5-15/Field First name clickable or Not' is not checked
+
+2018-11-19 19:53:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 19:53:11 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/Field First name clickable or Not' is not checked
+
+2018-11-19 19:53:11 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/My Associates/Page_My Associates  5-15/Field Last Name Clickable' is not checked
+
+2018-11-19 19:53:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 19:53:11 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/Field Last Name Clickable' is not checked
+
+2018-11-19 19:53:11 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/My Associates/Page_My Associates  5-15/Firstname Check' is not checked
+
+2018-11-19 19:53:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 19:53:11 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/Firstname Check' is not checked
+
+2018-11-19 19:53:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Close' is clicked on
+
+2018-11-19 19:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01505" classname="Test Cases/Associate Application/My Associates/TCBA01505" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:12 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01505: Test Cases/Associate Application/My Associates/TCBA01505
+
+2018-11-19 19:53:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_icon-eye' is clicked on
+
+2018-11-19 19:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_icon-eye' is clicked on
+
+2018-11-19 19:53:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Update' are matched.
+
+2018-11-19 19:53:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Update' are matched.
+
+2018-11-19 19:53:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Close' is clicked on
+
+2018-11-19 19:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01506" classname="Test Cases/Associate Application/My Associates/TCBA01506" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:14 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01506: Test Cases/Associate Application/My Associates/TCBA01506
+
+2018-11-19 19:53:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 19:53:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 19:53:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_First Name' are matched.
+
+2018-11-19 19:53:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_First Name' are matched.
+
+2018-11-19 19:53:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Last Name' are matched.
+
+2018-11-19 19:53:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Last Name' are matched.
+
+2018-11-19 19:53:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Birth Date' are matched.
+
+2018-11-19 19:53:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Birth Date' are matched.
+
+2018-11-19 19:53:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_(MMDDYYYY)' are matched.
+
+2018-11-19 19:53:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_(MMDDYYYY)' are matched.
+
+2018-11-19 19:53:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Marital Status' are matched.
+
+2018-11-19 19:53:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Marital Status' are matched.
+
+2018-11-19 19:53:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Language' are matched.
+
+2018-11-19 19:53:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Language' are matched.
+
+2018-11-19 19:53:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth Country' are matched.
+
+2018-11-19 19:53:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth Country' are matched.
+
+2018-11-19 19:53:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth State' are matched.
+
+2018-11-19 19:53:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth State' are matched.
+
+2018-11-19 19:53:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth City' are matched.
+
+2018-11-19 19:53:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth City' are matched.
+
+2018-11-19 19:53:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Citizenship' are matched.
+
+2018-11-19 19:53:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Citizenship' are matched.
+
+2018-11-19 19:53:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:53:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:53:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Business Tax Num' are matched.
+
+2018-11-19 19:53:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Business Tax Num' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01507" classname="Test Cases/Associate Application/My Associates/TCBA01507" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:19 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01507: Test Cases/Associate Application/My Associates/TCBA01507
+
+2018-11-19 19:53:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Country' are matched.
+
+2018-11-19 19:53:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Country' are matched.
+
+2018-11-19 19:53:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Type (StDrBlvdWay)' are matched.
+
+2018-11-19 19:53:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Type (StDrBlvdWay)' are matched.
+
+2018-11-19 19:53:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Street Name' are matched.
+
+2018-11-19 19:53:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Street Name' are matched.
+
+2018-11-19 19:53:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_HouseBuilding Num' are matched.
+
+2018-11-19 19:53:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_HouseBuilding Num' are matched.
+
+2018-11-19 19:53:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_StateProvince' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_StateProvince' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_City' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_City' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Zip' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Zip' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Home Phone' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Home Phone' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Confirm Email' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Confirm Email' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_IBAN' are matched.
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_IBAN' are matched.
+
+2018-11-19 19:53:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/Cancel button' is clicked on
+
+2018-11-19 19:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/Cancel button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01508" classname="Test Cases/Associate Application/My Associates/TCBA01508" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:21 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01508: Test Cases/Associate Application/My Associates/TCBA01508
+
+2018-11-19 19:53:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 19:53:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 19:53:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/h3_Mailing Address' is clicked on
+
+2018-11-19 19:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/h3_Mailing Address' is clicked on
+
+2018-11-19 19:53:23 - [TEST_STEP][PASSED] - setText: Text 'Street Name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 19:53:23 - [MESSAGE][PASSED] - Text 'Street Name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 19:53:23 - [TEST_STEP][PASSED] - setText: Text 'House Number' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 19:53:23 - [MESSAGE][PASSED] - Text 'House Number' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 19:53:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-11-19 19:53:26 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-11-19 19:53:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-11-19 19:53:28 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-11-19 19:53:28 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 19:53:28 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 19:53:28 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 19:53:29 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 19:53:29 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 19:53:29 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 19:53:29 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:53:30 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:53:30 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:53:30 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:53:30 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_First Name' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_First Name' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Last Name' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Last Name' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_1' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_1' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Birth Date' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Birth Date' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_(MMDDYYYY)' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_(MMDDYYYY)' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_2' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_2' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Marital Status' are matched.
+
+2018-11-19 19:53:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Marital Status' are matched.
+
+2018-11-19 19:53:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_3' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_3' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth State' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth State' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_4' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_4' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth City' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth City' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_5' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_5' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Citizenship' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Citizenship' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_6' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_6' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_7' are matched.
+
+2018-11-19 19:53:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_7' are matched.
+
+2018-11-19 19:53:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'First Name is required' is present on page 
+
+2018-11-19 19:53:33 - [MESSAGE][PASSED] - Text 'First Name is required' is present on page 
+
+2018-11-19 19:53:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Last Name is required' is present on page 
+
+2018-11-19 19:53:35 - [MESSAGE][PASSED] - Text 'Last Name is required' is present on page 
+
+2018-11-19 19:53:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Marital Status is required' is present on page 
+
+2018-11-19 19:53:36 - [MESSAGE][PASSED] - Text 'Marital Status is required' is present on page 
+
+2018-11-19 19:53:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Citizenship is required' is present on page 
+
+2018-11-19 19:53:37 - [MESSAGE][PASSED] - Text 'Citizenship is required' is present on page 
+
+2018-11-19 19:53:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Personal Tax Num is required' is present on page 
+
+2018-11-19 19:53:38 - [MESSAGE][PASSED] - Text 'Personal Tax Num is required' is present on page 
+
+2018-11-19 19:53:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Birth Date is required' is present on page 
+
+2018-11-19 19:53:39 - [MESSAGE][PASSED] - Text 'Birth Date is required' is present on page 
+
+2018-11-19 19:53:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Birth State is required' is present on page 
+
+2018-11-19 19:53:40 - [MESSAGE][PASSED] - Text 'Birth State is required' is present on page 
+
+2018-11-19 19:53:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Birth City is required' is present on page 
+
+2018-11-19 19:53:42 - [MESSAGE][PASSED] - Text 'Birth City is required' is present on page 
+
+2018-11-19 19:53:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/Cancel button' is clicked on
+
+2018-11-19 19:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/Cancel button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01509" classname="Test Cases/Associate Application/My Associates/TCBA01509" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:42 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01509: Test Cases/Associate Application/My Associates/TCBA01509
+
+2018-11-19 19:53:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 19:53:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 19:53:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 19:53:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 19:53:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/h3_Mailing Address' is clicked on
+
+2018-11-19 19:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/h3_Mailing Address' is clicked on
+
+2018-11-19 19:53:44 - [TEST_STEP][PASSED] - setText: Text 'First name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 19:53:44 - [MESSAGE][PASSED] - Text 'First name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 19:53:44 - [TEST_STEP][PASSED] - setText: Text 'Last name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 19:53:45 - [MESSAGE][PASSED] - Text 'Last name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 19:53:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 19:53:45 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 19:53:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-11-19 19:53:46 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-11-19 19:53:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1995' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 19:53:47 - [MESSAGE][PASSED] - All options with value '1995' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 19:53:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 19:53:48 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 19:53:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 19:53:50 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 19:53:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 19:53:52 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 19:53:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 19:53:55 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 19:53:55 - [TEST_STEP][PASSED] - setText: Text '5454545' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 19:53:55 - [MESSAGE][PASSED] - Text '5454545' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 19:53:55 - [TEST_STEP][PASSED] - setText: Text '2121212122' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 19:53:56 - [MESSAGE][PASSED] - Text '2121212122' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 19:53:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:53:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Street Name' are matched.
+
+2018-11-19 19:53:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Street Name' are matched.
+
+2018-11-19 19:53:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_8' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_8' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_HouseBuilding Num' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_HouseBuilding Num' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_9' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_9' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_StateProvince' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_StateProvince' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_10' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_10' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_City' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_City' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_11' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_11' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Zip' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Zip' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_12' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_12' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_13' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_13' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_14' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_14' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Confirm Email' are matched.
+
+2018-11-19 19:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Confirm Email' are matched.
+
+2018-11-19 19:53:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_15' are matched.
+
+2018-11-19 19:53:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_is required_15' are matched.
+
+2018-11-19 19:53:58 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-11-19 19:53:58 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-11-19 19:53:58 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-11-19 19:53:58 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-11-19 19:53:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 19:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01510" classname="Test Cases/Associate Application/My Associates/TCBA01510" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:53:58 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01510: Test Cases/Associate Application/My Associates/TCBA01510
+
+2018-11-19 19:53:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:53:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 19:54:03 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 19:54:03 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 19:54:05 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 19:54:05 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 19:54:08 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 19:54:08 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing asLorem Ipsum is simply dummy text of the printing as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthStateCode'
+
+2018-11-19 19:54:09 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing asLorem Ipsum is simply dummy text of the printing as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthStateCode'
+
+2018-11-19 19:54:09 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 15111' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity'
+
+2018-11-19 19:54:11 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 15111' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity'
+
+2018-11-19 19:54:11 - [TEST_STEP][PASSED] - setText: Text 'LOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUU' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 19:54:13 - [MESSAGE][PASSED] - Text 'LOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUU' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 19:54:13 - [TEST_STEP][PASSED] - setText: Text 'LOREMIP SUMISSIMPLYLOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUULOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUUDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUU' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Text 'LOREMIP SUMISSIMPLYLOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUULOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUUDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUU' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_First Name' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_First Name' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 200 cha' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 200 cha' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Last Name' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Last Name' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 200 cha_1' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 200 cha_1' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth State' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth State' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth City' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Birth City' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  150 ch' are matched.
+
+2018-11-19 19:54:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  150 ch' are matched.
+
+2018-11-19 19:54:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 16 char' are matched.
+
+2018-11-19 19:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 16 char' are matched.
+
+2018-11-19 19:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Business Tax Num' are matched.
+
+2018-11-19 19:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Business Tax Num' are matched.
+
+2018-11-19 19:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  100 ch' are matched.
+
+2018-11-19 19:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  100 ch' are matched.
+
+2018-11-19 19:54:18 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'First Name must be no more than 200 characters.' is present on page 
+
+2018-11-19 19:54:19 - [MESSAGE][PASSED] - Text 'First Name must be no more than 200 characters.' is present on page 
+
+2018-11-19 19:54:19 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Last Name must be no more than 200 characters.' is present on page 
+
+2018-11-19 19:54:20 - [MESSAGE][PASSED] - Text 'Last Name must be no more than 200 characters.' is present on page 
+
+2018-11-19 19:54:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Personal Tax Num must be no more than 16 characters.' is present on page 
+
+2018-11-19 19:54:21 - [MESSAGE][PASSED] - Text 'Personal Tax Num must be no more than 16 characters.' is present on page 
+
+2018-11-19 19:54:21 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Business Tax Num must be no more than 100 characters.' is present on page 
+
+2018-11-19 19:54:22 - [MESSAGE][PASSED] - Text 'Business Tax Num must be no more than 100 characters.' is present on page 
+
+2018-11-19 19:54:22 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Birth State must be no more than 50 characters.' is present on page 
+
+2018-11-19 19:54:23 - [MESSAGE][PASSED] - Text 'Birth State must be no more than 50 characters.' is present on page 
+
+2018-11-19 19:54:23 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Birth City must be no more than 150 characters.' is present on page 
+
+2018-11-19 19:54:24 - [MESSAGE][PASSED] - Text 'Birth City must be no more than 150 characters.' is present on page 
+
+2018-11-19 19:54:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 19:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01511" classname="Test Cases/Associate Application/My Associates/TCBA01511" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:54:24 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01511: Test Cases/Associate Application/My Associates/TCBA01511
+
+2018-11-19 19:54:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 19:54:26 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 19:54:26 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing an' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetPart'
+
+2018-11-19 19:54:27 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing an' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetPart'
+
+2018-11-19 19:54:27 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 19:54:28 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 19:54:28 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing an' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 19:54:29 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing an' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 19:54:29 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity'
+
+2018-11-19 19:54:31 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type as' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity'
+
+2018-11-19 19:54:31 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing an' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode'
+
+2018-11-19 19:54:32 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing an' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode'
+
+2018-11-19 19:54:32 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 19:54:32 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 19:54:32 - [TEST_STEP][PASSED] - setText: Text '1234567891234567' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 19:54:32 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 19:54:32 - [TEST_STEP][PASSED] - setText: Text '1234567891234567' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 19:54:33 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 19:54:33 - [TEST_STEP][PASSED] - setText: Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the t' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:36 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the t' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_HouseBuilding Num' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_HouseBuilding Num' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char_1' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char_1' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Street Name' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Street Name' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  100 ch_1' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  100 ch_1' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Type (StDrBlvdWay)' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Type (StDrBlvdWay)' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char_2' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char_2' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_City' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_City' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 200 cha_2' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 200 cha_2' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_StateProvince' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_StateProvince' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char_3' are matched.
+
+2018-11-19 19:54:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 50 char_3' are matched.
+
+2018-11-19 19:54:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Zip' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Zip' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 5 chara' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 5 chara' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Home Phone' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Home Phone' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  15 cha' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  15 cha' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  15 cha_1' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  15 cha_1' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 300 cha' are matched.
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 300 cha' are matched.
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 19:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01512" classname="Test Cases/Associate Application/My Associates/TCBA01512" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:54:38 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01512: Test Cases/Associate Application/My Associates/TCBA01512
+
+2018-11-19 19:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:39 - [TEST_STEP][PASSED] - setText: Text 'Test..sd@testest.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:41 - [MESSAGE][PASSED] - Text 'Test..sd@testest.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:41 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format' are matched.
+
+2018-11-19 19:54:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format' are matched.
+
+2018-11-19 19:54:41 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:41 - [TEST_STEP][PASSED] - setText: Text 'Test.sd@@testest.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Text 'Test.sd@@testest.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_1' are matched.
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_1' are matched.
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - setText: Text 'Test.sd@.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Text 'Test.sd@.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_2' are matched.
+
+2018-11-19 19:54:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_2' are matched.
+
+2018-11-19 19:54:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [TEST_STEP][PASSED] - setText: Text 'Test.sd@Test.' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [MESSAGE][PASSED] - Text 'Test.sd@Test.' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_3' are matched.
+
+2018-11-19 19:54:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_3' are matched.
+
+2018-11-19 19:54:43 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [TEST_STEP][PASSED] - setText: Text '@Test.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [MESSAGE][PASSED] - Text '@Test.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:43 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_4' are matched.
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_4' are matched.
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - setText: Text 'Test.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Text 'Test.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_5' are matched.
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_5' are matched.
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:44 - [TEST_STEP][PASSED] - setText: Text 'Test@fdgcom' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Text 'Test@fdgcom' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_6' are matched.
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_6' are matched.
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - setText: Text ' Test@' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Text ' Test@' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Email' are matched.
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_7' are matched.
+
+2018-11-19 19:54:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_invalid email format_7' are matched.
+
+2018-11-19 19:54:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 19:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01513" classname="Test Cases/Associate Application/My Associates/TCBA01513" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:54:46 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01513: Test Cases/Associate Application/My Associates/TCBA01513
+
+2018-11-19 19:54:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:47 - [TEST_STEP][PASSED] - setText: Text 'Testemail@test.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:48 - [MESSAGE][PASSED] - Text 'Testemail@test.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 19:54:48 - [TEST_STEP][PASSED] - setText: Text 'ConfirmTestemail@test.com ' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:48 - [MESSAGE][PASSED] - Text 'ConfirmTestemail@test.com ' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 19:54:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Confirm Email' are matched.
+
+2018-11-19 19:54:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Confirm Email' are matched.
+
+2018-11-19 19:54:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must match email' are matched.
+
+2018-11-19 19:54:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_must match email' are matched.
+
+2018-11-19 19:54:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 19:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01514" classname="Test Cases/Associate Application/My Associates/TCBA01514" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:54:49 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01514: Test Cases/Associate Application/My Associates/TCBA01514
+
+2018-11-19 19:54:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:50 - [TEST_STEP][PASSED] - setText: Text '121 333' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 19:54:51 - [MESSAGE][PASSED] - Text '121 333' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 19:54:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:54:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num' are matched.
+
+2018-11-19 19:54:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_cannot contain spaces' are matched.
+
+2018-11-19 19:54:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_cannot contain spaces' are matched.
+
+2018-11-19 19:54:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 19:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01515" classname="Test Cases/Associate Application/My Associates/TCBA01515" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:54:52 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01515: Test Cases/Associate Application/My Associates/TCBA01515
+
+2018-11-19 19:54:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:53 - [TEST_STEP][PASSED] - setText: Text 'Demo phone' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 19:54:54 - [MESSAGE][PASSED] - Text 'Demo phone' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 19:54:54 - [TEST_STEP][PASSED] - setText: Text 'demo mobile' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 19:54:54 - [MESSAGE][PASSED] - Text 'demo mobile' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 19:54:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 19:54:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Home Phone' are matched.
+
+2018-11-19 19:54:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Home Phone' are matched.
+
+2018-11-19 19:54:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_can only contain digits' are matched.
+
+2018-11-19 19:54:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_can only contain digits' are matched.
+
+2018-11-19 19:54:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:54:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/label_Mobile' are matched.
+
+2018-11-19 19:54:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_can only contain digits_1' are matched.
+
+2018-11-19 19:54:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/p_can only contain digits_1' are matched.
+
+2018-11-19 19:54:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/button_Cancel' is clicked on
+
+2018-11-19 19:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/button_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01516" classname="Test Cases/Associate Application/My Associates/TCBA01516" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:54:55 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01516: Test Cases/Associate Application/My Associates/TCBA01516
+
+2018-11-19 19:54:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:54:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 19:55:01 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 19:55:01 - [TEST_STEP][PASSED] - selectAllOption: All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'
+
+2018-11-19 19:56:01 - [MESSAGE][PASSED] - All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'
+
+2018-11-19 19:56:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 19:56:03 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 19:56:03 - [TEST_STEP][PASSED] - selectAllOption: All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'
+
+2018-11-19 19:59:02 - [MESSAGE][PASSED] - All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'
+
+2018-11-19 19:59:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 19:59:05 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 19:59:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is present
+
+2018-11-19 19:59:06 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is present
+
+2018-11-19 19:59:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 19:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01517" classname="Test Cases/Associate Application/My Associates/TCBA01517" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:59:11 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01517: Test Cases/Associate Application/My Associates/TCBA01517
+
+2018-11-19 19:59:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 19:59:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 19:59:16 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 19:59:16 - [TEST_STEP][PASSED] - selectAllOption: All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'
+
+2018-11-19 20:00:15 - [MESSAGE][PASSED] - All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'
+
+2018-11-19 20:00:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 20:00:16 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 20:00:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-19 20:00:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-19 20:00:21 - [TEST_STEP][PASSED] - selectAllOption: All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'
+
+2018-11-19 20:02:58 - [MESSAGE][PASSED] - All options are selected on object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'
+
+2018-11-19 20:02:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 20:03:00 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 20:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 20:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01518" classname="Test Cases/Associate Application/My Associates/TCBA01518" status="PASSED">
+         <system-out><![CDATA[2018-11-19 20:03:01 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01518: Test Cases/Associate Application/My Associates/TCBA01518
+
+2018-11-19 20:03:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is present
+
+2018-11-19 20:03:02 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is present
+
+2018-11-19 20:03:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 20:03:05 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 20:03:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthStateCode' is present
+
+2018-11-19 20:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 20:03:05 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthStateCode' is present
+
+2018-11-19 20:03:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity' is present
+
+2018-11-19 20:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 20:03:05 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity' is present
+
+2018-11-19 20:03:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/button_Cancel' is clicked on
+
+2018-11-19 20:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/button_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01519" classname="Test Cases/Associate Application/My Associates/TCBA01519" status="PASSED">
+         <system-out><![CDATA[2018-11-19 20:03:06 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01519: Test Cases/Associate Application/My Associates/TCBA01519
+
+2018-11-19 20:03:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 20:03:08 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 20:03:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity' is present
+
+2018-11-19 20:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 20:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity' is present
+
+2018-11-19 20:03:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode' is present
+
+2018-11-19 20:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 20:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode' is present
+
+2018-11-19 20:03:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip' is present
+
+2018-11-19 20:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 20:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip' is present
+
+2018-11-19 20:03:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 20:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01520" classname="Test Cases/Associate Application/My Associates/TCBA01520" status="PASSED">
+         <system-out><![CDATA[2018-11-19 20:03:09 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01520: Test Cases/Associate Application/My Associates/TCBA01520
+
+2018-11-19 20:03:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:03:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:03:11 - [TEST_STEP][PASSED] - setText: Text 'First Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 20:03:11 - [MESSAGE][PASSED] - Text 'First Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 20:03:11 - [TEST_STEP][PASSED] - setText: Text 'Last Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 20:03:12 - [MESSAGE][PASSED] - Text 'Last Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 20:03:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 20:03:12 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 20:03:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-11-19 20:03:13 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-11-19 20:03:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 20:03:14 - [MESSAGE][PASSED] - All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 20:03:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 20:03:14 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 20:03:14 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-19 20:03:14 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-19 20:03:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-11-19 20:03:17 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-11-19 20:03:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 20:03:18 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 20:03:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 20:03:20 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 20:03:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 20:03:23 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 20:03:23 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Utility.generateRandomData(): com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-11-19 20:03:23 - [MESSAGE][PASSED] - com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-11-19 20:03:23 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-11-19 20:03:23 - [TEST_STEP][PASSED] - setText: Text 'QAwMWKShQqt0' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 20:03:24 - [MESSAGE][PASSED] - Text 'QAwMWKShQqt0' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 20:03:24 - [TEST_STEP][PASSED] - setText: Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 20:03:25 - [MESSAGE][PASSED] - Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 20:03:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'  using regular expression
+
+2018-11-19 20:03:25 - [MESSAGE][PASSED] - All options with value 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa'  using regular expression
+
+2018-11-19 20:03:25 - [TEST_STEP][PASSED] - setText: Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 20:03:26 - [MESSAGE][PASSED] - Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 20:03:26 - [TEST_STEP][PASSED] - setText: Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 20:03:26 - [MESSAGE][PASSED] - Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 20:03:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-11-19 20:03:28 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince'  using regular expression
+
+2018-11-19 20:03:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-11-19 20:03:30 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City'  using regular expression
+
+2018-11-19 20:03:30 - [TEST_STEP][PASSED] - setText: Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 20:03:31 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 20:03:31 - [TEST_STEP][PASSED] - setText: Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 20:03:31 - [MESSAGE][PASSED] - Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 20:03:31 - [TEST_STEP][PASSED] - setText: Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 20:03:32 - [MESSAGE][PASSED] - Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 20:03:32 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 20:03:32 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 20:03:32 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 20:03:33 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 20:03:33 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 20:03:34 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 20:03:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 20:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 20:03:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Associate Agreement' is present
+
+2018-11-19 20:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Associate Agreement' is present
+
+2018-11-19 20:03:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Associate Agreement' are matched.
+
+2018-11-19 20:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Associate Agreement' are matched.
+
+2018-11-19 20:03:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Changes to this associate' are matched.
+
+2018-11-19 20:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/div_Changes to this associate' are matched.
+
+2018-11-19 20:03:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_I have reviewed all data' are matched.
+
+2018-11-19 20:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_I have reviewed all data' are matched.
+
+2018-11-19 20:03:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-11-19 20:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-11-19 20:03:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-11-19 20:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-11-19 20:03:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 20:03:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 20:03:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Associate created successfully' is present on page 
+
+2018-11-19 20:03:38 - [MESSAGE][PASSED] - Text 'Associate created successfully' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01521" classname="Test Cases/Associate Application/My Associates/TCBA01521" status="PASSED">
+         <system-out><![CDATA[2018-11-19 20:03:38 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01521: Test Cases/Associate Application/My Associates/TCBA01521
+
+2018-11-19 20:03:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is present
+
+2018-11-19 20:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is present
+
+2018-11-19 20:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:03:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:03:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:03:40 - [TEST_STEP][PASSED] - setText: Text 'First name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 20:03:40 - [MESSAGE][PASSED] - Text 'First name' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 20:03:40 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 20:03:41 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 20:03:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '02' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 20:03:41 - [MESSAGE][PASSED] - All options with value '02' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 20:03:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '03' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Day                  01_1'  using regular expression
+
+2018-11-19 20:03:42 - [MESSAGE][PASSED] - All options with value '03' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Day                  01_1'  using regular expression
+
+2018-11-19 20:03:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1996' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 20:03:43 - [MESSAGE][PASSED] - All options with value '1996' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 20:03:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 20:03:44 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 20:03:44 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-19 20:03:44 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-19 20:03:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 20:03:46 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'  using regular expression
+
+2018-11-19 20:03:46 - [TEST_STEP][PASSED] - setText: Text 'State' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthStateCode'
+
+2018-11-19 20:03:47 - [MESSAGE][PASSED] - Text 'State' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthStateCode'
+
+2018-11-19 20:03:47 - [TEST_STEP][PASSED] - setText: Text 'city' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity'
+
+2018-11-19 20:03:48 - [MESSAGE][PASSED] - Text 'city' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity'
+
+2018-11-19 20:03:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Algeria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 20:03:50 - [MESSAGE][PASSED] - All options with value 'Algeria' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 20:03:50 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Utility.generateRandomData(): com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-11-19 20:03:50 - [MESSAGE][PASSED] - com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-11-19 20:03:50 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-11-19 20:03:50 - [TEST_STEP][PASSED] - setText: Text 'QAXs5cofkKiu' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 20:03:51 - [MESSAGE][PASSED] - Text 'QAXs5cofkKiu' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 20:03:51 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 20:03:52 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 20:03:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 20:03:52 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 20:03:52 - [TEST_STEP][PASSED] - setText: Text 'House Number' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 20:03:52 - [MESSAGE][PASSED] - Text 'House Number' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 20:03:52 - [TEST_STEP][PASSED] - setText: Text 'Street1' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 20:03:53 - [MESSAGE][PASSED] - Text 'Street1' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 20:03:53 - [TEST_STEP][PASSED] - setText: Text 'Dr' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetPart'
+
+2018-11-19 20:03:53 - [MESSAGE][PASSED] - Text 'Dr' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetPart'
+
+2018-11-19 20:03:53 - [TEST_STEP][PASSED] - setText: Text 'City' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity'
+
+2018-11-19 20:03:54 - [MESSAGE][PASSED] - Text 'City' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity'
+
+2018-11-19 20:03:54 - [TEST_STEP][PASSED] - setText: Text 'State' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode'
+
+2018-11-19 20:03:54 - [MESSAGE][PASSED] - Text 'State' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode'
+
+2018-11-19 20:03:54 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 20:03:54 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 20:03:54 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 20:03:55 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 20:03:55 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 20:03:55 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 20:03:55 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 20:03:56 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 20:03:56 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 20:03:57 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 20:03:57 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtRoutingNum'
+
+2018-11-19 20:03:57 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtRoutingNum'
+
+2018-11-19 20:03:57 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 20:03:58 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 20:03:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 20:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 20:03:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-11-19 20:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-11-19 20:03:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-11-19 20:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-11-19 20:03:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 20:04:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 20:04:01 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Associate created successfully' is present on page 
+
+2018-11-19 20:04:02 - [MESSAGE][PASSED] - Text 'Associate created successfully' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01522" classname="Test Cases/Associate Application/My Associates/TCBA01522" status="PASSED">
+         <system-out><![CDATA[2018-11-19 20:04:02 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01522: Test Cases/Associate Application/My Associates/TCBA01522
+
+2018-11-19 20:04:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is present
+
+2018-11-19 20:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is present
+
+2018-11-19 20:04:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:04:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:04:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:04:03 - [TEST_STEP][PASSED] - setText: Text 'First Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 20:04:04 - [MESSAGE][PASSED] - Text 'First Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-11-19 20:04:04 - [TEST_STEP][PASSED] - setText: Text 'Last Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 20:04:04 - [MESSAGE][PASSED] - Text 'Last Name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-11-19 20:04:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 20:04:05 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'  using regular expression
+
+2018-11-19 20:04:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-11-19 20:04:05 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'  using regular expression
+
+2018-11-19 20:04:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 20:04:06 - [MESSAGE][PASSED] - All options with value '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'  using regular expression
+
+2018-11-19 20:04:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 20:04:07 - [MESSAGE][PASSED] - All options with value 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'  using regular expression
+
+2018-11-19 20:04:07 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-19 20:04:07 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-19 20:04:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-11-19 20:04:09 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country'  using regular expression
+
+2018-11-19 20:04:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 20:04:11 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'  using regular expression
+
+2018-11-19 20:04:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 20:04:13 - [MESSAGE][PASSED] - All options with value 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'  using regular expression
+
+2018-11-19 20:04:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 20:04:16 - [MESSAGE][PASSED] - All options with value 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'  using regular expression
+
+2018-11-19 20:04:16 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.com.Baseclass.Utility.generateRandomData(): com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-11-19 20:04:16 - [MESSAGE][PASSED] - com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-11-19 20:04:16 - [TEST_STEP][PASSED] - Statement - println(data): null
+
+2018-11-19 20:04:16 - [TEST_STEP][PASSED] - setText: Text 'QAp1is1Uo560' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 20:04:17 - [MESSAGE][PASSED] - Text 'QAp1is1Uo560' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-11-19 20:04:17 - [TEST_STEP][PASSED] - setText: Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 20:04:17 - [MESSAGE][PASSED] - Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-11-19 20:04:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 20:04:18 - [MESSAGE][PASSED] - All options with value 'United States Of America' are selected in object 'Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'  using regular expression
+
+2018-11-19 20:04:18 - [TEST_STEP][PASSED] - setText: Text 'House Number' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 20:04:18 - [MESSAGE][PASSED] - Text 'House Number' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-11-19 20:04:18 - [TEST_STEP][PASSED] - setText: Text 'Street1' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 20:04:19 - [MESSAGE][PASSED] - Text 'Street1' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'
+
+2018-11-19 20:04:19 - [TEST_STEP][PASSED] - setText: Text 'Dr' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetPart'
+
+2018-11-19 20:04:19 - [MESSAGE][PASSED] - Text 'Dr' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetPart'
+
+2018-11-19 20:04:19 - [TEST_STEP][PASSED] - setText: Text 'City' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity'
+
+2018-11-19 20:04:19 - [MESSAGE][PASSED] - Text 'City' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtCity'
+
+2018-11-19 20:04:19 - [TEST_STEP][PASSED] - setText: Text 'State' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode'
+
+2018-11-19 20:04:20 - [MESSAGE][PASSED] - Text 'State' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtStateCode'
+
+2018-11-19 20:04:20 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 20:04:20 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'
+
+2018-11-19 20:04:20 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 20:04:21 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-11-19 20:04:21 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 20:04:21 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-11-19 20:04:21 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 20:04:22 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtEmail'
+
+2018-11-19 20:04:22 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 20:04:23 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-11-19 20:04:23 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtRoutingNum'
+
+2018-11-19 20:04:23 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtRoutingNum'
+
+2018-11-19 20:04:23 - [TEST_STEP][PASSED] - setText: Text 'NL70ABNA0434144140' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 20:04:24 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/My Associates/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-11-19 20:04:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 20:04:24 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-11-19 20:04:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-11-19 20:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' is clicked on
+
+2018-11-19 20:04:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-11-19 20:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/button_Ok' is clicked on
+
+2018-11-19 20:04:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 20:04:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 20:04:27 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Associate created successfully' is present on page 
+
+2018-11-19 20:04:28 - [MESSAGE][PASSED] - Text 'Associate created successfully' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01523" classname="Test Cases/Associate Application/My Associates/TCBA01523" status="PASSED">
+         <system-out><![CDATA[2018-11-19 20:04:28 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01523: Test Cases/Associate Application/My Associates/TCBA01523
+
+2018-11-19 20:04:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-11-19 20:04:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 20:04:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-11-19 20:04:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:04:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-11-19 20:04:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 20:04:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-11-19 20:04:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on
+
+2018-11-19 20:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/My Associates/Page_My Associates  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Associates/TCBA01524" classname="Test Cases/Associate Application/My Associates/TCBA01524" status="PASSED">
+         <system-out><![CDATA[2018-11-19 20:04:30 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Associates/TCBA01524: Test Cases/Associate Application/My Associates/TCBA01524
+
+2018-11-19 20:04:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-19 20:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-19 20:04:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-19 20:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-19 19:52:46 - [TEST_SUITE][PASSED] - VBZ0015-My Associates: Test Cases/Associate Application/My Associates/TCBA01524]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

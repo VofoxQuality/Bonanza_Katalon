@@ -11,8 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='divZip']/p
-</value>
+         <value>//div[2]/div[2]/fieldset/div[3]/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

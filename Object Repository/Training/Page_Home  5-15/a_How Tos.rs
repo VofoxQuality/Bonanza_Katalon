@@ -4,7 +4,17 @@
    <name>a_How Tos</name>
    <tag></tag>
    <elementGuidId>b3474ecb-614a-49e3-84bd-c471df5e9321</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@id = 'lnk_0' and @href = '#/article/HOW_TO' and (text() = concat('How To' , &quot;'&quot; , 's') or . = concat('How To' , &quot;'&quot; , 's'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='training']/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

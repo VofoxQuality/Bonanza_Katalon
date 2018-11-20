@@ -4,7 +4,17 @@
    <name>span_Update</name>
    <tag></tag>
    <elementGuidId>eaa746b3-f503-4f63-a60c-9b9a9f02708b</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Update' or . = 'Update')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
