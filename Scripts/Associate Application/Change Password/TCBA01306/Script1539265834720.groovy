@@ -20,6 +20,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
+WebUI.waitForElementClickable(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'), 5)
+
 WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'), 'Log Off')

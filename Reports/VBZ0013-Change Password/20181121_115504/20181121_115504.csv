@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0013-Change Password,Chrome 70.0.3538.102,,2018-11-21 11:55:06,2018-11-21 11:56:25,1m - 18.742s,FAILED
+,,,,,,
+Test Cases/Associate Application/Change Password/TCBA01301,Chrome 70.0.3538.102,,2018-11-21 11:55:07,2018-11-21 11:55:48,41.616s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-21 11:55:07,2018-11-21 11:55:11,3.850s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-21 11:55:11,2018-11-21 11:55:12,1.166s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-21 11:55:12,2018-11-21 11:55:15,2.726s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 11:55:15,2018-11-21 11:55:16,0.835s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-21 11:55:16,2018-11-21 11:55:16,0.466s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 11:55:16,2018-11-21 11:55:16,0.145s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Log In  5-15/div_Invalid username or passwo), 0))",Chrome 70.0.3538.102,,2018-11-21 11:55:16,2018-11-21 11:55:17,0.362s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 11:55:17,2018-11-21 11:55:48,31.528s,FAILED
+,,,,,,
+Test Cases/Associate Application/Change Password/TCBA01302,Chrome 70.0.3538.102,,2018-11-21 11:55:48,2018-11-21 11:56:20,31.778s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-21 11:55:48,2018-11-21 11:56:20,31.505s,FAILED
+,,,,,,
+Test Cases/Associate Application/Change Password/TCBA01303,Chrome 70.0.3538.102,,2018-11-21 11:56:20,2018-11-21 11:56:24,3.579s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-21 11:56:20,2018-11-21 11:56:24,3.291s,FAILED
+,,,,,,
+Test Cases/Associate Application/Change Password/TCBA01304,Chrome 70.0.3538.102,,2018-11-21 11:56:24,2018-11-21 11:56:24,0.197s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-21 11:56:24,2018-11-21 11:56:24,0.041s,FAILED
+,,,,,,
+Test Cases/Associate Application/Change Password/TCBA01305,Chrome 70.0.3538.102,,2018-11-21 11:56:24,2018-11-21 11:56:24,0.305s,FAILED
+setText,Chrome 70.0.3538.102,,2018-11-21 11:56:24,2018-11-21 11:56:24,0.046s,FAILED
+,,,,,,
+Test Cases/Associate Application/Change Password/TCBA01306,Chrome 70.0.3538.102,,2018-11-21 11:56:24,2018-11-21 11:56:24,0.197s,FAILED
+waitForElementClickable,Chrome 70.0.3538.102,,2018-11-21 11:56:24,2018-11-21 11:56:24,0.036s,FAILED

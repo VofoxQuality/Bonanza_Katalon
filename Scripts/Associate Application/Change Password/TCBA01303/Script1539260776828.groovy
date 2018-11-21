@@ -22,6 +22,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
+
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'))
 
 WebUI.verifyElementText(findTestObject('Change Password/Page_Home  5-15/Change Pwd Text Label'), 'Change Password')
@@ -56,8 +57,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Ho
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'), '9NLz+4tGZcQ=')
 
+if (GlobalVariable.Password.equals('Password2!')) {
+WebUI.setText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtPassword'), 'Password2!')
+
+} else {
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
 
+}
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'), 'p4y+y39Ir5NaY52vjHlpIw==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'), 'p4y+y39Ir5NaY52vjHlpIw==')
