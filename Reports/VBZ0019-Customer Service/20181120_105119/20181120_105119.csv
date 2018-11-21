@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0019-Customer Service,,,2018-11-20 10:51:21,2018-11-20 11:01:29,10m - 8.236s,FAILED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02001,,,2018-11-20 10:51:21,2018-11-20 10:52:24,1m - 2.103s,FAILED
+callTestCase,,,2018-11-20 10:51:22,2018-11-20 10:52:24,1m - 1.677s,FAILED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02002,,,2018-11-20 10:52:24,2018-11-20 10:54:24,2m - 0.931s,FAILED
+click,,,2018-11-20 10:52:24,2018-11-20 10:54:24,2m - 0.697s,FAILED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02003,,,2018-11-20 10:54:24,2018-11-20 10:56:26,2m - 1.340s,FAILED
+setText,,,2018-11-20 10:54:25,2018-11-20 10:56:26,2m - 1.153s,FAILED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02004,,,2018-11-20 10:56:26,2018-11-20 10:58:27,2m - 1.373s,FAILED
+setText,,,2018-11-20 10:56:26,2018-11-20 10:58:27,2m - 1.195s,FAILED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02005,,,2018-11-20 10:58:27,2018-11-20 11:00:29,2m - 1.426s,FAILED
+click,,,2018-11-20 10:58:27,2018-11-20 11:00:29,2m - 1.205s,FAILED

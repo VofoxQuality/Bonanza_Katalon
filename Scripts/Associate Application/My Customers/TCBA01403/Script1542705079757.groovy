@@ -15,15 +15,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Add Customer'))
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Customer Details'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Customer Details'), 
+    '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/div_Billing Information (This'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/div_Billing Information (This'), 
+    '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/a_Next -- Add Utilty Data'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/a_Next -- Add Utilty Data'), 
+    '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Cancel'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Cancel'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Customer Type'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Customer Type'), '')
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Country'))
 
