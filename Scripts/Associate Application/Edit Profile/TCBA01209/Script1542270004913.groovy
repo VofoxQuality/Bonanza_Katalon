@@ -29,66 +29,65 @@ WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/sp
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'), 'Edit')
 
-Firstname = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), 
     'readonly', 0)
 
-Lastname = WebUI.verifyElementHasAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtLastName'), 'readonly', 
+WebUI.verifyElementHasAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtLastName'), 'readonly', 0)
+
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Month'), 'disabled', 
     0)
 
-Month = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Month'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'), 
     'disabled', 0)
 
-Day = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'), 
     'disabled', 0)
 
-Year = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'), 
     'disabled', 0)
 
-MaritialStatus = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'), 
     'disabled', 0)
 
-BirthCountry = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'), 
     'disabled', 0)
 
-BirthState = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'), 
     'disabled', 0)
 
-BirthCity = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'), 
     'disabled', 0)
 
-Citizenship = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'), 
-    'disabled', 0)
-
-PersonalTaxNum = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), 
     'readonly', 0)
 
-StreetNum = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 
     'readonly', 0)
 
-StreetName = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'), 
     'readonly', 0)
 
-StreetPart = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'), 
     'readonly', 0)
 
-City = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity'), 'readonly', 
+    0)
+
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'), 
     'readonly', 0)
 
-StateCode = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'), 'readonly', 
+    0)
+
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'), 
     'readonly', 0)
 
-Zip = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 
     'readonly', 0)
 
-LandPhone = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'), 
     'readonly', 0)
 
-Mobilephone = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 
-    'readonly', 0)
-
-RoutingNum = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'), 
-    'readonly', 0)
-
-IBAN = WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'), 
+WebUI.verifyElementHasAttribute(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey'), 
     'readonly', 0)
 
