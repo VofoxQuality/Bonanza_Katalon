@@ -19,6 +19,8 @@ WebUI.setText(findTestObject('Object Repository/Customer Service/Page_Customer S
 
 WebUI.click(findTestObject('Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Customer Service/Page_Customer Service  5-15/Search EmailGK'), 'Shintokk')
 
 WebUI.click(findTestObject('Customer Service/Page_Customer Service  5-15/Search EmailLogin'))
