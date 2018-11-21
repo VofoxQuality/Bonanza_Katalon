@@ -88,6 +88,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), '21212')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'), 'Save')
+
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num'), 'Personal Tax Num')
