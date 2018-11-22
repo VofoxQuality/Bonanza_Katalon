@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.setText(findTestObject('Object Repository/Change Password/Page_Log In  5-15/input_txtUserName'), '')
 
@@ -35,7 +36,11 @@ WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'))
 
+<<<<<<< HEAD
 WebUI.delay(2)
+=======
+WebUI.waitForElementVisible(findTestObject('Change Password/Page_Home  5-15/Change Pwd Text Label'), 5)
+>>>>>>> f16ff8b4a12693436574fa70ebf25b004c4827b5
 
 WebUI.verifyElementText(findTestObject('Change Password/Page_Home  5-15/Change Pwd Text Label'), 'Change Password')
 

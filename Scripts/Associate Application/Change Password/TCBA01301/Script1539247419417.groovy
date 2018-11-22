@@ -20,6 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
+String Newpassword=null
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -31,6 +32,19 @@ WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserN
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Log In  5-15/button_Log in'))
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log In  5-15/div_Invalid username or passwo'), 0)) 
+{
+	
+WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), '')
+
+WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), 'Password2!')
+
+WebUI.click(findTestObject('Object Repository/Page_Log In  5-15/button_Log in'))
+
+GlobalVariable.Password='Password2!'
+
+}
 
 WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
