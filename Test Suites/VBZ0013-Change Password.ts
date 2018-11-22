@@ -4,7 +4,11 @@
    <name>VBZ0013-Change Password</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T11:15:44</lastRun>
+<<<<<<< HEAD
+   <lastRun>2018-11-21T14:31:53</lastRun>
+=======
+   <lastRun>2018-11-21T11:55:04</lastRun>
+>>>>>>> f16ff8b4a12693436574fa70ebf25b004c4827b5
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

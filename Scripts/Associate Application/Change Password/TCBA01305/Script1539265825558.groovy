@@ -36,7 +36,11 @@ WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'))
 
+<<<<<<< HEAD
+WebUI.delay(2)
+=======
 WebUI.waitForElementVisible(findTestObject('Change Password/Page_Home  5-15/Change Pwd Text Label'), 5)
+>>>>>>> f16ff8b4a12693436574fa70ebf25b004c4827b5
 
 WebUI.verifyElementText(findTestObject('Change Password/Page_Home  5-15/Change Pwd Text Label'), 'Change Password')
 
