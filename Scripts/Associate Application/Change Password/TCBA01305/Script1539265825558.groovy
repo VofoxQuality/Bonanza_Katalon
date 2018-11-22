@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Change Password/Page_Home  5-15/span_shinto-test2'))
 
 WebUI.click(findTestObject('Object Repository/Change Password/Page_Home  5-15/span_Change Password'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Change Password/Page_Home  5-15/Change Pwd Text Label'), 'Change Password')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/Page_Home  5-15/input_txtPassword'), '9NLz+4tGZcQ=')
