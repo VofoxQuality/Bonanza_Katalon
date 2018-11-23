@@ -28,7 +28,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_
 
 WebUI.selectOptionByLabel(findTestObject('Customer Account/Page_My Customers  5-15/Select Country'), 'Italy', false)
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-21')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-23')
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'), 'Customer')
 
@@ -57,14 +57,14 @@ WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Custome
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_phone2'), '123456789')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Month'), '05', 
-    true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Month'), '05', 
+    false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Day                  01'), 
-    '05', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Day                  01'), 
+    '05', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Year                  2'), 
-    '1985', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Year                  2'), 
+    '1985', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_txtIBAN'), 'NL70ABNA0434144140')
 
