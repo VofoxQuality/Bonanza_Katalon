@@ -1,0 +1,207 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0012-Edit profile,Chrome 70.0.3538.102,,2018-11-22 13:26:00,2018-11-22 13:26:51,51.389s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01201,Chrome 70.0.3538.102,,2018-11-22 13:26:00,2018-11-22 13:26:18,18.107s,PASSED
+callTestCase,Chrome 70.0.3538.102,,2018-11-22 13:26:00,2018-11-22 13:26:13,12.717s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:13,2018-11-22 13:26:13,0.063s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:13,2018-11-22 13:26:13,0.036s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:13,2018-11-22 13:26:13,0.038s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 13:26:13,2018-11-22 13:26:18,5.005s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01202,Chrome 70.0.3538.102,,2018-11-22 13:26:18,2018-11-22 13:26:21,3.041s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:18,2018-11-22 13:26:19,0.452s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:19,2018-11-22 13:26:19,0.036s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:19,2018-11-22 13:26:19,0.034s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:19,2018-11-22 13:26:19,0.033s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:19,2018-11-22 13:26:19,0.076s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:19,2018-11-22 13:26:21,2.187s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:21,2018-11-22 13:26:21,0.034s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:21,2018-11-22 13:26:21,0.033s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:21,2018-11-22 13:26:21,0.033s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01203,Chrome 70.0.3538.102,,2018-11-22 13:26:21,2018-11-22 13:26:22,0.736s,FAILED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:21,2018-11-22 13:26:21,0.024s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:21,2018-11-22 13:26:21,0.141s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:21,2018-11-22 13:26:22,0.459s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01204,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:24,2.099s,FAILED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:22,0.104s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:22,0.124s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:22,0.089s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:22,0.079s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:22,0.084s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:22,0.079s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:22,2018-11-22 13:26:23,0.086s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.081s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.034s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.064s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.030s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.033s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.033s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.032s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.042s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.045s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.030s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.031s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.097s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.052s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:23,0.021s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:23,2018-11-22 13:26:24,0.737s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01205,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:26,1.796s,FAILED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:24,0.079s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:24,0.084s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:24,0.019s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:24,0.068s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:24,0.032s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:24,0.041s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:24,2018-11-22 13:26:25,0.201s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.150s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.055s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.047s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.032s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.020s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.034s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.055s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.051s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.091s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.078s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.056s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:25,0.020s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:25,2018-11-22 13:26:26,0.470s,FAILED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01206,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:27,1.118s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.134s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.087s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.064s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.001s,NOT_RUN
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.000s,NOT_RUN
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.066s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.060s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.032s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.031s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.060s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:26,0.139s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:26,2018-11-22 13:26:27,0.046s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.059s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.020s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.027s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.056s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.072s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.018s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.062s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01207,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:39,12.093s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.068s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.096s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.077s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.069s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.082s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:27,0.085s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-22 13:26:27,2018-11-22 13:26:28,0.080s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:28,2018-11-22 13:26:28,0.193s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:28,2018-11-22 13:26:28,0.289s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:28,2018-11-22 13:26:29,0.617s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-22 13:26:29,2018-11-22 13:26:29,0.075s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:29,2018-11-22 13:26:29,0.147s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-22 13:26:29,2018-11-22 13:26:29,0.101s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:29,2018-11-22 13:26:31,1.670s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:31,2018-11-22 13:26:31,0.853s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:31,2018-11-22 13:26:33,1.296s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-22 13:26:33,2018-11-22 13:26:34,1.740s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:34,2018-11-22 13:26:35,0.119s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.126s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.115s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.092s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.095s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.102s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.109s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.100s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:35,0.142s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:35,2018-11-22 13:26:36,0.096s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 13:26:36,2018-11-22 13:26:36,0.143s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:36,2018-11-22 13:26:36,0.023s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:36,2018-11-22 13:26:36,0.071s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 13:26:36,2018-11-22 13:26:39,3.001s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.041s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.090s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01208,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:43,3.910s,PASSED
+"Statement - FirstName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtFirstName), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.026s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.006s,PASSED
+"Statement - LastName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtLastName), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.018s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - Month = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Month), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.019s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - Day = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Day                  01), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.018s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - Year = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Year                  2), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.021s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - MaritialStatus = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Select Marital Status), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.020s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - Country = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Select Birth Country), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.022s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.001s,PASSED
+"Statement - BirthState = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Select Birth State), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.019s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - BirthCity = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Select Birth City), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.020s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.001s,PASSED
+"Statement - Citizenship = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/select_Select Citizenship), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.019s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.001s,PASSED
+"Statement - PersonalTaxNum = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.016s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - HouseNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtStreetNum), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.016s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - StreetName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtStreetName), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.018s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.000s,PASSED
+"Statement - Type = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtStreetPart), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.018s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.001s,PASSED
+"Statement - City = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtCity), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.017s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:39,0.002s,PASSED
+"Statement - State = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtStateCode), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:39,2018-11-22 13:26:40,0.017s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.001s,PASSED
+"Statement - Zip = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtZip), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.017s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.001s,PASSED
+"Statement - HomePhone = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtLandPhone), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.017s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.000s,PASSED
+"Statement - MobileNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtMobilePhone), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.016s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.001s,PASSED
+"Statement - RoutingNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtRoutingNum), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.017s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.000s,PASSED
+"Statement - IBAN = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Edit Profile/Page_Profile  5-15/input_txtBankAccountKey), ""value"")",Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.020s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:40,0.001s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 13:26:40,2018-11-22 13:26:43,3.000s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:43,2018-11-22 13:26:43,0.107s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:43,2018-11-22 13:26:43,0.161s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01209,Chrome 70.0.3538.102,,2018-11-22 13:26:43,2018-11-22 13:26:50,7.317s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 13:26:43,2018-11-22 13:26:48,5.000s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:48,2018-11-22 13:26:48,0.064s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:48,2018-11-22 13:26:48,0.067s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:48,2018-11-22 13:26:49,1.067s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:49,2018-11-22 13:26:49,0.034s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:49,2018-11-22 13:26:49,0.017s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:49,2018-11-22 13:26:49,0.016s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:49,2018-11-22 13:26:49,0.029s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:49,2018-11-22 13:26:49,0.038s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:49,2018-11-22 13:26:50,0.553s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.054s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.023s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.023s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.022s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.018s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.021s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.021s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.020s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.021s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.020s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.019s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.021s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.020s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.021s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.018s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01210,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.239s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.042s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.030s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.073s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-22 13:26:50,2018-11-22 13:26:50,0.028s,PASSED
