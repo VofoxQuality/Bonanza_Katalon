@@ -26,24 +26,26 @@ WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_
 
 WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/span_Individual'), 'Individual')
 
-WebUI.selectOptionByValue(findTestObject('Customer Account/Page_My Customers  5-15/Select Country'), 'Italy', true)
+WebUI.selectOptionByLabel(findTestObject('Customer Account/Page_My Customers  5-15/Select Country'), 'Italy', false)
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Shinto-Test')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-21')
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'), 'Electrical Account')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'), 'Customer')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Street Part'), 
-    'CORSO', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Street Part'), 
+    'CORSO', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_Address'), 'Address')
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_streetNum'), 'Street No1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Province'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Province'), 
+    'Alessandria', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select City'), 
-    'Alessandria', true)
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select City'), 
+    'Alessandria', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_zip'), '4000')
 
@@ -79,8 +81,8 @@ WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Custome
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_AccountName'), '5033334')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'), 
-    'Commercial', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'), 
+    'Commercial', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'), '123456789')
 

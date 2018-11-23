@@ -19,9 +19,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://192.168.10.72:449/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), 'Shinto-Test')
+WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), 'Test')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), 'fLdlzkRmaag=')
 
 WebUI.click(findTestObject('Object Repository/Page_Log In  5-15/button_Log in'))
 

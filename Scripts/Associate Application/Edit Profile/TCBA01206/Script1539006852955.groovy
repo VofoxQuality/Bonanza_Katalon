@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'), 'United States Of America', 
-    true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'), 'United States Of America', 
+    false)
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'), '')
 
