@@ -16,55 +16,59 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Add Customer'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Customer Details'), 
-    '')
+    'Customer Details')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/div_Billing Information (This'), 
-    '')
+    'Billing Information (This is the information we will use to create the monthly bill)')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/a_Next -- Add Utilty Data'), 
+    'Next -- Add Utilty Data')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Cancel'), 'Cancel')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Customer Type'), 'Customer Type')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Country'), 'Country')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'), 'First Name')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'), 'Last Name')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street Part'), 'Street Part')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'), 'Address')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'), 'Street No')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Province'), 'Province')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_City'), 'City')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'), 'Zip')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Email'), 'Email')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)'), 
+    'PEC Email (Optional)')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number'), 
+    'Cell Phone Number')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'), 
+    'Home number if no cellphone')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'), '')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'), '')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country'), '')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'), '')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Comment'), '')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee'), 
     '')
-
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Cancel'), '')
-
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Customer Type'), '')
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Country'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street Part'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Province'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_City'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Email'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Comment'))
-
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee'))
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 

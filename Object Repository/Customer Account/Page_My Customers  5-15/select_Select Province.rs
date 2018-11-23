@@ -4,7 +4,23 @@
    <name>select_Select Province</name>
    <tag></tag>
    <elementGuidId>01337854-5b51-4827-a72b-700f0fc0f15f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'ddlStateCode' and (text() = concat('
+              Select Province
+              AgrigentoAlessandriaAnconaAostaL' , &quot;'&quot; , 'AquilaArezzoAscoli-PicenoAstiAvellinoBariBarletta-Andria-TraniBellunoBeneventoBergamoBiellaBolognaBolzanoBresciaBrindisiCagliariCaltanissettaCampobassoCarbonia IglesiasCasertaCataniaCatanzaroChietiComoCosenzaCremonaCrotoneCuneoEnnaFermoFerraraFirenzeFoggiaForli-CesenaFrosinoneGenovaGoriziaGrossetoImperiaIserniaLa-SpeziaLatinaLecceLeccoLivornoLodiLuccaMacerataMantovaMassa-CarraraMateraMedio CampidanoMessinaMilanoModenaMonza-BrianzaNapoliNovaraNuoroOgliastraOlbia TempioOristanoPadovaPalermoParmaPaviaPerugiaPesaro-UrbinoPescaraPiacenzaPisaPistoiaPordenonePotenzaPratoRagusaRavennaReggio-CalabriaReggio-EmiliaRietiRiminiRomaRovigoSalernoSassariSavonaSienaSiracusaSondrioTarantoTeramoTerniTorinoTrapaniTrentoTrevisoTriesteUdineVareseVeneziaVerbaniaVercelliVeronaVibo-ValentiaVicenzaViterbo
+            ') or . = concat('
+              Select Province
+              AgrigentoAlessandriaAnconaAostaL' , &quot;'&quot; , 'AquilaArezzoAscoli-PicenoAstiAvellinoBariBarletta-Andria-TraniBellunoBeneventoBergamoBiellaBolognaBolzanoBresciaBrindisiCagliariCaltanissettaCampobassoCarbonia IglesiasCasertaCataniaCatanzaroChietiComoCosenzaCremonaCrotoneCuneoEnnaFermoFerraraFirenzeFoggiaForli-CesenaFrosinoneGenovaGoriziaGrossetoImperiaIserniaLa-SpeziaLatinaLecceLeccoLivornoLodiLuccaMacerataMantovaMassa-CarraraMateraMedio CampidanoMessinaMilanoModenaMonza-BrianzaNapoliNovaraNuoroOgliastraOlbia TempioOristanoPadovaPalermoParmaPaviaPerugiaPesaro-UrbinoPescaraPiacenzaPisaPistoiaPordenonePotenzaPratoRagusaRavennaReggio-CalabriaReggio-EmiliaRietiRiminiRomaRovigoSalernoSassariSavonaSienaSiracusaSondrioTarantoTeramoTerniTorinoTrapaniTrentoTrevisoTriesteUdineVareseVeneziaVerbaniaVercelliVeronaVibo-ValentiaVicenzaViterbo
+            '))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ddlStateCode']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
