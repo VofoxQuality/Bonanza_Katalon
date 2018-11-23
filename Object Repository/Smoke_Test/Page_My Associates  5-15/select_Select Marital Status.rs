@@ -4,6 +4,22 @@
    <name>select_Select Marital Status</name>
    <tag></tag>
    <elementGuidId>529b4942-be45-4d01-808c-70ec40dd4c70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'ddlMaritalStatus' and (text() = '
+              Select Marital Status
+              DivorcedMarriedNot DisclosedSingle
+            ' or . = '
+              Select Marital Status
+              DivorcedMarriedNot DisclosedSingle
+            ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ddlMaritalStatus']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

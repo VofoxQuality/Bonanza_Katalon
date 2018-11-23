@@ -24,30 +24,42 @@ WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtLastName'), 'Test')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Month'), '02', 
-    true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Month'), '02', 
+    false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Day                  01_1'), 
-    '03', true)
+WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Year                  2'), 
-    '1996', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Day                  01_1'), 
+    '03', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'), 
-    'Married', true)
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Year                  2'), 
+    '1996', false)
+
+WebUI.delay(4)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'), 
+    'Married', false)
+
+WebUI.delay(2)
 
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_EnglishItalian'), 
     'English', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'), 
-    'United States Of America', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'), 
+    'United States Of America', false)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthStateCode'), 'State')
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity'), 'city')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Citizenship'), 
-    'Algeria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Citizenship'), 
+    'Algeria', false)
+
+WebUI.delay(2)
 
 String data = CustomKeywords.'com.Baseclass.Utility.generateRandomData'()
 
@@ -57,8 +69,10 @@ WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'), '12345678')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
-    'United States Of America', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
+    'United States Of America', false)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'), 'House Number')
 
