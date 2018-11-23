@@ -57,10 +57,14 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Pr
 WebUI.selectOptionByValue(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'), 
     'Italy', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'), 
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'), 
     'Alessandria', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'), 
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'), 
     'Alessandria', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'), 
