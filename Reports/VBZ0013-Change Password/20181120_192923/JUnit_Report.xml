@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0013-Change Password" time="58" tests="6" failures="0" errors="0">
+   <testsuite name="VBZ0013-Change Password" tests="6" failures="0" errors="0" time="58" timestamp="2018-11-20 19:29:26" hostname="sebastian - Vofox-Sebastian.vofox.com" id="Test Suites/VBZ0013-Change Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Bonanzha\\katalon Bonanzha\\Reports\\VBZ0013-Change Password\\20181120_192923"/>
+         <property name="logFiles" value="E:\\Bonanzha\\katalon Bonanzha\\Reports\\VBZ0013-Change Password\\20181120_192923\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sebastian - Vofox-Sebastian.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.130"/>
+         <property name="sessionId" value="d829f7b60cbbd9ab3fb8bf667035c155"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Change Password/TCBA01301" classname="Test Cases/Associate Application/Change Password/TCBA01301" status="PASSED">
+         <system-out><![CDATA[2018-11-20 19:29:27 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Change Password/TCBA01301: Test Cases/Associate Application/Change Password/TCBA01301
+
+2018-11-20 19:29:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-20 19:29:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-20 19:29:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-20 19:29:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-20 19:29:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-20 19:29:39 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-20 19:29:39 - [TEST_STEP][PASSED] - setText: Text 'Dennis-test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-20 19:29:40 - [MESSAGE][PASSED] - Text 'Dennis-test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-20 19:29:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-20 19:29:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-20 19:29:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-20 19:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-20 19:29:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' are matched.
+
+2018-11-20 19:29:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Change Password/TCBA01302" classname="Test Cases/Associate Application/Change Password/TCBA01302" status="PASSED">
+         <system-out><![CDATA[2018-11-20 19:29:46 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Change Password/TCBA01302: Test Cases/Associate Application/Change Password/TCBA01302
+
+2018-11-20 19:29:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 19:29:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 19:29:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' is clicked on
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' is clicked on
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' are matched.
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' are matched.
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input current Password' are matched.
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input current Password' are matched.
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input new password' are matched.
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input new password' are matched.
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Confirm new password' are matched.
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Confirm new password' are matched.
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Update' are matched.
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Update' are matched.
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input current Password' are matched.
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input current Password' are matched.
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is required' are matched.
+
+2018-11-20 19:29:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is required' are matched.
+
+2018-11-20 19:29:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input new password' are matched.
+
+2018-11-20 19:29:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input new password' are matched.
+
+2018-11-20 19:29:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is required_1' are matched.
+
+2018-11-20 19:29:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is required_1' are matched.
+
+2018-11-20 19:29:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Confirm new password' are matched.
+
+2018-11-20 19:29:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Confirm new password' are matched.
+
+2018-11-20 19:29:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is required_2' are matched.
+
+2018-11-20 19:29:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is required_2' are matched.
+
+2018-11-20 19:29:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Cancel' are matched.
+
+2018-11-20 19:29:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Cancel' are matched.
+
+2018-11-20 19:29:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Cancel' is clicked on
+
+2018-11-20 19:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Change Password/TCBA01303" classname="Test Cases/Associate Application/Change Password/TCBA01303" status="PASSED">
+         <system-out><![CDATA[2018-11-20 19:29:54 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Change Password/TCBA01303: Test Cases/Associate Application/Change Password/TCBA01303
+
+2018-11-20 19:29:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:29:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' is clicked on
+
+2018-11-20 19:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' is clicked on
+
+2018-11-20 19:29:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' are matched.
+
+2018-11-20 19:29:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' are matched.
+
+2018-11-20 19:29:55 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:29:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:29:55 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:29:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:29:55 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:29:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:29:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' is clicked on
+
+2018-11-20 19:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' is clicked on
+
+2018-11-20 19:29:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input current Password' are matched.
+
+2018-11-20 19:29:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Input current Password' are matched.
+
+2018-11-20 19:29:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is incorrect.' are matched.
+
+2018-11-20 19:29:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_is incorrect.' are matched.
+
+2018-11-20 19:29:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Confirm new password' are matched.
+
+2018-11-20 19:29:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/label_Confirm new password' are matched.
+
+2018-11-20 19:29:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_must match new password' are matched.
+
+2018-11-20 19:29:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/p_must match new password' are matched.
+
+2018-11-20 19:29:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/New Password1' are matched.
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/New Password1' are matched.
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/New Password2' are matched.
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/New Password2' are matched.
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:29:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:29:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:29:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:29:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Update' are matched.
+
+2018-11-20 19:29:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Update' are matched.
+
+2018-11-20 19:29:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:29:58 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-20 19:30:08 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Change Password/TCBA01304" classname="Test Cases/Associate Application/Change Password/TCBA01304" status="PASSED">
+         <system-out><![CDATA[2018-11-20 19:30:08 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Change Password/TCBA01304: Test Cases/Associate Application/Change Password/TCBA01304
+
+2018-11-20 19:30:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:30:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-20 19:30:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-20 19:30:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-20 19:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-20 19:30:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-20 19:30:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Change Password/TCBA01305" classname="Test Cases/Associate Application/Change Password/TCBA01305" status="PASSED">
+         <system-out><![CDATA[2018-11-20 19:30:08 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Change Password/TCBA01305: Test Cases/Associate Application/Change Password/TCBA01305
+
+2018-11-20 19:30:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Change Password/Page_Log In  5-15/input_txtUserName'
+
+2018-11-20 19:30:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Change Password/Page_Log In  5-15/input_txtUserName'
+
+2018-11-20 19:30:09 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Log In  5-15/input_txtPassword'
+
+2018-11-20 19:30:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Log In  5-15/input_txtPassword'
+
+2018-11-20 19:30:09 - [TEST_STEP][PASSED] - setText: Text 'dennis-test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-11-20 19:30:09 - [MESSAGE][PASSED] - Text 'dennis-test' is set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtUserName'
+
+2018-11-20 19:30:09 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-11-20 19:30:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Profile/Page_Log In  5-15/input_txtPassword'
+
+2018-11-20 19:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-20 19:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-20 19:30:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-20 19:30:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-20 19:30:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:30:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' is clicked on
+
+2018-11-20 19:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Change Password' is clicked on
+
+2018-11-20 19:30:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' are matched.
+
+2018-11-20 19:30:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/Change Pwd Text Label' are matched.
+
+2018-11-20 19:30:12 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtPassword'
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtNewPassword'
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Password/Page_Home  5-15/input_txtConfirmPassword'
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Update' are matched.
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_Update' are matched.
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_Update' is clicked on
+
+2018-11-20 19:30:13 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-20 19:30:23 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Change Password/TCBA01306" classname="Test Cases/Associate Application/Change Password/TCBA01306" status="PASSED">
+         <system-out><![CDATA[2018-11-20 19:30:23 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Change Password/TCBA01306: Test Cases/Associate Application/Change Password/TCBA01306
+
+2018-11-20 19:30:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password/Page_Home  5-15/span_shinto-test2' is clicked on
+
+2018-11-20 19:30:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-20 19:30:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-20 19:30:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-20 19:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-20 19:30:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-20 19:30:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-20 19:29:26 - [TEST_SUITE][PASSED] - VBZ0013-Change Password: Test Cases/Associate Application/Change Password/TCBA01306]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

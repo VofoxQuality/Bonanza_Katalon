@@ -4,6 +4,22 @@
    <name>select_Select Birth State</name>
    <tag></tag>
    <elementGuidId>16586696-3fbc-47ca-8dde-9e0301bb1414</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ddlMaritalStatus&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'ddlBirthState' and (text() = concat('
+              Select Birth State
+              AgrigentoAlessandriaAnconaAostaL' , &quot;'&quot; , 'AquilaArezzoAscoli-PicenoAstiAvellinoBariBarletta-Andria-TraniBellunoBeneventoBergamoBiellaBolognaBolzanoBresciaBrindisiCagliariCaltanissettaCampobassoCarbonia IglesiasCasertaCataniaCatanzaroChietiComoCosenzaCremonaCrotoneCuneoEnnaFermoFerraraFirenzeFoggiaForli-CesenaFrosinoneGenovaGoriziaGrossetoImperiaIserniaLa-SpeziaLatinaLecceLeccoLivornoLodiLuccaMacerataMantovaMassa-CarraraMateraMedio CampidanoMessinaMilanoModenaMonza-BrianzaNapoliNovaraNuoroOgliastraOlbia TempioOristanoPadovaPalermoParmaPaviaPerugiaPesaro-UrbinoPescaraPiacenzaPisaPistoiaPordenonePotenzaPratoRagusaRavennaReggio-CalabriaReggio-EmiliaRietiRiminiRomaRovigoSalernoSassariSavonaSienaSiracusaSondrioTarantoTeramoTerniTorinoTrapaniTrentoTrevisoTriesteUdineVareseVeneziaVerbaniaVercelliVeronaVibo-ValentiaVicenzaViterbo
+            ') or . = concat('
+              Select Birth State
+              AgrigentoAlessandriaAnconaAostaL' , &quot;'&quot; , 'AquilaArezzoAscoli-PicenoAstiAvellinoBariBarletta-Andria-TraniBellunoBeneventoBergamoBiellaBolognaBolzanoBresciaBrindisiCagliariCaltanissettaCampobassoCarbonia IglesiasCasertaCataniaCatanzaroChietiComoCosenzaCremonaCrotoneCuneoEnnaFermoFerraraFirenzeFoggiaForli-CesenaFrosinoneGenovaGoriziaGrossetoImperiaIserniaLa-SpeziaLatinaLecceLeccoLivornoLodiLuccaMacerataMantovaMassa-CarraraMateraMedio CampidanoMessinaMilanoModenaMonza-BrianzaNapoliNovaraNuoroOgliastraOlbia TempioOristanoPadovaPalermoParmaPaviaPerugiaPesaro-UrbinoPescaraPiacenzaPisaPistoiaPordenonePotenzaPratoRagusaRavennaReggio-CalabriaReggio-EmiliaRietiRiminiRomaRovigoSalernoSassariSavonaSienaSiracusaSondrioTarantoTeramoTerniTorinoTrapaniTrentoTrevisoTriesteUdineVareseVeneziaVerbaniaVercelliVeronaVibo-ValentiaVicenzaViterbo
+            '))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

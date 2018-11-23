@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0019-Customer Service" time="17" tests="5" failures="0" errors="0">
+   <testsuite name="VBZ0019-Customer Service" tests="5" failures="0" errors="0" time="17" timestamp="2018-11-21 10:30:45" hostname="Developer - QA-Scheduler.vofox.com" id="Test Suites/VBZ0019-Customer Service">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181121_103043"/>
+         <property name="logFiles" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181121_103043\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Developer - QA-Scheduler.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.111"/>
+         <property name="sessionId" value="c726f3a56b476e5a21ed0e4f412072ad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02001" classname="Test Cases/Associate Application/Customer Service/TCBA02001" status="PASSED">
+         <system-out><![CDATA[2018-11-21 10:30:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02001: Test Cases/Associate Application/Customer Service/TCBA02001
+
+2018-11-21 10:30:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-21 10:30:45 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-11-21 10:30:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-21 10:30:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-21 10:30:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-21 10:30:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-21 10:30:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-21 10:30:52 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-21 10:30:52 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-21 10:30:52 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-21 10:30:52 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-21 10:30:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-21 10:30:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-21 10:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-21 10:30:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02002" classname="Test Cases/Associate Application/Customer Service/TCBA02002" status="PASSED">
+         <system-out><![CDATA[2018-11-21 10:30:55 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02002: Test Cases/Associate Application/Customer Service/TCBA02002
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' is clicked on
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' is clicked on
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Email' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Email' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In' are matched.
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In' are matched.
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - setText: Text 'qwqw21212sewe' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:55 - [MESSAGE][PASSED] - Text 'qwqw21212sewe' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display' are matched.
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display' are matched.
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/p_is required' are matched.
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/p_is required' are matched.
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com' is present
+
+2018-11-21 10:30:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com' is present
+
+2018-11-21 10:30:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In' are matched.
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02003" classname="Test Cases/Associate Application/Customer Service/TCBA02003" status="PASSED">
+         <system-out><![CDATA[2018-11-21 10:30:57 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02003: Test Cases/Associate Application/Customer Service/TCBA02003
+
+2018-11-21 10:30:57 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:57 - [TEST_STEP][PASSED] - setText: Text 'shinto' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Text 'shinto' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-11-21 10:30:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...' is present
+
+2018-11-21 10:30:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...' is present
+
+2018-11-21 10:30:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present
+
+2018-11-21 10:30:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 10:30:57 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02004" classname="Test Cases/Associate Application/Customer Service/TCBA02004" status="PASSED">
+         <system-out><![CDATA[2018-11-21 10:30:57 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02004: Test Cases/Associate Application/Customer Service/TCBA02004
+
+2018-11-21 10:30:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:58 - [TEST_STEP][PASSED] - setText: Text 'prasanth.gk@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:58 - [MESSAGE][PASSED] - Text 'prasanth.gk@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-11-21 10:30:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-11-21 10:30:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' are matched.
+
+2018-11-21 10:30:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' are matched.
+
+2018-11-21 10:30:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailLogin' is clicked on
+
+2018-11-21 10:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailLogin' is clicked on
+
+2018-11-21 10:30:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-21 10:31:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-21 10:31:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Customer Service/Page_Home  5-15/a_dennis-test' is present
+
+2018-11-21 10:31:01 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Home  5-15/a_dennis-test' is present
+
+2018-11-21 10:31:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_dennis-test' are matched.
+
+2018-11-21 10:31:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_dennis-test' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02005" classname="Test Cases/Associate Application/Customer Service/TCBA02005" status="PASSED">
+         <system-out><![CDATA[2018-11-21 10:31:01 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02005: Test Cases/Associate Application/Customer Service/TCBA02005
+
+2018-11-21 10:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Log In User' is clicked on
+
+2018-11-21 10:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Log In User' is clicked on
+
+2018-11-21 10:31:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-21 10:31:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-21 10:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-21 10:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-21 10:31:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-21 10:31:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-21 10:30:45 - [TEST_SUITE][PASSED] - VBZ0019-Customer Service: Test Cases/Associate Application/Customer Service/TCBA02005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
