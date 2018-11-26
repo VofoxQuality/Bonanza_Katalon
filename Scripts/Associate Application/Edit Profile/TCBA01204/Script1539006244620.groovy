@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'), 'Select Country', 
     false)
@@ -59,6 +60,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'), '12121221')
 
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Mail Address Div click'))
+
+WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Zip'), 'Zip')
 
