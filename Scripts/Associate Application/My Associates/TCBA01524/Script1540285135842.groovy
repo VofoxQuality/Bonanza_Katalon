@@ -15,5 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'), 'Log Off')
+
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Home  5-15/span_Log Off'))
 

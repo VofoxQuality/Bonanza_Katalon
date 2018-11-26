@@ -15,18 +15,20 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'), 
-    'Italy', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'), 
+    'Italy', false)
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'))
+WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'), 
+    'Alessandria', false)
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'))
+WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'), 
+    'Alessandria', false)
+
+WebUI.delay(3)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Cancel'), 3)
 

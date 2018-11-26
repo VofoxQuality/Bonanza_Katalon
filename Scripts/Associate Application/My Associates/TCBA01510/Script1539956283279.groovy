@@ -15,8 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth Country'), 
-    'United States Of America', true)
+WebUI.selectOptionByLabel(findTestObject('My Associates/Page_My Associates  5-15/Country-US'), 'United States Of America', 
+    false)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtFirstName'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type as')
 
@@ -26,7 +28,8 @@ WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtBirthCity'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 15111')
 
-WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'), 'LOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUU')
+not_run: WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtPersonalTaxNum'), 
+    'LOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUU')
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtBusinessTaxNum'), 'LOREMIP SUMISSIMPLYLOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUULOREMIPSUMISSIMPLYDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUUDUMMYTEXTOFTHEPRINTINGANDTYPESETTINGINDUSTRY.LOREMIPSUMASBEENTHEIUU')
 
@@ -52,10 +55,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My 
 WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than  150 ch'), 
     'must be no more than 150 characters.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_Personal Tax Num'), 
     'Personal Tax Num')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 16 char'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/p_must be no more than 16 char'), 
     'must be no more than 16 characters.')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_Business Tax Num'), 
@@ -68,7 +71,7 @@ WebUI.verifyTextPresent('First Name must be no more than 200 characters.', false
 
 WebUI.verifyTextPresent('Last Name must be no more than 200 characters.', false)
 
-WebUI.verifyTextPresent('Personal Tax Num must be no more than 16 characters.', false)
+not_run: WebUI.verifyTextPresent('Personal Tax Num must be no more than 16 characters.', false)
 
 WebUI.verifyTextPresent('Business Tax Num must be no more than 100 characters.', false)
 

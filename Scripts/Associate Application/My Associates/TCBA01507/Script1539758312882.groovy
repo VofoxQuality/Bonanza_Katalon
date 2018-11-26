@@ -19,6 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.selectOptionByLabel(findTestObject('Smoke_Test/Page_My Associates  5-15/Country-Prod'), 'Italy', false)
+
+WebUI.delay(4)
+
 WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_Country'), 'Country')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/label_Type (StDrBlvdWay)'), 
