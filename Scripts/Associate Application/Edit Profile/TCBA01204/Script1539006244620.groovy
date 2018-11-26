@@ -55,6 +55,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_StateProvince'), 'State/Province')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_is required_10'), 'is required')
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'), '12121221')
 
