@@ -32,8 +32,10 @@ WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Custo
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_CustName'), 'Qa_Account')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_United States Of Americ'), 
-    'United States Of America', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_United States Of Americ'), 
+    'United States Of America', false)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_firstName'), 'shinto')
 
@@ -65,14 +67,14 @@ WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Cus
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_phone2'), '2222333333')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Month'), 
-    '05', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Month'), 
+    '05', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Day                  01'), 
-    '05', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Day                  01'), 
+    '05', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Year                  2'), 
-    '1990', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Year                  2'), 
+    '1990', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_txtIBAN'), 'NL70ABNA0434144140')
 
@@ -84,8 +86,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Customer Gas Account/P
 
 WebUI.click(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Commodity'), 
-    'Gas', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Commodity'), 
+    'Gas', false)
 
 String data = CustomKeywords.'com.Baseclass.Accountnumber.generateRandomData'()
 
@@ -95,8 +97,8 @@ WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Custome
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_AccountName'), '12121')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Facility'), 
-    'Residential', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Facility'), 
+    'Residential', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_vatNum'), '123456789')
 
@@ -104,21 +106,21 @@ WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Cus
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_MeterNum'), '122222222')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'), 
-    'Air conditioning', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Type Of Use'), 
+    'Air conditioning', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Street Part'), 
-    'CORSO', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Street Part'), 
+    'CORSO', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_address (1)'), 'Add')
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_streetNum'), 'Street no3')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Province'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select Province'), 
+    'Alessandria', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select City'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/select_Select City'), 
+    'Alessandria', false)
 
 WebUI.setText(findTestObject('Object Repository/Customer Gas Account/Page_My Customers  5-15/input_zip'), '12345')
 

@@ -75,12 +75,16 @@ WebUI.setText(findTestObject('Object Repository/Page Management/Page_Page Manage
 
 WebUI.setText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/input_Code_code'), 'Code10')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/select_Select Language'), 
-    'English', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/select_Select Language'), 
+    'English', false)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'), 'www.google.com')
 
 WebUI.setText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/body_Test Data'), 'Test data')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/button_Save'), 'Save')
 
 WebUI.click(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/button_Save'))
 

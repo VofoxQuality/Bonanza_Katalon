@@ -23,10 +23,14 @@ WebUI.click(findTestObject('Object Repository/Role Management/Page_Role Manageme
 
 WebUI.click(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/button_Save'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/div_Successfully addremove use'), 
     'Successfully add/remove user roles.')
 
 WebUI.click(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/button_Cancel'), 'Cancel')
 
 WebUI.click(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/button_Cancel'))
 

@@ -4,7 +4,7 @@
    <name>VBZ0020-Page Management</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-26T16:26:33</lastRun>
+   <lastRun>2018-11-26T19:09:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -42,9 +42,21 @@
       <testCaseId>Test Cases/Associate Application/Page Management/TCBA02105</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>82bf1f0a-2b46-4c1a-8a2b-8b0c286de62e</guid>
+      <guid>0b66030a-df2e-4e84-a0d0-dea39fee76c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Associate Application/Page Management/TCBA02106</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e991cb27-1fd7-4640-8949-7e16970cbe48</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Associate Application/Page Management/TCBA02107</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>82bf1f0a-2b46-4c1a-8a2b-8b0c286de62e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Associate Application/Page Management/TCBA02108</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

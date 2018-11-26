@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0020-Page Management" time="52" tests="8" failures="0" errors="0">
+   <testsuite name="VBZ0020-Page Management" tests="8" failures="0" errors="0" time="52" timestamp="2018-11-26 19:09:11" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0020-Page Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181126_190909"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0020-Page Management\\20181126_190909\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="e52bd90efdc966da533368bd5bba7987"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02101" classname="Test Cases/Associate Application/Page Management/TCBA02101" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:09:12 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02101: Test Cases/Associate Application/Page Management/TCBA02101
+
+2018-11-26 19:09:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-26 19:09:12 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-11-26 19:09:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 19:09:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 19:09:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 19:09:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 19:09:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-26 19:09:22 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-26 19:09:22 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-26 19:09:23 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-26 19:09:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-26 19:09:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-26 19:09:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-26 19:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-26 19:09:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-26 19:09:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-26 19:09:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-26 19:09:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Home  5-15/a_Page Management' are matched.
+
+2018-11-26 19:09:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Home  5-15/a_Page Management' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02102" classname="Test Cases/Associate Application/Page Management/TCBA02102" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:09:28 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02102: Test Cases/Associate Application/Page Management/TCBA02102
+
+2018-11-26 19:09:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Home  5-15/a_Page Management' is clicked on
+
+2018-11-26 19:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Home  5-15/a_Page Management' is clicked on
+
+2018-11-26 19:09:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Page Management' are matched.
+
+2018-11-26 19:09:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Page Management' are matched.
+
+2018-11-26 19:09:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Manage your pages' are matched.
+
+2018-11-26 19:09:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Manage your pages' are matched.
+
+2018-11-26 19:09:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Page Name' are matched.
+
+2018-11-26 19:09:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Page Name' are matched.
+
+2018-11-26 19:09:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Inserted On' are matched.
+
+2018-11-26 19:09:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Inserted On' are matched.
+
+2018-11-26 19:09:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Active' are matched.
+
+2018-11-26 19:09:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Active' are matched.
+
+2018-11-26 19:09:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Code' are matched.
+
+2018-11-26 19:09:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Code' are matched.
+
+2018-11-26 19:09:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Language' are matched.
+
+2018-11-26 19:09:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Language' are matched.
+
+2018-11-26 19:09:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Website' are matched.
+
+2018-11-26 19:09:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Website' are matched.
+
+2018-11-26 19:09:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Edit' are matched.
+
+2018-11-26 19:09:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Edit' are matched.
+
+2018-11-26 19:09:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' are matched.
+
+2018-11-26 19:09:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02103" classname="Test Cases/Associate Application/Page Management/TCBA02103" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:09:35 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02103: Test Cases/Associate Application/Page Management/TCBA02103
+
+2018-11-26 19:09:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/div_...12345678...' is present
+
+2018-11-26 19:09:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-26 19:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/div_...12345678...' is present
+
+2018-11-26 19:09:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/div_1 of 4 pages (40 items)' is present
+
+2018-11-26 19:09:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-26 19:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/div_1 of 4 pages (40 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02104" classname="Test Cases/Associate Application/Page Management/TCBA02104" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:09:35 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02104: Test Cases/Associate Application/Page Management/TCBA02104
+
+2018-11-26 19:09:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' is clicked on
+
+2018-11-26 19:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Add Page' is clicked on
+
+2018-11-26 19:09:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Add Page Details' are matched.
+
+2018-11-26 19:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/div_Add Page Details' are matched.
+
+2018-11-26 19:09:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-11-26 19:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-11-26 19:09:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-11-26 19:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-11-26 19:09:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-11-26 19:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-11-26 19:09:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_1' are matched.
+
+2018-11-26 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_1' are matched.
+
+2018-11-26 19:09:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_2' are matched.
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_2' are matched.
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_3' are matched.
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_3' are matched.
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_4' are matched.
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_4' are matched.
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - setText: Text 'Page10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Text 'Page10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - setText: Text 'Code10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code'
+
+2018-11-26 19:09:38 - [MESSAGE][PASSED] - Text 'Code10' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code'
+
+2018-11-26 19:09:38 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'English' are selected in object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language' 
+
+2018-11-26 19:09:39 - [MESSAGE][PASSED] - All options with label 'English' are selected in object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language' 
+
+2018-11-26 19:09:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-26 19:09:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-26 19:09:42 - [TEST_STEP][PASSED] - setText: Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-11-26 19:09:42 - [MESSAGE][PASSED] - Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-11-26 19:09:42 - [TEST_STEP][PASSED] - setText: Text 'Test data' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/body_Test Data'
+
+2018-11-26 19:09:42 - [MESSAGE][PASSED] - Text 'Test data' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/body_Test Data'
+
+2018-11-26 19:09:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' are matched.
+
+2018-11-26 19:09:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' are matched.
+
+2018-11-26 19:09:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-11-26 19:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/button_Save' is clicked on
+
+2018-11-26 19:09:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' is present
+
+2018-11-26 19:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-26 19:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' is present
+
+2018-11-26 19:09:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' are matched.
+
+2018-11-26 19:09:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02105" classname="Test Cases/Associate Application/Page Management/TCBA02105" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:09:44 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02105: Test Cases/Associate Application/Page Management/TCBA02105
+
+2018-11-26 19:09:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-11-26 19:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-11-26 19:09:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/Update Page Management' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/Update Page Management' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Code' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Language' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Content' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Editor' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Raw' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Preview' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' are matched.
+
+2018-11-26 19:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' are matched.
+
+2018-11-26 19:09:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Cancel' are matched.
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Cancel' are matched.
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Page Name' are matched.
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_5' are matched.
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_5' are matched.
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/label_Website' are matched.
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_6' are matched.
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/p_is required_6' are matched.
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - setText: Text 'Page11' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-11-26 19:09:48 - [MESSAGE][PASSED] - Text 'Page11' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'
+
+2018-11-26 19:09:48 - [TEST_STEP][PASSED] - setText: Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-11-26 19:09:49 - [MESSAGE][PASSED] - Text 'www.google.com' is set on object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'
+
+2018-11-26 19:09:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' are matched.
+
+2018-11-26 19:09:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' are matched.
+
+2018-11-26 19:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-11-26 19:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Update' is clicked on
+
+2018-11-26 19:09:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' is present
+
+2018-11-26 19:09:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-26 19:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' is present
+
+2018-11-26 19:09:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' are matched.
+
+2018-11-26 19:09:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully' are matched.
+
+2018-11-26 19:09:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-11-26 19:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-11-26 19:09:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' are matched.
+
+2018-11-26 19:09:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' are matched.
+
+2018-11-26 19:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' is clicked on
+
+2018-11-26 19:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/a_Publish' is clicked on
+
+2018-11-26 19:09:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' is present
+
+2018-11-26 19:09:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-26 19:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' is present
+
+2018-11-26 19:09:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' are matched.
+
+2018-11-26 19:09:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully' are matched.
+
+2018-11-26 19:09:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-26 19:10:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-26 19:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-11-26 19:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/Icon-edit-button' is clicked on
+
+2018-11-26 19:10:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' are matched.
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02106" classname="Test Cases/Associate Application/Page Management/TCBA02106" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:10:01 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02106: Test Cases/Associate Application/Page Management/TCBA02106
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - Statement - PageName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName), "value"): Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName' is: 'Page11'
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName' is: 'Page11'
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Page11' and expected text 'Page11' are matched 
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Actual text 'Page11' and expected text 'Page11' are matched 
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - Statement - Code = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/input_Code_code), "value"): Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code' is: 'CODE10'
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code' is: 'CODE10'
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CODE10' and expected text 'CODE10' are matched 
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Actual text 'CODE10' and expected text 'CODE10' are matched 
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - Statement - Language = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/select_Select Language), "value", STOP_ON_FAILURE): Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language' is: 'English'
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language' is: 'English'
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'English' and expected text 'English' are matched 
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Actual text 'English' and expected text 'English' are matched 
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - Statement - Website = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/input_Website_website), "value"): Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website' is: 'www.google.com'
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Management/Page_Page Management  5-15/input_Website_website' is: 'www.google.com'
+
+2018-11-26 19:10:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'www.google.com' and expected text 'www.google.com' are matched 
+
+2018-11-26 19:10:01 - [MESSAGE][PASSED] - Actual text 'www.google.com' and expected text 'www.google.com' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02107" classname="Test Cases/Associate Application/Page Management/TCBA02107" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:10:01 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02107: Test Cases/Associate Application/Page Management/TCBA02107
+
+2018-11-26 19:10:02 - [TEST_STEP][PASSED] - verifyElementHasAttribute: Object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code' has attribute 'disabled'
+
+2018-11-26 19:10:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-26 19:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/input_Code_code' has attribute 'disabled'
+
+2018-11-26 19:10:02 - [TEST_STEP][PASSED] - verifyElementHasAttribute: Object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language' has attribute 'disabled'
+
+2018-11-26 19:10:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-26 19:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page Management/Page_Page Management  5-15/select_Select Language' has attribute 'disabled'
+
+2018-11-26 19:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' is clicked on
+
+2018-11-26 19:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Management/Page_Page Management  5-15/span_Cancel' is clicked on
+
+2018-11-26 19:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on
+
+2018-11-26 19:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Page Management/TCBA02108" classname="Test Cases/Associate Application/Page Management/TCBA02108" status="PASSED">
+         <system-out><![CDATA[2018-11-26 19:10:02 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Page Management/TCBA02108: Test Cases/Associate Application/Page Management/TCBA02108
+
+2018-11-26 19:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-26 19:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-26 19:10:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-26 19:10:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-26 19:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-26 19:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-26 19:09:11 - [TEST_SUITE][PASSED] - VBZ0020-Page Management: Test Cases/Associate Application/Page Management/TCBA02108]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
