@@ -28,6 +28,8 @@ WebUI.verifyElementText(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mob
 
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile'), 'Mobile')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_is required_11'), 'is required')
