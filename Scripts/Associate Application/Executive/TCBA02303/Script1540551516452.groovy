@@ -15,23 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/label_Sponsor'), 'Sponsor')
 
-WebUI.delay(2)
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'), 
+    'Select Sponsor', false, 0)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'), 'Test, Shinto-QA', 
-    false)
-
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/button_FILTER'), 'FILTER')
-
-WebUI.click(findTestObject('Object Repository/Executive/Page_Executive  5-15/button_FILTER'))
-
-not_run: WebUI.selectAllOption(findTestObject('Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'))
+WebUI.delay(3)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'), 'Select Sponsor', 
     false)
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/button_FILTER'), 'FILTER')
 
 WebUI.click(findTestObject('Object Repository/Executive/Page_Executive  5-15/button_FILTER'))
 

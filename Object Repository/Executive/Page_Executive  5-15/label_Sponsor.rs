@@ -4,7 +4,17 @@
    <name>label_Sponsor</name>
    <tag></tag>
    <elementGuidId>7d32b102-e40d-4872-b13a-bd3928444e14</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Sponsor' or . = 'Sponsor')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@class='au-target']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

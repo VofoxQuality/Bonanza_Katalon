@@ -28,7 +28,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_
 
 WebUI.selectOptionByLabel(findTestObject('Customer Account/Page_My Customers  5-15/Select Country'), 'Italy', false)
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-26')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-27')
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'), 'Customer')
 

@@ -4,7 +4,17 @@
    <name>div_1 of 6 pages (62 items)</name>
    <tag></tag>
    <elementGuidId>269ba4bb-b3e0-4fd7-ae6a-75d6ec48a32a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '1 of 6 pages (62 items)' or . = '1 of 6 pages (62 items)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0016-My Downline,Chrome 70.0.3538.102,,2018-11-27 16:49:06,2018-11-27 16:51:01,1m - 54.707s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01601,Chrome 70.0.3538.102,,2018-11-27 16:49:07,2018-11-27 16:49:37,30.072s,FAILED
+callTestCase,Chrome 70.0.3538.102,,2018-11-27 16:49:08,2018-11-27 16:49:37,29.503s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01602,Chrome 70.0.3538.102,,2018-11-27 16:49:37,2018-11-27 16:49:46,8.622s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-27 16:49:37,2018-11-27 16:49:45,8.127s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01603,Chrome 70.0.3538.102,,2018-11-27 16:49:46,2018-11-27 16:49:54,8.338s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-27 16:49:46,2018-11-27 16:49:54,8.086s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01604,Chrome 70.0.3538.102,,2018-11-27 16:49:54,2018-11-27 16:50:02,8.383s,FAILED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 16:49:54,2018-11-27 16:50:02,8.096s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01605,Chrome 70.0.3538.102,,2018-11-27 16:50:02,2018-11-27 16:50:11,8.383s,FAILED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-27 16:50:03,2018-11-27 16:50:11,8.073s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01606,Chrome 70.0.3538.102,,2018-11-27 16:50:11,2018-11-27 16:50:19,8.402s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-27 16:50:11,2018-11-27 16:50:19,8.075s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01607,Chrome 70.0.3538.102,,2018-11-27 16:50:19,2018-11-27 16:50:28,8.329s,FAILED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-27 16:50:20,2018-11-27 16:50:28,8.093s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01608,Chrome 70.0.3538.102,,2018-11-27 16:50:28,2018-11-27 16:50:36,8.337s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-27 16:50:28,2018-11-27 16:50:36,8.057s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01609,Chrome 70.0.3538.102,,2018-11-27 16:50:36,2018-11-27 16:50:44,8.320s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-27 16:50:36,2018-11-27 16:50:44,8.076s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01610,Chrome 70.0.3538.102,,2018-11-27 16:50:44,2018-11-27 16:50:53,8.303s,FAILED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 16:50:45,2018-11-27 16:50:53,8.037s,FAILED
+,,,,,,
+Test Cases/Associate Application/My Downline/TCBA01611,Chrome 70.0.3538.102,,2018-11-27 16:50:53,2018-11-27 16:51:01,8.321s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-27 16:50:53,2018-11-27 16:51:01,8.077s,FAILED

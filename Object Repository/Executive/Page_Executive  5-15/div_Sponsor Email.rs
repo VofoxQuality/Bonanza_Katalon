@@ -4,7 +4,17 @@
    <name>div_Sponsor Email</name>
    <tag></tag>
    <elementGuidId>531fffde-dc6a-4c27-b907-16c2dad4c34e</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Sponsor Email' or . = 'Sponsor Email')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Sponsor Email')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

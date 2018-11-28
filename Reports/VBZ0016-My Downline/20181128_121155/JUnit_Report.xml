@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0016-My Downline" time="558" tests="11" failures="0" errors="0">
+   <testsuite name="VBZ0016-My Downline" tests="11" failures="0" errors="0" time="558" timestamp="2018-11-28 12:11:57" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0016-My Downline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181128_121155"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0016-My Downline\\20181128_121155\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="9c95e6e30e28a33890cce440b959793b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01601" classname="Test Cases/Associate Application/My Downline/TCBA01601" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:11:58 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01601: Test Cases/Associate Application/My Downline/TCBA01601
+
+2018-11-28 12:11:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Prod Login/Login' successfully
+
+2018-11-28 12:11:58 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Prod Login/Login: Test Cases/Associate Application/Associate Prod Login/Login
+
+2018-11-28 12:11:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-28 12:12:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-28 12:12:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-28 12:12:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-28 12:12:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72:449/' successfully
+
+2018-11-28 12:12:12 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72:449/' successfully
+
+2018-11-28 12:12:12 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-28 12:12:13 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-28 12:12:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-28 12:12:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-28 12:12:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-28 12:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-28 12:12:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-28 12:12:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-28 12:12:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Prod Login/Login' successfully
+
+2018-11-28 12:12:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' are matched.
+
+2018-11-28 12:12:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01602" classname="Test Cases/Associate Application/My Downline/TCBA01602" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:12:18 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01602: Test Cases/Associate Application/My Downline/TCBA01602
+
+2018-11-28 12:12:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' is clicked on
+
+2018-11-28 12:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_Home  5-15/a_My Downline' is clicked on
+
+2018-11-28 12:12:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:12:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:12:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:12:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:12:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:12:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:12:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-11-28 12:12:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-11-28 12:12:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:12:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:12:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-11-28 12:12:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-11-28 12:12:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:12:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:12:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View' are matched.
+
+2018-11-28 12:12:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View' are matched.
+
+2018-11-28 12:12:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:12:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:12:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:12:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:12:22 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:23 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:26 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:26 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:29 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:30 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:33 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:33 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:36 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:36 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:39 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:39 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:42 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:43 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:46 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:12:46 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start_Level_Treeview' 
+
+2018-11-28 12:12:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:49 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree view End Level' 
+
+2018-11-28 12:12:49 - [MESSAGE][PASSED] - All options with label 'Level 5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Tree view End Level' 
+
+2018-11-28 12:12:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:12:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:12:52 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Select Sponsor' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Sponsor_Treeview' 
+
+2018-11-28 12:12:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:14:28 - [MESSAGE][PASSED] - 1 option(s) with label 'Select Sponsor' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Sponsor_Treeview' 
+
+2018-11-28 12:14:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:14:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:14:31 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Sponsor_Treeview' 
+
+2018-11-28 12:14:32 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Sponsor_Treeview' 
+
+2018-11-28 12:14:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-11-28 12:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-11-28 12:14:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-28 12:14:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-28 12:14:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-11-28 12:14:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01603" classname="Test Cases/Associate Application/My Downline/TCBA01603" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:14:37 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01603: Test Cases/Associate Application/My Downline/TCBA01603
+
+2018-11-28 12:14:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' is clicked on
+
+2018-11-28 12:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' is clicked on
+
+2018-11-28 12:14:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:14:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:14:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:14:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:14:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:14:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:14:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-11-28 12:14:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' are matched.
+
+2018-11-28 12:14:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:14:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:14:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List view' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List view' are matched.
+
+2018-11-28 12:14:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-11-28 12:14:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-11-28 12:14:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:14:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:14:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.
+
+2018-11-28 12:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01604" classname="Test Cases/Associate Application/My Downline/TCBA01604" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:14:40 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01604: Test Cases/Associate Application/My Downline/TCBA01604
+
+2018-11-28 12:14:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-11-28 12:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-11-28 12:14:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-11-28 12:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-11-28 12:14:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-11-28 12:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-11-28 12:14:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:14:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:14:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:14:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-11-28 12:14:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-11-28 12:14:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-11-28 12:14:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-11-28 12:14:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-11-28 12:14:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-11-28 12:14:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-11-28 12:14:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-11-28 12:14:43 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:14:44 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:14:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:14:47 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:14:47 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:14:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:14:50 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:14:51 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:14:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:14:54 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:14:54 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:14:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:14:57 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:14:58 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:14:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:01 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:01 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:04 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:04 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:07 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:08 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:11 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:11 - [MESSAGE][PASSED] - All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:14 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:14 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:17 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:17 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:20 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:21 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:24 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:24 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:27 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:27 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:30 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:31 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:34 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:34 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:37 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:15:37 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:40 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:40 - [MESSAGE][PASSED] - All options with label 'Level 4' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:43 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:15:44 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:15:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-11-28 12:15:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' are matched.
+
+2018-11-28 12:15:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-11-28 12:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-11-28 12:15:47 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:47 - [MESSAGE][PASSED] - All options with label 'Level 6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:50 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:50 - [MESSAGE][PASSED] - All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' are matched.
+
+2018-11-28 12:15:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01605" classname="Test Cases/Associate Application/My Downline/TCBA01605" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:15:53 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01605: Test Cases/Associate Application/My Downline/TCBA01605
+
+2018-11-28 12:15:54 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:54 - [MESSAGE][PASSED] - All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:15:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:15:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:15:57 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:57 - [MESSAGE][PASSED] - All options with label 'Level 6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:15:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:00 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:16:01 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:16:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-11-28 12:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-11-28 12:16:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-11-28 12:16:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is present
+
+2018-11-28 12:16:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 1 pages (4 items)' is present
+
+2018-11-28 12:16:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 1 pages (4 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01606" classname="Test Cases/Associate Application/My Downline/TCBA01606" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:16:04 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01606: Test Cases/Associate Application/My Downline/TCBA01606
+
+2018-11-28 12:16:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' is clicked on
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' is clicked on
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Summary' are matched.
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Summary' are matched.
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' are matched.
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' are matched.
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Summary_Sponsor' 
+
+2018-11-28 12:16:05 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Summary_Sponsor' 
+
+2018-11-28 12:16:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' is clicked on
+
+2018-11-28 12:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/Summary Filter button' is clicked on
+
+2018-11-28 12:16:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-11-28 12:16:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts' are matched.
+
+2018-11-28 12:16:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_143' is clicked on
+
+2018-11-28 12:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_143' is clicked on
+
+2018-11-28 12:16:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts Details' are matched.
+
+2018-11-28 12:16:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Energy Accounts Details' are matched.
+
+2018-11-28 12:16:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Grid Level' are matched.
+
+2018-11-28 12:16:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/Grid Level' are matched.
+
+2018-11-28 12:16:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:16:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:16:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:16:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:16:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:16:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:16:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Submitted Date' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Submitted Date' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Name' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Name' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Number' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Number' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Status' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Account Status' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-11-28 12:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associates' are matched.
+
+2018-11-28 12:16:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_62' is clicked on
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_62' is clicked on
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associate Details' are matched.
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Associate Details' are matched.
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:16:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:16:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:16:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-11-28 12:16:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-11-28 12:16:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-11-28 12:16:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01607" classname="Test Cases/Associate Application/My Downline/TCBA01607" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:16:13 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01607: Test Cases/Associate Application/My Downline/TCBA01607
+
+2018-11-28 12:16:13 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is visible
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_...12345678...' is visible
+
+2018-11-28 12:16:13 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 6 pages (62 items)' is visible
+
+2018-11-28 12:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/My Downline/Page_My Downline  5-15/div_1 of 6 pages (62 items)' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01608" classname="Test Cases/Associate Application/My Downline/TCBA01608" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:16:13 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01608: Test Cases/Associate Application/My Downline/TCBA01608
+
+2018-11-28 12:16:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' is clicked on
+
+2018-11-28 12:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' is clicked on
+
+2018-11-28 12:16:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:16:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:16:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-11-28 12:16:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-11-28 12:16:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:16:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:16:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:16:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:16:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:16:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-11-28 12:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-11-28 12:16:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:16:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-11-28 12:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-11-28 12:16:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix_btn btn-z' is clicked on
+
+2018-11-28 12:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix_btn btn-z' is clicked on
+
+2018-11-28 12:16:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-11-28 12:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-11-28 12:16:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-11-28 12:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-11-28 12:16:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-11-28 12:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m' is clicked on
+
+2018-11-28 12:16:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-11-28 12:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p' is clicked on
+
+2018-11-28 12:16:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-11-28 12:16:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View with Forced Matri' are matched.
+
+2018-11-28 12:16:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:16:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:16:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:16:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:16:17 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:17 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:20 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:20 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:23 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:23 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:26 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:27 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:30 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:30 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:33 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:33 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:36 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:37 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:40 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:16:40 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:43 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:44 - [MESSAGE][PASSED] - All options with label 'Level 5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel' 
+
+2018-11-28 12:16:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:16:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:16:47 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Select Sponsor' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treeview_With_ForcedMatrix' 
+
+2018-11-28 12:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:18:27 - [MESSAGE][PASSED] - 1 option(s) with label 'Select Sponsor' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Treeview_With_ForcedMatrix' 
+
+2018-11-28 12:18:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-28 12:18:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-28 12:18:32 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Treeview_With_ForcedMatrix' 
+
+2018-11-28 12:18:32 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Treeview_With_ForcedMatrix' 
+
+2018-11-28 12:18:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:18:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:18:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-11-28 12:18:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' are matched.
+
+2018-11-28 12:18:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on
+
+2018-11-28 12:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01609" classname="Test Cases/Associate Application/My Downline/TCBA01609" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:18:40 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01609: Test Cases/Associate Application/My Downline/TCBA01609
+
+2018-11-28 12:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' is clicked on
+
+2018-11-28 12:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/span_List View with Forced Mat' is clicked on
+
+2018-11-28 12:18:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:18:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_My Downline' are matched.
+
+2018-11-28 12:18:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List View with Forced Matri' are matched.
+
+2018-11-28 12:18:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/h3_List View with Forced Matri' are matched.
+
+2018-11-28 12:18:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:18:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Summary' are matched.
+
+2018-11-28 12:18:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:18:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_List View' are matched.
+
+2018-11-28 12:18:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:18:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View' are matched.
+
+2018-11-28 12:18:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:18:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/span_Tree View with Forced Mat' are matched.
+
+2018-11-28 12:18:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-11-28 12:18:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/a_List View with Forced Matrix' are matched.
+
+2018-11-28 12:18:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-11-28 12:18:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Start Level' are matched.
+
+2018-11-28 12:18:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:18:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_End Level' are matched.
+
+2018-11-28 12:18:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:18:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor' are matched.
+
+2018-11-28 12:18:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.
+
+2018-11-28 12:18:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/label_Contract Not Signed' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01610" classname="Test Cases/Associate Application/My Downline/TCBA01610" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:18:42 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01610: Test Cases/Associate Application/My Downline/TCBA01610
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Sponsor' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Associate' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/th_Customer Energy Accounts' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Level' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Email' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Sponsor Mobile Phone' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Email' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Mobile Phone' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-11-28 12:18:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date' are matched.
+
+2018-11-28 12:18:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-11-28 12:18:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title' are matched.
+
+2018-11-28 12:18:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-11-28 12:18:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count' are matched.
+
+2018-11-28 12:18:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-11-28 12:18:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Contract Count' are matched.
+
+2018-11-28 12:18:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-11-28 12:18:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count' are matched.
+
+2018-11-28 12:18:44 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:18:44 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 0' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:18:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:18:47 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:18:48 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 1' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:18:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:18:51 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:18:51 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 2' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:18:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:18:54 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:18:54 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 3' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:18:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:18:57 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:18:58 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 4' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:18:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:19:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:19:01 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:19:01 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 5' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:19:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:19:04 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:19:04 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 6' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:19:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:19:07 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:19:08 - [MESSAGE][PASSED] - 1 option(s) with label 'Level 7' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:19:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:19:11 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:11 - [MESSAGE][PASSED] - All options with label 'Level 3' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:19:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:19:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:19:14 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:19:14 - [MESSAGE][PASSED] - All options with label 'Level 5' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:19:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:19:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:19:17 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel: 1 option(s) with label 'Select Sponsor' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:19:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-28 12:20:56 - [MESSAGE][PASSED] - 1 option(s) with label 'Select Sponsor' is/are present in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:20:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:20:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:20:59 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:20:59 - [MESSAGE][PASSED] - All options with label 'Select Sponsor' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor' 
+
+2018-11-28 12:20:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:21:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:21:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-11-28 12:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/button_FILTER' is clicked on
+
+2018-11-28 12:21:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:21:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:21:05 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:21:05 - [MESSAGE][PASSED] - All options with label 'Level 6' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/Start Level' 
+
+2018-11-28 12:21:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:21:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:21:08 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Level 2' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:21:10 - [MESSAGE][PASSED] - All options with label 'Level 2' are selected in object 'Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve' 
+
+2018-11-28 12:21:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 12:21:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 12:21:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' is clicked on
+
+2018-11-28 12:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Downline/TCBA01611" classname="Test Cases/Associate Application/My Downline/TCBA01611" status="PASSED">
+         <system-out><![CDATA[2018-11-28 12:21:13 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Downline/TCBA01611: Test Cases/Associate Application/My Downline/TCBA01611
+
+2018-11-28 12:21:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-28 12:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-28 12:21:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-28 12:21:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-11-28 12:21:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-28 12:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-28 12:21:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-28 12:21:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-28 12:11:57 - [TEST_SUITE][PASSED] - VBZ0016-My Downline: Test Cases/Associate Application/My Downline/TCBA01611]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

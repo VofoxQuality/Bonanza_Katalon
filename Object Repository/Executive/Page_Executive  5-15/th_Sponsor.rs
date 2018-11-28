@@ -4,7 +4,17 @@
    <name>th_Sponsor</name>
    <tag></tag>
    <elementGuidId>faf074c5-1a40-4312-9cf5-a53964eb0d9f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th[(text() = 'Sponsor' or . = 'Sponsor')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[@title='Sponsor']//div[@class='e-headercelldiv'][contains(text(),'Sponsor')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -51,10 +51,61 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor'), 'Sponsor')
 
-WebUI.selectOptionByValue(findTestObject('My Downline/Page_My Downline  5-15/Tree View Forced Matrix'), '5', true)
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 0', 
+    false, 0)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'), 
-    '4854', true)
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 1', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 2', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 3', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 4', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 5', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 6', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 7', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treewith_ForcedmatrixLevel'), 'Level 5', false)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treeview_With_ForcedMatrix'), 'Select Sponsor', 
+    false, 0)
+
+WebUI.delay(5)
+
+WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Treeview_With_ForcedMatrix'), 'Select Sponsor', 
+    false)
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix'), 'Update Matrix')
 
 WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix'))
 
