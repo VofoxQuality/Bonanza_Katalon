@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//th/div</value>
+         <value>//ej-grid[@id='gvDownline']/div[2]/div/table/thead/tr[2]/th/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Level' or . = 'Level')]</value>
+         <value>id(&quot;gvDownline&quot;)/div[@class=&quot;e-gridheader e-textover&quot;]/div[1]/table[@class=&quot;e-table&quot;]/thead[1]/tr[@class=&quot;e-columnheader&quot;]/th[@class=&quot;e-headercell e-default e-headercellsort&quot;]/div[@class=&quot;e-headercelldiv&quot;][count(. | //div[(text() = 'Level' or . = 'Level')]) = count(//div[(text() = 'Level' or . = 'Level')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,7 +45,7 @@
       <value>Level</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

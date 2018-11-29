@@ -1,0 +1,117 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0020-Page Management,Chrome 70.0.3538.110,,2018-11-29 14:24:30,2018-11-29 14:25:15,45.054s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02101,Chrome 70.0.3538.110,,2018-11-29 14:24:31,2018-11-29 14:24:45,13.461s,PASSED
+callTestCase,Chrome 70.0.3538.110,,2018-11-29 14:24:32,2018-11-29 14:24:44,12.703s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:44,2018-11-29 14:24:45,0.101s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02102,Chrome 70.0.3538.110,,2018-11-29 14:24:45,2018-11-29 14:24:49,3.919s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:24:45,2018-11-29 14:24:45,0.141s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:45,2018-11-29 14:24:45,0.078s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:45,2018-11-29 14:24:48,2.909s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:48,0.071s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:48,0.053s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:48,0.059s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:48,0.067s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:48,0.057s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:48,0.051s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:48,0.055s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:48,2018-11-29 14:24:49,0.066s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02103,Chrome 70.0.3538.110,,2018-11-29 14:24:49,2018-11-29 14:24:49,0.257s,PASSED
+verifyElementPresent,Chrome 70.0.3538.110,,2018-11-29 14:24:49,2018-11-29 14:24:49,0.052s,PASSED
+verifyElementPresent,Chrome 70.0.3538.110,,2018-11-29 14:24:49,2018-11-29 14:24:49,0.026s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02104,Chrome 70.0.3538.110,,2018-11-29 14:24:49,2018-11-29 14:24:56,7.618s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:24:49,2018-11-29 14:24:49,0.378s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:49,2018-11-29 14:24:50,0.167s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.086s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.078s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.108s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.068s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.061s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.051s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.045s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.059s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.057s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.078s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.077s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:50,0.123s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:50,2018-11-29 14:24:51,0.051s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.063s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.036s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.057s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.039s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.070s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.040s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.065s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.065s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.070s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.173s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:51,0.163s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.110,,2018-11-29 14:24:51,2018-11-29 14:24:52,0.168s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-29 14:24:52,2018-11-29 14:24:55,3.010s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:24:55,2018-11-29 14:24:55,0.218s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:24:55,2018-11-29 14:24:55,0.370s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:55,2018-11-29 14:24:55,0.035s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:24:55,2018-11-29 14:24:55,0.075s,PASSED
+waitForElementPresent,Chrome 70.0.3538.110,,2018-11-29 14:24:55,2018-11-29 14:24:56,1.082s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:56,2018-11-29 14:24:56,0.054s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02105,Chrome 70.0.3538.110,,2018-11-29 14:24:56,2018-11-29 14:25:13,16.265s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:24:57,2018-11-29 14:24:59,2.212s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:59,2018-11-29 14:24:59,0.599s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:24:59,2018-11-29 14:25:00,0.053s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.056s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.060s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.052s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.050s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.054s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.040s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.053s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.044s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.050s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.138s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:00,0.155s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:00,2018-11-29 14:25:01,0.156s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.079s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.051s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.035s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.054s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.148s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.235s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.042s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:01,0.160s,PASSED
+waitForElementPresent,Chrome 70.0.3538.110,,2018-11-29 14:25:01,2018-11-29 14:25:02,1.067s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:02,2018-11-29 14:25:02,0.050s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:02,2018-11-29 14:25:05,2.177s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:05,2018-11-29 14:25:05,0.582s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:05,2018-11-29 14:25:05,0.089s,PASSED
+waitForElementPresent,Chrome 70.0.3538.110,,2018-11-29 14:25:05,2018-11-29 14:25:07,1.592s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:07,2018-11-29 14:25:07,0.050s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-29 14:25:07,2018-11-29 14:25:12,5.001s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:12,2018-11-29 14:25:12,0.168s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:12,2018-11-29 14:25:13,0.569s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02106,Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.422s,PASSED
+"Statement - PageName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName), ""value"")",Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.073s,PASSED
+verifyMatch,Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.013s,PASSED
+"Statement - Code = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/input_Code_code), ""value"")",Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.040s,PASSED
+verifyMatch,Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.001s,PASSED
+"Statement - Language = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/select_Select Language), ""value"", STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.029s,PASSED
+verifyMatch,Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.001s,PASSED
+"Statement - Website = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page Management/Page_Page Management  5-15/input_Website_website), ""value"")",Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.036s,PASSED
+verifyMatch,Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:13,0.002s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02107,Chrome 70.0.3538.110,,2018-11-29 14:25:13,2018-11-29 14:25:14,0.968s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:14,0.069s,PASSED
+verifyElementHasAttribute,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:14,0.029s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:14,0.155s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:14,0.246s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02108,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:15,0.464s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:14,0.089s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:14,0.065s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 14:25:14,2018-11-29 14:25:15,0.118s,PASSED

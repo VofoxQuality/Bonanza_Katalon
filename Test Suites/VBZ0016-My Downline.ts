@@ -4,7 +4,7 @@
    <name>VBZ0016-My Downline</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-28T12:11:55</lastRun>
+   <lastRun>2018-11-29T14:12:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
