@@ -6,15 +6,15 @@
    <elementGuidId>b006f158-b431-4366-bf3f-85c7cea664c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Inactive Date' or . = 'Inactive Date')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//th[8]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Inactive Date' or . = 'Inactive Date')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

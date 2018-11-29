@@ -4,6 +4,16 @@
    <name>div_Associate</name>
    <tag></tag>
    <elementGuidId>6e6196c6-1196-4667-95ba-95eb425f7d32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CHOOSE MODE OF PAYMENT'])[1]/preceding::div[10]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Associate' or . = 'Associate')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

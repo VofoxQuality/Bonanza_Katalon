@@ -36,6 +36,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executi
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Associate'), 'Associate')
 
+WebUI.verifyElementText(findTestObject('Executive/Page_Executive  5-15/div_Email'), 'Email')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone'), 'Mobile Phone')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Inactive Date'), 'Inactive Date')
