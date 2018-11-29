@@ -27,8 +27,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Level'), 'Level')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'), 
-    'Test, Shinto-QA', true)
+WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Summary_Sponsor'), 'Select Sponsor', false)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('My Downline/Page_My Downline  5-15/Summary Filter button'))
 
@@ -90,7 +91,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date'), 
     'Contract Signed Date')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title'), 'CSR Title')
+WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title'), 'Associate Title')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count'), 'Associate Count')
 

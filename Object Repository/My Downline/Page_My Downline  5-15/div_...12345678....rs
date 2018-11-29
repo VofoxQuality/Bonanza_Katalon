@@ -4,7 +4,17 @@
    <name>div_...12345678...</name>
    <tag></tag>
    <elementGuidId>b5281d22-a9bf-43c9-a1be-2eb3e5f82415</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '...12345678...' or . = '...12345678...')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

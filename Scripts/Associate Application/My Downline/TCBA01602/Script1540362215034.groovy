@@ -33,32 +33,64 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/h3_Tree View'), 'Tree View')
 
-WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch'))
-
-WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hdown e-chevron-down_'))
-
-WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hup e-chevron-up_01 e'))
-
-WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_JK_e-hhandle e-box e-pinch'))
-
-WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-p'))
-
-WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/i_Update Matrix_fa fa-search-m'))
-
-WebUI.scrollToPosition(5, 5)
-
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/label_End Level'), 'End Level')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/label_Sponsor'), 'Sponsor')
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'))
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 0', false, 
+    0)
 
-WebUI.selectOptionByValue(findTestObject('My Downline/Page_My Downline  5-15/Tree view End Level'), '4', true)
+WebUI.delay(3)
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'))
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 1', false, 
+    0)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'), 
-    '4854', true)
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 2', false, 
+    0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 3', false, 
+    0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 4', false, 
+    0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 5', false, 
+    0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 6', false, 
+    0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start_Level_Treeview'), 'Level 7', false, 
+    0)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Tree view End Level'), 'Level 5', false)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Sponsor_Treeview'), 'Select Sponsor', 
+    false, 0)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Sponsor_Treeview'), 'Select Sponsor', false)
 
 WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/button_Update Matrix'), 'Update Matrix')
 

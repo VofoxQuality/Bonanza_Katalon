@@ -4,7 +4,17 @@
    <name>a_Executive</name>
    <tag></tag>
    <elementGuidId>f6ecbff5-d3ca-4db9-9de0-5ffcfaa1250c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@id = 'lnk_2' and @href = '#/exec' and (text() = ' Executive' or . = ' Executive')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='nav-label'][contains(text(),'Executive')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

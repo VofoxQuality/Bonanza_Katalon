@@ -28,7 +28,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Customer Account/Page_
 
 WebUI.selectOptionByLabel(findTestObject('Customer Account/Page_My Customers  5-15/Select Country'), 'Italy', false)
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-26')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-28')
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'), 'Customer')
 
@@ -84,7 +84,7 @@ WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Custome
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'), 
     'Commercial', false)
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'), '123456789')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'), '00079760328')
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_personalTaxNum'), '3434343434')
 

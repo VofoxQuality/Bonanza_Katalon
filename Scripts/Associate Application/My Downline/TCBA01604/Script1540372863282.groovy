@@ -37,12 +37,12 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Inactive Date'), 'Inactive Date')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status'), 'Csr Status')
+WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Csr Status'), 'Associate Status')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Contract Signed Date'), 
     'Contract Signed Date')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title'), 'CSR Title')
+WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_CSR Title'), 'Associate Title')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Associate Count'), 'Associate Count')
 
@@ -51,26 +51,104 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Validated Contract Count'), 
     'Validated Contract Count')
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'))
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 0', false, 0)
 
-WebUI.selectOptionByValue(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), '3', true)
+WebUI.delay(3)
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'))
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 1', false, 0)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
-    '4', true)
+WebUI.delay(3)
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'))
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 2', false, 0)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'), 
-    'Test, Shinto-QA', true)
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 3', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 4', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 5', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 6', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 7', false, 0)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 3', false)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 0', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 1', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 2', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 3', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 4', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 5', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 6', false, 0)
+
+WebUI.delay(3)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 7', false, 0)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 4', false)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Select Sponsor'), 
+    'Select Sponsor', false)
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/button_FILTER'), 'FILTER')
 
 WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/button_FILTER'))
 
-WebUI.selectOptionByValue(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), '6', true)
+WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Start Level'), 'Level 6', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
-    '3', true)
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/select_Level 0            Leve'), 
+    'Level 3', false)
+
+WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g'), 
     'The End Level should be greater than or equal to the Start Level.')

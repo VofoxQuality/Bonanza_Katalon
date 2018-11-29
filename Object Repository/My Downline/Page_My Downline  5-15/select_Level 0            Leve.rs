@@ -6,12 +6,6 @@
    <elementGuidId>a46328dd-8213-4228-8dad-09a0a76c4c36</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='row flex flex-wrap']//div[2]//select[1]
-
-</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//select[(text() = '
             Level 0
@@ -32,6 +26,11 @@
             Level 6
             Level 7
           ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='row flex flex-wrap']//div[2]//select[1]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

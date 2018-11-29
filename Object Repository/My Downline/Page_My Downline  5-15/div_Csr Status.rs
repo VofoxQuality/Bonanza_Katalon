@@ -4,7 +4,17 @@
    <name>div_Csr Status</name>
    <tag></tag>
    <elementGuidId>2a7cbb0d-a157-4cb3-b1a4-ef736b5af5e6</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Csr Status' or . = 'Csr Status')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvDownline']/div[2]/div/table/thead/tr[2]/th[9]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

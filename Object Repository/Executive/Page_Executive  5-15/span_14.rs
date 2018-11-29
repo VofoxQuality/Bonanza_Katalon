@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ej-grid[@id='gvExecutiveAccountStatusDetails']/div[3]/div/table/tbody/tr[6]/td[2]/div/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Count'])[5]/following::span[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

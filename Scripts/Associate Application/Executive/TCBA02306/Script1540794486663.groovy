@@ -58,9 +58,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executi
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Contract Signed Date'), 'Contract Signed Date')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_CSR Title'), 'CSR Title')
+WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_CSR Title'), 'Associate Title')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Associate Count'), 'Associate Count')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/div_Contract Count'), 'Contract Count')
+
+WebUI.scrollToPosition(0, 0)
 

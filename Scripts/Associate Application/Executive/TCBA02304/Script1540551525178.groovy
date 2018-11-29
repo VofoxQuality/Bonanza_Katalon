@@ -13,17 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'), 'Test, Shinto-QA', 
-    false)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Executive/Page_Executive  5-15/button_FILTER'))
-
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor'), 'Select Sponsor', 
     false)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Executive/Page_Executive  5-15/button_FILTER'))
 

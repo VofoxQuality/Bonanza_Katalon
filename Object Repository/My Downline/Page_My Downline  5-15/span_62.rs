@@ -6,12 +6,12 @@
    <elementGuidId>a797b1a3-7f30-4fd7-ada5-626eb335b5dc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class='au-target text-red'][contains(text(),'62')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[(text() = '62' or . = '62')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Contract Not Signed'])[2]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
