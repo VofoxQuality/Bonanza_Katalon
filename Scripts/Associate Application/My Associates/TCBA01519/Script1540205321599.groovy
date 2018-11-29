@@ -15,8 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
-    'United States Of America', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
+    'United States Of America', false)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtCity'), 0)
 

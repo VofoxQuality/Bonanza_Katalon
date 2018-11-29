@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0021-Executive,Chrome 70.0.3538.102,,2018-11-28 13:13:34,2018-11-28 13:15:47,2m - 13.500s,FAILED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02301,Chrome 70.0.3538.102,,2018-11-28 13:13:34,2018-11-28 13:14:36,1m - 1.443s,FAILED
+callTestCase,Chrome 70.0.3538.102,,2018-11-28 13:13:35,2018-11-28 13:14:36,1m - 1.004s,FAILED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02302,Chrome 70.0.3538.102,,2018-11-28 13:14:36,2018-11-28 13:14:37,1.249s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-28 13:14:36,2018-11-28 13:14:36,0.178s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-28 13:14:36,2018-11-28 13:14:36,0.077s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-28 13:14:36,2018-11-28 13:14:37,0.783s,FAILED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02303,Chrome 70.0.3538.102,,2018-11-28 13:14:37,2018-11-28 13:14:38,0.978s,FAILED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-28 13:14:37,2018-11-28 13:14:38,0.740s,FAILED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02304,Chrome 70.0.3538.102,,2018-11-28 13:14:38,2018-11-28 13:15:10,31.914s,FAILED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-28 13:14:38,2018-11-28 13:15:10,31.710s,FAILED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02305,Chrome 70.0.3538.102,,2018-11-28 13:15:10,2018-11-28 13:15:30,20.143s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-28 13:15:10,2018-11-28 13:15:30,19.890s,FAILED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02306,Chrome 70.0.3538.102,,2018-11-28 13:15:30,2018-11-28 13:15:38,8.422s,FAILED
+scrollToElement,Chrome 70.0.3538.102,,2018-11-28 13:15:30,2018-11-28 13:15:38,8.074s,FAILED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02307,Chrome 70.0.3538.102,,2018-11-28 13:15:38,2018-11-28 13:15:47,8.268s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-28 13:15:39,2018-11-28 13:15:47,8.034s,FAILED

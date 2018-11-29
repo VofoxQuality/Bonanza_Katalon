@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0022-Role Management" time="116" tests="5" failures="2" errors="0">
+   <testsuite name="VBZ0022-Role Management" tests="5" failures="2" errors="0" time="116" timestamp="2018-11-26 13:48:35" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0022-Role Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220383022.png, F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220383379.png, F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220416883.png, F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220417279.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="86a73ae395c1fc93dd2a82a722556bfa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02401" classname="Test Cases/Associate Application/Role Management/TCBA02401" status="PASSED">
+         <system-out><![CDATA[2018-11-26 13:48:36 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02401: Test Cases/Associate Application/Role Management/TCBA02401
+
+2018-11-26 13:48:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-26 13:48:37 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-11-26 13:48:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 13:48:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 13:48:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 13:48:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 13:48:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-26 13:49:00 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-26 13:49:00 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-26 13:49:01 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-11-26 13:49:01 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-26 13:49:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-11-26 13:49:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-26 13:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-11-26 13:49:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-26 13:49:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-11-26 13:49:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-11-26 13:49:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.
+
+2018-11-26 13:49:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02402" classname="Test Cases/Associate Application/Role Management/TCBA02402" status="PASSED">
+         <system-out><![CDATA[2018-11-26 13:49:05 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02402: Test Cases/Associate Application/Role Management/TCBA02402
+
+2018-11-26 13:49:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' is clicked on
+
+2018-11-26 13:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' is clicked on
+
+2018-11-26 13:49:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.
+
+2018-11-26 13:49:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Home  5-15/span_Role Management' are matched.
+
+2018-11-26 13:49:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-11-26 13:49:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-11-26 13:49:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Email' are matched.
+
+2018-11-26 13:49:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_Email' are matched.
+
+2018-11-26 13:49:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_User Name' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_User Name' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_First Name' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_First Name' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Last Name' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Last Name' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Email' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Email' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_User Name' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_User Name' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Inactive Date' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Inactive Date' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Roles' are matched.
+
+2018-11-26 13:49:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Roles' are matched.
+
+2018-11-26 13:49:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Edit Roles' are matched.
+
+2018-11-26 13:49:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Edit Roles' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02403" classname="Test Cases/Associate Application/Role Management/TCBA02403" status="PASSED">
+         <system-out><![CDATA[2018-11-26 13:49:08 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02403: Test Cases/Associate Application/Role Management/TCBA02403
+
+2018-11-26 13:49:08 - [TEST_STEP][PASSED] - setText: Text '121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:08 - [MESSAGE][PASSED] - Text '121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:08 - [TEST_STEP][PASSED] - setText: Text '12121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-11-26 13:49:08 - [MESSAGE][PASSED] - Text '12121212' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-11-26 13:49:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/td_No records to display' are matched.
+
+2018-11-26 13:49:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/td_No records to display' are matched.
+
+2018-11-26 13:49:09 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:09 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-11-26 13:49:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-11-26 13:49:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_You must enter at least' are matched.
+
+2018-11-26 13:49:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/label_You must enter at least' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02404" classname="Test Cases/Associate Application/Role Management/TCBA02404" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible (Root cause: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811760239.run(Script1540811760239.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-26 13:49:09 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Role Management/TCBA02404: Test Cases/Associate Application/Role Management/TCBA02404 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible (Root cause: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811760239.run(Script1540811760239.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-26 13:49:09 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:10 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' is present
+
+2018-11-26 13:49:10 - [MESSAGE][PASSED] - Object 'Object Repository/Role Management/Page_Role Management  5-15/h3_User Details' is present
+
+2018-11-26 13:49:10 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Role Management/Page_Role Management  5-15/div_...12345678...' is visible
+
+2018-11-26 13:49:10 - [MESSAGE][PASSED] - Object 'Object Repository/Role Management/Page_Role Management  5-15/div_...12345678...' is visible
+
+2018-11-26 13:49:10 - [TEST_STEP][FAILED] - verifyElementVisible: Unable to verify object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible (Root cause: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+
+2018-11-26 13:49:43 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220383022.png]]
+
+2018-11-26 13:49:43 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible (Root cause: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220383379.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-26 13:49:09 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Role Management/TCBA02404: Test Cases/Associate Application/Role Management/TCBA02404 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible (Root cause: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811760239.run(Script1540811760239.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02405" classname="Test Cases/Associate Application/Role Management/TCBA02405" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' located by 'By.xpath: //span[(text() = 'Shintokk' or . = 'Shintokk')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540811768777.run(Script1540811768777.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-26 13:49:43 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Role Management/TCBA02405: Test Cases/Associate Application/Role Management/TCBA02405 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' located by 'By.xpath: //span[(text() = 'Shintokk' or . = 'Shintokk')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540811768777.run(Script1540811768777.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-26 13:49:43 - [TEST_STEP][PASSED] - setText: Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:44 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'
+
+2018-11-26 13:49:44 - [TEST_STEP][PASSED] - setText: Text 'Shintokk' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-11-26 13:49:44 - [MESSAGE][PASSED] - Text 'Shintokk' is set on object 'Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'
+
+2018-11-26 13:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_FILTER' is clicked on
+
+2018-11-26 13:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-11-26 13:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-11-26 13:49:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' are matched.
+
+2018-11-26 13:49:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Role Management' are matched.
+
+2018-11-26 13:49:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-11-26 13:49:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/h3_Filter users' are matched.
+
+2018-11-26 13:49:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Edit  Roles of' are matched.
+
+2018-11-26 13:49:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Edit  Roles of' are matched.
+
+2018-11-26 13:49:45 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' located by 'By.xpath: //span[(text() = 'Shintokk' or . = 'Shintokk')]' not found)
+
+2018-11-26 13:50:17 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' located by 'By.xpath: //span[(text() = 'Shintokk' or . = 'Shintokk')]' not found
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220416883.png]]
+
+2018-11-26 13:50:17 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' located by 'By.xpath: //span[(text() = 'Shintokk' or . = 'Shintokk')]' not found)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0022-Role Management\\20181126_134831\\1543220417279.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-26 13:49:43 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Role Management/TCBA02405: Test Cases/Associate Application/Role Management/TCBA02405 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk' located by 'By.xpath: //span[(text() = 'Shintokk' or . = 'Shintokk')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540811768777.run(Script1540811768777.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02406" classname="Test Cases/Associate Application/Role Management/TCBA02406" status="PASSED">
+         <system-out><![CDATA[2018-11-26 13:50:17 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02406: Test Cases/Associate Application/Role Management/TCBA02406
+
+2018-11-26 13:50:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Customer_cls-checkbox au' is clicked on
+
+2018-11-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Customer_cls-checkbox au' is clicked on
+
+2018-11-26 13:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Execs_cls-checkbox au-ta' is clicked on
+
+2018-11-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_Execs_cls-checkbox au-ta' is clicked on
+
+2018-11-26 13:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-11-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-11-26 13:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-11-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/input_CustomerService_cls-chec' is clicked on
+
+2018-11-26 13:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Save' is clicked on
+
+2018-11-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Save' is clicked on
+
+2018-11-26 13:50:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Successfully addremove use' are matched.
+
+2018-11-26 13:50:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Role Management/Page_Role Management  5-15/div_Successfully addremove use' are matched.
+
+2018-11-26 13:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-11-26 13:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl' is clicked on
+
+2018-11-26 13:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Cancel' is clicked on
+
+2018-11-26 13:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Role Management/Page_Role Management  5-15/button_Cancel' is clicked on
+
+2018-11-26 13:50:20 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-26 13:50:30 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Role Management/TCBA02407" classname="Test Cases/Associate Application/Role Management/TCBA02407" status="PASSED">
+         <system-out><![CDATA[2018-11-26 13:50:30 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Role Management/TCBA02407: Test Cases/Associate Application/Role Management/TCBA02407
+
+2018-11-26 13:50:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-26 13:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-11-26 13:50:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-11-26 13:50:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-26 13:50:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-26 13:48:35 - [TEST_SUITE][FAILED] - VBZ0022-Role Management: Test Cases/Associate Application/Role Management/TCBA02404 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible (Root cause: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811760239.run(Script1540811760239.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-26 13:48:35 - [TEST_SUITE][FAILED] - VBZ0022-Role Management: Test Cases/Associate Application/Role Management/TCBA02404 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' is visible (Root cause: Web element with id: 'Object Repository/Role Management/Page_Role Management  5-15/div_1 of 6 pages (51 items)' located by 'By.xpath: //div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540811760239.run(Script1540811760239.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543220311349.run(TempTestSuite1543220311349.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

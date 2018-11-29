@@ -13,12 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'), 'shinto@vofoxsolutions.com')
+WebUI.setText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'), '')
+
+WebUI.setText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/input_Email_txtEmail'), 'prasanth.gk@vofoxsolutions.com')
 
 WebUI.setText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/input_User Name_txtUserName'), 
-    'Shintokk')
+    'Dennis-Test')
 
 WebUI.click(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/span_FILTER'))
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk_icon-edit-underl'))
 
@@ -31,7 +35,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Role Management/Page_R
 WebUI.verifyElementText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/span_Edit  Roles of'), 
     'Edit Roles of')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk'), 'Shintokk')
+WebUI.verifyElementText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/span_Shintokk'), 'Dennis-Test')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Role Management/Page_Role Management  5-15/label_Associate'), 
     'Associate')

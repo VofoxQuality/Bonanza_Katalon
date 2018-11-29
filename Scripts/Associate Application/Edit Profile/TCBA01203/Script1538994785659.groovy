@@ -23,6 +23,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 
 WebUI.click(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Edit'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName'), '')
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName'), '')

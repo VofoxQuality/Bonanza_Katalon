@@ -4,7 +4,17 @@
    <name>div_1 of 6 pages (51 items)</name>
    <tag></tag>
    <elementGuidId>da636d37-c9b8-4439-8674-87711c1ec84f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '1 of 6 pages (51 items)' or . = '1 of 6 pages (51 items)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvUsers']/div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

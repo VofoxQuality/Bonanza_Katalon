@@ -4,7 +4,17 @@
    <name>div_CSR Title</name>
    <tag></tag>
    <elementGuidId>f31d0535-ef8f-4756-8535-a81817d63a46</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'CSR Title' or . = 'CSR Title')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Associate Title')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

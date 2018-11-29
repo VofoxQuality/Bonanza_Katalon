@@ -4,6 +4,16 @@
    <name>div_Account Number</name>
    <tag></tag>
    <elementGuidId>2503c75c-080c-4a30-bc09-2e0b8acb1c4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Account Number' or . = 'Account Number')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvEnergyAccountsDetails']/div[2]/div/table/thead/tr[2]/th[11]/div</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

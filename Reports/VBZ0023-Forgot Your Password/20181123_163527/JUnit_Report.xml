@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0023-Forgot Your Password" time="15" tests="6" failures="0" errors="0">
+   <testsuite name="VBZ0023-Forgot Your Password" tests="6" failures="0" errors="0" time="15" timestamp="2018-11-23 16:35:28" hostname="Developer - QA-Scheduler.vofox.com" id="Test Suites/VBZ0023-Forgot Your Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0023-Forgot Your Password\\20181123_163527"/>
+         <property name="logFiles" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0023-Forgot Your Password\\20181123_163527\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Developer - QA-Scheduler.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.111"/>
+         <property name="sessionId" value="99c35cf4cb912f999cd616f66484b96c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Forgot Your Password/TCBA02001" classname="Test Cases/Associate Application/Forgot Your Password/TCBA02001" status="PASSED">
+         <system-out><![CDATA[2018-11-23 16:35:29 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Forgot Your Password/TCBA02001: Test Cases/Associate Application/Forgot Your Password/TCBA02001
+
+2018-11-23 16:35:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-23 16:35:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-23 16:35:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-23 16:35:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-23 16:35:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-23 16:35:35 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-11-23 16:35:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-23 16:35:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Forgot Your Password/TCBA02002" classname="Test Cases/Associate Application/Forgot Your Password/TCBA02002" status="PASSED">
+         <system-out><![CDATA[2018-11-23 16:35:36 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Forgot Your Password/TCBA02002: Test Cases/Associate Application/Forgot Your Password/TCBA02002
+
+2018-11-23 16:35:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Your Password/Page_Log In  5-15/a_Forgot your password' is clicked on
+
+2018-11-23 16:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Your Password/Page_Log In  5-15/a_Forgot your password' is clicked on
+
+2018-11-23 16:35:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Your Username/Page_Forgot your Username/Select Language' is clicked on
+
+2018-11-23 16:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Your Username/Page_Forgot your Username/Select Language' is clicked on
+
+2018-11-23 16:35:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/h1_Forgot your password' are matched.
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/h1_Forgot your password' are matched.
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/label_Enter your username' are matched.
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/label_Enter your username' are matched.
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/label_Personal Tax Num' are matched.
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/label_Personal Tax Num' are matched.
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' are matched.
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Forgot Your Password/TCBA02003" classname="Test Cases/Associate Application/Forgot Your Password/TCBA02003" status="PASSED">
+         <system-out><![CDATA[2018-11-23 16:35:38 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Forgot Your Password/TCBA02003: Test Cases/Associate Application/Forgot Your Password/TCBA02003
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.PersonalTaxNum'
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.PersonalTaxNum'
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/li_Either enter User Name or P' are matched.
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/li_Either enter User Name or P' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Forgot Your Password/TCBA02004" classname="Test Cases/Associate Application/Forgot Your Password/TCBA02004" status="PASSED">
+         <system-out><![CDATA[2018-11-23 16:35:38 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Forgot Your Password/TCBA02004: Test Cases/Associate Application/Forgot Your Password/TCBA02004
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - setText: Text 'shinto-custom' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:38 - [MESSAGE][PASSED] - Text 'shinto-custom' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/li_Username shinto-custom was' are matched.
+
+2018-11-23 16:35:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/li_Username shinto-custom was' are matched.
+
+2018-11-23 16:35:39 - [TEST_STEP][PASSED] - setText: Text 'shinto-customer' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:39 - [MESSAGE][PASSED] - Text 'shinto-customer' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/li_There a login for shinto-cu' are matched.
+
+2018-11-23 16:35:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot your password/li_There a login for shinto-cu' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Forgot Your Password/TCBA02005" classname="Test Cases/Associate Application/Forgot Your Password/TCBA02005" status="PASSED">
+         <system-out><![CDATA[2018-11-23 16:35:40 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Forgot Your Password/TCBA02005: Test Cases/Associate Application/Forgot Your Password/TCBA02005
+
+2018-11-23 16:35:40 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:40 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username'
+
+2018-11-23 16:35:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit' is clicked on
+
+2018-11-23 16:35:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot password confirmation/h2_Forgot password confirmatio' are matched.
+
+2018-11-23 16:35:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot password confirmation/h2_Forgot password confirmatio' are matched.
+
+2018-11-23 16:35:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot password confirmation/p_Please check your email to r' are matched.
+
+2018-11-23 16:35:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Password/Page_Forgot password confirmation/p_Please check your email to r' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Forgot Your Password/TCBA02006" classname="Test Cases/Associate Application/Forgot Your Password/TCBA02006" status="PASSED">
+         <system-out><![CDATA[2018-11-23 16:35:42 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Forgot Your Password/TCBA02006: Test Cases/Associate Application/Forgot Your Password/TCBA02006
+
+2018-11-23 16:35:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Forgot Your Username/Page_Forgot username confirmation/Login Link' are matched.
+
+2018-11-23 16:35:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Your Username/Page_Forgot username confirmation/Login Link' are matched.
+
+2018-11-23 16:35:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Your Username/Page_Forgot username confirmation/Login Link' is clicked on
+
+2018-11-23 16:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Your Username/Page_Forgot username confirmation/Login Link' is clicked on
+
+2018-11-23 16:35:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-11-23 16:35:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-23 16:35:28 - [TEST_SUITE][PASSED] - VBZ0023-Forgot Your Password: Test Cases/Associate Application/Forgot Your Password/TCBA02006]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

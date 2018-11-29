@@ -6,12 +6,12 @@
    <elementGuidId>f6ecbff5-d3ca-4db9-9de0-5ffcfaa1250c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Executive')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@id = 'lnk_2' and @href = '#/exec' and (text() = ' Executive' or . = ' Executive')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='nav-label'][contains(text(),'Executive')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

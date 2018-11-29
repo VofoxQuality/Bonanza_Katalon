@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone'), '')
 
@@ -26,6 +27,8 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 WebUI.verifyElementText(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'), 'Save')
 
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile'), 'Mobile')
 
@@ -56,6 +59,8 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone'), 'Test')
 
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Save-Mobile Number'))
+
+WebUI.delay(4)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone'), 'Home Phone')
 

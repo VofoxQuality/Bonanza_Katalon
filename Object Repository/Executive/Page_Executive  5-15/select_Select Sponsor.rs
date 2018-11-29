@@ -17,7 +17,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sponsor'])[1]/following::select[1]</value>
+         <value>//select[@class='form-control au-target']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

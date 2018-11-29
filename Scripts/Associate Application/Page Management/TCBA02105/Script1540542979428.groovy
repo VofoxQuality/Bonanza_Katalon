@@ -61,9 +61,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_P
 WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/p_is required_6'), 
     'is required')
 
-WebUI.setText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'), 'Page10')
+WebUI.setText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName'), 'Page11')
 
 WebUI.setText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/input_Website_website'), 'www.google.com')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/a_Update'), 'Update')
 
 WebUI.click(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/a_Update'))
 
@@ -75,6 +77,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_P
 
 WebUI.click(findTestObject('Page Management/Page_Page Management  5-15/Icon-edit-button'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/a_Publish'), 'Publish')
+
 WebUI.click(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/a_Publish'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully'), 
@@ -83,12 +87,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Page Management/Pa
 WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully'), 
     'Published successfully')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page Management/Page_Page Management  5-15/Icon-edit-button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/span_Cancel'), 
-    3)
-
-WebUI.click(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/span_Cancel'))
-
-WebUI.click(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Home'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/span_Cancel'), 'Cancel')
 

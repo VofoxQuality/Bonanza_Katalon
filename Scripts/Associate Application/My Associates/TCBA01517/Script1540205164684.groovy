@@ -15,20 +15,26 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Add Associate'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
-    'Italy', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
+    'Italy', false)
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'))
+WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth State'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('My Associates/Page_My Associates  5-15/type_Street'), 'VIA', false)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.selectAllOption(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'))
+WebUI.mouseOver(findTestObject('My Associates/Page_My Associates  5-15/Street_MouseOver'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Birth City'), 
-    'Alessandria', true)
+WebUI.verifyElementText(findTestObject('My Associates/Page_My Associates  5-15/Mouse_over_Message'), 'Show All Street Parts')
+
+WebUI.selectOptionByLabel(findTestObject('My Associates/Page_My Associates  5-15/state_code'), 'Alessandria', false)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('My Associates/Page_My Associates  5-15/State_City'), 'Alessandria', false)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/span_Cancel'))
 

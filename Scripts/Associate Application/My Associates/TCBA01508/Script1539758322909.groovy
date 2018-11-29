@@ -30,15 +30,19 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Associates/Page_My 
 
 WebUI.click(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/h3_Mailing Address'))
 
+WebUI.selectOptionByLabel(findTestObject('Smoke_Test/Page_My Associates  5-15/Country-Prod'), 'Italy', false)
+
+WebUI.delay(4)
+
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetName'), 'Street Name')
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'), 'House Number')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select StateProvince'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select StateProvince'), 
+    'Alessandria', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select City'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select City'), 
+    'Alessandria', false)
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtZip'), '12345')
 

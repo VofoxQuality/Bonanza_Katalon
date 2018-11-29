@@ -4,7 +4,17 @@
    <name>div_1 of 1 pages (4 items)</name>
    <tag></tag>
    <elementGuidId>78bba28c-62c9-4ab7-a9f2-9f7ce5e0fc10</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '1 of 1 pages (4 items)' or . = '1 of 1 pages (4 items)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvDownline']/div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

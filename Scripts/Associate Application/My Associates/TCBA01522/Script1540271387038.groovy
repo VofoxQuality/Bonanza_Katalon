@@ -24,30 +24,46 @@ WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'), 'Last Name')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'), '05', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month'), '05', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'), 
-    '05', true)
+WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'), 
-    '1995', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01'), 
+    '05', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'), 
-    'Married', true)
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2'), 
+    '1995', false)
+
+WebUI.delay(4)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status'), 
+    'Married', false)
+
+WebUI.delay(2)
 
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_EnglishItalian'), 
     'English', true)
 
-WebUI.selectOptionByValue(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Country'), 'Italy', true)
+WebUI.selectOptionByLabel(findTestObject('Smoke_Test/Page_My Associates  5-15/Select Country'), 'Italy', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'), 
-    'Alessandria', true)
+WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State'), 
+    'Alessandria', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'), 
-    'Italy', true)
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City'), 
+    'Alessandria', false)
+
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship'), 
+    'Italy', false)
+
+WebUI.delay(2)
 
 String data = CustomKeywords.'com.Baseclass.Utility.generateRandomData'()
 
@@ -57,8 +73,10 @@ WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'), '34343434344434')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
-    'United States Of America', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/select_Select Country'), 
+    'United States Of America', false)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/My Associates/Page_My Associates  5-15/input_txtStreetNum'), 'House Number')
 
