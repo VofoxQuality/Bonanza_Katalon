@@ -4,6 +4,16 @@
    <name>div_Mobile Phone</name>
    <tag></tag>
    <elementGuidId>28067586-022b-4067-b8aa-248cb3437791</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvEnergyAccountsDetails']/div[2]/div/table/thead/tr[2]/th[7]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Mobile Phone' or . = 'Mobile Phone')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

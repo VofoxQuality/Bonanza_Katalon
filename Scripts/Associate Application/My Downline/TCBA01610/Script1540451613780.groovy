@@ -115,5 +115,8 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/My Downline/Page_My 
 
 WebUI.delay(3)
 
+WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g'), 
+    'The End Level should be greater than or equal to the Start Level.')
+
 WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_The End Level should be  g'))
 

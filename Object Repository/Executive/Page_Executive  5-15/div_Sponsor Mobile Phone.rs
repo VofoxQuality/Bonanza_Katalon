@@ -6,12 +6,12 @@
    <elementGuidId>dd18eece-631a-41e6-aec2-c4a6aa138b72</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Sponsor Mobile Phone' or . = 'Sponsor Mobile Phone')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[contains(text(),'Sponsor Mobile Phone')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Sponsor Mobile Phone' or . = 'Sponsor Mobile Phone')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
