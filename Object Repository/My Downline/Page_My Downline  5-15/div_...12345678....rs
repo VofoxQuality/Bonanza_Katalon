@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ej-grid/div[4]/div</value>
+         <value>//div[@class='e-pagercontainer']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

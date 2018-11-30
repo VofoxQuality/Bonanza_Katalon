@@ -4,7 +4,17 @@
    <name>div_Contract Count</name>
    <tag></tag>
    <elementGuidId>e2ce9261-c091-43c0-9415-51cbdb2e9e9d</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Contract Count' or . = 'Contract Count')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Contract Count')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
