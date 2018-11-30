@@ -4,7 +4,7 @@
    <name>VBZ0015-My Associates</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-23T20:05:16</lastRun>
+   <lastRun>2018-11-29T12:05:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

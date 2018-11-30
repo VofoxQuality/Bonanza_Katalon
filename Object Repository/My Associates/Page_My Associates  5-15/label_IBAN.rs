@@ -6,12 +6,12 @@
    <elementGuidId>580e492b-2f9f-49c9-906d-4b35d3f8f477</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//label[@id = 'lblIBAN' and (text() = 'IBAN' or . = 'IBAN')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='divBankAccountKey']/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@id = 'lblIBAN' and (text() = 'IBAN' or . = 'IBAN')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

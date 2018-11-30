@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Executive/Page_Home  5-15/a_Executive'), 10)
+
 WebUI.click(findTestObject('Object Repository/Executive/Page_Home  5-15/a_Executive'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executive/Page_Executive  5-15/span_Executive'), 'Executive')

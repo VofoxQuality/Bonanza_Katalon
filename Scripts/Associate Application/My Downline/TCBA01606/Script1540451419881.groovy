@@ -67,6 +67,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/h3_Associates'), 'Associates')
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/span_62'), 10)
+
 WebUI.click(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/span_62'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/h3_Associate Details'), 'Associate Details')
