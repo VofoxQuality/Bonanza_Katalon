@@ -19,7 +19,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://515itportal-preprod.azurewebsites.net')
 
-WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), 'Shinto1_Test28')
+WebUI.setText(findTestObject('Object Repository/Page_Log In  5-15/input_txtUserName'), 'Shinto_Test30')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  5-15/input_txtPassword'), 'p4y+y39Ir5PEPmX20UxFKw==')
 

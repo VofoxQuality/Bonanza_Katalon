@@ -30,7 +30,7 @@ WebUI.selectOptionByLabel(findTestObject('Customer Account/Page_My Customers  5-
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-28')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_firstName'), 'Test_2018-11-30')
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_lastName'), 'Customer')
 
