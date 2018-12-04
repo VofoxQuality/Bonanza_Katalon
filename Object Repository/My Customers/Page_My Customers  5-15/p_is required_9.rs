@@ -4,7 +4,17 @@
    <name>p_is required_9</name>
    <tag></tag>
    <elementGuidId>3ce29b36-097b-4679-945f-0e5497d2451a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-95' and (text() = 'is required' or . = 'is required')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divHomeNumber']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,7 +4,17 @@
    <name>textarea_Add any comments you</name>
    <tag></tag>
    <elementGuidId>9476c3b9-19ca-4ea1-87fd-d53f1d8a1160</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[1]/div[@class=&quot;au-target&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;au-target main-content&quot;]/div[@class=&quot;body-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/router-view[@class=&quot;au-target&quot;]/div[@class=&quot;au-animate&quot;]/router-view[@class=&quot;au-target&quot;]/div[2]/compose[@class=&quot;au-target&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;form-group col-md-12 has-warning&quot;]/textarea[@class=&quot;form-control au-target&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@class='form-control au-target']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

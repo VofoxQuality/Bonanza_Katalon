@@ -66,7 +66,7 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Pr
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'), 
     'Italy', false)
 
-WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), '59098')
+WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), 'TSTTST83R46A271B')
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 'Number1')
 

@@ -4,7 +4,17 @@
    <name>p_must be no more than 50 char</name>
    <tag></tag>
    <elementGuidId>11398d72-1858-45fa-92ec-0c2db888744f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-218' and (text() = 'must be no more than 50 characters.' or . = 'must be no more than 50 characters.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divStreetPart']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,7 +4,17 @@
    <name>p_must be no more than  10 cha</name>
    <tag></tag>
    <elementGuidId>e6683ccf-b0fb-4bb9-831e-1a3f30761dee</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-198' and (text() = 'must be no more than  10 characters.' or . = 'must be no more than  10 characters.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divStreetNum']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

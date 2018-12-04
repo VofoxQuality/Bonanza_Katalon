@@ -17,7 +17,7 @@ WebUI.click(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-1
 
 WebUI.verifyElementText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates'), 'Associates')
 
-WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'), 'Test_2018-11-30')
+WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'), 'Test_2018-12-04')
 
 WebUI.setText(findTestObject('Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'), 'Associate')
 

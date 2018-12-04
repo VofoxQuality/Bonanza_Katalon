@@ -55,7 +55,7 @@ WebUI.verifyMatch('Italy', Citizenship, false)
 
 PersonalTaxNum = WebUI.getAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), 'value')
 
-WebUI.verifyMatch('59098', PersonalTaxNum, false)
+WebUI.verifyMatch('TSTTST83R46A271B', PersonalTaxNum, false)
 
 HouseNumber = WebUI.getAttribute(findTestObject('Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 'value')
 

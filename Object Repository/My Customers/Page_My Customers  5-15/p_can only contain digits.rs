@@ -4,7 +4,17 @@
    <name>p_can only contain digits</name>
    <tag></tag>
    <elementGuidId>a54b23fd-56b1-4cd9-bc60-53dff4e5b37f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-258' and (text() = 'can only contain digits' or . = 'can only contain digits')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divZip']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

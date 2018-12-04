@@ -4,7 +4,17 @@
    <name>p_must be no more than  100 ch_1</name>
    <tag></tag>
    <elementGuidId>20669d5c-58eb-4ab9-a101-2f679cf985be</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-186' and (text() = 'must be no more than  100 characters.' or . = 'must be no more than  100 characters.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divLastName']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
