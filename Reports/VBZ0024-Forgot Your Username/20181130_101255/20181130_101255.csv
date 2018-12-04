@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0024-Forgot Your Username,Chrome 70.0.3538.102,,2018-11-30 10:12:56,2018-11-30 10:13:09,13.085s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03001,Chrome 70.0.3538.102,,2018-11-30 10:12:56,2018-11-30 10:13:03,6.949s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.102,,2018-11-30 10:12:57,2018-11-30 10:12:59,2.839s,PASSED
+maximizeWindow(),Chrome 70.0.3538.102,,2018-11-30 10:12:59,2018-11-30 10:13:01,1.151s,PASSED
+"navigateToUrl(""https://192.168.10.72/#/login"")",Chrome 70.0.3538.102,,2018-11-30 10:13:01,2018-11-30 10:13:03,2.508s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-11-30 10:13:03,2018-11-30 10:13:03,0.233s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03002,Chrome 70.0.3538.102,,2018-11-30 10:13:03,2018-11-30 10:13:04,0.757s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Username/Page_Log In  5-15/a_Forgot your username""))",Chrome 70.0.3538.102,,2018-11-30 10:13:03,2018-11-30 10:13:04,0.408s,PASSED
+"click(findTestObject(""Forgot Your Username/Page_Forgot your Username/Select Language""))",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.141s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/h1_Forgot your Username""), ""Forgot your Username?"")",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.039s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/label_Enter your email address""), ""Email"")",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/button_Submit""), ""Submit"")",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.033s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03003,Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.191s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/button_Submit""))",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.064s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/span_Email address is required""), ""Email address is required."")",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.039s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03004,Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:05,0.358s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/input_Input.Email""), """")",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:04,0.089s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/input_Input.Email""), ""asas3133223!@@"")",Chrome 70.0.3538.102,,2018-11-30 10:13:04,2018-11-30 10:13:05,0.097s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/button_Submit""))",Chrome 70.0.3538.102,,2018-11-30 10:13:05,2018-11-30 10:13:05,0.063s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/span_The Enter your email addr""), ""The Email field is not a valid e-mail address."")",Chrome 70.0.3538.102,,2018-11-30 10:13:05,2018-11-30 10:13:05,0.028s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03005,Chrome 70.0.3538.102,,2018-11-30 10:13:05,2018-11-30 10:13:07,2.582s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/input_Input.Email""), """")",Chrome 70.0.3538.102,,2018-11-30 10:13:05,2018-11-30 10:13:05,0.056s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/input_Input.Email""), ""shinto@vofoxsolutions.com"")",Chrome 70.0.3538.102,,2018-11-30 10:13:05,2018-11-30 10:13:05,0.126s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot your Username/button_Submit""))",Chrome 70.0.3538.102,,2018-11-30 10:13:05,2018-11-30 10:13:07,2.247s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot username confirmation/h2_Forgot username confirmatio""), ""Forgot username confirmation"")",Chrome 70.0.3538.102,,2018-11-30 10:13:07,2018-11-30 10:13:07,0.037s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Username/Page_Forgot username confirmation/p_Please check your email to g""), ""Please check your email to get your username."")",Chrome 70.0.3538.102,,2018-11-30 10:13:07,2018-11-30 10:13:07,0.032s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03007,Chrome 70.0.3538.102,,2018-11-30 10:13:07,2018-11-30 10:13:09,1.416s,PASSED
+"verifyElementText(findTestObject(""Forgot Your Username/Page_Forgot username confirmation/Login Link""), ""Log in"")",Chrome 70.0.3538.102,,2018-11-30 10:13:07,2018-11-30 10:13:07,0.034s,PASSED
+"click(findTestObject(""Forgot Your Username/Page_Forgot username confirmation/Login Link""))",Chrome 70.0.3538.102,,2018-11-30 10:13:07,2018-11-30 10:13:08,1.072s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-11-30 10:13:08,2018-11-30 10:13:09,0.203s,PASSED

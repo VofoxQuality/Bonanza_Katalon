@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0021-Executive,Chrome 70.0.3538.102,,2018-11-30 10:35:24,2018-11-30 10:35:51,26.962s,PASSED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02301,Chrome 70.0.3538.102,,2018-11-30 10:35:25,2018-11-30 10:35:35,10.563s,PASSED
+"callTestCase(findTestCase(""Associate Application/Associate Prod Login/Login""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-30 10:35:25,2018-11-30 10:35:35,10.285s,PASSED
+"verifyElementText(findTestObject(""Executive/Page_Executive  5-15/Executive Menu""), ""Executive"")",Chrome 70.0.3538.102,,2018-11-30 10:35:35,2018-11-30 10:35:35,0.032s,PASSED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02302,Chrome 70.0.3538.102,,2018-11-30 10:35:35,2018-11-30 10:35:36,0.578s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Executive/Page_Home  5-15/a_Executive""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:35:35,2018-11-30 10:35:35,0.048s,PASSED
+"click(findTestObject(""Object Repository/Executive/Page_Home  5-15/a_Executive""))",Chrome 70.0.3538.102,,2018-11-30 10:35:35,2018-11-30 10:35:35,0.104s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/span_Executive""), ""Executive"")",Chrome 70.0.3538.102,,2018-11-30 10:35:35,2018-11-30 10:35:35,0.064s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/label_Sponsor""), ""Sponsor"")",Chrome 70.0.3538.102,,2018-11-30 10:35:35,2018-11-30 10:35:36,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/button_FILTER""), ""FILTER"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts""), ""Energy Accounts"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Status""), ""Status"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Count""), ""Count"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.038s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Associates""), ""Associates"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Status""), ""Status"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.020s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Count""), ""Count"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.020s,PASSED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02303,Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:42,6.364s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/label_Sponsor""), ""Sponsor"")",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.021s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor""), ""Select Sponsor"", false, 0)",Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:36,0.073s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-11-30 10:35:36,2018-11-30 10:35:39,3.005s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor""), ""Select Sponsor"", false)",Chrome 70.0.3538.102,,2018-11-30 10:35:39,2018-11-30 10:35:39,0.055s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-11-30 10:35:39,2018-11-30 10:35:42,3.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/button_FILTER""), ""FILTER"")",Chrome 70.0.3538.102,,2018-11-30 10:35:42,2018-11-30 10:35:42,0.047s,PASSED
+"click(findTestObject(""Object Repository/Executive/Page_Executive  5-15/button_FILTER""))",Chrome 70.0.3538.102,,2018-11-30 10:35:42,2018-11-30 10:35:42,0.076s,PASSED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02304,Chrome 70.0.3538.102,,2018-11-30 10:35:42,2018-11-30 10:35:47,4.549s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Executive/Page_Executive  5-15/select_Select Sponsor""), ""Select Sponsor"", false)",Chrome 70.0.3538.102,,2018-11-30 10:35:42,2018-11-30 10:35:42,0.040s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-11-30 10:35:42,2018-11-30 10:35:45,3.002s,PASSED
+"click(findTestObject(""Object Repository/Executive/Page_Executive  5-15/button_FILTER""))",Chrome 70.0.3538.102,,2018-11-30 10:35:45,2018-11-30 10:35:45,0.075s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts""), ""Energy Accounts"")",Chrome 70.0.3538.102,,2018-11-30 10:35:45,2018-11-30 10:35:45,0.022s,PASSED
+"click(findTestObject(""Object Repository/Executive/Page_Executive  5-15/span_472""))",Chrome 70.0.3538.102,,2018-11-30 10:35:45,2018-11-30 10:35:45,0.085s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed""), 3)",Chrome 70.0.3538.102,,2018-11-30 10:35:45,2018-11-30 10:35:47,1.117s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed""), ""Contract Not Signed"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.054s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Level""), ""Level"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Count""), ""Count"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.028s,PASSED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02305,Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:48,0.863s,PASSED
+"click(findTestObject(""Object Repository/Executive/Page_Executive  5-15/span_14""))",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.086s,PASSED
+"scrollToElement(findTestObject(""Executive/Page_Executive  5-15/h3_Energy Accounts Details""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.076s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Energy Accounts Details""), ""Energy Accounts Details"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.134s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/th_Sponsor""), ""Sponsor"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/th_Associate""), ""Associate"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts""), ""Customer Energy Accounts"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Level""), ""Level"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Sponsor""), ""Sponsor"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.027s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email""), ""Sponsor Email"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone""), ""Sponsor Mobile Phone"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Associate""), ""Associate"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.033s,PASSED
+"verifyElementText(findTestObject(""Executive/Page_Executive  5-15/div_Email""), ""Email"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone""), ""Mobile Phone"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Inactive Date""), ""Inactive Date"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Submitted Date""), ""Submitted Date"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Account Name""), ""Account Name"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Account Number""), ""Account Number"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:47,0.037s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Account Status""), ""Account Status"")",Chrome 70.0.3538.102,,2018-11-30 10:35:47,2018-11-30 10:35:48,0.029s,PASSED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02306,Chrome 70.0.3538.102,,2018-11-30 10:35:48,2018-11-30 10:35:50,2.571s,PASSED
+"scrollToElement(findTestObject(""Executive/Page_Executive  5-15/h3_Associates""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:35:48,2018-11-30 10:35:48,0.019s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Associates""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:35:48,2018-11-30 10:35:48,0.014s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Associates""), ""Associates"")",Chrome 70.0.3538.102,,2018-11-30 10:35:48,2018-11-30 10:35:48,0.047s,PASSED
+"click(findTestObject(""Object Repository/Executive/Page_Executive  5-15/span_359""))",Chrome 70.0.3538.102,,2018-11-30 10:35:48,2018-11-30 10:35:48,0.092s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Contract Not Signed""), ""Contract Not Signed"")",Chrome 70.0.3538.102,,2018-11-30 10:35:48,2018-11-30 10:35:49,1.648s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Level""), ""Level"")",Chrome 70.0.3538.102,,2018-11-30 10:35:49,2018-11-30 10:35:49,0.028s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Count""), ""Count"")",Chrome 70.0.3538.102,,2018-11-30 10:35:49,2018-11-30 10:35:49,0.028s,PASSED
+"click(findTestObject(""Object Repository/Executive/Page_Executive  5-15/span_41""))",Chrome 70.0.3538.102,,2018-11-30 10:35:49,2018-11-30 10:35:50,0.084s,PASSED
+"scrollToElement(findTestObject(""Executive/Page_Executive  5-15/h3_Associate Details""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.069s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/h3_Associate Details""), ""Associate Details"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.028s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/th_Sponsor""), ""Sponsor"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.027s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/th_Associate""), ""Associate"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.024s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/th_Customer Energy Accounts""), ""Customer Energy Accounts"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.028s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Level""), ""Level"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.021s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Sponsor""), ""Sponsor"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.022s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Sponsor Email""), ""Sponsor Email"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.025s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Sponsor Mobile Phone""), ""Sponsor Mobile Phone"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Associate""), ""Associate"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.028s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Email""), ""Email"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.028s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Mobile Phone""), ""Mobile Phone"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.027s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Inactive Date""), ""Inactive Date"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.029s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Contract Signed Date""), ""Contract Signed Date"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_CSR Title""), ""Associate Title"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.030s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Associate Count""), ""Associate Count"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.030s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Executive/Page_Executive  5-15/div_Contract Count""), ""Contract Count"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.032s,PASSED
+"scrollToPosition(0, 0)",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.012s,PASSED
+,,,,,,
+Test Cases/Associate Application/Executive/TCBA02307,Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.405s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test""))",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.058s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""), ""Log Off"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.137s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""))",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.093s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-11-30 10:35:50,2018-11-30 10:35:50,0.038s,PASSED

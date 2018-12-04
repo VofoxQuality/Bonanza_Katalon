@@ -90,7 +90,7 @@ WebUI.click(findTestObject('Object Repository/Page Management/Page_Page Manageme
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully'), 
     0)
-
+WebUI.delay(2)
 WebUI.verifyElementText(findTestObject('Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully'), 
     'Saved successfully')
 
