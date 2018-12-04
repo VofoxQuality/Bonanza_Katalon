@@ -25,7 +25,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Do
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/h3_Associates'), 'Associates')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Downline/Page_My Downline  5-15/div_Level'), 'Level')
+WebUI.verifyElementText(findTestObject('My Downline/Page_My Downline  5-15/Level1Energy'), 'Level')
 
 WebUI.selectOptionByLabel(findTestObject('My Downline/Page_My Downline  5-15/Summary_Sponsor'), 'Select Sponsor', false)
 

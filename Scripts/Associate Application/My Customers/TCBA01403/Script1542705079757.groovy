@@ -57,38 +57,38 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My C
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'), 
     'Home number if no cellphone')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'), 'Birth Date')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'), '(MM/DD/YYYY)')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country'), 'Birth Country')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'), 'IBAN')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Comment'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Comment'), 'Comment')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee'), 
-    '')
+    'Add any comments you feel IGL should know about customer, if none, leave blank.')
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_1'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_1'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_2'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_2'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_3'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_3'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Province'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Province'), '')
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_4'))
 
