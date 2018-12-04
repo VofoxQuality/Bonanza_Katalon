@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0010-Associate Login,Chrome 70.0.3538.102,,2018-11-30 10:09:11,2018-11-30 10:09:35,23.368s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01001,Chrome 70.0.3538.102,,2018-11-30 10:09:12,2018-11-30 10:09:19,7.474s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.102,,2018-11-30 10:09:12,2018-11-30 10:09:15,2.811s,PASSED
+"navigateToUrl(""https://192.168.10.72/#/login"")",Chrome 70.0.3538.102,,2018-11-30 10:09:15,2018-11-30 10:09:18,3.067s,PASSED
+maximizeWindow(),Chrome 70.0.3538.102,,2018-11-30 10:09:18,2018-11-30 10:09:19,1.158s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Log In  5-15/h1_Log In""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:19,0.049s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:19,0.089s,PASSED
+"verifyElementPresent(findTestObject(""Page_Log In  5-15/Username""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:19,0.029s,PASSED
+"verifyElementPresent(findTestObject(""Page_Log In  5-15/p_is required""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:19,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Log In  5-15/label_Password""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:19,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Page_Log In  5-15/Required""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:19,0.022s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01002,Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:20,0.513s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""p4y+y39Ir5PEPmX20UxFKw=="")",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:19,0.219s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:19,2018-11-30 10:09:20,0.094s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Log In  5-15/label_User Name""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.031s,PASSED
+"verifyElementPresent(findTestObject(""Page_Log In  5-15/p_is required""), 10)",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.030s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01003,Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.447s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.071s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""Shinto-Test"")",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.119s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.061s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/label_Password""))",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.058s,PASSED
+"verifyElementPresent(findTestObject(""Page_Log In  5-15/Un Required""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.020s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01004,Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:21,0.432s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.057s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.047s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""21212121@##@#@3"")",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.093s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""p4y+y39Ir5PEPmX20UxFKw=="")",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:20,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Log In  5-15/div_Username was not found.""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:09:20,2018-11-30 10:09:21,0.017s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01005,Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.446s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.048s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""Shinto-test"")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.080s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""vyMhy6SxYBeQFo6WXSfM3HzeL6uKQedE"")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.100s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.063s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Log In  5-15/div_Invalid username or passwo""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.020s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01006,Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.456s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.050s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""232323@#@#@#@"")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.083s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""DuR8RBQ48pSQkVHy1VCtfvhA4Y44AH5R"")",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.099s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.060s,PASSED
+"verifyElementPresent(findTestObject(""Page_Log In  5-15/Username was not found""), 3)",Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:21,0.015s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01007,Chrome 70.0.3538.102,,2018-11-30 10:09:21,2018-11-30 10:09:23,1.588s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.051s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""Shinto-Test2"")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.090s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""p4y+y39Ir5Oy1MY8jPt0uQ=="")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.061s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.054s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.057s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.058s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""Shinto-Test2"")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.080s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""p4y+y39Ir5M9IuudaKKEsg=="")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.068s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.056s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), """")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.055s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""Shinto-Test2"")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.088s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""p4y+y39Ir5M9IuudaKKEsg=="")",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.071s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:22,0.053s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Log In  5-15/div_You have been locked out.""), 0)",Chrome 70.0.3538.102,,2018-11-30 10:09:22,2018-11-30 10:09:23,0.538s,PASSED
+,,,,,,
+Test Cases/Associate Application/Associate Login/TCBA01008,Chrome 70.0.3538.102,,2018-11-30 10:09:23,2018-11-30 10:09:34,11.141s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.102,,2018-11-30 10:09:23,2018-11-30 10:09:26,2.875s,PASSED
+maximizeWindow(),Chrome 70.0.3538.102,,2018-11-30 10:09:26,2018-11-30 10:09:27,1.142s,PASSED
+"navigateToUrl(""https://192.168.10.72/#/login"")",Chrome 70.0.3538.102,,2018-11-30 10:09:27,2018-11-30 10:09:30,3.028s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtUserName""), ""Shinto-Test"")",Chrome 70.0.3538.102,,2018-11-30 10:09:30,2018-11-30 10:09:30,0.321s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log In  5-15/input_txtPassword""), ""p4y+y39Ir5PEPmX20UxFKw=="")",Chrome 70.0.3538.102,,2018-11-30 10:09:30,2018-11-30 10:09:31,0.184s,PASSED
+"click(findTestObject(""Object Repository/Page_Log In  5-15/button_Log in""))",Chrome 70.0.3538.102,,2018-11-30 10:09:31,2018-11-30 10:09:31,0.079s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Change Password/Page_Home  5-15/span_My Title""), ""My Title:"")",Chrome 70.0.3538.102,,2018-11-30 10:09:31,2018-11-30 10:09:34,3.404s,PASSED
