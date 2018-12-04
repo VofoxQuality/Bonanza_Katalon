@@ -4,7 +4,7 @@
    <name>VBZ0018-Training</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-29T13:47:04</lastRun>
+   <lastRun>2018-12-04T19:48:14</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,13 +20,13 @@
    <testCaseLink>
       <guid>06058862-cb67-4916-a90e-940c5bc9e91b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Associate Application/Training/TCBA01902</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>52a38abc-6eae-42ef-9fdb-a42dc45e31e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Associate Application/Training/TCBA01903</testCaseId>
    </testCaseLink>
    <testCaseLink>

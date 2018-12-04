@@ -15,9 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/Training/Page_Home  5-15/a_Training'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Training/Page_How Tos  5-15/a_Videos'), 2)
 
 WebUI.click(findTestObject('Object Repository/Training/Page_How Tos  5-15/a_Videos'))
+
+WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Training/Page_Videos  5-15/span_Training'), 'Training')
 
@@ -33,7 +37,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Training/Page_Videos  
 
 WebUI.verifyElementText(findTestObject('Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 1'), 'Residential Sales Video 1')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 2'), 'Residential Sales Video 2')
+WebUI.scrollToElement(findTestObject('Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 2'), 2)
 
-WebUI.click(findTestObject('Object Repository/Training/Page_Home  5-15/a_Training'))
+WebUI.verifyElementText(findTestObject('Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 2'), 'Residential Sales Video 2')
 
