@@ -1,0 +1,117 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0020-Page Management,Chrome 70.0.3538.102,,2018-12-04 14:51:58,2018-12-04 14:52:40,42.296s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02101,Chrome 70.0.3538.102,,2018-12-04 14:51:58,2018-12-04 14:52:09,10.560s,PASSED
+"callTestCase(findTestCase(""Associate Application/Associate Login/TCBA01008""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-04 14:51:58,2018-12-04 14:52:09,10.292s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Home  5-15/a_Page Management""), ""Page Management"")",Chrome 70.0.3538.102,,2018-12-04 14:52:09,2018-12-04 14:52:09,0.043s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02102,Chrome 70.0.3538.102,,2018-12-04 14:52:09,2018-12-04 14:52:17,7.890s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Home  5-15/a_Page Management""), STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-04 14:52:09,2018-12-04 14:52:09,0.064s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Page Management""), ""Page Management"")",Chrome 70.0.3538.102,,2018-12-04 14:52:09,2018-12-04 14:52:09,0.037s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/h3_Manage your pages""), ""Manage your pages"")",Chrome 70.0.3538.102,,2018-12-04 14:52:09,2018-12-04 14:52:16,7.401s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Page Name""), ""Page Name"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:16,0.039s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Inserted On""), ""Inserted On"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:16,0.037s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Active""), ""Active"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:16,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Code""), ""Code"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:16,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Language""), ""Language"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:16,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Website""), ""Website"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:16,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Edit""), ""Edit"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:16,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Add Page""), ""Add Page"")",Chrome 70.0.3538.102,,2018-12-04 14:52:16,2018-12-04 14:52:17,0.034s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02103,Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.128s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_...12345678...""), 0)",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.029s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_1 of 4 pages (40 items)""), 0)",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.020s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02104,Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:24,7.071s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Add Page""))",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.229s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/div_Add Page Details""), ""Add Page Details"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.049s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details""), ""Page Details"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Page Name""), ""Page Name"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.040s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Code""), ""Code"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.045s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Language""), ""Language"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Website""), ""Website"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Page Content""), ""Page Content"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.047s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Editor""), ""Editor"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Raw""), ""Raw"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Preview""), ""Preview"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/button_Save""), ""Save"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:17,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Cancel""), ""Cancel"")",Chrome 70.0.3538.102,,2018-12-04 14:52:17,2018-12-04 14:52:18,0.107s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/button_Save""))",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.074s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Page Name""), ""Page Name"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/p_is required""), ""is required"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Code""), ""Code"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/p_is required_1""), ""is required"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.039s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Language""), ""Language"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/p_is required_2""), ""is required"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Website""), ""Website"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.019s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/p_is required_3""), ""is required"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Page Content""), ""Page Content"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.019s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/p_is required_4""), ""is required"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.033s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName""), ""Page10"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.090s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Code_code""), ""Code10"")",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.094s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/select_Select Language""), ""English"", false)",Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:18,0.095s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-04 14:52:18,2018-12-04 14:52:21,3.007s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Website_website""), ""www.google.com"")",Chrome 70.0.3538.102,,2018-12-04 14:52:21,2018-12-04 14:52:21,0.197s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/body_Test Data""), ""Test data"")",Chrome 70.0.3538.102,,2018-12-04 14:52:21,2018-12-04 14:52:22,0.207s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/button_Save""), ""Save"")",Chrome 70.0.3538.102,,2018-12-04 14:52:22,2018-12-04 14:52:22,0.020s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/button_Save""))",Chrome 70.0.3538.102,,2018-12-04 14:52:22,2018-12-04 14:52:22,0.049s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-04 14:52:22,2018-12-04 14:52:24,2.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Saved successfully""), ""Saved successfully"")",Chrome 70.0.3538.102,,2018-12-04 14:52:24,2018-12-04 14:52:24,0.080s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02105,Chrome 70.0.3538.102,,2018-12-04 14:52:24,2018-12-04 14:52:39,15.049s,PASSED
+"click(findTestObject(""Page Management/Page_Page Management  5-15/Icon-edit-button""))",Chrome 70.0.3538.102,,2018-12-04 14:52:24,2018-12-04 14:52:25,1.129s,PASSED
+"verifyElementText(findTestObject(""Page Management/Page_Page Management  5-15/Update Page Management""), ""Update Page Content"")",Chrome 70.0.3538.102,,2018-12-04 14:52:25,2018-12-04 14:52:26,0.575s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/h3_Page Details""), ""Page Details"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.030s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Page Name""), ""Page Name"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.025s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Code""), ""Code"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.026s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Language""), ""Language"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Website""), ""Website"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.024s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Page Content""), ""Page Content"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.024s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Editor""), ""Editor"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.026s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Raw""), ""Raw"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.027s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Preview""), ""Preview"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Update""), ""Update"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Publish""), ""Publish"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.033s,PASSED
+"verifyElementText(findTestObject(""Page Management/Page_Page Management  5-15/a_Cancel""), ""Cancel"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.034s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName""), """")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.068s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Website_website""), """")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.069s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Update""))",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.071s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Page Name""), ""Page Name"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.018s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/p_is required_5""), ""is required"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.030s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/label_Website""), ""Website"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.019s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/p_is required_6""), ""is required"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.028s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName""), ""Page11"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.070s,PASSED
+"setText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Website_website""), ""www.google.com"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.087s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Update""), ""Update"")",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.020s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Update""))",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:26,0.051s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully""), 0)",Chrome 70.0.3538.102,,2018-12-04 14:52:26,2018-12-04 14:52:27,1.061s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Updated successfully""), ""Updated successfully"")",Chrome 70.0.3538.102,,2018-12-04 14:52:27,2018-12-04 14:52:28,0.029s,PASSED
+"click(findTestObject(""Page Management/Page_Page Management  5-15/Icon-edit-button""))",Chrome 70.0.3538.102,,2018-12-04 14:52:28,2018-12-04 14:52:30,2.731s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Publish""), ""Publish"")",Chrome 70.0.3538.102,,2018-12-04 14:52:30,2018-12-04 14:52:31,0.589s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/a_Publish""), STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-04 14:52:31,2018-12-04 14:52:31,0.075s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully""), 0)",Chrome 70.0.3538.102,,2018-12-04 14:52:31,2018-12-04 14:52:33,2.108s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Published successfully""), ""Published successfully"")",Chrome 70.0.3538.102,,2018-12-04 14:52:33,2018-12-04 14:52:33,0.037s,PASSED
+delay(5),Chrome 70.0.3538.102,,2018-12-04 14:52:33,2018-12-04 14:52:38,5.001s,PASSED
+"click(findTestObject(""Page Management/Page_Page Management  5-15/Icon-edit-button""))",Chrome 70.0.3538.102,,2018-12-04 14:52:38,2018-12-04 14:52:38,0.144s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Cancel""), ""Cancel"")",Chrome 70.0.3538.102,,2018-12-04 14:52:38,2018-12-04 14:52:39,0.583s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02106,Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.249s,PASSED
+"PageName = getAttribute(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Page Name_pageName""), ""value"")",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.021s,PASSED
+"verifyMatch(""Page11"", PageName, false)",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.005s,PASSED
+"Code = getAttribute(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Code_code""), ""value"")",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.022s,PASSED
+"verifyMatch(""CODE10"", Code, false)",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.000s,PASSED
+"Language = getAttribute(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/select_Select Language""), ""value"", STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.027s,PASSED
+"verifyMatch(""English"", Language, false)",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.001s,PASSED
+"Website = getAttribute(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Website_website""), ""value"")",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.047s,PASSED
+"verifyMatch(""www.google.com"", Website, false)",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.002s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02107,Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.248s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/input_Code_code""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.021s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/select_Select Language""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.017s,PASSED
+"click(findTestObject(""Object Repository/Page Management/Page_Page Management  5-15/span_Cancel""))",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.057s,PASSED
+"click(findTestObject(""Smoke_Test/Page_My Associates  5-15/Select Home""))",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.073s,PASSED
+,,,,,,
+Test Cases/Associate Application/Page Management/TCBA02108,Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:40,0.245s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.070s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""), ""Log Off"")",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:39,0.031s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""))",Chrome 70.0.3538.102,,2018-12-04 14:52:39,2018-12-04 14:52:40,0.058s,PASSED
