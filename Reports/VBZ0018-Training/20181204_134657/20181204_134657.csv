@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0018-Training,Chrome 70.0.3538.102,,2018-12-04 13:46:58,2018-12-04 13:47:16,18.285s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01901,Chrome 70.0.3538.102,,2018-12-04 13:46:58,2018-12-04 13:47:11,12.634s,FAILED
+"callTestCase(findTestCase(""Associate Application/Associate Login/TCBA01008""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-04 13:46:58,2018-12-04 13:47:10,11.753s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Home  5-15/a_Training""), ""Training"")",Chrome 70.0.3538.102,,2018-12-04 13:47:10,2018-12-04 13:47:11,0.650s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01902,Chrome 70.0.3538.102,,2018-12-04 13:47:11,2018-12-04 13:47:12,0.877s,FAILED
+"click(findTestObject(""Object Repository/Training/Page_Home  5-15/a_Training""))",Chrome 70.0.3538.102,,2018-12-04 13:47:11,2018-12-04 13:47:11,0.086s,PASSED
+"click(findTestObject(""Object Repository/Training/Page_Home  5-15/a_How Tos""))",Chrome 70.0.3538.102,,2018-12-04 13:47:11,2018-12-04 13:47:12,0.665s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01903,Chrome 70.0.3538.102,,2018-12-04 13:47:12,2018-12-04 13:47:15,2.843s,FAILED
+"click(findTestObject(""Object Repository/Training/Page_Home  5-15/a_Training""))",Chrome 70.0.3538.102,,2018-12-04 13:47:12,2018-12-04 13:47:12,0.065s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-04 13:47:12,2018-12-04 13:47:14,2.005s,PASSED
+"click(findTestObject(""Object Repository/Training/Page_Home  5-15/a_How Tos""))",Chrome 70.0.3538.102,,2018-12-04 13:47:14,2018-12-04 13:47:15,0.648s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01904,Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:15,0.688s,FAILED
+"click(findTestObject(""Object Repository/Training/Page_Home  5-15/a_Training""))",Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:15,0.046s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Training/Page_How Tos  5-15/a_Videos""), 2)",Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:15,0.030s,PASSED
+"click(findTestObject(""Object Repository/Training/Page_How Tos  5-15/a_Videos""))",Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:15,0.499s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01905,Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:16,0.249s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:15,0.054s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""))",Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:15,0.075s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-04 13:47:15,2018-12-04 13:47:16,0.035s,PASSED

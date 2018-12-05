@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0019-Customer Service" time="48" tests="4" failures="1" errors="0">
+   <testsuite name="VBZ0019-Customer Service" tests="4" failures="1" errors="0" time="48" timestamp="2018-12-04 11:30:58" hostname="Developer - QA-Scheduler.vofox.com" id="Test Suites/VBZ0019-Customer Service">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181204_113057"/>
+         <property name="logFiles" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181204_113057\\execution0.log"/>
+         <property name="attachments" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181204_113057\\1543903305941.png, F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181204_113057\\1543903306258.png"/>
+         <property name="hostName" value="Developer - QA-Scheduler.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.111"/>
+         <property name="sessionId" value="58bc3765ef08726dc8dbc0903f0d60c4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02001" classname="Test Cases/Associate Application/Customer Service/TCBA02001" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:30:58 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02001: Test Cases/Associate Application/Customer Service/TCBA02001
+
+2018-12-04 11:30:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Associate Application/Associate Login/TCBA01008"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-12-04 11:30:59 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-12-04 11:30:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-04 11:30:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-04 11:30:59 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security]']
+
+2018-12-04 11:30:59 - [MESSAGE][INFO] - User set preference: ['prefs', '{=--user-data-dir=c:\my\data}']
+
+2018-12-04 11:30:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-04 11:31:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-04 11:31:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-04 11:31:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-04 11:31:03 - [TEST_STEP][PASSED] - navigateToUrl("https://192.168.10.72/#/login"): Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-12-04 11:31:06 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-12-04 11:31:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Log In  5-15/input_txtUserName"), "Shinto-Test"): Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-12-04 11:31:06 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-12-04 11:31:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Log In  5-15/input_txtPassword"), "p4y+y39Ir5PEPmX20UxFKw=="): Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-12-04 11:31:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-12-04 11:31:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Log In  5-15/button_Log in")): Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-12-04 11:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-12-04 11:31:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Change Password/Page_Home  5-15/span_My Title"), "My Title:"): Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Home  5-15/a_Customer Service"), "Customer Service"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02002" classname="Test Cases/Associate Application/Customer Service/TCBA02002" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:31:11 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02002: Test Cases/Associate Application/Customer Service/TCBA02002
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Service/Page_Home  5-15/a_Customer Service")): Object: 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' is clicked on
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Home  5-15/a_Customer Service' is clicked on
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service"), "Customer Service"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers"), "Filter customers"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/label_Email"), "Email"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER"), "FILTER"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/div_Email"), "Email"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Email' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Email' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name"), "User Name"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name"), "Full Name"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date"), "Inactive Date"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In"), "Log In"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail"), "qwqw21212sewe"): Text 'qwqw21212sewe' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Text 'qwqw21212sewe' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER")): Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display"), "No records to display"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display' are matched.
+
+2018-12-04 11:31:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display' are matched.
+
+2018-12-04 11:31:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail"), ""): Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER")): Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/label_Email"), "Email"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-12-04 11:31:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/label_Email' are matched.
+
+2018-12-04 11:31:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/p_is required"), "is required"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/p_is required' are matched.
+
+2018-12-04 11:31:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/p_is required' are matched.
+
+2018-12-04 11:31:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail"), "shinto@vofoxsolutions.com"): Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:12 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER")): Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com"), 0): Object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com' is present
+
+2018-12-04 11:31:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:31:13 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com' is present
+
+2018-12-04 11:31:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In"), "Log In"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In' are matched.
+
+2018-12-04 11:31:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02003" classname="Test Cases/Associate Application/Customer Service/TCBA02003" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:31:13 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02003: Test Cases/Associate Application/Customer Service/TCBA02003
+
+2018-12-04 11:31:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail"), ""): Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail"), "shinto"): Text 'shinto' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Text 'shinto' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER"), "FILTER"): Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' are matched.
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER")): Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678..."), 0): Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...' is present
+
+2018-12-04 11:31:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...' is present
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)"), 0): Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present
+
+2018-12-04 11:31:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02004" classname="Test Cases/Associate Application/Customer Service/TCBA02004" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Associate Application/Customer Service/TCBA02004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBA02004.run(TCBA02004:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543903257412.run(TempTestSuite1543903257412.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-04 11:31:14 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Customer Service/TCBA02004: Test Cases/Associate Application/Customer Service/TCBA02004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBA02004.run(TCBA02004:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543903257412.run(TempTestSuite1543903257412.groovy:36)
+
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail"), ""): Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail"), "prasanth.gk@vofoxsolutions.com"): Text 'prasanth.gk@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Text 'prasanth.gk@vofoxsolutions.com' is set on object 'Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail'
+
+2018-12-04 11:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER")): Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER' is clicked on
+
+2018-12-04 11:31:14 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Customer Service/Page_Customer Service  5-15/Search EmailGK"), "Dennis-Test"): verifyElementText(findTestObject("Customer Service/Page_Customer Service  5-15/Search EmailGK"), "Dennis-Test") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBA02004.run(TCBA02004:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543903257412.run(TempTestSuite1543903257412.groovy:36)
+
+
+2018-12-04 11:31:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-04 11:31:46 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181204_113057\\1543903305941.png]]
+
+2018-12-04 11:31:46 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0019-Customer Service\\20181204_113057\\1543903306258.png]]
+
+2018-12-04 11:31:46 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Customer Service/Page_Customer Service  5-15/Search EmailGK"), "Dennis-Test") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBA02004.run(TCBA02004:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543903257412.run(TempTestSuite1543903257412.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-04 11:31:14 - [TEST_CASE][FAILED] - Test Cases/Associate Application/Customer Service/TCBA02004: Test Cases/Associate Application/Customer Service/TCBA02004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBA02004.run(TCBA02004:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543903257412.run(TempTestSuite1543903257412.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/Customer Service/TCBA02005" classname="Test Cases/Associate Application/Customer Service/TCBA02005" status="PASSED">
+         <system-out><![CDATA[2018-12-04 11:31:46 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Customer Service/TCBA02005: Test Cases/Associate Application/Customer Service/TCBA02005
+
+2018-12-04 11:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Customer Service/Page_Customer Service  5-15/Log In User")): Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Log In User' is clicked on
+
+2018-12-04 11:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Service/Page_Customer Service  5-15/Log In User' is clicked on
+
+2018-12-04 11:31:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Edit Profile/Page_Home  5-15/span_Log Off"), "Log Off"): Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-12-04 11:31:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-12-04 11:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Profile/Page_Home  5-15/span_Log Off")): Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-12-04 11:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-12-04 11:31:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In"), "Log In"): Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-12-04 11:31:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-04 11:30:58 - [TEST_SUITE][FAILED] - VBZ0019-Customer Service: Test Cases/Associate Application/Customer Service/TCBA02004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBA02004.run(TCBA02004:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543903257412.run(TempTestSuite1543903257412.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-04 11:30:58 - [TEST_SUITE][FAILED] - VBZ0019-Customer Service: Test Cases/Associate Application/Customer Service/TCBA02004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Service/Page_Customer Service  5-15/Search EmailGK' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='prasanth.gk@vofoxsolutions.com'])[1]/following::td[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBA02004.run(TCBA02004:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543903257412.run(TempTestSuite1543903257412.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
