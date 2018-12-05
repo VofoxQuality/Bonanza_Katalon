@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0024-Forgot Your Username,Chrome 70.0.3538.102,,2018-11-29 12:30:05,2018-11-29 12:33:22,3m - 16.608s,FAILED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03001,Chrome 70.0.3538.102,,2018-11-29 12:30:06,2018-11-29 12:30:43,36.975s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-29 12:30:06,2018-11-29 12:30:09,3.250s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-29 12:30:09,2018-11-29 12:30:10,1.382s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-29 12:30:10,2018-11-29 12:30:11,0.174s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-29 12:30:11,2018-11-29 12:30:43,31.936s,FAILED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03002,Chrome 70.0.3538.102,,2018-11-29 12:30:43,2018-11-29 12:31:14,31.851s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-29 12:30:43,2018-11-29 12:31:14,31.751s,FAILED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03003,Chrome 70.0.3538.102,,2018-11-29 12:31:14,2018-11-29 12:31:46,31.678s,FAILED
+click,Chrome 70.0.3538.102,,2018-11-29 12:31:15,2018-11-29 12:31:46,31.590s,FAILED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03004,Chrome 70.0.3538.102,,2018-11-29 12:31:46,2018-11-29 12:32:18,31.769s,FAILED
+setText,Chrome 70.0.3538.102,,2018-11-29 12:31:46,2018-11-29 12:32:18,31.669s,FAILED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03005,Chrome 70.0.3538.102,,2018-11-29 12:32:18,2018-11-29 12:32:50,31.676s,FAILED
+setText,Chrome 70.0.3538.102,,2018-11-29 12:32:18,2018-11-29 12:32:50,31.591s,FAILED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Username/TCBA03007,Chrome 70.0.3538.102,,2018-11-29 12:32:50,2018-11-29 12:33:21,31.713s,FAILED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-29 12:32:50,2018-11-29 12:33:21,31.628s,FAILED

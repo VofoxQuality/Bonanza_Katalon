@@ -6,12 +6,11 @@
    <elementGuidId>2aa9b139-e4ae-4b4d-843e-db6c8c5851ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/th/div</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[@class='e-columnheader']//div[@class='e-headercelldiv'][contains(text(),'Level')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

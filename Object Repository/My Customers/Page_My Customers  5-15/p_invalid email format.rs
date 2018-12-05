@@ -4,7 +4,17 @@
    <name>p_invalid email format</name>
    <tag></tag>
    <elementGuidId>2c01975f-b884-4073-9b38-1692169df533</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-187' and (text() = 'invalid email format' or . = 'invalid email format')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divEmail']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

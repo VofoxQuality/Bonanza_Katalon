@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0018-Training,,,2018-12-04 19:43:18,2018-12-04 19:49:24,6m - 5.958s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01901,,,2018-12-04 19:43:19,2018-12-04 19:44:21,1m - 2.127s,FAILED
+callTestCase,,,2018-12-04 19:43:19,2018-12-04 19:44:21,1m - 1.688s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01904,,,2018-12-04 19:44:21,2018-12-04 19:46:22,2m - 1.051s,FAILED
+click,,,2018-12-04 19:44:21,2018-12-04 19:46:22,2m - 0.807s,FAILED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01905,,,2018-12-04 19:46:22,2018-12-04 19:48:23,2m - 1.585s,FAILED
+click,,,2018-12-04 19:46:22,2018-12-04 19:48:23,2m - 1.320s,FAILED

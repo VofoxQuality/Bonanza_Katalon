@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Energy_accountGrid_Level</name>
+   <tag></tag>
+   <elementGuidId>5a62031e-e542-4ab5-b17e-55643b3fe685</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvEnergyAccountGrid']//div//div[@class='e-headercelldiv'][contains(text(),'Level')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

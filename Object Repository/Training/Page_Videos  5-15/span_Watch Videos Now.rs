@@ -4,7 +4,17 @@
    <name>span_Watch Videos Now</name>
    <tag></tag>
    <elementGuidId>afa86ffd-3493-4ab8-a581-493c9a2bc8cf</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Watch Videos Now')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Watch Videos Now' or . = 'Watch Videos Now')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,7 +4,17 @@
    <name>span_Next -- Add Utilty Data</name>
    <tag></tag>
    <elementGuidId>9a465605-964e-46a9-b5c6-aceb03b6f8a5</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Next -- Add Utilty Data' or . = 'Next -- Add Utilty Data')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='btn btn-primary au-target']//span[@class='au-target'][contains(text(),'Next -- Add Utilty Data')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0018-Training,Chrome 70.0.3538.102,,2018-12-05 10:01:50,2018-12-05 10:02:37,46.754s,PASSED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01901,Chrome 70.0.3538.102,,2018-12-05 10:01:50,2018-12-05 10:02:28,37.889s,PASSED
+"callTestCase(findTestCase(""Associate Application/Associate Login/TCBA01008""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-05 10:01:50,2018-12-05 10:02:28,37.599s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Home  5-15/a_Training""), ""Training"")",Chrome 70.0.3538.102,,2018-12-05 10:02:28,2018-12-05 10:02:28,0.040s,PASSED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01904,Chrome 70.0.3538.102,,2018-12-05 10:02:28,2018-12-05 10:02:36,7.691s,PASSED
+"click(findTestObject(""Object Repository/Training/Page_Home  5-15/a_Training""))",Chrome 70.0.3538.102,,2018-12-05 10:02:28,2018-12-05 10:02:28,0.077s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-05 10:02:28,2018-12-05 10:02:31,3.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Training/Page_How Tos  5-15/a_Videos""), 2)",Chrome 70.0.3538.102,,2018-12-05 10:02:31,2018-12-05 10:02:31,0.065s,PASSED
+"click(findTestObject(""Object Repository/Training/Page_How Tos  5-15/a_Videos""))",Chrome 70.0.3538.102,,2018-12-05 10:02:31,2018-12-05 10:02:32,1.066s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-05 10:02:32,2018-12-05 10:02:35,3.004s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/span_Training""), ""Training"")",Chrome 70.0.3538.102,,2018-12-05 10:02:35,2018-12-05 10:02:35,0.077s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/span_Watch Videos Now""), ""Watch Videos Now"")",Chrome 70.0.3538.102,,2018-12-05 10:02:35,2018-12-05 10:02:35,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/h3_Enter a contract for Gas or""), ""Enter a contract for Gas or Electricty"")",Chrome 70.0.3538.102,,2018-12-05 10:02:35,2018-12-05 10:02:35,0.043s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/h3_How to add an associate""), ""How to add an associate"")",Chrome 70.0.3538.102,,2018-12-05 10:02:35,2018-12-05 10:02:35,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/h3_Create your associate accou""), ""Create your associate account"")",Chrome 70.0.3538.102,,2018-12-05 10:02:35,2018-12-05 10:02:35,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/h3_How Customers set up their""), ""How Customers set up their account in Customer Portal"")",Chrome 70.0.3538.102,,2018-12-05 10:02:35,2018-12-05 10:02:36,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 1""), ""Residential Sales Video 1"")",Chrome 70.0.3538.102,,2018-12-05 10:02:36,2018-12-05 10:02:36,0.030s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 2""), 2)",Chrome 70.0.3538.102,,2018-12-05 10:02:36,2018-12-05 10:02:36,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Training/Page_Videos  5-15/h3_Residential Sales Video 2""), ""Residential Sales Video 2"")",Chrome 70.0.3538.102,,2018-12-05 10:02:36,2018-12-05 10:02:36,0.058s,PASSED
+,,,,,,
+Test Cases/Associate Application/Training/TCBA01905,Chrome 70.0.3538.102,,2018-12-05 10:02:36,2018-12-05 10:02:36,0.328s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-05 10:02:36,2018-12-05 10:02:36,0.063s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""))",Chrome 70.0.3538.102,,2018-12-05 10:02:36,2018-12-05 10:02:36,0.115s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-05 10:02:36,2018-12-05 10:02:36,0.037s,PASSED

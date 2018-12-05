@@ -4,7 +4,17 @@
    <name>p_must be no more than 5 chara</name>
    <tag></tag>
    <elementGuidId>c526c74b-5497-4a07-a309-b7224179d1c1</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-202' and (text() = 'must be no more than 5 characters.' or . = 'must be no more than 5 characters.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divZip']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

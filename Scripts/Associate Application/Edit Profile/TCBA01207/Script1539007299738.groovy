@@ -31,42 +31,68 @@ WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Month'), 'Month', false)
 
+WebUI.delay(2)
+
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'), 
     'Day', false)
+
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'), 
     'Year', false)
 
+WebUI.delay(2)
+
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Month'), '05', false)
+
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01'), 
     '05', false)
 
+WebUI.delay(2)
+
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2'), 
     '1990', false)
+
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'), 
     'Select Marital Status', false)
 
+WebUI.delay(2)
+
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status'), 
     'Married', false)
+
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'), 
     'Select Birth Country', false)
 
+WebUI.delay(2)
+
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country'), 
     'Italy', false)
+
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State'), 
     'Alessandria', false)
 
+WebUI.delay(2)
+
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City'), 
     'Alessandria', false)
+
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship'), 
     'Italy', false)
 
-WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), '59098')
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), 'TSTTST83R46A271B')
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum'), 'Number1')
 

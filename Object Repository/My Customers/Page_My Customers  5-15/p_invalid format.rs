@@ -4,7 +4,17 @@
    <name>p_invalid format</name>
    <tag></tag>
    <elementGuidId>22748217-eaf7-4613-83af-cb95d64b1d07</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-213' and (text() = 'invalid format' or . = 'invalid format')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divIBAN']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

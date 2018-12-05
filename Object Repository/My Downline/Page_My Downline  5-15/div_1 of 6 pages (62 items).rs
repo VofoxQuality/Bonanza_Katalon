@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[4]/div[2]</value>
+         <value>//div[@class='e-parentmsgbar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

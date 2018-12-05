@@ -57,70 +57,72 @@ WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My C
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'), 
     'Home number if no cellphone')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'), 'Birth Date')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'), '(MM/DD/YYYY)')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country'), 'Birth Country')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'), 'IBAN')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Comment'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/h3_Comment'), 'Comment')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee'), 
-    '')
+    'Add any comments you feel IGL should know about customer, if none, leave blank.')
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'), 'First Name')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'), 'Last Name')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_1'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_1'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'), 'Address')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_2'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_2'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'), 'Street No')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_3'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_3'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Province'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Province'), 'Province')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_4'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_4'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_City'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_City'), 'City')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_5'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_5'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'), 'Zip')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_6'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_6'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Email'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Email'), 'Email')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_7'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_7'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number'), 
+    'Cell Phone Number')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_8'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_8'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'), 
+    'Home number if no cellphone')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_9'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_9'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date'), 'Birth Date')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)'), '(MM/DD/YYYY)')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_10'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_10'), 'is required')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'), 'IBAN')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_11'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_is required_11'), 'is required')
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_First Name_firstName'), 'Apart from counting words and characters, our online editors can help you to improve word choices and')
 
@@ -146,78 +148,104 @@ WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_First Name'), 'First Name')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch'), 
+    'must be no more than 100 characters.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Last Name'), 'Last Name')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch_1'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch_1'), 
+    'must be no more than 100 characters.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Address'), 'Address')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  150 ch'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  150 ch'), 
+    'must be no more than 150 characters.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street No'), 'Street No')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  10 cha'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  10 cha'), 
+    'must be no more than 10 characters.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'), 'Zip')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 5 chara'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 5 chara'), 
+    'must be no more than 5 characters.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Email'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Email'), 'Email')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format'), 
+    'invalid email format')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)'), 
+    'PEC Email (Optional)')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format_1'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format_1'), 
+    'invalid email format')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number'), 
+    'Cell Phone Number')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  15 cha'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  15 cha'), 
+    'must be no more than 15 characters.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph'), 
+    'Home number if no cellphone')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  20 cha'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  20 cha'), 
+    'must be no more than 20 characters.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_IBAN'), 'IBAN')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_invalid format'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_invalid format'), 'invalid format')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee'), 
+    'Add any comments you feel IGL should know about customer, if none, leave blank.')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 1000 ch'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 1000 ch'), 
+    'must be no more than 1000 characters.')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_United States Of Americ'), 
-    'United States Of America', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_United States Of Americ'), 
+    'United States Of America', false)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Street Part_streetPart'), 'Apart from counting words and characters,our online')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street Part'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street Part'), 'Street Part')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 50 char'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 50 char'), 
+    'must be no more than 50 characters.')
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'), 'Apart from counting words and characters,our online')
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/button_Next -- Add Utilty Data'))
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'), 'Zip')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits'), 
+    'can only contain digits')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_United States Of Americ'), 
-    'Italy', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_United States Of Americ'), 
+    'Italy', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Province'), 
-    'Alessandria', true)
+WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select City'), 'Alessandria', 
-    true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Province'), 
+    'Alessandria', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Street Part'), 
-    'LARGO', true)
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select City'), 'Alessandria', 
+    false)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Street Part'), 
+    'LARGO', false)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_First Name_firstName'), '')
 
@@ -246,8 +274,10 @@ WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Last Name_lastName'), 'Last')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Street Part'), 
-    'PIAZZA', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Street Part'), 
+    'PIAZZA', false)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Address_Address'), 'Address')
 
@@ -255,11 +285,15 @@ WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'), '23231')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Province'), 
-    'Alessandria', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Province'), 
+    'Alessandria', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select City'), 'Alessandria', 
-    true)
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select City'), 'Alessandria', 
+    false)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Email_email'), 'shinto@vofoxsolutions.com')
 
@@ -282,19 +316,10 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_IBAN_txtIBAN'), 'NL70ABNA0434144140')
 
-WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/textarea_Add any comments you _2'), 
-    'T')
-
-WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/textarea_Add any comments you _3'), 
-    'Te')
-
-WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/textarea_Add any comments you _4'), 
-    'Tes')
-
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/textarea_Add any comments you _5'), 
     'Test')
 
 WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data'))
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Account'))
+WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/span_Account'), 'Account')
 
