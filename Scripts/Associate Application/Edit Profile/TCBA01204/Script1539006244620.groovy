@@ -23,6 +23,8 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'), 'Select Country', 
     false)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart'), '')
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName'), '')
@@ -56,6 +58,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/label_StateProvince'), 'State/Province')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_is required_10'), 'is required')
+
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip'), '12121221')

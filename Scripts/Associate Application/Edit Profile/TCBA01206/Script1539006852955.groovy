@@ -22,6 +22,8 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country'), 'United States Of America', 
     false)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum'), '')
 
 WebUI.click(findTestObject('Edit Profile/Page_Profile  5-15/Label Click Email'))
