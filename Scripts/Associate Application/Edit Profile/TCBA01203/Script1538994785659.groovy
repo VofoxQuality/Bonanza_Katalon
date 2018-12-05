@@ -88,7 +88,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Prof
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/p_is required_6'), 'is required')
 
-WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), '21212')
+WebUI.setText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum'), 'BNGSVN77D54D286P')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Profile/Page_Profile  5-15/span_Save'), 'Save')
 

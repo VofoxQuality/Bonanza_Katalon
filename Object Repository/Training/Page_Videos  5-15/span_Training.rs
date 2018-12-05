@@ -4,7 +4,17 @@
    <name>span_Training</name>
    <tag></tag>
    <elementGuidId>c9bc8042-1e43-4fbb-9133-f78918a49425</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='au-target'][contains(text(),'Training')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Training' or . = 'Training')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

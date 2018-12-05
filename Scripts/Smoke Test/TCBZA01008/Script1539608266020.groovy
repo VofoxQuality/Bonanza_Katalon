@@ -96,7 +96,7 @@ WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Custome
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/select_Select Facility'), 
     'Commercial', false)
 
-WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'), '123456789')
+WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_vatNum'), '00140390501')
 
 WebUI.setText(findTestObject('Object Repository/Customer Account/Page_My Customers  5-15/input_personalTaxNum'), '3434343434')
 

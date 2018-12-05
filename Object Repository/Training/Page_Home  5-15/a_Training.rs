@@ -6,12 +6,12 @@
    <elementGuidId>59c598bc-ef06-4b8b-9b72-11d1eaf0edc8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = '   Training  ' or . = '   Training  ')]</value>
+         <key>XPATH</key>
+         <value>//a[@class='collapsed']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[7]/a/span</value>
+         <key>BASIC</key>
+         <value>//a[(text() = '   Training  ' or . = '   Training  ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

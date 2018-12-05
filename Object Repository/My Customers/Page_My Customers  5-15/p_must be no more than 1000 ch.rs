@@ -4,7 +4,17 @@
    <name>p_must be no more than 1000 ch</name>
    <tag></tag>
    <elementGuidId>8524d7ba-53d4-4d82-b0d4-bbf5b0824dfb</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-211' and (text() = 'must be no more than 1000 characters.' or . = 'must be no more than 1000 characters.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add any comments you feel IGL should know about customer, if none, leave blank.'])[2]/following::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

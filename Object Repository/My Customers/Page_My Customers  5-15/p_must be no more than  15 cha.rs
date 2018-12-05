@@ -4,7 +4,17 @@
    <name>p_must be no more than  15 cha</name>
    <tag></tag>
    <elementGuidId>73a88b1f-f1f0-4859-8574-358fdc099273</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-192' and (text() = 'must be no more than  15 characters.' or . = 'must be no more than  15 characters.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divCellPhoneNumber']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

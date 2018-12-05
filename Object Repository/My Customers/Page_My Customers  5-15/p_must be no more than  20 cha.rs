@@ -4,7 +4,17 @@
    <name>p_must be no more than  20 cha</name>
    <tag></tag>
    <elementGuidId>2633a9ce-7afc-46ae-85ad-515a41bb301a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'validation-message-193' and (text() = 'must be no more than  20 characters.' or . = 'must be no more than  20 characters.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divHomeNumber']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
