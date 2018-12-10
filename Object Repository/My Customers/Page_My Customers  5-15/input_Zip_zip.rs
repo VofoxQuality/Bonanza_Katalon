@@ -4,7 +4,17 @@
    <name>input_Zip_zip</name>
    <tag></tag>
    <elementGuidId>3bbb459b-7a17-4fcd-b8b0-9a48de037ed5</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'txtZip' and @type = 'text' and @name = 'zip']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='txtZip']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

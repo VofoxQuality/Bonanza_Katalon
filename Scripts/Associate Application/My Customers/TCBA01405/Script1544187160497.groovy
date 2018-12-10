@@ -13,3 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Object Repository/My_Customer1/Page_My Customers  5-15/span_Save'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/My_Customer1/Page_My Customers  5-15/label_Meter Number'), 'Meter Number')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My_Customer1/Page_My Customers  5-15/p_is required_10'), 'is required')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My_Customer1/Page_My Customers  5-15/label_Type Of Use'), 'Type Of Use')
+
+WebUI.verifyElementText(findTestObject('Object Repository/My_Customer1/Page_My Customers  5-15/p_is required_11'), 'is required')
+
