@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0009-Smoke Test,Chrome 70.0.3538.102,,2018-12-06 11:12:55,2018-12-06 11:15:40,2m - 45.301s,FAILED
+,,,,,,
+Test Cases/Smoke Test/TCBZA01001,Chrome 70.0.3538.102,,2018-12-06 11:12:55,2018-12-06 11:13:05,9.790s,PASSED
+"callTestCase(findTestCase(""Associate Application/Associate Login/TCBA01008""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-06 11:12:55,2018-12-06 11:13:05,9.531s,PASSED
+"verifyElementText(findTestObject(""Smoke_Test/Page_Log In  5-15/Header Text""), ""My Title:"")",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:05,0.027s,PASSED
+,,,,,,
+Test Cases/Smoke Test/TCBZA01002,Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:12,7.400s,PASSED
+"verifyElementText(findTestObject(""Smoke_Test/Page_Invite Friends  5-15/My Associate Label""), ""My Associates"")",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:05,0.045s,PASSED
+"verifyElementText(findTestObject(""Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label""), ""Invite Associate"")",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:05,0.035s,PASSED
+"click(findTestObject(""Smoke_Test/Page_Invite Friends  5-15/Invite button click""))",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:05,0.104s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends""), ""Invite Friends"")",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:05,0.034s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName""), ""Shinto"")",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:05,0.090s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName""), ""Test"")",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:05,0.086s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail""), ""shinto@vofoxsolutions.com"")",Chrome 70.0.3538.102,,2018-12-06 11:13:05,2018-12-06 11:13:06,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail""), ""shinto@vofoxsolutions.com"")",Chrome 70.0.3538.102,,2018-12-06 11:13:06,2018-12-06 11:13:06,0.121s,PASSED
+"verifyElementText(findTestObject(""Smoke_Test/Page_Invite Friends  5-15/Send Invite""), ""Send Invite"")",Chrome 70.0.3538.102,,2018-12-06 11:13:06,2018-12-06 11:13:06,0.033s,PASSED
+"click(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite""))",Chrome 70.0.3538.102,,2018-12-06 11:13:06,2018-12-06 11:13:06,0.091s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully""), ""Saved successfully"")",Chrome 70.0.3538.102,,2018-12-06 11:13:06,2018-12-06 11:13:10,4.235s,PASSED
+"verifyElementText(findTestObject(""Smoke_Test/Page_Invite Friends  5-15/Cancel button""), ""Cancel"")",Chrome 70.0.3538.102,,2018-12-06 11:13:10,2018-12-06 11:13:10,0.042s,PASSED
+"click(findTestObject(""Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel""))",Chrome 70.0.3538.102,,2018-12-06 11:13:10,2018-12-06 11:13:10,0.085s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate""), ""Add Associate"")",Chrome 70.0.3538.102,,2018-12-06 11:13:10,2018-12-06 11:13:12,2.149s,PASSED
+,,,,,,
+Test Cases/Smoke Test/TCBZA01003,Chrome 70.0.3538.102,,2018-12-06 11:13:12,2018-12-06 11:14:24,1m - 11.939s,FAILED
+"waitForElementClickable(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate""), 5)",Chrome 70.0.3538.102,,2018-12-06 11:13:12,2018-12-06 11:13:13,0.044s,PASSED
+"click(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate""))",Chrome 70.0.3538.102,,2018-12-06 11:13:13,2018-12-06 11:13:13,0.060s,PASSED
+"verifyElementText(findTestObject(""Object Repository/My Associates/Page_My Associates  5-15/span_Add""), ""Add"")",Chrome 70.0.3538.102,,2018-12-06 11:13:13,2018-12-06 11:13:13,0.698s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates""), ""Associates"")",Chrome 70.0.3538.102,,2018-12-06 11:13:13,2018-12-06 11:13:13,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information""), ""Personal Information"")",Chrome 70.0.3538.102,,2018-12-06 11:13:13,2018-12-06 11:13:13,0.032s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName""), ""Shinto"")",Chrome 70.0.3538.102,,2018-12-06 11:13:13,2018-12-06 11:13:13,0.095s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName""), ""Test2018-27"")",Chrome 70.0.3538.102,,2018-12-06 11:13:13,2018-12-06 11:13:14,0.120s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month""), ""05"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:14,2018-12-06 11:13:14,0.101s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:14,2018-12-06 11:13:17,3.006s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01""), ""05"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:17,2018-12-06 11:13:17,0.135s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:17,2018-12-06 11:13:20,3.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2""), ""1995"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:20,2018-12-06 11:13:20,0.127s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:20,2018-12-06 11:13:23,3.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status""), ""Married"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:23,2018-12-06 11:13:23,0.121s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:23,2018-12-06 11:13:26,3.003s,PASSED
+"selectOptionByLabel(findTestObject(""Smoke_Test/Page_My Associates  5-15/Select Country""), ""Italy"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:26,2018-12-06 11:13:26,0.093s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:26,2018-12-06 11:13:29,3.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State""), ""Alessandria"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:29,2018-12-06 11:13:29,0.129s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:29,2018-12-06 11:13:32,3.003s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City""), ""Alessandria"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:32,2018-12-06 11:13:32,0.132s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:32,2018-12-06 11:13:35,3.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship""), ""Italy"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:35,2018-12-06 11:13:36,0.138s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:36,2018-12-06 11:13:39,3.002s,PASSED
+data = com.Baseclass.Utility.generateRandomData(),Chrome 70.0.3538.102,,2018-12-06 11:13:39,2018-12-06 11:13:39,0.030s,PASSED
+println(data),Chrome 70.0.3538.102,,2018-12-06 11:13:39,2018-12-06 11:13:39,0.010s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum""), data)",Chrome 70.0.3538.102,,2018-12-06 11:13:39,2018-12-06 11:13:39,0.156s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum""), ""34343434344434"")",Chrome 70.0.3538.102,,2018-12-06 11:13:39,2018-12-06 11:13:39,0.159s,PASSED
+"selectOptionByLabel(findTestObject(""Smoke_Test/Page_My Associates  5-15/Country-Prod""), ""Italy"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:39,2018-12-06 11:13:39,0.053s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:39,2018-12-06 11:13:42,3.000s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa""), ""STRADA"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:42,2018-12-06 11:13:42,0.107s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:42,2018-12-06 11:13:45,3.002s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName""), ""Street"")",Chrome 70.0.3538.102,,2018-12-06 11:13:45,2018-12-06 11:13:45,0.146s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum""), ""House name"")",Chrome 70.0.3538.102,,2018-12-06 11:13:45,2018-12-06 11:13:45,0.126s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince""), ""Alessandria"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:45,2018-12-06 11:13:45,0.094s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:45,2018-12-06 11:13:48,3.003s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City""), ""Alessandria"", false)",Chrome 70.0.3538.102,,2018-12-06 11:13:48,2018-12-06 11:13:49,0.122s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 11:13:49,2018-12-06 11:13:52,3.002s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip""), ""5000"")",Chrome 70.0.3538.102,,2018-12-06 11:13:52,2018-12-06 11:13:52,0.135s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone""), ""212121212"")",Chrome 70.0.3538.102,,2018-12-06 11:13:52,2018-12-06 11:13:52,0.123s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone""), ""4343434344"")",Chrome 70.0.3538.102,,2018-12-06 11:13:52,2018-12-06 11:13:52,0.122s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail""), ""shinto@vofoxsolutions.com"")",Chrome 70.0.3538.102,,2018-12-06 11:13:52,2018-12-06 11:13:52,0.224s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail""), ""shinto@vofoxsolutions.com"")",Chrome 70.0.3538.102,,2018-12-06 11:13:52,2018-12-06 11:13:52,0.204s,PASSED
+"setText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey""), ""NL70ABNA0434144140"")",Chrome 70.0.3538.102,,2018-12-06 11:13:52,2018-12-06 11:13:53,0.162s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save""), ""Save"")",Chrome 70.0.3538.102,,2018-12-06 11:13:53,2018-12-06 11:13:53,0.034s,PASSED
+"click(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save""))",Chrome 70.0.3538.102,,2018-12-06 11:13:53,2018-12-06 11:13:53,0.084s,PASSED
+"click(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target""))",Chrome 70.0.3538.102,,2018-12-06 11:13:53,2018-12-06 11:14:24,31.628s,FAILED
+,,,,,,
+Test Cases/Smoke Test/TCBZA01004,Chrome 70.0.3538.102,,2018-12-06 11:14:24,2018-12-06 11:15:07,42.224s,FAILED
+"waitForElementClickable(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate""), 10)",Chrome 70.0.3538.102,,2018-12-06 11:14:24,2018-12-06 11:14:35,10.425s,PASSED
+"click(findTestObject(""Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate""))",Chrome 70.0.3538.102,,2018-12-06 11:14:35,2018-12-06 11:15:07,31.645s,FAILED
+,,,,,,
+Test Cases/Smoke Test/TCBZA01008,Chrome 70.0.3538.102,,2018-12-06 11:15:07,2018-12-06 11:15:39,32.037s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Customer Account/Page_Home  5-15/span_My Title""), ""My Title:"")",Chrome 70.0.3538.102,,2018-12-06 11:15:07,2018-12-06 11:15:39,31.930s,FAILED
+,,,,,,
+Test Cases/Smoke Test/TCBZA01009,Chrome 70.0.3538.102,,2018-12-06 11:15:39,2018-12-06 11:15:39,0.729s,FAILED
+"verifyElementText(findTestObject(""Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer""), ""Add Customer"")",Chrome 70.0.3538.102,,2018-12-06 11:15:39,2018-12-06 11:15:39,0.623s,FAILED
+,,,,,,
+Test Cases/Smoke Test/TCBZA01010,Chrome 70.0.3538.102,,2018-12-06 11:15:39,2018-12-06 11:15:40,0.318s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test""), 5)",Chrome 70.0.3538.102,,2018-12-06 11:15:39,2018-12-06 11:15:39,0.021s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-06 11:15:39,2018-12-06 11:15:39,0.049s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""), ""Log Off"")",Chrome 70.0.3538.102,,2018-12-06 11:15:39,2018-12-06 11:15:39,0.034s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""))",Chrome 70.0.3538.102,,2018-12-06 11:15:39,2018-12-06 11:15:40,0.101s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-06 11:15:40,2018-12-06 11:15:40,0.034s,PASSED

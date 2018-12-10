@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0019-Customer Service,Chrome 70.0.3538.102,,2018-12-06 11:30:54,2018-12-06 11:31:18,24.075s,PASSED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02001,Chrome 70.0.3538.102,,2018-12-06 11:30:54,2018-12-06 11:31:06,11.789s,PASSED
+"callTestCase(findTestCase(""Associate Application/Associate Login/TCBA01008""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-06 11:30:55,2018-12-06 11:31:06,11.415s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Home  5-15/a_Customer Service""), ""Customer Service"")",Chrome 70.0.3538.102,,2018-12-06 11:31:06,2018-12-06 11:31:06,0.042s,PASSED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02002,Chrome 70.0.3538.102,,2018-12-06 11:31:06,2018-12-06 11:31:14,7.412s,PASSED
+"click(findTestObject(""Object Repository/Customer Service/Page_Home  5-15/a_Customer Service""))",Chrome 70.0.3538.102,,2018-12-06 11:31:06,2018-12-06 11:31:06,0.078s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_Customer Service""), ""Customer Service"")",Chrome 70.0.3538.102,,2018-12-06 11:31:06,2018-12-06 11:31:07,0.103s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/h3_Filter customers""), ""Filter customers"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/label_Email""), ""Email"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER""), ""FILTER"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/div_Email""), ""Email"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/div_User Name""), ""User Name"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.030s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/div_Full Name""), ""Full Name"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/div_Inactive Date""), ""Inactive Date"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.030s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/div_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.030s,PASSED
+"setText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail""), ""qwqw21212sewe"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.099s,PASSED
+"click(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER""))",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.058s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/td_No records to display""), ""No records to display"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.036s,PASSED
+"setText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail""), """")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.054s,PASSED
+"click(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER""))",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.062s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/label_Email""), ""Email"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.019s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/p_is required""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.034s,PASSED
+"setText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail""), ""shinto@vofoxsolutions.com"")",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.106s,PASSED
+"click(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER""))",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:07,0.058s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/td_shintovofoxsolutions.com""), 0)",Chrome 70.0.3538.102,,2018-12-06 11:31:07,2018-12-06 11:31:14,6.287s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.050s,PASSED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02003,Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.329s,PASSED
+"setText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail""), """")",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.054s,PASSED
+"setText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail""), ""shinto"")",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.069s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER""), ""FILTER"")",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.024s,PASSED
+"click(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER""))",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.070s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/div_...12345678...""), 0)",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/div_1 of 6 pages (51 items)""), 0)",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.015s,PASSED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02004,Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:17,3.260s,PASSED
+"setText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail""), """")",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.055s,PASSED
+"setText(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/input_Email_txtEmail""), ""prasanth.gk@vofoxsolutions.com"")",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.111s,PASSED
+"click(findTestObject(""Object Repository/Customer Service/Page_Customer Service  5-15/span_FILTER""))",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:14,0.052s,PASSED
+"verifyElementText(findTestObject(""Customer Service/Page_Customer Service  5-15/Search EmailGK""), ""Dennis-Test"")",Chrome 70.0.3538.102,,2018-12-06 11:31:14,2018-12-06 11:31:15,0.556s,PASSED
+"click(findTestObject(""Customer Service/Page_Customer Service  5-15/Search EmailLogin""))",Chrome 70.0.3538.102,,2018-12-06 11:31:15,2018-12-06 11:31:15,0.075s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Change Password/Page_Home  5-15/span_My Title""), ""My Title:"")",Chrome 70.0.3538.102,,2018-12-06 11:31:15,2018-12-06 11:31:17,2.275s,PASSED
+"waitForElementPresent(findTestObject(""Customer Service/Page_Home  5-15/a_dennis-test""), 3)",Chrome 70.0.3538.102,,2018-12-06 11:31:17,2018-12-06 11:31:17,0.022s,PASSED
+"verifyElementText(findTestObject(""Customer Service/Page_Home  5-15/a_dennis-test""), ""Dennis-Test (N22006)"")",Chrome 70.0.3538.102,,2018-12-06 11:31:17,2018-12-06 11:31:17,0.028s,PASSED
+,,,,,,
+Test Cases/Associate Application/Customer Service/TCBA02005,Chrome 70.0.3538.102,,2018-12-06 11:31:17,2018-12-06 11:31:18,0.328s,PASSED
+"click(findTestObject(""Customer Service/Page_Customer Service  5-15/Log In User""))",Chrome 70.0.3538.102,,2018-12-06 11:31:17,2018-12-06 11:31:17,0.095s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""), ""Log Off"")",Chrome 70.0.3538.102,,2018-12-06 11:31:17,2018-12-06 11:31:17,0.031s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""))",Chrome 70.0.3538.102,,2018-12-06 11:31:17,2018-12-06 11:31:18,0.084s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-06 11:31:18,2018-12-06 11:31:18,0.032s,PASSED

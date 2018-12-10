@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0023-Forgot Your Password,Chrome 70.0.3538.102,,2018-12-06 14:50:54,2018-12-06 14:51:07,13.385s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Password/TCBA02001,Chrome 70.0.3538.102,,2018-12-06 14:50:54,2018-12-06 14:51:01,6.767s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.102,,2018-12-06 14:50:54,2018-12-06 14:50:57,2.814s,PASSED
+maximizeWindow(),Chrome 70.0.3538.102,,2018-12-06 14:50:57,2018-12-06 14:50:58,1.132s,PASSED
+"navigateToUrl(""https://192.168.10.72/#/login"")",Chrome 70.0.3538.102,,2018-12-06 14:50:58,2018-12-06 14:51:01,2.394s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-06 14:51:01,2018-12-06 14:51:01,0.210s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Password/TCBA02002,Chrome 70.0.3538.102,,2018-12-06 14:51:01,2018-12-06 14:51:02,1.102s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Password/Page_Log In  5-15/a_Forgot your password""))",Chrome 70.0.3538.102,,2018-12-06 14:51:01,2018-12-06 14:51:02,0.698s,PASSED
+"click(findTestObject(""Forgot Your Username/Page_Forgot your Username/Select Language""))",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.126s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/h1_Forgot your password""), ""Forgot your password?"")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.045s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/label_Enter your username""), ""Enter your username"")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.039s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/label_Personal Tax Num""), ""Personal Tax Num"")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.038s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit""), ""Submit"")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.035s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Password/TCBA02003,Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.446s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.PersonalTaxNum""), """")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.083s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username""), """")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.086s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit""))",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.154s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/li_Either enter User Name or P""), ""Either enter User Name or Personal Tax Num field"")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.044s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Password/TCBA02004,Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:04,1.255s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username""), ""shinto-custom"")",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:02,0.091s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit""))",Chrome 70.0.3538.102,,2018-12-06 14:51:02,2018-12-06 14:51:03,0.354s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/li_Username shinto-custom was""), ""Username 'shinto-custom' was not found. Please contact customer service."")",Chrome 70.0.3538.102,,2018-12-06 14:51:03,2018-12-06 14:51:03,0.034s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username""), ""shinto-customer"")",Chrome 70.0.3538.102,,2018-12-06 14:51:03,2018-12-06 14:51:03,0.095s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit""))",Chrome 70.0.3538.102,,2018-12-06 14:51:03,2018-12-06 14:51:04,0.565s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/li_There a login for shinto-cu""), ""There a login for 'shinto-customer' but no Associate is linked to that account.Please contact customer service."")",Chrome 70.0.3538.102,,2018-12-06 14:51:04,2018-12-06 14:51:04,0.031s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Password/TCBA02005,Chrome 70.0.3538.102,,2018-12-06 14:51:04,2018-12-06 14:51:05,1.624s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/input_Input.Username""), ""Shinto-Test"")",Chrome 70.0.3538.102,,2018-12-06 14:51:04,2018-12-06 14:51:04,0.090s,PASSED
+"click(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot your password/button_Submit""))",Chrome 70.0.3538.102,,2018-12-06 14:51:04,2018-12-06 14:51:05,1.376s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot password confirmation/h2_Forgot password confirmatio""), ""Forgot password confirmation"")",Chrome 70.0.3538.102,,2018-12-06 14:51:05,2018-12-06 14:51:05,0.046s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Your Password/Page_Forgot password confirmation/p_Please check your email to r""), ""Please check your email to reset your password."")",Chrome 70.0.3538.102,,2018-12-06 14:51:05,2018-12-06 14:51:05,0.033s,PASSED
+,,,,,,
+Test Cases/Associate Application/Forgot Your Password/TCBA02006,Chrome 70.0.3538.102,,2018-12-06 14:51:05,2018-12-06 14:51:07,1.352s,PASSED
+"verifyElementText(findTestObject(""Forgot Your Username/Page_Forgot username confirmation/Login Link""), ""Log in"")",Chrome 70.0.3538.102,,2018-12-06 14:51:05,2018-12-06 14:51:05,0.042s,PASSED
+"click(findTestObject(""Forgot Your Username/Page_Forgot username confirmation/Login Link""))",Chrome 70.0.3538.102,,2018-12-06 14:51:05,2018-12-06 14:51:06,1.058s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-06 14:51:06,2018-12-06 14:51:07,0.174s,PASSED

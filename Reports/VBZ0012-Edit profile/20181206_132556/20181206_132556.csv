@@ -1,0 +1,268 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VBZ0012-Edit profile,Chrome 70.0.3538.102,,2018-12-06 13:25:59,2018-12-06 13:27:41,1m - 42.515s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01201,Chrome 70.0.3538.102,,2018-12-06 13:25:59,2018-12-06 13:26:17,18.102s,PASSED
+"callTestCase(findTestCase(""Associate Application/Associate Login/TCBA01008""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.102,,2018-12-06 13:25:59,2018-12-06 13:26:12,12.694s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-06 13:26:12,2018-12-06 13:26:12,0.088s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile""), ""Edit Profile"")",Chrome 70.0.3538.102,,2018-12-06 13:26:12,2018-12-06 13:26:12,0.037s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-06 13:26:12,2018-12-06 13:26:12,0.054s,PASSED
+delay(5),Chrome 70.0.3538.102,,2018-12-06 13:26:12,2018-12-06 13:26:17,5.006s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01202,Chrome 70.0.3538.102,,2018-12-06 13:26:17,2018-12-06 13:26:20,2.744s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-06 13:26:17,2018-12-06 13:26:17,0.040s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Edit Profile""), ""Edit Profile"")",Chrome 70.0.3538.102,,2018-12-06 13:26:17,2018-12-06 13:26:17,0.023s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/a_Change Password""), ""Change Password"")",Chrome 70.0.3538.102,,2018-12-06 13:26:17,2018-12-06 13:26:17,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Log Off""), ""Log Off"")",Chrome 70.0.3538.102,,2018-12-06 13:26:17,2018-12-06 13:26:17,0.035s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile""))",Chrome 70.0.3538.102,,2018-12-06 13:26:17,2018-12-06 13:26:17,0.077s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Profile""), ""Profile"")",Chrome 70.0.3538.102,,2018-12-06 13:26:17,2018-12-06 13:26:20,2.282s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Edit""), ""Edit"")",Chrome 70.0.3538.102,,2018-12-06 13:26:20,2018-12-06 13:26:20,0.043s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Change Your Email Address""), ""Change Your Email Address"")",Chrome 70.0.3538.102,,2018-12-06 13:26:20,2018-12-06 13:26:20,0.041s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Close""), ""Close"")",Chrome 70.0.3538.102,,2018-12-06 13:26:20,2018-12-06 13:26:20,0.043s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01203,Chrome 70.0.3538.102,,2018-12-06 13:26:20,2018-12-06 13:26:37,17.133s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Edit""), ""Edit"")",Chrome 70.0.3538.102,,2018-12-06 13:26:20,2018-12-06 13:26:20,0.024s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Edit""))",Chrome 70.0.3538.102,,2018-12-06 13:26:20,2018-12-06 13:26:20,0.145s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:20,2018-12-06 13:26:22,2.001s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:22,2018-12-06 13:26:22,0.144s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:22,2018-12-06 13:26:22,0.086s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Month""), ""Month"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:22,2018-12-06 13:26:23,0.104s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:23,2018-12-06 13:26:25,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01""), ""Day"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:25,2018-12-06 13:26:25,0.097s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:25,2018-12-06 13:26:27,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2""), ""Year"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:27,2018-12-06 13:26:27,0.113s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:27,2018-12-06 13:26:29,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status""), ""Select Marital Status"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:29,2018-12-06 13:26:29,0.134s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:29,2018-12-06 13:26:31,2.003s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country""), ""Select Birth Country"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:31,2018-12-06 13:26:31,0.141s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:31,2018-12-06 13:26:33,2.002s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthStateCode""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:33,2018-12-06 13:26:33,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtBirthCity""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:33,2018-12-06 13:26:33,0.082s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship""), ""Select Citizenship"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:33,2018-12-06 13:26:33,0.096s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:33,2018-12-06 13:26:35,2.002s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:35,2018-12-06 13:26:35,0.152s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Mail Address Div click""))",Chrome 70.0.3538.102,,2018-12-06 13:26:35,2018-12-06 13:26:36,0.083s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""), ""Save"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.038s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""))",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.099s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_First Name""), ""First Name"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.038s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.054s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Last Name""), ""Last Name"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.037s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_1""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Birth Date""), ""Birth Date"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_(MMDDYYYY)""), ""(MM/DD/YYYY)"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.034s,PASSED
+"verifyElementText(findTestObject(""Edit Profile/Page_Profile  5-15/Is required_2""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Marital Status""), ""Marital Status"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_3""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Birth Country""), ""Birth Country"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_4""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Citizenship""), ""Citizenship"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_5""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num""), ""Personal Tax Num"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_6""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.032s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum""), ""BNGSVN77D54D286P"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.129s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""), ""Save"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.019s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""))",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.038s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Personal Tax Num""), ""Personal Tax Num"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:36,0.019s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is already taken""), ""is already taken"")",Chrome 70.0.3538.102,,2018-12-06 13:26:36,2018-12-06 13:26:37,0.572s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01204,Chrome 70.0.3538.102,,2018-12-06 13:26:37,2018-12-06 13:26:46,8.572s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country""), ""Select Country"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:37,2018-12-06 13:26:37,0.087s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:37,2018-12-06 13:26:39,2.002s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:39,2018-12-06 13:26:39,0.140s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:39,2018-12-06 13:26:39,0.085s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:39,2018-12-06 13:26:40,0.096s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.089s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.081s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.088s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Mail Address Div click""))",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.066s,PASSED
+"verifyElementText(findTestObject(""Edit Profile/Page_Profile  5-15/Save-Mobile Number""), ""Save"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.024s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Save-Mobile Number""))",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.069s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Country""), ""Country"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_7""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Street Name""), ""Street Name"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_8""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Zip""), ""Zip"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_9""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_StateProvince""), ""State/Province"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.033s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_10""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:40,0.033s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:40,2018-12-06 13:26:42,2.002s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip""), ""12121221"")",Chrome 70.0.3538.102,,2018-12-06 13:26:42,2018-12-06 13:26:42,0.171s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Mail Address Div click""))",Chrome 70.0.3538.102,,2018-12-06 13:26:42,2018-12-06 13:26:42,0.053s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 13:26:42,2018-12-06 13:26:45,3.002s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Zip""), ""Zip"")",Chrome 70.0.3538.102,,2018-12-06 13:26:45,2018-12-06 13:26:46,0.053s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 5 chara""), ""must be no more than 5 characters."")",Chrome 70.0.3538.102,,2018-12-06 13:26:46,2018-12-06 13:26:46,0.066s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01205,Chrome 70.0.3538.102,,2018-12-06 13:26:46,2018-12-06 13:26:53,7.352s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:46,2018-12-06 13:26:46,0.085s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:46,2018-12-06 13:26:46,0.088s,PASSED
+"verifyElementText(findTestObject(""Edit Profile/Page_Profile  5-15/Save-Mobile Number""), ""Save"")",Chrome 70.0.3538.102,,2018-12-06 13:26:46,2018-12-06 13:26:46,0.019s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Save-Mobile Number""))",Chrome 70.0.3538.102,,2018-12-06 13:26:46,2018-12-06 13:26:46,0.057s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:46,2018-12-06 13:26:48,2.003s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile""), ""Mobile"")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.083s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_11""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.036s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone""), ""21212121212122123232323"")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.152s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone""), ""232323232323232323233"")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.141s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Save-Mobile Number""))",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.054s,PASSED
+"verifyElementText(findTestObject(""Edit Profile/Page_Profile  5-15/label_Business Phone""), ""Home Phone"")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha""), ""must be no more than 15 characters."")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile""), ""Mobile"")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:48,0.019s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than  15 cha_1""), ""must be no more than 15 characters."")",Chrome 70.0.3538.102,,2018-12-06 13:26:48,2018-12-06 13:26:49,0.035s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:49,2018-12-06 13:26:49,0.050s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:49,2018-12-06 13:26:49,0.048s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone""), ""Test"")",Chrome 70.0.3538.102,,2018-12-06 13:26:49,2018-12-06 13:26:49,0.063s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone""), ""Test"")",Chrome 70.0.3538.102,,2018-12-06 13:26:49,2018-12-06 13:26:49,0.064s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Save-Mobile Number""))",Chrome 70.0.3538.102,,2018-12-06 13:26:49,2018-12-06 13:26:49,0.046s,PASSED
+delay(4),Chrome 70.0.3538.102,,2018-12-06 13:26:49,2018-12-06 13:26:53,4.004s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Business Phone""), ""Home Phone"")",Chrome 70.0.3538.102,,2018-12-06 13:26:53,2018-12-06 13:26:53,0.052s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits""), ""can only contain digits"")",Chrome 70.0.3538.102,,2018-12-06 13:26:53,2018-12-06 13:26:53,0.042s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Mobile""), ""Mobile"")",Chrome 70.0.3538.102,,2018-12-06 13:26:53,2018-12-06 13:26:53,0.017s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_can only contain digits_1""), ""can only contain digits"")",Chrome 70.0.3538.102,,2018-12-06 13:26:53,2018-12-06 13:26:53,0.028s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01206,Chrome 70.0.3538.102,,2018-12-06 13:26:53,2018-12-06 13:26:56,3.187s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Country""), ""United States Of America"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:53,2018-12-06 13:26:53,0.071s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:53,2018-12-06 13:26:55,2.002s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:55,0.122s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Label Click Email""))",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:55,0.069s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number""), ""Routing Number"")",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:55,0.001s,NOT_RUN
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_is required_12""), ""is required"")",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:55,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), ""1212"")",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:55,0.067s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Label Click Email""))",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:55,0.089s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number""), ""Routing Number"")",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:55,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_must be 9 characters.""), ""must be 9 characters."")",Chrome 70.0.3538.102,,2018-12-06 13:26:55,2018-12-06 13:26:56,0.034s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.054s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), ""23232323232323232323"")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.128s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Label Click Email""))",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.056s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/div_Routing Numbermust be no m""))",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.089s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/label_Routing Number""), ""Routing Number"")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.016s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/p_must be no more than 9 chara""), ""must be no more than 9 characters."")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.043s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.051s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.075s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""), ""Save"")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.029s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""))",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.072s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01207,Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:27:29,32.494s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.067s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName""), ""Shinto-QA"")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.087s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName""), """")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:56,0.069s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLastName""), ""Test"")",Chrome 70.0.3538.102,,2018-12-06 13:26:56,2018-12-06 13:26:57,0.059s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Month""), ""Month"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:57,2018-12-06 13:26:57,0.054s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:57,2018-12-06 13:26:59,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01""), ""Day"", false)",Chrome 70.0.3538.102,,2018-12-06 13:26:59,2018-12-06 13:26:59,0.086s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:26:59,2018-12-06 13:27:01,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2""), ""Year"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:01,2018-12-06 13:27:01,0.099s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:01,2018-12-06 13:27:03,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Month""), ""05"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:03,2018-12-06 13:27:03,0.127s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:03,2018-12-06 13:27:05,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01""), ""05"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:05,2018-12-06 13:27:05,0.113s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:05,2018-12-06 13:27:07,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2""), ""1990"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:07,2018-12-06 13:27:07,0.118s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:07,2018-12-06 13:27:09,2.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status""), ""Select Marital Status"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:09,2018-12-06 13:27:09,0.083s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:09,2018-12-06 13:27:11,2.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status""), ""Married"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:11,2018-12-06 13:27:11,0.129s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:11,2018-12-06 13:27:13,2.000s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country""), ""Select Birth Country"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:13,2018-12-06 13:27:13,0.118s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:13,2018-12-06 13:27:15,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country""), ""Italy"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:15,2018-12-06 13:27:16,0.148s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:16,2018-12-06 13:27:18,2.002s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State""), ""Alessandria"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:18,2018-12-06 13:27:18,0.170s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:18,2018-12-06 13:27:20,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City""), ""Alessandria"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:20,2018-12-06 13:27:20,0.101s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:20,2018-12-06 13:27:22,2.001s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship""), ""Italy"", false)",Chrome 70.0.3538.102,,2018-12-06 13:27:22,2018-12-06 13:27:22,0.136s,PASSED
+delay(2),Chrome 70.0.3538.102,,2018-12-06 13:27:22,2018-12-06 13:27:24,2.001s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum""), ""TSTTST83R46A271B"")",Chrome 70.0.3538.102,,2018-12-06 13:27:24,2018-12-06 13:27:24,0.253s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum""), ""Number1"")",Chrome 70.0.3538.102,,2018-12-06 13:27:24,2018-12-06 13:27:24,0.103s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName""), ""Street"")",Chrome 70.0.3538.102,,2018-12-06 13:27:24,2018-12-06 13:27:24,0.101s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart""), ""ST"")",Chrome 70.0.3538.102,,2018-12-06 13:27:24,2018-12-06 13:27:25,0.081s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity""), ""City"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.089s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode""), ""State"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.093s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip""), ""57899"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.103s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone""), ""32323232"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.111s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone""), ""3323232323"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.143s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), ""323232328"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.110s,PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey""), ""NL70ABNA0434144140"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.163s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""), ""Save"")",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:25,0.030s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Save""))",Chrome 70.0.3538.102,,2018-12-06 13:27:25,2018-12-06 13:27:26,0.085s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 13:27:26,2018-12-06 13:27:29,3.002s,PASSED
+"scrollToPosition(0, 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.029s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Edit""))",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.093s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01208,Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:32,3.841s,PASSED
+"FirstName = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtFirstName""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.022s,PASSED
+"verifyMatch(""Shinto-QA"", FirstName, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.006s,PASSED
+"LastName = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtLastName""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.019s,PASSED
+"verifyMatch(""Test"", LastName, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"Month = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Month""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.018s,PASSED
+"verifyMatch(""05"", Month, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"Day = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Day                  01""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.016s,PASSED
+"verifyMatch(""05"", Day, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"Year = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Year                  2""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.019s,PASSED
+"verifyMatch(""1990"", Year, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"MaritialStatus = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Select Marital Status""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.015s,PASSED
+"verifyMatch(""Married"", MaritialStatus, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"Country = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Select Birth Country""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.017s,PASSED
+"verifyMatch(""Italy"", Country, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"BirthState = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Select Birth State""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.018s,PASSED
+"verifyMatch(""Alessandria"", BirthState, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"BirthCity = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Select Birth City""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.018s,PASSED
+"verifyMatch(""Alessandria"", BirthCity, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"Citizenship = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/select_Select Citizenship""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.015s,PASSED
+"verifyMatch(""Italy"", Citizenship, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.002s,PASSED
+"PersonalTaxNum = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.014s,PASSED
+"verifyMatch(""TSTTST83R46A271B"", PersonalTaxNum, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"HouseNumber = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtStreetNum""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.015s,PASSED
+"verifyMatch(""Number1"", HouseNumber, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"StreetName = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtStreetName""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.014s,PASSED
+"verifyMatch(""Street"", StreetName, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"Type = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtStreetPart""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.016s,PASSED
+"verifyMatch(""ST"", Type, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"City = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtCity""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.015s,PASSED
+"verifyMatch(""City"", City, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"State = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtStateCode""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.016s,PASSED
+"verifyMatch(""State"", State, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"Zip = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtZip""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.016s,PASSED
+"verifyMatch(""57899"", Zip, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"HomePhone = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtLandPhone""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.016s,PASSED
+"verifyMatch(""32323232"", HomePhone, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"MobileNumber = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtMobilePhone""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.015s,PASSED
+"verifyMatch(""3323232323"", MobileNumber, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+"RoutingNumber = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.015s,PASSED
+"verifyMatch(""323232328"", RoutingNumber, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.001s,PASSED
+"IBAN = getAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtBankAccountKey""), ""value"")",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.014s,PASSED
+"verifyMatch(""NL70ABNA0434144140"", IBAN, false)",Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:29,0.000s,PASSED
+delay(3),Chrome 70.0.3538.102,,2018-12-06 13:27:29,2018-12-06 13:27:32,3.002s,PASSED
+"verifyElementText(findTestObject(""Edit Profile/Page_Profile  5-15/Cancel_buttonEdit""), ""Cancel"")",Chrome 70.0.3538.102,,2018-12-06 13:27:32,2018-12-06 13:27:32,0.082s,PASSED
+"click(findTestObject(""Edit Profile/Page_Profile  5-15/Cancel_buttonEdit""))",Chrome 70.0.3538.102,,2018-12-06 13:27:32,2018-12-06 13:27:32,0.144s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01209,Chrome 70.0.3538.102,,2018-12-06 13:27:32,2018-12-06 13:27:40,7.859s,PASSED
+delay(5),Chrome 70.0.3538.102,,2018-12-06 13:27:33,2018-12-06 13:27:38,5.002s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/a_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-06 13:27:38,2018-12-06 13:27:38,0.096s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Edit Profile""))",Chrome 70.0.3538.102,,2018-12-06 13:27:38,2018-12-06 13:27:38,0.060s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/span_Edit""), ""Edit"")",Chrome 70.0.3538.102,,2018-12-06 13:27:38,2018-12-06 13:27:39,1.091s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtFirstName""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:39,2018-12-06 13:27:39,0.028s,PASSED
+"verifyElementHasAttribute(findTestObject(""Edit Profile/Page_Profile  5-15/input_txtLastName""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:39,2018-12-06 13:27:39,0.020s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Month""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:39,2018-12-06 13:27:39,0.019s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Day                  01""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:39,2018-12-06 13:27:39,0.019s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Year                  2""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:39,2018-12-06 13:27:39,0.020s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Marital Status""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:39,2018-12-06 13:27:40,1.076s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth Country""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.041s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth State""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.022s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Birth City""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.023s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/select_Select Citizenship""), ""disabled"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.019s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtPersonalTaxNum""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.019s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetNum""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.020s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetName""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.019s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStreetPart""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.021s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtCity""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.020s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtStateCode""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.020s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtZip""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.019s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtLandPhone""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.019s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtMobilePhone""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.020s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtRoutingNum""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.021s,PASSED
+"verifyElementHasAttribute(findTestObject(""Object Repository/Edit Profile/Page_Profile  5-15/input_txtBankAccountKey""), ""readonly"", 0)",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.020s,PASSED
+,,,,,,
+Test Cases/Associate Application/Edit Profile/TCBA01210,Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:41,0.278s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test""))",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:40,0.058s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""), ""Log Off"")",Chrome 70.0.3538.102,,2018-12-06 13:27:40,2018-12-06 13:27:41,0.039s,PASSED
+"click(findTestObject(""Object Repository/Edit Profile/Page_Home  5-15/span_Log Off""))",Chrome 70.0.3538.102,,2018-12-06 13:27:41,2018-12-06 13:27:41,0.069s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In""), ""Log In"")",Chrome 70.0.3538.102,,2018-12-06 13:27:41,2018-12-06 13:27:41,0.032s,PASSED
