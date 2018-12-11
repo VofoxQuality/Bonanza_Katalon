@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0009-Smoke Test" time="167" tests="3" failures="4" errors="0">
+   <testsuite name="VBZ0009-Smoke Test" tests="3" failures="4" errors="0" time="167" timestamp="2018-12-07 10:11:27" hostname="Developer - QA-Scheduler.vofox.com" id="Test Suites/VBZ0009-Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126"/>
+         <property name="logFiles" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\execution0.log"/>
+         <property name="attachments" value="F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157778245.png, F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157820541.png, F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157852308.png, F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157852646.png, F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157853110.png, F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157853404.png"/>
+         <property name="hostName" value="Developer - QA-Scheduler.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.10.111"/>
+         <property name="sessionId" value="8879063f353a572e067260f8cdaee1e1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/TCBZA01001" classname="Test Cases/Smoke Test/TCBZA01001" status="PASSED">
+         <system-out><![CDATA[2018-12-07 10:11:27 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01001: Test Cases/Smoke Test/TCBZA01001
+
+2018-12-07 10:11:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Associate Application/Associate Login/TCBA01008"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-12-07 10:11:28 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-12-07 10:11:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-07 10:11:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-07 10:11:28 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-web-security]']
+
+2018-12-07 10:11:28 - [MESSAGE][INFO] - User set preference: ['prefs', '{=--user-data-dir=c:\my\data}']
+
+2018-12-07 10:11:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-07 10:11:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-07 10:11:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-07 10:11:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-07 10:11:32 - [TEST_STEP][PASSED] - navigateToUrl("https://192.168.10.72/#/login"): Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-12-07 10:11:34 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-12-07 10:11:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Log In  5-15/input_txtUserName"), "Shinto-Test"): Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-12-07 10:11:34 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-12-07 10:11:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Log In  5-15/input_txtPassword"), "p4y+y39Ir5PEPmX20UxFKw=="): Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-12-07 10:11:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-12-07 10:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Log In  5-15/button_Log in")): Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-12-07 10:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-12-07 10:11:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Change Password/Page_Home  5-15/span_My Title"), "My Title:"): Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Smoke_Test/Page_Log In  5-15/Header Text"), "My Title:"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Log In  5-15/Header Text' are matched.
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Log In  5-15/Header Text' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01002" classname="Test Cases/Smoke Test/TCBZA01002" status="PASSED">
+         <system-out><![CDATA[2018-12-07 10:11:39 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01002: Test Cases/Smoke Test/TCBZA01002
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Smoke_Test/Page_Invite Friends  5-15/My Associate Label"), "My Associates"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/My Associate Label' are matched.
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/My Associate Label' are matched.
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label"), "Invite Associate"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label' are matched.
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite Associates Label' are matched.
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Smoke_Test/Page_Invite Friends  5-15/Invite button click")): Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite button click' is clicked on
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Invite button click' is clicked on
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends"), "Invite Friends"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends' are matched.
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Invite Friends' are matched.
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName"), "Shinto"): Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName'
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtFirstName'
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName"), "Test"): Text 'Test' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName'
+
+2018-12-07 10:11:39 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtLastName'
+
+2018-12-07 10:11:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail"), "shinto@vofoxsolutions.com"): Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail'
+
+2018-12-07 10:11:40 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtEmail'
+
+2018-12-07 10:11:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail"), "shinto@vofoxsolutions.com"): Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail'
+
+2018-12-07 10:11:40 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/input_txtConfirmEmail'
+
+2018-12-07 10:11:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Smoke_Test/Page_Invite Friends  5-15/Send Invite"), "Send Invite"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Send Invite' are matched.
+
+2018-12-07 10:11:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Send Invite' are matched.
+
+2018-12-07 10:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite")): Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite' is clicked on
+
+2018-12-07 10:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/button_Send Invite' is clicked on
+
+2018-12-07 10:11:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully"), "Saved successfully"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully' are matched.
+
+2018-12-07 10:11:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Saved successfully' are matched.
+
+2018-12-07 10:11:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Smoke_Test/Page_Invite Friends  5-15/Cancel button"), "Cancel"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Cancel button' are matched.
+
+2018-12-07 10:11:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/Cancel button' are matched.
+
+2018-12-07 10:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel")): Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel' is clicked on
+
+2018-12-07 10:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_Invite Friends  5-15/span_Cancel' is clicked on
+
+2018-12-07 10:11:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate"), "Add Associate"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' are matched.
+
+2018-12-07 10:11:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01003" classname="Test Cases/Smoke Test/TCBZA01003" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/TCBZA01003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01003.run(TCBZA01003:124)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-07 10:11:45 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01003: Test Cases/Smoke Test/TCBZA01003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01003.run(TCBZA01003:124)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:11:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate"), 5): Object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clickable
+
+2018-12-07 10:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clickable
+
+2018-12-07 10:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate")): Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-12-07 10:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' is clicked on
+
+2018-12-07 10:11:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/My Associates/Page_My Associates  5-15/span_Add"), "Add"): Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-12-07 10:11:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/span_Add' are matched.
+
+2018-12-07 10:11:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates"), "Associates"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-12-07 10:11:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Associates' are matched.
+
+2018-12-07 10:11:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information"), "Personal Information"): Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-12-07 10:11:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Associates/Page_My Associates  5-15/h3_Personal Information' are matched.
+
+2018-12-07 10:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName"), "Shinto"): Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-12-07 10:11:47 - [MESSAGE][PASSED] - Text 'Shinto' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtFirstName'
+
+2018-12-07 10:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName"), "Test2018-27"): Text 'Test2018-27' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-12-07 10:11:47 - [MESSAGE][PASSED] - Text 'Test2018-27' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLastName'
+
+2018-12-07 10:11:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month"), "05", false): All options with label '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month' 
+
+2018-12-07 10:11:47 - [MESSAGE][PASSED] - All options with label '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Month' 
+
+2018-12-07 10:11:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:11:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:11:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01"), "05", false): All options with label '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01' 
+
+2018-12-07 10:11:50 - [MESSAGE][PASSED] - All options with label '05' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Day                  01' 
+
+2018-12-07 10:11:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:11:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:11:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2"), "1995", false): All options with label '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2' 
+
+2018-12-07 10:11:53 - [MESSAGE][PASSED] - All options with label '1995' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Year                  2' 
+
+2018-12-07 10:11:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:11:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:11:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status"), "Married", false): All options with label 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status' 
+
+2018-12-07 10:11:57 - [MESSAGE][PASSED] - All options with label 'Married' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Marital Status' 
+
+2018-12-07 10:11:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Smoke_Test/Page_My Associates  5-15/Select Country"), "Italy", false): All options with label 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country' 
+
+2018-12-07 10:12:00 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Select Country' 
+
+2018-12-07 10:12:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State"), "Alessandria", false): All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State' 
+
+2018-12-07 10:12:03 - [MESSAGE][PASSED] - All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth State' 
+
+2018-12-07 10:12:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City"), "Alessandria", false): All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City' 
+
+2018-12-07 10:12:06 - [MESSAGE][PASSED] - All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Birth City' 
+
+2018-12-07 10:12:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship"), "Italy", false): All options with label 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship' 
+
+2018-12-07 10:12:09 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Citizenship' 
+
+2018-12-07 10:12:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:12 - [TEST_STEP][PASSED] - data = com.Baseclass.Utility.generateRandomData(): com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-12-07 10:12:12 - [MESSAGE][PASSED] - com.Baseclass.Utility.generateRandomData is PASSED
+
+2018-12-07 10:12:12 - [TEST_STEP][PASSED] - println(data): null
+
+2018-12-07 10:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum"), data): Text 'QAQqSWwDZ48d' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-12-07 10:12:12 - [MESSAGE][PASSED] - Text 'QAQqSWwDZ48d' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtPersonalTaxNum'
+
+2018-12-07 10:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum"), "34343434344434"): Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-12-07 10:12:13 - [MESSAGE][PASSED] - Text '34343434344434' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBusinessTaxNum'
+
+2018-12-07 10:12:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Smoke_Test/Page_My Associates  5-15/Country-Prod"), "Italy", false): All options with label 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Country-Prod' 
+
+2018-12-07 10:12:13 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/Country-Prod' 
+
+2018-12-07 10:12:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa"), "STRADA", false): All options with label 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa' 
+
+2018-12-07 10:12:16 - [MESSAGE][PASSED] - All options with label 'STRADA' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select Type (StDrBlvdWa' 
+
+2018-12-07 10:12:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName"), "Street"): Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-12-07 10:12:19 - [MESSAGE][PASSED] - Text 'Street' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetName'
+
+2018-12-07 10:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum"), "House name"): Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-12-07 10:12:19 - [MESSAGE][PASSED] - Text 'House name' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtStreetNum'
+
+2018-12-07 10:12:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince"), "Alessandria", false): All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince' 
+
+2018-12-07 10:12:19 - [MESSAGE][PASSED] - All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select StateProvince' 
+
+2018-12-07 10:12:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City"), "Alessandria", false): All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City' 
+
+2018-12-07 10:12:22 - [MESSAGE][PASSED] - All options with label 'Alessandria' are selected in object 'Object Repository/Smoke_Test/Page_My Associates  5-15/select_Select City' 
+
+2018-12-07 10:12:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-07 10:12:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-07 10:12:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip"), "5000"): Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-12-07 10:12:25 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtZip'
+
+2018-12-07 10:12:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone"), "212121212"): Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-12-07 10:12:26 - [MESSAGE][PASSED] - Text '212121212' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtLandPhone'
+
+2018-12-07 10:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone"), "4343434344"): Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-12-07 10:12:26 - [MESSAGE][PASSED] - Text '4343434344' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtMobilePhone'
+
+2018-12-07 10:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail"), "shinto@vofoxsolutions.com"): Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-12-07 10:12:26 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtEmail'
+
+2018-12-07 10:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail"), "shinto@vofoxsolutions.com"): Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-12-07 10:12:26 - [MESSAGE][PASSED] - Text 'shinto@vofoxsolutions.com' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtConfirmEmail'
+
+2018-12-07 10:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey"), "NL70ABNA0434144140"): Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-12-07 10:12:26 - [MESSAGE][PASSED] - Text 'NL70ABNA0434144140' is set on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_txtBankAccountKey'
+
+2018-12-07 10:12:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save"), "Save"): Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' are matched.
+
+2018-12-07 10:12:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' are matched.
+
+2018-12-07 10:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save")): Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-12-07 10:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Save' is clicked on
+
+2018-12-07 10:12:26 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target")): click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01003.run(TCBZA01003:124)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:12:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@type='checkbox']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-07 10:12:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157778245.png]]
+
+2018-12-07 10:12:58 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01003.run(TCBZA01003:124)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-07 10:11:45 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01003: Test Cases/Smoke Test/TCBZA01003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01003.run(TCBZA01003:124)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01004" classname="Test Cases/Smoke Test/TCBZA01004" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/TCBZA01004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01004.run(TCBZA01004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-07 10:12:58 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01004: Test Cases/Smoke Test/TCBZA01004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01004.run(TCBZA01004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:12:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate"), 10): Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found
+
+2018-12-07 10:13:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-07 10:13:09 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found
+
+2018-12-07 10:13:09 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate")): click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01004.run(TCBZA01004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:13:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-07 10:13:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found)
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157820541.png]]
+
+2018-12-07 10:13:40 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01004.run(TCBZA01004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-07 10:12:58 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01004: Test Cases/Smoke Test/TCBZA01004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/span_Add Associate' located by 'By.xpath: //a[@class='au-target']//span[@class='au-target'][contains(text(),'Add Associate')]
+' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01004.run(TCBZA01004:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01008" classname="Test Cases/Smoke Test/TCBZA01008" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/TCBZA01008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' located by 'By.xpath: //router-view/div/div/div/span' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01008.run(TCBZA01008:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-07 10:13:40 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01008: Test Cases/Smoke Test/TCBZA01008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' located by 'By.xpath: //router-view/div/div/div/span' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01008.run(TCBZA01008:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:13:40 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Customer Account/Page_Home  5-15/span_My Title"), "My Title:"): verifyElementText(findTestObject("Object Repository/Customer Account/Page_Home  5-15/span_My Title"), "My Title:") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' located by 'By.xpath: //router-view/div/div/div/span' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01008.run(TCBZA01008:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:14:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //router-view/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-07 10:14:12 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' located by 'By.xpath: //router-view/div/div/div/span' not found
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157852308.png]]
+
+2018-12-07 10:14:12 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' located by 'By.xpath: //router-view/div/div/div/span' not found)
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157852646.png]]
+
+2018-12-07 10:14:12 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/Customer Account/Page_Home  5-15/span_My Title"), "My Title:") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' located by 'By.xpath: //router-view/div/div/div/span' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01008.run(TCBZA01008:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-07 10:13:40 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01008: Test Cases/Smoke Test/TCBZA01008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Customer Account/Page_Home  5-15/span_My Title' located by 'By.xpath: //router-view/div/div/div/span' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01008.run(TCBZA01008:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01009" classname="Test Cases/Smoke Test/TCBZA01009" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/TCBZA01009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Save' and expected text 'Add Customer' of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01009.run(TCBZA01009:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-07 10:14:12 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01009: Test Cases/Smoke Test/TCBZA01009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Save' and expected text 'Add Customer' of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01009.run(TCBZA01009:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:14:13 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer"), "Add Customer"): verifyElementText(findTestObject("Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer"), "Add Customer") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Save' and expected text 'Add Customer' of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01009.run(TCBZA01009:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)
+
+
+2018-12-07 10:14:13 - [MESSAGE][FAILED] - Actual text 'Save' and expected text 'Add Customer' of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are NOT matched.
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157853110.png]]
+
+2018-12-07 10:14:13 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Save' and expected text 'Add Customer' of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are NOT matched.)
+[[ATTACHMENT|F:\\Vofox-Katalon\\Bonanza\\Reports\\VBZ0009-Smoke Test\\20181207_101126\\1544157853404.png]]
+
+2018-12-07 10:14:13 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer"), "Add Customer") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Save' and expected text 'Add Customer' of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01009.run(TCBZA01009:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-07 10:14:12 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TCBZA01009: Test Cases/Smoke Test/TCBZA01009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Save' and expected text 'Add Customer' of test object 'Object Repository/Customer Gas Account/Page_Home  5-15/span_Add Customer' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TCBZA01009.run(TCBZA01009:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TCBZA01010" classname="Test Cases/Smoke Test/TCBZA01010" status="PASSED">
+         <system-out><![CDATA[2018-12-07 10:14:13 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TCBZA01010: Test Cases/Smoke Test/TCBZA01010
+
+2018-12-07 10:14:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test"), 5): Object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is present
+
+2018-12-07 10:14:13 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is present
+
+2018-12-07 10:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test")): Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-12-07 10:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Shinto-Test' is clicked on
+
+2018-12-07 10:14:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Edit Profile/Page_Home  5-15/span_Log Off"), "Log Off"): Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-12-07 10:14:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' are matched.
+
+2018-12-07 10:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Profile/Page_Home  5-15/span_Log Off")): Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-12-07 10:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Home  5-15/span_Log Off' is clicked on
+
+2018-12-07 10:14:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In"), "Log In"): Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.
+
+2018-12-07 10:14:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Edit Profile/Page_Log In  5-15/h1_Log In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-07 10:11:27 - [TEST_SUITE][FAILED] - VBZ0009-Smoke Test: Test Cases/Smoke Test/TCBZA01003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01003.run(TCBZA01003:124)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-07 10:11:27 - [TEST_SUITE][FAILED] - VBZ0009-Smoke Test: Test Cases/Smoke Test/TCBZA01003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke_Test/Page_My Associates  5-15/input_au-target' located by 'By.xpath: //input[@type='checkbox']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TCBZA01003.run(TCBZA01003:124)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544157686030.run(TempTestSuite1544157686030.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
