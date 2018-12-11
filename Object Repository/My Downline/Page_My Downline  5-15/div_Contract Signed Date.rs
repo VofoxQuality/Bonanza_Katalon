@@ -4,10 +4,20 @@
    <name>div_Contract Signed Date</name>
    <tag></tag>
    <elementGuidId>88fb951b-83a0-450e-a215-98a6ed4a6e60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ej-grid[@id='gvDownline']/div[2]/div/table/thead/tr[2]/th[10]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Contract Signed Date' or . = 'Contract Signed Date')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
