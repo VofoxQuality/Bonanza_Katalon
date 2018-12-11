@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//th[@title='Sponsor']//div[@class='e-headercelldiv'][contains(text(),'Sponsor')]</value>
+         <value>//th[@title='Sponsor']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

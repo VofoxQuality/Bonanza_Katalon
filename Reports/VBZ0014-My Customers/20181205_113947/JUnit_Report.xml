@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VBZ0014-My Customers" time="70" tests="2" failures="1" errors="0">
+   <testsuite name="VBZ0014-My Customers" tests="2" failures="1" errors="0" time="70" timestamp="2018-12-05 11:39:51" hostname="shinto - Vofox-Shinto.vofox.com" id="Test Suites/VBZ0014-My Customers">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0014-My Customers\\20181205_113947"/>
+         <property name="logFiles" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0014-My Customers\\20181205_113947\\execution0.log"/>
+         <property name="attachments" value="F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0014-My Customers\\20181205_113947\\1543990259558.png, F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0014-My Customers\\20181205_113947\\1543990259961.png"/>
+         <property name="hostName" value="shinto - Vofox-Shinto.vofox.com"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.10.134"/>
+         <property name="sessionId" value="286594be21cc3dc69eed94354e49bbac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Associate Application/My Customers/TCBA01401" classname="Test Cases/Associate Application/My Customers/TCBA01401" status="PASSED">
+         <system-out><![CDATA[2018-12-05 11:39:51 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Customers/TCBA01401: Test Cases/Associate Application/My Customers/TCBA01401
+
+2018-12-05 11:39:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-12-05 11:39:52 - [TEST_CASE][PASSED] - Test Cases/Associate Application/Associate Login/TCBA01008: Test Cases/Associate Application/Associate Login/TCBA01008
+
+2018-12-05 11:39:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-05 11:39:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-05 11:39:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-05 11:39:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-05 11:39:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-12-05 11:40:02 - [MESSAGE][PASSED] - Navigate to 'https://192.168.10.72/#/login' successfully
+
+2018-12-05 11:40:02 - [TEST_STEP][PASSED] - setText: Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-12-05 11:40:04 - [MESSAGE][PASSED] - Text 'Shinto-Test' is set on object 'Object Repository/Page_Log In  5-15/input_txtUserName'
+
+2018-12-05 11:40:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-12-05 11:40:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log In  5-15/input_txtPassword'
+
+2018-12-05 11:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-12-05 11:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log In  5-15/button_Log in' is clicked on
+
+2018-12-05 11:40:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-05 11:40:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Password/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-05 11:40:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Associate Application/Associate Login/TCBA01008' successfully
+
+2018-12-05 11:40:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-05 11:40:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_Home  5-15/span_My Title' are matched.
+
+2018-12-05 11:40:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_Home  5-15/span_My Customers' are matched.
+
+2018-12-05 11:40:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_Home  5-15/span_My Customers' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Customers/TCBA01402" classname="Test Cases/Associate Application/My Customers/TCBA01402" status="PASSED">
+         <system-out><![CDATA[2018-12-05 11:40:08 - [TEST_CASE][PASSED] - Test Cases/Associate Application/My Customers/TCBA01402: Test Cases/Associate Application/My Customers/TCBA01402
+
+2018-12-05 11:40:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_Home  5-15/span_My Customers' is clicked on
+
+2018-12-05 11:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_Home  5-15/span_My Customers' is clicked on
+
+2018-12-05 11:40:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_My Customers' are matched.
+
+2018-12-05 11:40:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_My Customers' are matched.
+
+2018-12-05 11:40:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/h3_Customer List' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/h3_Customer List' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Customer' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Customer' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Submitted Date' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Submitted Date' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Business' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Business' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Home' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Home' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Status' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Status' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Delete' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Delete' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Add Customer' are matched.
+
+2018-12-05 11:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Add Customer' are matched.
+
+2018-12-05 11:40:10 - [TEST_STEP][PASSED] - setText: Text 'Tester JK' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Customer List_gvOrders_s'
+
+2018-12-05 11:40:11 - [MESSAGE][PASSED] - Text 'Tester JK' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Customer List_gvOrders_s'
+
+2018-12-05 11:40:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_My Customers  5-15/a_Customer List_e-searchitem e' is clicked on
+
+2018-12-05 11:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_My Customers  5-15/a_Customer List_e-searchitem e' is clicked on
+
+2018-12-05 11:40:11 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/My Customers/Page_My Customers  5-15/div_...12345678...' is visible
+
+2018-12-05 11:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/My Customers/Page_My Customers  5-15/div_...12345678...' is visible
+
+2018-12-05 11:40:11 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/My Customers/Page_My Customers  5-15/div_1 of 1 pages (1 items)' is visible
+
+2018-12-05 11:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/My Customers/Page_My Customers  5-15/div_1 of 1 pages (1 items)' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Associate Application/My Customers/TCBA01403" classname="Test Cases/Associate Application/My Customers/TCBA01403" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' FAILED. (Root cause: Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542705079757.run(Script1542705079757.groovy:233)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543990187918.run(TempTestSuite1543990187918.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-12-05 11:40:14 - [TEST_CASE][FAILED] - Test Cases/Associate Application/My Customers/TCBA01403: Test Cases/Associate Application/My Customers/TCBA01403 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' FAILED. (Root cause: Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542705079757.run(Script1542705079757.groovy:233)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543990187918.run(TempTestSuite1543990187918.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-12-05 11:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_My Customers  5-15/span_Add Customer' is clicked on
+
+2018-12-05 11:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_My Customers  5-15/span_Add Customer' is clicked on
+
+2018-12-05 11:40:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Customer Details' are matched.
+
+2018-12-05 11:40:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Customer Details' are matched.
+
+2018-12-05 11:40:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Billing Information (This' are matched.
+
+2018-12-05 11:40:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/div_Billing Information (This' are matched.
+
+2018-12-05 11:40:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/a_Next -- Add Utilty Data' are matched.
+
+2018-12-05 11:40:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/a_Next -- Add Utilty Data' are matched.
+
+2018-12-05 11:40:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Cancel' are matched.
+
+2018-12-05 11:40:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Cancel' are matched.
+
+2018-12-05 11:40:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/h3_Customer Type' are matched.
+
+2018-12-05 11:40:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/h3_Customer Type' are matched.
+
+2018-12-05 11:40:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Country' are matched.
+
+2018-12-05 11:40:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Country' are matched.
+
+2018-12-05 11:40:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_First Name' are matched.
+
+2018-12-05 11:40:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_First Name' are matched.
+
+2018-12-05 11:40:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Last Name' are matched.
+
+2018-12-05 11:40:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Last Name' are matched.
+
+2018-12-05 11:40:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street Part' are matched.
+
+2018-12-05 11:40:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street Part' are matched.
+
+2018-12-05 11:40:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Address' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Address' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street No' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street No' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Province' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Province' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_City' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_City' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Email' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Email' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date' are matched.
+
+2018-12-05 11:40:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date' are matched.
+
+2018-12-05 11:40:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)' are matched.
+
+2018-12-05 11:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)' are matched.
+
+2018-12-05 11:40:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country' are matched.
+
+2018-12-05 11:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Birth Country' are matched.
+
+2018-12-05 11:40:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_IBAN' are matched.
+
+2018-12-05 11:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_IBAN' are matched.
+
+2018-12-05 11:40:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/h3_Comment' are matched.
+
+2018-12-05 11:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/h3_Comment' are matched.
+
+2018-12-05 11:40:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee' are matched.
+
+2018-12-05 11:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee' are matched.
+
+2018-12-05 11:40:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-12-05 11:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-12-05 11:40:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_First Name' are matched.
+
+2018-12-05 11:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_First Name' are matched.
+
+2018-12-05 11:40:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Last Name' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Last Name' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_1' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_1' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Address' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Address' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_2' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_2' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street No' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street No' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_3' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_3' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Province' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Province' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_4' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_4' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_City' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_City' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_5' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_5' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_6' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_6' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Email' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Email' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_7' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_7' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number' are matched.
+
+2018-12-05 11:40:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number' are matched.
+
+2018-12-05 11:40:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_8' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_8' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_9' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_9' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_Birth Date' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/span_(MMDDYYYY)' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_10' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_10' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_IBAN' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_IBAN' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_11' are matched.
+
+2018-12-05 11:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_is required_11' are matched.
+
+2018-12-05 11:40:21 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters, our online editors can help you to improve word choices and' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_First Name_firstName'
+
+2018-12-05 11:40:23 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters, our online editors can help you to improve word choices and' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_First Name_firstName'
+
+2018-12-05 11:40:23 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters, our online editors can help you to improve word choices and' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Last Name_lastName'
+
+2018-12-05 11:40:27 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters, our online editors can help you to improve word choices and' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Last Name_lastName'
+
+2018-12-05 11:40:27 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Address_Address'
+
+2018-12-05 11:40:30 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Address_Address'
+
+2018-12-05 11:40:30 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Street No_streetNum'
+
+2018-12-05 11:40:31 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Street No_streetNum'
+
+2018-12-05 11:40:31 - [TEST_STEP][PASSED] - setText: Text '1234567' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'
+
+2018-12-05 11:40:31 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'
+
+2018-12-05 11:40:31 - [TEST_STEP][PASSED] - setText: Text 'testmail' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Email_email'
+
+2018-12-05 11:40:32 - [MESSAGE][PASSED] - Text 'testmail' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Email_email'
+
+2018-12-05 11:40:32 - [TEST_STEP][PASSED] - setText: Text 'testmail1' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_PEC Email (Optional)_ema'
+
+2018-12-05 11:40:32 - [MESSAGE][PASSED] - Text 'testmail1' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_PEC Email (Optional)_ema'
+
+2018-12-05 11:40:32 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Cell Phone Number_cellPh'
+
+2018-12-05 11:40:33 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Cell Phone Number_cellPh'
+
+2018-12-05 11:40:33 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Home number if no cellph'
+
+2018-12-05 11:40:34 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Home number if no cellph'
+
+2018-12-05 11:40:34 - [TEST_STEP][PASSED] - setText: Text '12122121' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_IBAN_txtIBAN'
+
+2018-12-05 11:40:35 - [MESSAGE][PASSED] - Text '12122121' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_IBAN_txtIBAN'
+
+2018-12-05 11:40:35 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters, our online editors can helps you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can helps you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..Apart from the counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can helps you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can help you to improves wo' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/textarea_Add any comments you'
+
+2018-12-05 11:40:49 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters, our online editors can helps you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can helps you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..Apart from the counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can helps you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can help you to improves words choices and Apart from counting words and characters,ours..Apart from counting words and characters, our online editors can help you to improves wo' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/textarea_Add any comments you'
+
+2018-12-05 11:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_My Customers  5-15/span_Next -- Add Utilty Data' is clicked on
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_First Name' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_First Name' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Last Name' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Last Name' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch_1' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  100 ch_1' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Address' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Address' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  150 ch' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  150 ch' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street No' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street No' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  10 cha' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  10 cha' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 5 chara' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 5 chara' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Email' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Email' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_PEC Email (Optional)' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format_1' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_invalid email format_1' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Cell Phone Number' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  15 cha' are matched.
+
+2018-12-05 11:40:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  15 cha' are matched.
+
+2018-12-05 11:40:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph' are matched.
+
+2018-12-05 11:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Home number if no cellph' are matched.
+
+2018-12-05 11:40:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  20 cha' are matched.
+
+2018-12-05 11:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than  20 cha' are matched.
+
+2018-12-05 11:40:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_IBAN' are matched.
+
+2018-12-05 11:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_IBAN' are matched.
+
+2018-12-05 11:40:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_invalid format' are matched.
+
+2018-12-05 11:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_invalid format' are matched.
+
+2018-12-05 11:40:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee' are matched.
+
+2018-12-05 11:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Add any comments you fee' are matched.
+
+2018-12-05 11:40:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 1000 ch' are matched.
+
+2018-12-05 11:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 1000 ch' are matched.
+
+2018-12-05 11:40:51 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'United States Of America' are selected in object 'Object Repository/My Customers/Page_My Customers  5-15/select_United States Of Americ' 
+
+2018-12-05 11:40:51 - [MESSAGE][PASSED] - All options with label 'United States Of America' are selected in object 'Object Repository/My Customers/Page_My Customers  5-15/select_United States Of Americ' 
+
+2018-12-05 11:40:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-05 11:40:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-05 11:40:54 - [TEST_STEP][PASSED] - setText: Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Street Part_streetPart'
+
+2018-12-05 11:40:55 - [MESSAGE][PASSED] - Text 'Apart from counting words and characters,our online' is set on object 'Object Repository/My Customers/Page_My Customers  5-15/input_Street Part_streetPart'
+
+2018-12-05 11:40:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip' is clicked on
+
+2018-12-05 11:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip' is clicked on
+
+2018-12-05 11:40:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street Part' are matched.
+
+2018-12-05 11:40:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Street Part' are matched.
+
+2018-12-05 11:40:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 50 char' are matched.
+
+2018-12-05 11:40:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 50 char' are matched.
+
+2018-12-05 11:40:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'Apart from counting words and characters,our online' sent to object: 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'
+
+2018-12-05 11:40:56 - [MESSAGE][PASSED] - Keys 'Apart from counting words and characters,our online' sent to object: 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'
+
+2018-12-05 11:40:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip' is clicked on
+
+2018-12-05 11:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip' is clicked on
+
+2018-12-05 11:40:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-12-05 11:40:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-05 11:40:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/My Customers/Page_My Customers  5-15/button_Next -- Add Utilty Data' is clicked on
+
+2018-12-05 11:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/My Customers/Page_My Customers  5-15/button_Next -- Add Utilty Data' is clicked on
+
+2018-12-05 11:40:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Customers/Page_My Customers  5-15/label_Zip' are matched.
+
+2018-12-05 11:40:59 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' FAILED. (Root cause: Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.)
+
+2018-12-05 11:40:59 - [MESSAGE][FAILED] - Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0014-My Customers\\20181205_113947\\1543990259558.png]]
+
+2018-12-05 11:41:00 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' FAILED. (Root cause: Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.)
+[[ATTACHMENT|F:\\VofoxQA\\Bonanza\\BonanzaKatalon\\Reports\\VBZ0014-My Customers\\20181205_113947\\1543990259961.png]]]]></system-out>
+         <system-err><![CDATA[2018-12-05 11:40:14 - [TEST_CASE][FAILED] - Test Cases/Associate Application/My Customers/TCBA01403: Test Cases/Associate Application/My Customers/TCBA01403 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' FAILED. (Root cause: Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542705079757.run(Script1542705079757.groovy:233)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543990187918.run(TempTestSuite1543990187918.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-05 11:39:51 - [TEST_SUITE][FAILED] - VBZ0014-My Customers: Test Cases/Associate Application/My Customers/TCBA01403 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' FAILED. (Root cause: Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542705079757.run(Script1542705079757.groovy:233)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543990187918.run(TempTestSuite1543990187918.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-12-05 11:39:51 - [TEST_SUITE][FAILED] - VBZ0014-My Customers: Test Cases/Associate Application/My Customers/TCBA01403 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' FAILED. (Root cause: Actual text 'must be no more than 5 characters.' and expected text 'can only contain digits' of test object 'Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542705079757.run(Script1542705079757.groovy:233)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543990187918.run(TempTestSuite1543990187918.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
