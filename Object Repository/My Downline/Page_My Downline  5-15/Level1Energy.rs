@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ej-grid[@id='gvSummaryGrid']//div//div[@class='e-headercelldiv'][contains(text(),'Level')]</value>
+         <value>//ej-grid[@id='gvEnergyAccountGrid']//div//div[@class='e-headercelldiv'][contains(text(),'Level')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

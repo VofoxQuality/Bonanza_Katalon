@@ -4,7 +4,23 @@
    <name>select_Select Street Part</name>
    <tag></tag>
    <elementGuidId>c1ae6b65-a734-4eba-a46f-0b59f766e33f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'ddlStreetPart' and (text() = '
+                Select Street Part
+                CORSOLARGOPIAZZASTRADAVIAVIALEVICOLO
+              ' or . = '
+                Select Street Part
+                CORSOLARGOPIAZZASTRADAVIAVIALEVICOLO
+              ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ddlStreetPart']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

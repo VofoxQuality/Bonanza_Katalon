@@ -213,18 +213,26 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Street Part_streetPart'), 'Apart from counting words and characters,our online')
 
+WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Street Part'), 'Street Part')
 
 WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_must be no more than 50 char'), 
     'must be no more than 50 characters.')
 
-WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'), 'Apart from counting words and characters,our online')
+not_run: WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'), '')
 
-WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/button_Next -- Add Utilty Data'))
+not_run: WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'), 'Zip')
+not_run: WebUI.sendKeys(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Zip_zip'), 'Apart from counting words')
 
-WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits'), 
+not_run: WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Email_email'), FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/button_Next -- Add Utilty Data'))
+
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/label_Zip'), 'Zip')
+
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/p_can only contain digits'), 
     'can only contain digits')
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_United States Of Americ'), 
@@ -270,9 +278,9 @@ WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/textarea_Add any comments you _1'), 
     '')
 
-WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_First Name_firstName'), 'First')
+WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_First Name_firstName'), 'Shinto_Add')
 
-WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Last Name_lastName'), 'Last')
+WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Last Name_lastName'), 'Customer')
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Street Part'), 
     'PIAZZA', false)
@@ -303,16 +311,24 @@ WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_Home number if no cellph'), '1234567890')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Month'), '04', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Month'), '04', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Day                  01'), 
-    '06', true)
+WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Year                  2'), 
-    '1994', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Day                  01'), 
+    '06', false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Birth Country'), 
-    'United States Of America', true)
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Year                  2'), 
+    '1994', false)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/select_Select Birth Country'), 
+    'United States Of America', false)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/My Customers/Page_My Customers  5-15/input_IBAN_txtIBAN'), 'NL70ABNA0434144140')
 

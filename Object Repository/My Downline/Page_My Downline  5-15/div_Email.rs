@@ -4,7 +4,17 @@
    <name>div_Email</name>
    <tag></tag>
    <elementGuidId>0a7f640e-c5a4-4a39-bdd1-f1f766febe50</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Email' or . = 'Email')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[@title='Email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
